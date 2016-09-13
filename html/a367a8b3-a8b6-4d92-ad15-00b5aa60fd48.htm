@@ -1,0 +1,125 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Extending the GUI (C#)</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="a367a8b3-a8b6-4d92-ad15-00b5aa60fd48" /><meta name="Description" content="IntroductionDefault Functionality and GUIMenusInteractionDisplay" /><meta name="Microsoft.Help.ContentType" content="Concepts" /><meta name="BrandingAware" content="true" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Grasshopper SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="723c01da-9986-4db2-8f53-6f3a7494df75.htm" title="Grasshopper SDK" tocid="roottoc">Grasshopper SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="d113a9f0-6e27-46df-8316-2079c44382ac.htm" title="Examples" tocid="d113a9f0-6e27-46df-8316-2079c44382ac">Examples</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="730f0792-7bfb-4310-a416-239e8c315645.htm" title="C#" tocid="c59e53a8-1b3e-44c0-bc4a-7c30fe5cbf2c">C#</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="730f0792-7bfb-4310-a416-239e8c315645.htm" title="Simple Component (C#)" tocid="730f0792-7bfb-4310-a416-239e8c315645">Simple Component (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="fdd35a9c-bf08-47cf-abe8-08ccb192475f.htm" title="Simple Mathematics (C#)" tocid="fdd35a9c-bf08-47cf-abe8-08ccb192475f">Simple Mathematics (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="5764fa15-29d1-4e37-8496-2478d3cf28dc.htm" title="Simple Geometry (C#)" tocid="5764fa15-29d1-4e37-8496-2478d3cf28dc">Simple Geometry (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="d823ee90-ea94-4a8a-a972-df5d006a8d9f.htm" title="Simple Data Types (C#)" tocid="d823ee90-ea94-4a8a-a972-df5d006a8d9f">Simple Data Types (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="fbfe5e40-ba8d-4e53-97c6-27572e049835.htm" title="Simple Parameters (C#)" tocid="fbfe5e40-ba8d-4e53-97c6-27572e049835">Simple Parameters (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="020a5098-963f-4da8-bf65-650993c73bcb.htm" title="List Component (C#)" tocid="020a5098-963f-4da8-bf65-650993c73bcb">List Component (C#)</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="a367a8b3-a8b6-4d92-ad15-00b5aa60fd48.htm" title="Extending the GUI (C#)" tocid="a367a8b3-a8b6-4d92-ad15-00b5aa60fd48">Extending the GUI (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="8a7974ab-7b2b-4f48-84d0-6e81b184e6b0.htm" title="Custom Attributes (C#)" tocid="8a7974ab-7b2b-4f48-84d0-6e81b184e6b0">Custom Attributes (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="5f6a9f31-8838-40e6-ad37-a407be8f2c15.htm" title="Custom Component Options (C#)" tocid="5f6a9f31-8838-40e6-ad37-a407be8f2c15">Custom Component Options (C#)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">Extending the GUI (C#)</td></tr></table><span class="introStyle"></span><p><ul><li><a href="#Introduction">Introduction</a></li><li><a href="#DefaultFuncAndGUI">Default Functionality and GUI</a></li><li><a href="#ExtendingMenus">Menus</a></li><li><a href="#ExtendingInteraction">Interaction</a></li><li><a href="#ExtendingDisplay">Display</a></li></ul></p><div class="introduction" id="Introduction"><p>
+      This article describes how to extend the default behaviour, functionality and graphical user interface (GUI) 
+      of Grasshopper document objects. We'll focus on components as you should be familiar with those from earlier 
+      topics, but the same logic also applies to Parameters and custom objects.
+      </p></div><div class="collapsibleAreaRegion" id="DefaultFuncAndGUI"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Default Functionality and GUI</span></div><div id="ID0RBSection" class="collapsibleSection"><p>
+        When you derive a class from
+        <a href="0dba1f52-0e1e-88fd-fd56-7c87404cccfe.htm">GH_Component</a>
+        or
+        <a href="213f12c9-6573-ea00-4d71-ffe7f2f4a557.htm">GH_Param<span id="LSTC3DF3733_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC3DF3733_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LSTC3DF3733_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTC3DF3733_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
+        you get a lot of functionality and GUI for free.
+        It is quite important that all the objects in Grasshopper behave in a consistent and predictable fashion 
+        so you typically don't need to override this default behaviour. However there can be cases where changing
+        the default Grasshopper GUI is the best solution. Overriding the GUI is not exactly a trivial task, 
+        there are a lot of different facets to this and I'll discuss the most important ones in this topic.
+        </p><p>
+        There are three common ways in which the default GUI can be altered:
+        
+        <ul><li>Menus</li><li>Interaction</li><li>Display</li></ul></p></div><div class="collapsibleAreaRegion" id="ExtendingMenus"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Menus</span></div><div id="ID2RBSection" class="collapsibleSection"><p>
+        It is possibe to insert items into the default pop-up menus of objects, or even to completely alter 
+        the menu layout. If your component for example can run in two different modes, you can choose to 
+        expose an additional GUI option instead of an input parameter. These modes can then be toggled via 
+        the component pop-up menu.
+        </p><p>
+        At the lowest level, pop-up menus are generated by the canvas when a right mouse button click is detected 
+        over a component or parameter. The menu by default contains no items and it is the responsibility of said
+        component or parameter to populate the menu. The top-level method which is in charge of this is 
+        <a href="6295d2eb-2b24-da75-1889-911020c2fa87.htm">AppendMenuItems</a>
+        which is defined inside <span class="code">IGH_DocumentObject</span> and thus propagates to all objects on the canvas.
+        </p><p>
+        The <span class="code">GH_DocumentObject</span> abstract class does not create any menu items, so unless 
+        this function is overridden, there will be no popup menu for a certain object. However, it is unlikely you derive 
+        directly from <span class="code">GH_DocumentObject</span> so this should not be a problem. 
+        <span class="code">GH_ActiveObject</span>, which is the base class for all objects on the canvas that 
+        actually do something (Sketches and Scribbles don't "do" anything, hence they derive directly from 
+        <span class="code">GH_DocumentObject</span>), does provide a default implementation of 
+        <span class="code">AppendMenuItems()</span>. The default layout of popup menus is:
+        
+		<ul><li><p>NickName</p></li><li><p>Preview</p></li><li><p>Enabled</p></li><li><p>Bake</p></li><li><p>Warnings</p></li><li><p>Errors</p></li><li><p>Help</p></li></ul>
+
+		Although if the object in question does not support previews or baking then those items will 
+		be missing from the final menu. When overridden, <span class="code">AppendMenuItems()</span> allows you to completely 
+		replace the default menu:
+		
+		<div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EABDACAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABDACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EABDACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABDACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">public</span> override bool AppendMenuItems(ToolStripDropDown menu)
+{
+  Menu_AppendGenericMenuItem(menu, <span class="highlight-literal">"First item"</span>);
+  Menu_AppendGenericMenuItem(menu, <span class="highlight-literal">"Second item"</span>);
+  Menu_AppendGenericMenuItem(menu, <span class="highlight-literal">"Third item"</span>);
+  Menu_AppendSeparator(menu);
+  Menu_AppendGenericMenuItem(menu, <span class="highlight-literal">"Fourth item"</span>);
+  Menu_AppendGenericMenuItem(menu, <span class="highlight-literal">"Fifth item"</span>);
+  Menu_AppendGenericMenuItem(menu, <span class="highlight-literal">"Sixth item"</span>);
+
+  // <span class="highlight-keyword">Return</span> <span class="highlight-keyword">true</span>, otherwise the menu won't be shown.
+  <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABDACAAA");</script><div class="mediaNear"><img src="../media/OverrideAppendMenuItems.png" /></div></p><p>
+        If you want to insert additional items into the menu it would be very annoying if you had to recreate this
+        default menu layout from scratch every single time. So eventhough you can override <span class="code">AppendMenuItems()</span>
+        it is recommended you instead override <span class="code">AppendAdditionalMenuItems()</span> which allows you to insert
+        custom menu items between Errors and Help without losing the standard functionality:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EABCACAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EABCACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EABCACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EABCACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">public</span> override void AppendAdditionalMenuItems(ToolStripDropDown menu)
+{
+  base.AppendAdditionalMenuItems(menu);
+
+  Menu_AppendGenericMenuItem(menu, <span class="highlight-literal">"First item"</span>);
+  Menu_AppendGenericMenuItem(menu, <span class="highlight-literal">"Second item"</span>);
+  Menu_AppendGenericMenuItem(menu, <span class="highlight-literal">"Third item"</span>);
+  Menu_AppendSeparator(menu);
+  Menu_AppendGenericMenuItem(menu, <span class="highlight-literal">"Fourth item"</span>);
+  Menu_AppendGenericMenuItem(menu, <span class="highlight-literal">"Fifth item"</span>);
+  Menu_AppendGenericMenuItem(menu, <span class="highlight-literal">"Sixth item"</span>);
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EABCACAAA");</script><div class="mediaNear"><img src="../media/OverrideAppendAdditionalMenuItems.png" /></div></p><p><span class="code">GH_Param&lt;T&gt;</span> for example derives from <span class="code">GH_ActiveObject</span> and 
+        re-implements <span class="code">AppendAdditionalMenuItems()</span> in order to
+        supply the Wire Display, Disconnect, Reverse, Flatten and Graft menu items that are present in all parameters. 
+        <span class="code">GH_Component</span>, likewise, derives from <span class="code">GH_ActiveObject</span> and it 
+        re-implements <span class="code">AppendAdditionalMenuItems()</span> in order
+        to insert the Shortest List, Longest List, Cross Reference and the parameter submenus.
+        </p><p>
+        Long story short; if you wish to insert additional menu items then either re-implement 
+        <span class="code">AppendAdditionalMenuItems()</span> if you derive from 
+        <span class="code">GH_Param&lt;T&gt;</span> or re-implement 
+        <span class="code">AppendAdditionalComponentMenuItems()</span> if you derive from
+        <span class="code">GH_Component</span>:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID1EAFAACAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID1EAFAACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID1EAFAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID1EAFAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">// <span class="highlight-keyword">If</span> you implement IGH_Param, <span class="highlight-keyword">then</span> override this method. <span class="highlight-keyword">If</span> you implement IGH_Component, 
+// <span class="highlight-keyword">then</span> override AppendAdditionalComponentMenuItems instead.
+<span class="highlight-keyword">protected</span> override void AppendAdditionalMenuItems(ToolstripDropDown menu)
+{  
+  // Place a <span class="highlight-keyword">call</span> <span class="highlight-keyword">to</span> the base <span class="highlight-keyword">class</span> <span class="highlight-keyword">to</span> ensure the <span class="highlight-keyword">default</span> parameter menu
+  // <span class="highlight-keyword">is</span> still there <span class="highlight-keyword">and</span> operational.
+  base.AppendAdditinalMenuItems(menu);
+
+  // Now insert your own custom menu items.
+  Menu_AppendGenericMenuItem(menu, <span class="highlight-literal">"My Custom Menu Item"</span>, Menu_MyCustomItemClicked);
+}
+
+<span class="highlight-keyword">private</span> void Menu_MyCustomItemClicked(<span class="highlight-keyword">Object</span> sender, EventArgs e)
+{
+  Rhino.RhinoApp.WriteLine(<span class="highlight-literal">"Alcohol doesn't affect me..."</span>);
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID1EAFAACAAA");</script>
+        
+        There's a lot of menu utility functions provided by <span class="code">GH_DocumentObject</span>. 
+        They all start with "Menu_" and they'll make it much easier to insert formatted menu items. 
+        But of course nothing is stopping you from using typical <span class="code">System.Windows.Forms</span> 
+        plumbing to extend the pop-up menu.
+        </p></div><div class="collapsibleAreaRegion" id="ExtendingInteraction"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Interaction</span></div><div id="ID3RBSection" class="collapsibleSection"><p>
+        You can also choose to handle specific mouse and keyboard events. You could for example choose to respond 
+        to a mouse double-click event on your component. Complicated objects such as Gradients and Graph Mappers 
+        handle all sorts of mouse events to provide grip-dragging functionality directly within the Grasshopper canvas. 
+        
+        todo: finish this section
+        </p></div><div class="collapsibleAreaRegion" id="ExtendingDisplay"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Display</span></div><div id="ID4RBSection" class="collapsibleSection"><p>
+        Finally, it is possible to override the way an object displays itself on the canvas. These alterations can be 
+        minor, mere additions to the default display, or they can be radically different (as with the Gradient and 
+        Graph Mapper objects). For a detailed explanation regarding display overrides, see the 
+        <a href="8a7974ab-7b2b-4f48-84d0-6e81b184e6b0.htm">Custom Attributes</a> 
+        topic.
+        </p></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper version: 0.9.0054<p><a href="http://www.mcneel.com" target="_blank">Copyright © 2009 Robert McNeel &amp; Associates</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:david%40mcneel.com?Subject=Grasshopper SDK">Grasshopper development</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script></div></body></html>

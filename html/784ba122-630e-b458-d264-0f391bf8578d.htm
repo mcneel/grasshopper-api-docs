@@ -1,0 +1,261 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>GH_IWriter Interface</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="GH_IWriter interface" /><meta name="System.Keywords" content="GH_IO.Serialization.GH_IWriter interface" /><meta name="System.Keywords" content="GH_IWriter interface, about GH_IWriter interface" /><meta name="Microsoft.Help.F1" content="GH_IO.Serialization.GH_IWriter" /><meta name="Microsoft.Help.Id" content="T:GH_IO.Serialization.GH_IWriter" /><meta name="Description" content="Provides access to a subset of GH_Chunk methods used for writing archives." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="GH_IO.Serialization" /><meta name="file" content="784ba122-630e-b458-d264-0f391bf8578d" /><meta name="guid" content="784ba122-630e-b458-d264-0f391bf8578d" /><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Grasshopper SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="723c01da-9986-4db2-8f53-6f3a7494df75.htm" title="Grasshopper SDK" tocid="roottoc">Grasshopper SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="bc0db2dc-7a99-5325-bfb2-92c9969e9c45.htm" title="GH_IO.Serialization" tocid="bc0db2dc-7a99-5325-bfb2-92c9969e9c45">GH_IO.Serialization</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="784ba122-630e-b458-d264-0f391bf8578d.htm" title="GH_IWriter Interface" tocid="784ba122-630e-b458-d264-0f391bf8578d">GH_IWriter Interface</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="2648763c-03ea-eb77-0781-448910b81d45.htm" title="GH_IWriter Properties" tocid="2648763c-03ea-eb77-0781-448910b81d45">GH_IWriter Properties</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="ebb4c3dc-f590-56c7-a9cd-be5f11160eb6.htm" title="GH_IWriter Methods" tocid="ebb4c3dc-f590-56c7-a9cd-be5f11160eb6">GH_IWriter Methods</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">GH_IWriter Interface</td></tr></table><span class="introStyle"></span><div class="summary">
+            Provides access to a subset of GH_Chunk methods used for writing archives.
+            </div><p> </p><strong>Namespace:</strong> <a href="bc0db2dc-7a99-5325-bfb2-92c9969e9c45.htm">GH_IO.Serialization</a><br /><strong>Assembly:</strong> GH_IO (in GH_IO.dll) Version: Rhino 6.0<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="identifier">GH_IWriter</span> : <span class="identifier">GH_IChunk</span>, 
+	<span class="identifier">GH_IBinarySupport</span>, <span class="identifier">GH_IXmlSupport</span></pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Interface</span> <span class="identifier">GH_IWriter</span>
+	<span class="keyword">Inherits</span> <span class="identifier">GH_IChunk</span>, <span class="identifier">GH_IBinarySupport</span>, <span class="identifier">GH_IXmlSupport</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script></div><p>The <span class="selflink">GH_IWriter</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID2RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="eff0dbf9-f3e9-4fef-50c1-660e342b5eb1.htm">Archive</a></td><td><div class="summary">
+            Gets a pointer to the archive that owns the Root of the tree this chunk belongs to.
+            </div> (Inherited from <a href="67d6ac15-4023-6ac4-a4b9-94e8fee8494a.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="2cd7beb9-ccdc-d500-f693-2600f33a2ab0.htm">ArchiveLocation</a></td><td><div class="summary">
+            Gets a string representing the URI with which the archive is associated. 
+            The location may be a null string.
+            </div> (Inherited from <a href="67d6ac15-4023-6ac4-a4b9-94e8fee8494a.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="737cc2f0-5dee-7720-c06e-331f7d0e4da8.htm">ChunkCount</a></td><td><div class="summary">
+            Gets the number of child chunks contained in this chunk. 
+            The set of all child chunks is referred to as a 'litter'.
+            </div> (Inherited from <a href="67d6ac15-4023-6ac4-a4b9-94e8fee8494a.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="6f1bfc8c-5bc8-44b3-0373-266e2642ab52.htm">Chunks</a></td><td><div class="summary">
+            Gets a pointer to the internal list of child chunks. 
+            Do not access this list unless you know what you are doing.
+            </div> (Inherited from <a href="67d6ac15-4023-6ac4-a4b9-94e8fee8494a.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="fb1b103e-8e17-7d12-9736-51d5deef711c.htm">Index</a></td><td><div class="summary">
+            Gets the index of this chunk. The index is set by the owner of this chunk. 
+            Indices smaller than zero imply no index has been set. 
+            The combination of name+index is always unique among a set of chunks in the same litter.
+            </div> (Inherited from <a href="67d6ac15-4023-6ac4-a4b9-94e8fee8494a.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="f323f1e5-c9ec-8b5e-c658-1766d260eeef.htm">ItemCount</a></td><td><div class="summary">
+            Gets the number of items contained in this chunk. 
+            </div> (Inherited from <a href="67d6ac15-4023-6ac4-a4b9-94e8fee8494a.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="c55e5714-3be0-6611-0355-dbeb80968ca4.htm">Items</a></td><td><div class="summary">
+            Gets a pointer to the internal list of items. 
+            Do not access this list unless you know what you are doing.
+            </div> (Inherited from <a href="67d6ac15-4023-6ac4-a4b9-94e8fee8494a.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="986accaf-474a-4bcb-30c7-77a725d75035.htm">Name</a></td><td><div class="summary">
+            Gets the name of this chunk. The name is set by the owner of this chunk. 
+            Names must be at least 1 character long. 
+            The combination of name+index is always unique among a set of chunks in a single litter.
+            </div> (Inherited from <a href="67d6ac15-4023-6ac4-a4b9-94e8fee8494a.htm">GH_IChunk</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID3RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="967d5899-bf04-7e9e-a82d-6b0d0e295855.htm">AddComment</a></td><td><div class="summary">
+            Adds a text comment to this chunk. Comments are serialized only if the output flavour is a 
+            human readable format. Comments are never deserialized, they are purely for the benefit of the
+            humans reading the file data.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="1c87c2c7-abaa-811e-ea30-fba16ecfcbbe.htm">AddMessage</a></td><td><div class="summary">
+            Log a new message with the top-level archive. 
+            Messages are collected during read/write operations, 
+            and can be displayed to the user upon completion using GH_Archive.ShowMessageLog().
+            </div> (Inherited from <a href="67d6ac15-4023-6ac4-a4b9-94e8fee8494a.htm">GH_IChunk</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="4dccb4e5-3a5c-585d-3ace-cde51147fd40.htm">CreateChunk(String)</a></td><td><div class="summary">
+            Create a new child chunk with the specified name but without an index qualifier. 
+            If another chunk already exists with similar properties, an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="815c49c4-84fb-308f-1eeb-f03868a15c08.htm">CreateChunk(String, Int32)</a></td><td><div class="summary">
+            Create a new child chunk with the specified name and index qualifier. 
+            If another chunk already exists with similar properties, an exception will be thrown.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="42f253c3-6f02-5628-092e-c6bf9a466563.htm">Read(BinaryReader)</a></td><td><div class="summary">
+            Called when an object is required to deserialize itself.
+            </div> (Inherited from <a href="dfc284f8-fb4b-57cf-aac7-3c41f00e3bc4.htm">GH_IBinarySupport</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="9d31aa43-bfc3-93bb-eae9-a215b2c1bc7c.htm">Read(XmlNode)</a></td><td><div class="summary">
+            Called when an object is required to deserialize itself.
+            </div> (Inherited from <a href="6e17cc27-8915-d48f-8af7-00e56dc66aa8.htm">GH_IXmlSupport</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="b44e73d1-dda4-7c23-c314-191878d235ed.htm">RemoveChunk(String)</a></td><td><div class="summary">
+            Remove the first chunk with a matching name. 
+            Only chunks without index qualifiers are considered. 
+            Name comparisons are not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="cf1cb558-53ea-3a2d-3073-5aa2cd6b0888.htm">RemoveChunk(GH_IChunk)</a></td><td><div class="summary">
+            Remove the specified chunk from the litter.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="e480b452-84e4-ef57-0c26-84cff1a16c92.htm">RemoveChunk(String, Int32)</a></td><td><div class="summary">
+            Remove the first chunk with a matching name and index. 
+            Only chunks with index qualifiers are considered. 
+            Name comparisons are not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="055d2113-d7ab-8041-104c-2482988a524c.htm">RemoveItem(String)</a></td><td><div class="summary">
+            Remove an unindexed item from this chunk.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="11696806-4e20-6a3f-6635-08941f2e08a6.htm">RemoveItem(String, Int32)</a></td><td><div class="summary">
+            Remove an indexed item from this chunk.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="a07880ce-9d17-6df7-a90b-4f2797f04572.htm">SetBoolean(String, Boolean)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="dc81c149-5215-28b5-d26a-7e9811c65f7d.htm">SetBoolean(String, Int32, Boolean)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="adea32e7-0bcc-2c2f-a913-d8b04dc2176f.htm">SetBoundingBox(String, GH_BoundingBox)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="c28929e9-b5c0-8ac3-dced-14f2be1de1a5.htm">SetBoundingBox(String, Int32, GH_BoundingBox)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="5051d758-893d-d237-f219-7e71e233d232.htm">SetByte(String, Byte)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="34c61231-ab69-ddab-1bfe-cba6433c5e45.htm">SetByte(String, Int32, Byte)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="29cd1a72-1178-d850-e83d-0e50e0804be0.htm">SetByteArray(String, <span id="LST5198F49A_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5198F49A_0?cpp=array&lt;");</script>Byte<span id="LST5198F49A_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5198F49A_1?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="bd4d1452-bbbc-fa86-bc47-3ba2c46da018.htm">SetByteArray(String, Int32, <span id="LST5198F49A_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5198F49A_2?cpp=array&lt;");</script>Byte<span id="LST5198F49A_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5198F49A_3?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="88ae80ee-6efa-4ea2-f06e-3f76cbabe301.htm">SetDate(String, DateTime)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="a0f79b28-34c3-27f2-e8f1-61602d572471.htm">SetDate(String, Int32, DateTime)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="0bd40bde-4590-f3a4-959b-aba00d193b5b.htm">SetDecimal(String, Decimal)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="36f3a729-0712-33a7-8883-fe73edf98bcc.htm">SetDecimal(String, Int32, Decimal)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="62af57e6-269c-932d-8c46-4126cdad68c5.htm">SetDouble(String, Double)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="837d1ac5-5b4e-18ac-a76c-9bae3cc15ae5.htm">SetDouble(String, Int32, Double)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="9b2ab4bd-e6ef-711a-86f7-40877387f6f9.htm">SetDoubleArray(String, <span id="LST5198F49A_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5198F49A_4?cpp=array&lt;");</script>Double<span id="LST5198F49A_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5198F49A_5?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="cc9c3aa3-5994-d9c0-1354-ace1ebac8b63.htm">SetDoubleArray(String, Int32, <span id="LST5198F49A_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5198F49A_6?cpp=array&lt;");</script>Double<span id="LST5198F49A_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST5198F49A_7?cpp=&gt;|cs=[]|vb=()|nu=[]|fs=[]");</script>)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="6584bedd-4475-4205-2a82-a1bbac94feff.htm">SetDrawingBitmap(String, Bitmap)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="2b960e4c-7098-e005-521c-6977a7501ce8.htm">SetDrawingBitmap(String, Int32, Bitmap)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="c6f1f637-c0a0-e35e-6463-220557025ddc.htm">SetDrawingColor(String, Color)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="676f1e1b-7731-1e20-d6bb-bf087d96e761.htm">SetDrawingColor(String, Int32, Color)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="63d0ca39-fe9f-d316-3894-58e2f7bee167.htm">SetDrawingPoint(String, Point)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="53201bc3-c917-2209-2e03-9c109dd28020.htm">SetDrawingPoint(String, Int32, Point)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="a1d8d5ed-73e5-3a2f-91dc-cd2d45339c2d.htm">SetDrawingPointF(String, PointF)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="324a529b-85ee-1883-81e8-ffb892262710.htm">SetDrawingPointF(String, Int32, PointF)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="772ec6f3-0ee7-f3ff-6b2f-b575338f9fc9.htm">SetDrawingRectangle(String, Rectangle)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="09bb170c-1d30-6b7a-9309-49ca79d0c615.htm">SetDrawingRectangle(String, Int32, Rectangle)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="c2d1ea53-7cf4-c70c-12d7-2582c1f65a8c.htm">SetDrawingRectangleF(String, RectangleF)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="0ad035e4-10fe-089b-6f8b-14d6b90b94d7.htm">SetDrawingRectangleF(String, Int32, RectangleF)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="d811cc3f-b8f0-322f-d0b4-bd559d2f515f.htm">SetDrawingSize(String, Size)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="bc7f6a2f-60b5-4ec7-8af4-ecfc953cd8c9.htm">SetDrawingSize(String, Int32, Size)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="dfbc18d0-597b-7193-684c-bacf970364c9.htm">SetDrawingSizeF(String, SizeF)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="99ee7fcc-92ad-6dbd-fa23-81f1b0e18e45.htm">SetDrawingSizeF(String, Int32, SizeF)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="b5c0df94-6746-9741-5eea-48a1f54ab6a4.htm">SetGuid(String, Guid)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="4dc55ce9-e5d8-6b11-004b-a91a5eef2e8f.htm">SetGuid(String, Int32, Guid)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="1decd4d9-399d-feeb-7bfe-82a28cfd4a0c.htm">SetInt32(String, Int32)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="5ca2a4c3-4166-28b2-958f-ffbe4d3ad48d.htm">SetInt32(String, Int32, Int32)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="a2da827c-d11b-6d42-3335-72426606e741.htm">SetInt64(String, Int64)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="b0e19130-0f43-d1a1-4882-a58dc4174530.htm">SetInt64(String, Int32, Int64)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="426f2955-786f-7749-1f12-5cea7cf9fa8c.htm">SetInterval1D(String, GH_Interval1D)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="409659f8-5003-2812-f9b4-d4bc8a62095a.htm">SetInterval1D(String, Int32, GH_Interval1D)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="7e8078e4-cb50-da46-3656-a8e0a218406a.htm">SetInterval2D(String, GH_Interval2D)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="06081e1e-5f75-e430-2bc2-aa468b36f024.htm">SetInterval2D(String, Int32, GH_Interval2D)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="694a2f9c-0c14-3bd3-1e73-ad2d4856929a.htm">SetLine(String, GH_Line)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="5840ccdf-71bf-ef89-2ccf-554e7ac01361.htm">SetLine(String, Int32, GH_Line)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="6e1dee6f-97b4-fecf-5891-e715ee80c2fb.htm">SetPath(String, String, String)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="757ae8bc-b7d2-7250-66a2-90d2bc2cbb6e.htm">SetPath(String, Int32, String, String)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="2bf296fa-81a4-c728-cd7d-ab5efd9a4802.htm">SetPlane(String, GH_Plane)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="e932443c-f130-bc16-f72c-46080f05b19e.htm">SetPlane(String, Int32, GH_Plane)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="5504db7e-509f-7010-798d-cc6c956c19d5.htm">SetPoint2D(String, GH_Point2D)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="b3c2552b-246b-a3f4-0b1e-3536e0bcb202.htm">SetPoint2D(String, Int32, GH_Point2D)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="4ac70d1d-7571-c048-6c0d-eb3f9e428284.htm">SetPoint3D(String, GH_Point3D)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="461c1602-8745-281a-58e9-c51de5dba52e.htm">SetPoint3D(String, Int32, GH_Point3D)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="5843c654-f814-7903-1a50-47aba57d8e66.htm">SetPoint4D(String, GH_Point4D)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="8f726384-4bd4-ba7a-19f4-b409af343efd.htm">SetPoint4D(String, Int32, GH_Point4D)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="904aadce-c740-c0a5-d123-3cd61bfb9b59.htm">SetSingle(String, Single)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="80afa86b-bdc7-7d4a-4f9b-8fbd19c66cc5.htm">SetSingle(String, Int32, Single)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="a4cf9571-24c5-8f27-1c3c-e787e985282e.htm">SetString(String, String)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="e2f64b50-cb1e-a6da-c062-137acb913943.htm">SetString(String, Int32, String)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="8f4c53b6-fa39-9507-019d-737940a64832.htm">SetVersion(String, GH_Version)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="ab1adf52-1ba7-6fdd-c5e2-eb0570c42139.htm">SetVersion(String, Int32, GH_Version)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="e92567d6-d8e7-5989-3cc8-be484fbb631b.htm">SetVersion(String, Int32, Int32, Int32)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The name must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="f17d12e8-c294-d22d-c90f-cfd00ab2fc72.htm">SetVersion(String, Int32, Int32, Int32, Int32)</a></td><td><div class="summary">
+            Add a new data item to this chunk. 
+            The combination of name and index must be unique or an exception will be thrown.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="2e991561-538c-5b50-30c9-0a5c7fe28808.htm">Write(BinaryWriter)</a></td><td><div class="summary">
+            Called when an object is required to serialize itself.
+            </div> (Inherited from <a href="dfc284f8-fb4b-57cf-aac7-3c41f00e3bc4.htm">GH_IBinarySupport</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="80a9aed7-4f18-27ba-84b3-68fbd1b889f6.htm">Write(XmlWriter)</a></td><td><div class="summary">
+            Called when an object is required to serialize itself.
+            </div> (Inherited from <a href="6e17cc27-8915-d48f-8af7-00e56dc66aa8.htm">GH_IXmlSupport</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID4RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="bc0db2dc-7a99-5325-bfb2-92c9969e9c45.htm">GH_IO.Serialization Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper version: 0.9.0054<p><a href="http://www.mcneel.com" target="_blank">Copyright © 2009 Robert McNeel &amp; Associates</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:david%40mcneel.com?Subject=Grasshopper SDK">Grasshopper development</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div></body></html>

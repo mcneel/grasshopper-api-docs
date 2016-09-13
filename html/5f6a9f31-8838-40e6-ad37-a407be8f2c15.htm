@@ -1,0 +1,156 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Custom Component Options (C#)</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="5f6a9f31-8838-40e6-ad37-a407be8f2c15" /><meta name="Description" content="IntroductionClass Level variables(De)serialization of custom dataContext menu changes" /><meta name="Microsoft.Help.ContentType" content="Concepts" /><meta name="BrandingAware" content="true" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Grasshopper SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="723c01da-9986-4db2-8f53-6f3a7494df75.htm" title="Grasshopper SDK" tocid="roottoc">Grasshopper SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="d113a9f0-6e27-46df-8316-2079c44382ac.htm" title="Examples" tocid="d113a9f0-6e27-46df-8316-2079c44382ac">Examples</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="730f0792-7bfb-4310-a416-239e8c315645.htm" title="C#" tocid="c59e53a8-1b3e-44c0-bc4a-7c30fe5cbf2c">C#</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="730f0792-7bfb-4310-a416-239e8c315645.htm" title="Simple Component (C#)" tocid="730f0792-7bfb-4310-a416-239e8c315645">Simple Component (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="fdd35a9c-bf08-47cf-abe8-08ccb192475f.htm" title="Simple Mathematics (C#)" tocid="fdd35a9c-bf08-47cf-abe8-08ccb192475f">Simple Mathematics (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="5764fa15-29d1-4e37-8496-2478d3cf28dc.htm" title="Simple Geometry (C#)" tocid="5764fa15-29d1-4e37-8496-2478d3cf28dc">Simple Geometry (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="d823ee90-ea94-4a8a-a972-df5d006a8d9f.htm" title="Simple Data Types (C#)" tocid="d823ee90-ea94-4a8a-a972-df5d006a8d9f">Simple Data Types (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="fbfe5e40-ba8d-4e53-97c6-27572e049835.htm" title="Simple Parameters (C#)" tocid="fbfe5e40-ba8d-4e53-97c6-27572e049835">Simple Parameters (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="020a5098-963f-4da8-bf65-650993c73bcb.htm" title="List Component (C#)" tocid="020a5098-963f-4da8-bf65-650993c73bcb">List Component (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="a367a8b3-a8b6-4d92-ad15-00b5aa60fd48.htm" title="Extending the GUI (C#)" tocid="a367a8b3-a8b6-4d92-ad15-00b5aa60fd48">Extending the GUI (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="8a7974ab-7b2b-4f48-84d0-6e81b184e6b0.htm" title="Custom Attributes (C#)" tocid="8a7974ab-7b2b-4f48-84d0-6e81b184e6b0">Custom Attributes (C#)</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="5f6a9f31-8838-40e6-ad37-a407be8f2c15.htm" title="Custom Component Options (C#)" tocid="5f6a9f31-8838-40e6-ad37-a407be8f2c15">Custom Component Options (C#)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">Custom Component Options (C#)</td></tr></table><span class="introStyle"></span><p><ul><li><a href="#Introduction">Introduction</a></li><li><a href="#ClassLevelVariables">Class Level variables</a></li><li><a href="#Deserialization">(De)serialization of custom data</a></li><li><a href="#ContextMenu">Context menu changes</a></li></ul></p><div class="introduction" id="Introduction"><p>
+      This article discusses how to add custom options to a component and have them included in *.gh/*.ghx 
+      (de)serialization. It skips over some portions of Component design which have already been handled 
+      in previous topics, so do not read this article before familiarizing yourself with the 
+      <a href="730f0792-7bfb-4310-a416-239e8c315645.htm">My First Component</a> topic.
+      </p><p>
+      The component we'll create in this article will sort a list of numbers and have the custom option 
+      to convert those numbers to absolute values prior to sorting. However, rather than providing this option
+      as a boolean input parameter, we'll allow people to set it via the Component context menu. 
+      We'll need to do four special things to achieve this, to wit:
+      <ul><li>Declare a class level variable/property.</li><li>Provide access to the variable from within the Component menu.</li><li>Include the variable in (de)serialization.</li><li>Record undo events when changing the value.</li></ul></p><p>
+      Before you start with this topic, create a new class that derives from 
+      <a href="0dba1f52-0e1e-88fd-fd56-7c87404cccfe.htm">GH_Component</a>, 
+      as outlined in the <a href="730f0792-7bfb-4310-a416-239e8c315645.htm">My First Component</a> topic.
+      </p><p>
+        This component will require one input parameter and one output parameter, both of type Number with list access:
+       
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAGADAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAGADAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EAGADAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAGADAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+  <span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> RegisterInputParams(Kernel.GH_Component.GH_InputParamManager pManager)
+  {
+    pManager.AddNumberParameter(<span class="highlight-literal">"Values"</span>, <span class="highlight-literal">"V"</span>, <span class="highlight-literal">"Values to sort"</span>, GH_ParamAccess.list);
+  }
+  <span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> RegisterOutputParams(Kernel.GH_Component.GH_OutputParamManager pManager)
+  {
+    pManager.AddNumberParameter(<span class="highlight-literal">"Values"</span>, <span class="highlight-literal">"V"</span>, <span class="highlight-literal">"Sorted values"</span>, GH_ParamAccess.list);
+  }
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAGADAAA");</script>
+        
+        Assuming for now we'll have a local property called <span class="code">Absolute()</span> which gets a single boolean, we can also 
+        already write the <span class="code">SolveInstance()</span> method:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAADAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAADAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EAAADAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAADAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+  <span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> SolveInstance(Kernel.IGH_DataAccess DA)
+  {
+    List&lt;<span class="highlight-keyword">double</span>&gt; values = <span class="highlight-keyword">new</span> List&lt;<span class="highlight-keyword">double</span>&gt;();
+    <span class="highlight-keyword">if</span> ((!DA.GetDataList(<span class="highlight-number">0</span>, values)))
+      <span class="highlight-keyword">return</span>;
+    <span class="highlight-keyword">if</span> ((values.Count == <span class="highlight-number">0</span>))
+      <span class="highlight-keyword">return</span>;
+
+    <span class="highlight-comment">// Don't worry about where the Absolute property comes from, we'll get to it soon.</span>
+    <span class="highlight-keyword">if</span> ((Absolute))
+    {
+      <span class="highlight-keyword">for</span> (Int32 i = <span class="highlight-number">0</span>; i &lt; values.Count; i++)
+      {
+        values(i) = Math.Abs(values(i));
+      }
+    }
+
+    values.Sort();
+    DA.SetDataList(<span class="highlight-number">0</span>, values);
+  }
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAADAAA");</script></p></div><div class="collapsibleAreaRegion" id="ClassLevelVariables"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Class Level variables</span></div><div id="ID1RBSection" class="collapsibleSection"><p>
+      The 'Absolute' option for this component applies to the entire object, but not to other instances of this component. 
+      Since it needs to survive (i.e. retain its value) for as long as the component lives, it has to be declared as a class level variable:
+      
+      <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAVBACAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAVBACAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EAVBACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAVBACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+<span class="highlight-keyword">private</span> <span class="highlight-keyword">bool</span> m_absolute = <span class="highlight-keyword">false</span>;
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">bool</span> Absolute
+{
+  <span class="highlight-keyword">get</span> { <span class="highlight-keyword">return</span> m_absolute; }
+  <span class="highlight-keyword">set</span>
+  {
+    m_absolute = <span class="highlight-keyword">value</span>;
+    <span class="highlight-keyword">if</span> ((m_absolute))
+    {
+      Message = <span class="highlight-literal">"Absolute"</span>;
+    }
+    <span class="highlight-keyword">else</span>
+    {
+      Message = <span class="highlight-literal">"Standard"</span>;
+    }
+  }
+}
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAVBACAAA");</script>
+      
+      The <span class="code">m_absolute</span> field is a private field (only accessible from within this component) and it is exposed publicly via the 
+      <span class="code">Absolute()</span> property, which allows both getting and setting. Furthermore, whenever the <span class="code">m_absolute</span> field is set, 
+      the <span class="code">Absolute()</span> property ensures that the correct message is assigned. The 
+      <a href="1e9d13a6-bda0-1f6d-f2cb-aad1fdb8465f.htm">Message</a> field on <span class="code">GH_Component</span> allows
+      you to set a string which will be displayed underneath the component on the canvas. This is to signal to users that there's an option they can change which 
+      is not directly accessible via the input parameters. Note that the message is not set <em>until</em> the
+      <span class="code">Absolute()</span> property is accessed, so you should specifically place a call to <span class="code">Absolute = False</span> 
+      (or <span class="code">True</span>) in the constructor.
+      </p><p>
+      It is of course possible to add any number of custom fields to a component, but you can only attach a single message, if you have more than one field you want to
+      make the user aware of, you'll need to get creative.
+      </p></div><div class="collapsibleAreaRegion" id="Deserialization"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />(De)serialization of custom data</span></div><div id="ID2RBSection" class="collapsibleSection"><p>
+      When you add options or states to your component which need to be 'sticky', you'll also need to (de)serialize them correctly. (De)serialization 
+      is used when saving and opening files, when copying and pasting objects and during undo/redo actions. In this particular case, we only need to 
+      add a single boolean to the standard file archive. Serialization in Grasshopper happens using the GH_IO.dll methods and types, not via standard 
+      framework mechanisms such as the <a href="http://msdn2.microsoft.com/en-us/library/bcfsa90a" target="_blank">SerializableAttribute</a>.
+      </p><p>
+      Override the 
+      <a href="93e0f528-380a-fdf1-55ce-3dcc1d9a76c4.htm">Write</a>
+      and 
+      <a href="c1fa0aff-706f-d9de-df8e-33c4807140cd.htm">Read</a> 
+      methods on GH_Component and be sure to always call the base implementation.
+      <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAAABAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAAABAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EAAAABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAAABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">bool</span> Write(GH_IO.Serialization.GH_IWriter writer)
+{
+  <span class="highlight-comment">// First add our own field.</span>
+  writer.SetBoolean(<span class="highlight-literal">"Absolute"</span>, Absolute);
+  <span class="highlight-comment">// Then call the base class implementation.</span>
+  <span class="highlight-keyword">return</span> <span class="highlight-keyword">base</span>.Write(writer);
+}
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">bool</span> Read(GH_IO.Serialization.GH_IReader reader)
+{
+  <span class="highlight-comment">// First read our own field.</span>
+  Absolute = reader.GetBoolean(<span class="highlight-literal">"Absolute"</span>);
+  <span class="highlight-comment">// Then call the base class implementation.</span>
+  <span class="highlight-keyword">return</span> <span class="highlight-keyword">base</span>.Read(reader);
+}
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAAABAAA");</script></p></div><div class="collapsibleAreaRegion" id="ContextMenu"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Context menu changes</span></div><div id="ID3RBSection" class="collapsibleSection"><p>
+      We'll also need to add an additional menu item to the component context menu, then handle the click event for that item. 
+      Adding items to a context menu is best done via the 
+      <a href="a79cd6eb-6d3a-8510-8adb-91c610a5fdd7.htm">AppendAdditionalComponentMenuItems</a>
+      method. It allows you to insert anu number of item in between the Bake and the Help items. The easiest way to add menu items is to use the Shared methods on 
+      <a href="90d977fe-1747-fe4b-2740-e7e9d0633787.htm">GH_DocumentObject</a> 
+      such as
+      <a href="712799bc-f9f6-17f2-8a41-1f6ba7cc8cb9.htm">Menu_AppendItem</a> 
+      or one of the overloads. In this case we also want to assign a tooltip text to the item which cannot be done from inside <span class="code">Menu_AppendItem()</span>.
+      
+      <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABAAAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABAAAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EAABAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+<span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> AppendAdditionalComponentMenuItems(System.Windows.Forms.ToolStripDropDown menu)
+{
+  <span class="highlight-comment">// Append the item to the menu, making sure it's always enabled and checked if Absolute is True.</span>
+  ToolStripMenuItem item = Menu_AppendItem(menu, <span class="highlight-literal">"Absolute"</span>, Menu_AbsoluteClicked, <span class="highlight-keyword">true</span>, Absolute);
+  <span class="highlight-comment">// Specifically assign a tooltip text to the menu item.</span>
+  item.ToolTipText = <span class="highlight-literal">"When checked, values are made absolute prior to sorting."</span>;
+}
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABAAAAA");</script></p><p>
+      When this menu item is clicked, the delegate assigned inside the <span class="code">Menu_AppendItem()</span> method will be invoked. It is here 
+      that we must handle a click event. There are usually three steps involved in handling clicks; Record the current state as an undo event, 
+      change the state, trigger a new solution:
+      
+      <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAHAAAAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAHAAAAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EAHAAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAHAAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+<span class="highlight-keyword">private</span> <span class="highlight-keyword">void</span> Menu_AbsoluteClicked(<span class="highlight-keyword">object</span> sender, EventArgs e)
+{
+  RecordUndoEvent(<span class="highlight-literal">"Absolute"</span>);
+  Absolute = !Absolute;
+  ExpireSolution(<span class="highlight-keyword">true</span>);
+}
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAHAAAAAA");</script>
+      
+      Since our <span class="code">Write()</span> and <span class="code">Read()</span> methods handle the (de)serialization of the Absolute field, 
+      we can use the default 
+      <a href="1d923716-360b-504a-4f98-545662c316a5.htm">RecordUndoEvent</a>
+      method. It is possible to define your own undo records, but that is a topic for another day.
+      </p></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper version: 0.9.0054<p><a href="http://www.mcneel.com" target="_blank">Copyright © 2009 Robert McNeel &amp; Associates</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:david%40mcneel.com?Subject=Grasshopper SDK">Grasshopper development</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script></div></body></html>

@@ -1,0 +1,176 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Simple Parameters (VB)</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="0edd8dc9-32a7-40aa-b217-8e01e35e58bc" /><meta name="Description" content="IntroductionGrasshopper.Kernel.IGH_ParamTypes of ParametersData inside ParametersA Custom Parameter TypeCollecting and Post-Processing Data" /><meta name="Microsoft.Help.ContentType" content="Concepts" /><meta name="BrandingAware" content="true" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Grasshopper SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="723c01da-9986-4db2-8f53-6f3a7494df75.htm" title="Grasshopper SDK" tocid="roottoc">Grasshopper SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="d113a9f0-6e27-46df-8316-2079c44382ac.htm" title="Examples" tocid="d113a9f0-6e27-46df-8316-2079c44382ac">Examples</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="b883d0c0-4947-48bc-8e9e-492a6d6c2a06.htm" title="Visual Basic .NET" tocid="effebee0-c9f3-47bb-b86f-780d14733b88">Visual Basic .NET</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="b883d0c0-4947-48bc-8e9e-492a6d6c2a06.htm" title="Simple Component (VB)" tocid="b883d0c0-4947-48bc-8e9e-492a6d6c2a06">Simple Component (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="2824c770-2673-49a3-8683-1a70bc0349cc.htm" title="Simple Mathematics (VB)" tocid="2824c770-2673-49a3-8683-1a70bc0349cc">Simple Mathematics (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="4306b177-1bf1-41bc-ac0e-2f6869d02365.htm" title="Simple Geometry (VB)" tocid="4306b177-1bf1-41bc-ac0e-2f6869d02365">Simple Geometry (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="f9aa207f-3d19-414c-af01-1e5ad42a8cab.htm" title="Simple Data Types (VB)" tocid="f9aa207f-3d19-414c-af01-1e5ad42a8cab">Simple Data Types (VB)</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="0edd8dc9-32a7-40aa-b217-8e01e35e58bc.htm" title="Simple Parameters (VB)" tocid="0edd8dc9-32a7-40aa-b217-8e01e35e58bc">Simple Parameters (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="4db493ec-0bb3-4b73-943a-fdff03863e1d.htm" title="List Component (VB)" tocid="4db493ec-0bb3-4b73-943a-fdff03863e1d">List Component (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="99cd32c8-7c1f-4f9a-87ea-76b032de7f70.htm" title="Extending the GUI (VB)" tocid="99cd32c8-7c1f-4f9a-87ea-76b032de7f70">Extending the GUI (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="ad6e93fe-e1c8-451e-a6d0-77cb8dd4516d.htm" title="Custom Attributes (VB)" tocid="ad6e93fe-e1c8-451e-a6d0-77cb8dd4516d">Custom Attributes (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="434018c0-6110-4478-bf2a-dcd099d8b8b2.htm" title="Custom Component Options (VB)" tocid="434018c0-6110-4478-bf2a-dcd099d8b8b2">Custom Component Options (VB)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">Simple Parameters (VB)</td></tr></table><span class="introStyle"></span><p><ul><li><a href="#Introduction">Introduction</a></li><li><a href="#GH_ParamInheritance">Grasshopper.Kernel.IGH_Param</a></li><li><a href="#GH_ParamTypes">Types of Parameters</a></li><li><a href="#GH_ParamData">Data inside Parameters</a></li><li><a href="#GH_ParamExample">A Custom Parameter Type</a></li><li><a href="#GH_ParamOperations">Collecting and Post-Processing Data</a></li></ul></p><div class="introduction" id="Introduction"><p>
+      In this article we'll discuss parameters; what they are, what they're for, what they can and cannot do. 
+      Parameters are a vital part of Grasshopper (the other being components). However, unlike components, it is
+      far less likely that you'll need to make your own parameters. Most components require only the native data
+      types available inside Grasshopper. In those odd cases where you need to work with custom data, you'll also 
+      need to create custom parameters that store that data. In this topic, we'll create a parameter which can 
+      handle the TriStateType we discussed in the 
+      <a href="f9aa207f-3d19-414c-af01-1e5ad42a8cab.htm">Simple Data Types</a> topic.
+      </p><p>
+      Parameters are responsible for storing and distributing data. Components use them to collect existing data 
+      and output new data. Parameters can also be used to convert data from one type into another, even though on the
+      atomic level the conversion is actually performed by the 
+      <a href="4b12231c-ec1e-68c8-61d4-aab77bf76547.htm">CastTo<span id="LSTE888F0EA_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE888F0EA_0?cs=&lt;|vb=(Of |cpp=&lt;|fs=&lt;'|nu=(");</script>T<span id="LSTE888F0EA_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE888F0EA_1?cs=&gt;|vb=)|cpp=&gt;|fs=&gt;|nu=)");</script></a>
+      and
+      <a href="27f5c5d7-aaab-34d9-c11e-7884d81d8705.htm">CastFrom</a>
+      methods on 
+      <a href="6530ba84-0dd4-0b42-3216-e118ef27a7fa.htm">IGH_Goo</a>. 
+      Most objects
+      in the Special subcategory on the Grasshopper toolbar are basically parameters with extended GUIs. Parameters can 
+      also be used by themselves to store constant data or to redirect data into multiple streams.
+      </p></div><div class="collapsibleAreaRegion" id="GH_ParamInheritance"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID0RB')" onkeypress="SectionExpandCollapse_CheckKey('ID0RB', event)" tabindex="0"><img id="ID0RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Grasshopper.Kernel.IGH_Param</span></div><div id="ID0RBSection" class="collapsibleSection"><p>
+        All parameters in Grasshopper must implement the
+        <a href="f9c67631-8941-9a0b-cfea-907f5ac1a5a2.htm">IGH_Param</a>
+        interface.
+        <span class="code">IGH_Param</span> defines the bare minimum of what a parameter must be able to do. 
+        There are some interfaces that extend on <span class="code">IGH_Param</span>, and also some abstract
+        classes that partially implement the interface. Note that <span class="code">IGH_Param</span> already 
+        inherits from <span class="code">IGH_ActiveObject</span>, so it comes with a lot of baggage.
+        </p><p><span class="code">IGH_Param</span> is quite an extensive interface, it defines nearly thirty properties 
+        and methods, some of which are quite tricky to implement. It is highly recommended that you do not directly 
+        implement <span class="code">IGH_Param</span>, but derive from the abstract 
+        <a href="213f12c9-6573-ea00-4d71-ffe7f2f4a557.htm">GH_Param<span id="LSTE888F0EA_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE888F0EA_2?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LSTE888F0EA_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE888F0EA_3?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
+        class instead. <span class="code">GH_Param(Of T)</span> provides
+        a basic implementation of <span class="code">IGH_Param</span> and takes care of quite a lot of the nasty bits. 
+        Here's a list of things <span class="code">GH_Param(Of T)</span> will happily do for you that you
+        would otherwise have to do yourself:
+        </p><p><ul><li>It will create default Attributes in case the parameter is floating.</li><li>It will manage and synch the source and recipient lists.</li><li>It can parse network topology to figure out dependency relationships.</li><li>It will create, restore and clean proxy sources used during IO operations.</li><li>It knows how to disassociate itself from adjacent objects in a network.</li><li>It will provide getters and settings for typical parameter properties.</li><li>It knows how to apply DataMapping algorithms to local data.</li><li>It can handsomely format local data for display in tooltips.</li><li>It will maintain a <span class="code">GH_Structure(Of T)</span> for local data storage.</li><li>It provides methods to cast data into the local type.</li><li>It will accurately measure the time it takes to collect and process data.</li><li>It knows how to collect and interweave data from multiple sources.</li><li>It will correctly populate parameter pop-up menus.</li><li>It will provide the correct StateTags for DataMapping settings.</li><li>It will (de)serialize all local properties.</li></ul></p><p>
+        In other words, <em>do not implement <span class="code">IGH_Param</span> but derive 
+        from <span class="code">GH_Param(Of T)</span>!</em></p></div><div class="collapsibleAreaRegion" id="GH_ParamTypes"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Types of Parameters</span></div><div id="ID1RBSection" class="collapsibleSection"><p>
+        As mentioned before, parameters can be encountered as component inputs or outputs, but also as 
+        free-floating objects. These are not different classes, but rather the same class behaving in different ways. 
+        Every instance of <span class="code">IGH_Param</span> has a
+        <a href="993fb566-6b77-60e6-a98a-5c7b36e7ed9d.htm">Kind</a>
+        readonly property which describes the
+        context of that instance:
+        </p><p><span class="media"><img src="../media/ParameterKinds.png" /></span></p><p>
+        In the image above, we see all three valid parameter <span class="code">Kinds</span>
+        (<span class="code">Input</span>, <span class="code">Output</span> and <span class="code">Floating</span>). 
+        The "bool" object
+        is a floating parameter of type <span class="code">Param_Boolean</span>. 
+        The "P" on the left side of the "Cull" component is an input parameter of that very same type.
+        </p><p>
+        The Text Panel is also a floating parameter which derives from <span class="code">GH_Param(Of GH_String)</span>. 
+        In a way it is very similar to the String parameter (not shown), except it overrides the display and 
+        GUI of the default <span class="code">GH_Param</span> class. The "L" on the right of the "Cull" 
+        component is an output parameter of the <span class="code">Param_GenericObject</span>
+        type (just like the "L" input parameter).
+        </p><p>
+        From this image we can see how versatile parameters can be. Parameters can have wildly different front-ends,
+        they can expose and hide input and output grips at will, they can be part of a larger component or stand by themselves.
+        They can even override so much of the default functionality that they no longer appear to be parameters at all 
+        (like the cluster output attached to "L").
+        </p></div><div class="collapsibleAreaRegion" id="GH_ParamData"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Data inside Parameters</span></div><div id="ID3RBSection" class="collapsibleSection"><p>
+        All parameters have the capacity to store data, this is, after all, their primary function. When you derive 
+        from 
+        <a href="213f12c9-6573-ea00-4d71-ffe7f2f4a557.htm">GH_Param<span id="LSTE888F0EA_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE888F0EA_4?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LSTE888F0EA_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE888F0EA_5?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>
+        there will be a protected member available within the class
+        called <span class="code">m_data</span> of type
+        <a href="3abbb27e-efce-4d14-9a85-c454ede6515f.htm">GH_Structure<span id="LSTE888F0EA_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE888F0EA_6?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LSTE888F0EA_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE888F0EA_7?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.
+        Since <span class="code">GH_Structure(Of T)</span> only accepts
+        types of <span class="code">T</span> that implement <span class="code">IGH_Goo</span>, <span class="code">GH_Param(Of T)</span> also
+        only accepts types for <span class="code">T</span> that implement <span class="code">IGH_Goo</span>. This is why you cannot have a 
+        <span class="code">GH_Param(Of Integer)</span> but must instead have <span class="code">GH_Param(Of GH_Integer)</span>.
+        </p><p>
+        Data stored inside the <span class="code">m_data</span> field is destroyed whenever the parameter expires. 
+        Parameters can be expired via several different mechanisms, but the most common ones are:
+        
+        <ul><li>One or more of the sources of a parameter expires.</li><li>The component that owns the parameter expires.</li><li>The user forces a complete solution recalculation (F5).</li></ul>
+        
+        Because the data gets destroyed so readily, we call it <em>Volatile Data</em>. A lot of 
+        parameters in Grasshopper are also capable of storing <em>Persistent Data</em>, which 
+        is not destroyed whenever a solution runs. This allows parameters to define a collection of 'constant' values. 
+        The "Set One XXXX", "Set Multiple XXXX" and "Manage XXXX Collection" menu items in the parameter pop-up menu 
+        refer to persistent data.</p><p>
+        When a parameter is not connected to any source parameters, the persistent data will be copied into the 
+        volatile data. If there is no persistent data, the parameter will remain empty and a runtime warning will be 
+        included to this effect.
+        </p><p><span class="code">GH_Param(Of T)</span> however does not support persistent data. 
+        You can add your own mechanism for this (like Text Panel does)
+        or you can choose to derive from more advanced classes like 
+        <a href="120d6bf8-259e-a130-6d23-a61c9946114a.htm">GH_PersistentParam<span id="LSTE888F0EA_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE888F0EA_8?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LSTE888F0EA_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LSTE888F0EA_9?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a>.
+        In this example, we'll derive from <span class="code">GH_PersistentParam(Of T)</span> as we want to give users the ability 
+        to specify local data. <span class="code">GH_PersistentParam(Of T)</span> requires we implement two additional methods
+        that allow users to specify persistent data. These methods are called from the default popup menu when the 
+        "Set One XXXX" and "Set Multiple XXXX" items are clicked.
+        </p><p>
+        So let's start with deriving from <span class="code">GH_PersistentParam(Of T)</span> and see where that takes us:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID2EAKAAAAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID2EAKAAAAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID2EAKAAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID2EAKAAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">Public</span> <span class="highlight-keyword">Class</span> TriStateParameter
+  <span class="highlight-keyword">Inherits</span> GH_PersistentParam(<span class="highlight-keyword">Of</span> TriStateType)
+
+  <span class="highlight-comment">'We need to supply a constructor without arguments that calls the base class constructor.</span>
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Sub</span> <span class="highlight-keyword">New</span>()
+    <span class="highlight-comment">'This is where we specify the name, description, tab and panel of this parameter.</span>
+    <span class="highlight-keyword">MyBase</span>.<span class="highlight-keyword">New</span>(<span class="highlight-literal">"TriState"</span>, <span class="highlight-literal">"Tri"</span>, <span class="highlight-literal">"Represents a collection of TriState values"</span>, <span class="highlight-literal">"Params"</span>, <span class="highlight-literal">"Primitive"</span>)
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">ReadOnly</span> <span class="highlight-keyword">Property</span> ComponentGuid() <span class="highlight-keyword">As</span> System.Guid
+    <span class="highlight-keyword">Get</span>
+      <span class="highlight-comment">'Always generate a new Guid, but never change it once you've released this parameter to the public.</span>
+      <span class="highlight-keyword">Return</span> <span class="highlight-keyword">New</span> Guid(<span class="highlight-literal">"{2FEEF1A2-A764-431d-8C78-9BF92C78BAE1}"</span>)
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Get</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Property</span>
+
+  <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Function</span> Prompt_Singular(<span class="highlight-keyword">ByRef</span> value <span class="highlight-keyword">As</span> TriStateType) <span class="highlight-keyword">As</span> Kernel.GH_GetterResult
+    <span class="highlight-comment">'Todo, impement this function.</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Function</span>
+  <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Function</span> Prompt_Plural(<span class="highlight-keyword">ByRef</span> values <span class="highlight-keyword">As</span> System.Collections.Generic.List(<span class="highlight-keyword">Of</span> TriStateType)) <span class="highlight-keyword">As</span> Kernel.GH_GetterResult
+    <span class="highlight-comment">'Todo, impement this function.</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Function</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID2EAKAAAAAA");</script>
+        
+        That is essentially all there's to it. Though you should also provide an 
+        <a href="df6fe78d-6c9c-5b7b-f794-78daeadb1ec3.htm">Icon</a>
+        and an 
+        <a href="49058f40-a46f-e0d7-47a7-cb8be91115fd.htm">Exposure</a>
+        for this object. The <span class="code">Prompt_Singular</span> and <span class="code">Promt_Plural</span> methods 
+        need to be implemented. In this case we'll use standard Rhino Command Line interface to prompt for persistent values:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID2EAAAAAAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID2EAAAAAAAA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID2EAAAAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID2EAAAAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Function</span> Prompt_Singular(<span class="highlight-keyword">ByRef</span> value <span class="highlight-keyword">As</span> TriStateType) <span class="highlight-keyword">As</span> Kernel.GH_GetterResult
+  <span class="highlight-keyword">Dim</span> go <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> Rhino.Input.Custom.GetOption()
+  go.SetCommandPrompt(<span class="highlight-literal">"TriState value"</span>)
+  go.AcceptNothing(<span class="highlight-keyword">True</span>)
+  go.AddOption(<span class="highlight-literal">"True"</span>)
+  go.AddOption(<span class="highlight-literal">"False"</span>)
+  go.AddOption(<span class="highlight-literal">"Unknown"</span>)
+
+  <span class="highlight-keyword">Select</span> <span class="highlight-keyword">Case</span> go.<span class="highlight-keyword">Get</span>()
+    <span class="highlight-keyword">Case</span> Rhino.Input.GetResult.<span class="highlight-keyword">Option</span>
+      <span class="highlight-keyword">If</span> (go.<span class="highlight-keyword">Option</span>().EnglishName = <span class="highlight-literal">"True"</span>) <span class="highlight-keyword">Then</span> value = <span class="highlight-keyword">New</span> TriStateType(<span class="highlight-number">1</span>)
+      <span class="highlight-keyword">If</span> (go.<span class="highlight-keyword">Option</span>().EnglishName = <span class="highlight-literal">"False"</span>) <span class="highlight-keyword">Then</span> value = <span class="highlight-keyword">New</span> TriStateType(<span class="highlight-number">0</span>)
+      <span class="highlight-keyword">If</span> (go.<span class="highlight-keyword">Option</span>().EnglishName = <span class="highlight-literal">"Unknown"</span>) <span class="highlight-keyword">Then</span> value = <span class="highlight-keyword">New</span> TriStateType(<span class="highlight-number">-1</span>)
+      <span class="highlight-keyword">Return</span> GH_GetterResult.success
+
+    <span class="highlight-keyword">Case</span> Rhino.Input.GetResult.<span class="highlight-keyword">Nothing</span>
+      <span class="highlight-keyword">Return</span> GH_GetterResult.accept
+
+    <span class="highlight-keyword">Case</span> <span class="highlight-keyword">Else</span>
+      <span class="highlight-keyword">Return</span> GH_GetterResult.cancel
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Select</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Function</span>
+
+<span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Function</span> Prompt_Plural(<span class="highlight-keyword">ByRef</span> values <span class="highlight-keyword">As</span> List(<span class="highlight-keyword">Of</span> TriStateType)) <span class="highlight-keyword">As</span> Kernel.GH_GetterResult
+  values = <span class="highlight-keyword">New</span> List(<span class="highlight-keyword">Of</span> TriStateType)
+
+  <span class="highlight-keyword">Do</span>
+    <span class="highlight-keyword">Dim</span> val <span class="highlight-keyword">As</span> TriStateType = <span class="highlight-keyword">Nothing</span>
+    <span class="highlight-keyword">Select</span> <span class="highlight-keyword">Case</span> Prompt_Singular(val)
+      <span class="highlight-keyword">Case</span> GH_GetterResult.success
+        values.Add(val)
+
+      <span class="highlight-keyword">Case</span> GH_GetterResult.accept
+        <span class="highlight-keyword">Return</span> GH_GetterResult.success
+
+      <span class="highlight-keyword">Case</span> GH_GetterResult.cancel
+        values = <span class="highlight-keyword">Nothing</span>
+        <span class="highlight-keyword">Return</span> GH_GetterResult.cancel
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Select</span>
+  <span class="highlight-keyword">Loop</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Function</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID2EAAAAAAAA");</script></p></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper version: 0.9.0054<p><a href="http://www.mcneel.com" target="_blank">Copyright © 2009 Robert McNeel &amp; Associates</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:david%40mcneel.com?Subject=Grasshopper SDK">Grasshopper development</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script></div></body></html>
