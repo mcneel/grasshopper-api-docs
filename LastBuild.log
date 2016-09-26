@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\GrasshopperSDKHelp.shfbproj" started="12/09/2016 10:26:12">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\GrasshopperSDKHelp.shfbproj" started="26/09/2016 13:58:06">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -36,16 +36,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0625
+</plugIn>    Last step completed in 00:00:00.0702
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:04.3127
+    Last step completed in 00:00:05.7823
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 12/09/2016 10:26:17.
+Build started 26/09/2016 13:58:13.
 Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -64,13 +64,13 @@ Done Building Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper
 
 Build succeeded.
 
-Time Elapsed 00:00:02.64
-    Last step completed in 00:00:02.8597
+Time Elapsed 00:00:03.41
+    Last step completed in 00:00:03.6983
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
-Build started 12/09/2016 10:26:20.
+Build started 26/09/2016 13:58:16.
 Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2016.5.28.0)
@@ -82,6 +82,994 @@ TransformManifest:
   Copyright &#169; 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved.
   Applying XSL transformation &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\ProductionTransforms\AddFilenames.xsl&#39;.
+    Unique name M_GH_IO_VersionNumber__ctor_1 generated for M:GH_IO.VersionNumber.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+    Unique name M_GH_IO_VersionNumber__ctor_2 generated for M:GH_IO.VersionNumber.#ctor(System.Version)
+    Unique name M_GH_IO_VersionNumber_CompareTo_1 generated for M:GH_IO.VersionNumber.CompareTo(System.Object)
+    Unique name M_GH_IO_VersionNumber_TryParse_1 generated for M:GH_IO.VersionNumber.TryParse(System.Version,GH_IO.VersionNumber@)
+    Unique name M_GH_IO_Serialization_GH_Archive_AddMessage_1 generated for M:GH_IO.Serialization.GH_Archive.AddMessage(System.String,GH_IO.Serialization.GH_Message_Type)
+    Unique name M_GH_IO_Serialization_GH_Archive_MessageCount_1 generated for M:GH_IO.Serialization.GH_Archive.MessageCount(System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_GH_IO_Serialization_GH_Chunk__ctor_1 generated for M:GH_IO.Serialization.GH_Chunk.#ctor(GH_IO.Serialization.GH_Archive)
+    Unique name M_GH_IO_Serialization_GH_Chunk__ctor_2 generated for M:GH_IO.Serialization.GH_Chunk.#ctor(GH_IO.Serialization.GH_Archive,System.String)
+    Unique name M_GH_IO_Serialization_GH_Chunk__ctor_3 generated for M:GH_IO.Serialization.GH_Chunk.#ctor(GH_IO.Serialization.GH_Archive,System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_ChunkExists_1 generated for M:GH_IO.Serialization.GH_Chunk.ChunkExists(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_CreateChunk_1 generated for M:GH_IO.Serialization.GH_Chunk.CreateChunk(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_FindChunk_1 generated for M:GH_IO.Serialization.GH_Chunk.FindChunk(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_FindItem_1 generated for M:GH_IO.Serialization.GH_Chunk.FindItem(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetBoolean_1 generated for M:GH_IO.Serialization.GH_Chunk.GetBoolean(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetBoundingBox_1 generated for M:GH_IO.Serialization.GH_Chunk.GetBoundingBox(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetByte_1 generated for M:GH_IO.Serialization.GH_Chunk.GetByte(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetByteArray_1 generated for M:GH_IO.Serialization.GH_Chunk.GetByteArray(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetDate_1 generated for M:GH_IO.Serialization.GH_Chunk.GetDate(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetDecimal_1 generated for M:GH_IO.Serialization.GH_Chunk.GetDecimal(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetDouble_1 generated for M:GH_IO.Serialization.GH_Chunk.GetDouble(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetDoubleArray_1 generated for M:GH_IO.Serialization.GH_Chunk.GetDoubleArray(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetDrawingBitmap_1 generated for M:GH_IO.Serialization.GH_Chunk.GetDrawingBitmap(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetDrawingColor_1 generated for M:GH_IO.Serialization.GH_Chunk.GetDrawingColor(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetDrawingPoint_1 generated for M:GH_IO.Serialization.GH_Chunk.GetDrawingPoint(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetDrawingPointF_1 generated for M:GH_IO.Serialization.GH_Chunk.GetDrawingPointF(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetDrawingRectangle_1 generated for M:GH_IO.Serialization.GH_Chunk.GetDrawingRectangle(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetDrawingRectangleF_1 generated for M:GH_IO.Serialization.GH_Chunk.GetDrawingRectangleF(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetDrawingSize_1 generated for M:GH_IO.Serialization.GH_Chunk.GetDrawingSize(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetDrawingSizeF_1 generated for M:GH_IO.Serialization.GH_Chunk.GetDrawingSizeF(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetGuid_1 generated for M:GH_IO.Serialization.GH_Chunk.GetGuid(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetInt32_1 generated for M:GH_IO.Serialization.GH_Chunk.GetInt32(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetInt64_1 generated for M:GH_IO.Serialization.GH_Chunk.GetInt64(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetInterval1D_1 generated for M:GH_IO.Serialization.GH_Chunk.GetInterval1D(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetInterval2D_1 generated for M:GH_IO.Serialization.GH_Chunk.GetInterval2D(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetLine_1 generated for M:GH_IO.Serialization.GH_Chunk.GetLine(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetPath_1 generated for M:GH_IO.Serialization.GH_Chunk.GetPath(System.String,System.String)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetPlane_1 generated for M:GH_IO.Serialization.GH_Chunk.GetPlane(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetPoint2D_1 generated for M:GH_IO.Serialization.GH_Chunk.GetPoint2D(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetPoint3D_1 generated for M:GH_IO.Serialization.GH_Chunk.GetPoint3D(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetPoint4D_1 generated for M:GH_IO.Serialization.GH_Chunk.GetPoint4D(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetSingle_1 generated for M:GH_IO.Serialization.GH_Chunk.GetSingle(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetString_1 generated for M:GH_IO.Serialization.GH_Chunk.GetString(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_GetVersion_1 generated for M:GH_IO.Serialization.GH_Chunk.GetVersion(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_ItemExists_1 generated for M:GH_IO.Serialization.GH_Chunk.ItemExists(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_Read_1 generated for M:GH_IO.Serialization.GH_Chunk.Read(System.Xml.XmlNode)
+    Unique name M_GH_IO_Serialization_GH_Chunk_RemoveChunk_1 generated for M:GH_IO.Serialization.GH_Chunk.RemoveChunk(System.String)
+    Unique name M_GH_IO_Serialization_GH_Chunk_RemoveChunk_2 generated for M:GH_IO.Serialization.GH_Chunk.RemoveChunk(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_RemoveItem_1 generated for M:GH_IO.Serialization.GH_Chunk.RemoveItem(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetBoolean_1 generated for M:GH_IO.Serialization.GH_Chunk.SetBoolean(System.String,System.Int32,System.Boolean)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetBoundingBox_1 generated for M:GH_IO.Serialization.GH_Chunk.SetBoundingBox(System.String,System.Int32,GH_IO.Types.GH_BoundingBox)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetByte_1 generated for M:GH_IO.Serialization.GH_Chunk.SetByte(System.String,System.Int32,System.Byte)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetByteArray_1 generated for M:GH_IO.Serialization.GH_Chunk.SetByteArray(System.String,System.Int32,System.Byte[])
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetDate_1 generated for M:GH_IO.Serialization.GH_Chunk.SetDate(System.String,System.Int32,System.DateTime)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetDecimal_1 generated for M:GH_IO.Serialization.GH_Chunk.SetDecimal(System.String,System.Int32,System.Decimal)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetDouble_1 generated for M:GH_IO.Serialization.GH_Chunk.SetDouble(System.String,System.Int32,System.Double)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetDoubleArray_1 generated for M:GH_IO.Serialization.GH_Chunk.SetDoubleArray(System.String,System.Int32,System.Double[])
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetDrawingBitmap_1 generated for M:GH_IO.Serialization.GH_Chunk.SetDrawingBitmap(System.String,System.Int32,System.Drawing.Bitmap)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetDrawingColor_1 generated for M:GH_IO.Serialization.GH_Chunk.SetDrawingColor(System.String,System.Int32,System.Drawing.Color)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetDrawingPoint_1 generated for M:GH_IO.Serialization.GH_Chunk.SetDrawingPoint(System.String,System.Int32,System.Drawing.Point)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetDrawingPointF_1 generated for M:GH_IO.Serialization.GH_Chunk.SetDrawingPointF(System.String,System.Int32,System.Drawing.PointF)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetDrawingRectangle_1 generated for M:GH_IO.Serialization.GH_Chunk.SetDrawingRectangle(System.String,System.Int32,System.Drawing.Rectangle)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetDrawingRectangleF_1 generated for M:GH_IO.Serialization.GH_Chunk.SetDrawingRectangleF(System.String,System.Int32,System.Drawing.RectangleF)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetDrawingSize_1 generated for M:GH_IO.Serialization.GH_Chunk.SetDrawingSize(System.String,System.Int32,System.Drawing.Size)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetDrawingSizeF_1 generated for M:GH_IO.Serialization.GH_Chunk.SetDrawingSizeF(System.String,System.Int32,System.Drawing.SizeF)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetGuid_1 generated for M:GH_IO.Serialization.GH_Chunk.SetGuid(System.String,System.Int32,System.Guid)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetInt32_1 generated for M:GH_IO.Serialization.GH_Chunk.SetInt32(System.String,System.Int32,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetInt64_1 generated for M:GH_IO.Serialization.GH_Chunk.SetInt64(System.String,System.Int64)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetInterval1D_1 generated for M:GH_IO.Serialization.GH_Chunk.SetInterval1D(System.String,System.Int32,GH_IO.Types.GH_Interval1D)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetInterval2D_1 generated for M:GH_IO.Serialization.GH_Chunk.SetInterval2D(System.String,System.Int32,GH_IO.Types.GH_Interval2D)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetLine_1 generated for M:GH_IO.Serialization.GH_Chunk.SetLine(System.String,System.Int32,GH_IO.Types.GH_Line)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetPath_1 generated for M:GH_IO.Serialization.GH_Chunk.SetPath(System.String,System.String,System.String)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetPlane_1 generated for M:GH_IO.Serialization.GH_Chunk.SetPlane(System.String,System.Int32,GH_IO.Types.GH_Plane)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetPoint2D_1 generated for M:GH_IO.Serialization.GH_Chunk.SetPoint2D(System.String,System.Int32,GH_IO.Types.GH_Point2D)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetPoint3D_1 generated for M:GH_IO.Serialization.GH_Chunk.SetPoint3D(System.String,System.Int32,GH_IO.Types.GH_Point3D)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetPoint4D_1 generated for M:GH_IO.Serialization.GH_Chunk.SetPoint4D(System.String,System.Int32,GH_IO.Types.GH_Point4D)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetSingle_1 generated for M:GH_IO.Serialization.GH_Chunk.SetSingle(System.String,System.Single)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetString_1 generated for M:GH_IO.Serialization.GH_Chunk.SetString(System.String,System.String)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetVersion_1 generated for M:GH_IO.Serialization.GH_Chunk.SetVersion(System.String,System.Int32,GH_IO.Types.GH_Version)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetVersion_2 generated for M:GH_IO.Serialization.GH_Chunk.SetVersion(System.String,System.Int32,System.Int32,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_SetVersion_3 generated for M:GH_IO.Serialization.GH_Chunk.SetVersion(System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetBoolean_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetBoolean(System.String,System.Int32,System.Boolean@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetBoundingBox_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetBoundingBox(System.String,System.Int32,GH_IO.Types.GH_BoundingBox@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetByte_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetByte(System.String,System.Int32,System.Byte@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetDate_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetDate(System.String,System.Int32,System.DateTime@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetDecimal_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetDecimal(System.String,System.Int32,System.Decimal@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetDouble_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetDouble(System.String,System.Int32,System.Double@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetDrawingColor_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetDrawingColor(System.String,System.Int32,System.Drawing.Color@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetDrawingPoint_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetDrawingPoint(System.String,System.Int32,System.Drawing.Point@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetDrawingPointF_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetDrawingPointF(System.String,System.Int32,System.Drawing.PointF@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetDrawingRectangle_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetDrawingRectangle(System.String,System.Int32,System.Drawing.Rectangle@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetDrawingRectangleF_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetDrawingRectangleF(System.String,System.Int32,System.Drawing.RectangleF@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetDrawingSize_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetDrawingSize(System.String,System.Int32,System.Drawing.Size@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetDrawingSizeF_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetDrawingSizeF(System.String,System.Int32,System.Drawing.SizeF@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetGuid_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetGuid(System.String,System.Int32,System.Guid@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetInt32_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetInt32(System.String,System.Int32@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetInt64_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetInt64(System.String,System.Int64@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetInterval1D_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetInterval1D(System.String,System.Int32,GH_IO.Types.GH_Interval1D@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetInterval2D_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetInterval2D(System.String,System.Int32,GH_IO.Types.GH_Interval2D@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetLine_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetLine(System.String,System.Int32,GH_IO.Types.GH_Line@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetPlane_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetPlane(System.String,System.Int32,GH_IO.Types.GH_Plane@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetPoint2D_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetPoint2D(System.String,System.Int32,GH_IO.Types.GH_Point2D@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetPoint3D_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetPoint3D(System.String,System.Int32,GH_IO.Types.GH_Point3D@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetPoint4D_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetPoint4D(System.String,System.Int32,GH_IO.Types.GH_Point4D@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetSingle_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetSingle(System.String,System.Single@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetString_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetString(System.String,System.String@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_TryGetVersion_1 generated for M:GH_IO.Serialization.GH_Chunk.TryGetVersion(System.String,System.Int32,GH_IO.Types.GH_Version@)
+    Unique name M_GH_IO_Serialization_GH_Chunk_Write_1 generated for M:GH_IO.Serialization.GH_Chunk.Write(System.Xml.XmlWriter)
+    Unique name M_GH_IO_Serialization_GH_IReader_ChunkExists_1 generated for M:GH_IO.Serialization.GH_IReader.ChunkExists(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_FindChunk_1 generated for M:GH_IO.Serialization.GH_IReader.FindChunk(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_FindItem_1 generated for M:GH_IO.Serialization.GH_IReader.FindItem(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetBoolean_1 generated for M:GH_IO.Serialization.GH_IReader.GetBoolean(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetBoundingBox_1 generated for M:GH_IO.Serialization.GH_IReader.GetBoundingBox(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetByte_1 generated for M:GH_IO.Serialization.GH_IReader.GetByte(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetByteArray_1 generated for M:GH_IO.Serialization.GH_IReader.GetByteArray(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetDate_1 generated for M:GH_IO.Serialization.GH_IReader.GetDate(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetDecimal_1 generated for M:GH_IO.Serialization.GH_IReader.GetDecimal(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetDouble_1 generated for M:GH_IO.Serialization.GH_IReader.GetDouble(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetDoubleArray_1 generated for M:GH_IO.Serialization.GH_IReader.GetDoubleArray(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetDrawingBitmap_1 generated for M:GH_IO.Serialization.GH_IReader.GetDrawingBitmap(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetDrawingColor_1 generated for M:GH_IO.Serialization.GH_IReader.GetDrawingColor(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetDrawingPoint_1 generated for M:GH_IO.Serialization.GH_IReader.GetDrawingPoint(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetDrawingPointF_1 generated for M:GH_IO.Serialization.GH_IReader.GetDrawingPointF(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetDrawingRectangle_1 generated for M:GH_IO.Serialization.GH_IReader.GetDrawingRectangle(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetDrawingRectangleF_1 generated for M:GH_IO.Serialization.GH_IReader.GetDrawingRectangleF(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetDrawingSize_1 generated for M:GH_IO.Serialization.GH_IReader.GetDrawingSize(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetDrawingSizeF_1 generated for M:GH_IO.Serialization.GH_IReader.GetDrawingSizeF(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetGuid_1 generated for M:GH_IO.Serialization.GH_IReader.GetGuid(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetInt32_1 generated for M:GH_IO.Serialization.GH_IReader.GetInt32(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetInt64_1 generated for M:GH_IO.Serialization.GH_IReader.GetInt64(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetInterval1D_1 generated for M:GH_IO.Serialization.GH_IReader.GetInterval1D(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetInterval2D_1 generated for M:GH_IO.Serialization.GH_IReader.GetInterval2D(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetLine_1 generated for M:GH_IO.Serialization.GH_IReader.GetLine(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetPath_1 generated for M:GH_IO.Serialization.GH_IReader.GetPath(System.String,System.String)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetPlane_1 generated for M:GH_IO.Serialization.GH_IReader.GetPlane(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetPoint2D_1 generated for M:GH_IO.Serialization.GH_IReader.GetPoint2D(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetPoint3D_1 generated for M:GH_IO.Serialization.GH_IReader.GetPoint3D(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetPoint4D_1 generated for M:GH_IO.Serialization.GH_IReader.GetPoint4D(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetSingle_1 generated for M:GH_IO.Serialization.GH_IReader.GetSingle(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetString_1 generated for M:GH_IO.Serialization.GH_IReader.GetString(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_GetVersion_1 generated for M:GH_IO.Serialization.GH_IReader.GetVersion(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_ItemExists_1 generated for M:GH_IO.Serialization.GH_IReader.ItemExists(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetBoolean_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetBoolean(System.String,System.Int32,System.Boolean@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetBoundingBox_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetBoundingBox(System.String,System.Int32,GH_IO.Types.GH_BoundingBox@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetByte_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetByte(System.String,System.Int32,System.Byte@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetDate_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetDate(System.String,System.Int32,System.DateTime@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetDecimal_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetDecimal(System.String,System.Int32,System.Decimal@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetDouble_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetDouble(System.String,System.Int32,System.Double@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetDrawingColor_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetDrawingColor(System.String,System.Int32,System.Drawing.Color@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetDrawingPoint_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetDrawingPoint(System.String,System.Int32,System.Drawing.Point@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetDrawingPointF_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetDrawingPointF(System.String,System.Int32,System.Drawing.PointF@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetDrawingRectangle_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetDrawingRectangle(System.String,System.Int32,System.Drawing.Rectangle@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetDrawingRectangleF_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetDrawingRectangleF(System.String,System.Int32,System.Drawing.RectangleF@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetDrawingSize_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetDrawingSize(System.String,System.Int32,System.Drawing.Size@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetDrawingSizeF_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetDrawingSizeF(System.String,System.Int32,System.Drawing.SizeF@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetGuid_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetGuid(System.String,System.Int32,System.Guid@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetInt32_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetInt32(System.String,System.Int32@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetInt64_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetInt64(System.String,System.Int64@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetInterval1D_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetInterval1D(System.String,System.Int32,GH_IO.Types.GH_Interval1D@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetInterval2D_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetInterval2D(System.String,System.Int32,GH_IO.Types.GH_Interval2D@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetLine_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetLine(System.String,System.Int32,GH_IO.Types.GH_Line@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetPlane_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetPlane(System.String,System.Int32,GH_IO.Types.GH_Plane@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetPoint2D_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetPoint2D(System.String,System.Int32,GH_IO.Types.GH_Point2D@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetPoint3D_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetPoint3D(System.String,System.Int32,GH_IO.Types.GH_Point3D@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetPoint4D_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetPoint4D(System.String,System.Int32,GH_IO.Types.GH_Point4D@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetSingle_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetSingle(System.String,System.Single@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetString_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetString(System.String,System.String@)
+    Unique name M_GH_IO_Serialization_GH_IReader_TryGetVersion_1 generated for M:GH_IO.Serialization.GH_IReader.TryGetVersion(System.String,System.Int32,GH_IO.Types.GH_Version@)
+    Unique name M_GH_IO_Serialization_GH_IWriter_CreateChunk_1 generated for M:GH_IO.Serialization.GH_IWriter.CreateChunk(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IWriter_RemoveChunk_1 generated for M:GH_IO.Serialization.GH_IWriter.RemoveChunk(System.String)
+    Unique name M_GH_IO_Serialization_GH_IWriter_RemoveChunk_2 generated for M:GH_IO.Serialization.GH_IWriter.RemoveChunk(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IWriter_RemoveItem_1 generated for M:GH_IO.Serialization.GH_IWriter.RemoveItem(System.String,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetBoolean_1 generated for M:GH_IO.Serialization.GH_IWriter.SetBoolean(System.String,System.Int32,System.Boolean)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetBoundingBox_1 generated for M:GH_IO.Serialization.GH_IWriter.SetBoundingBox(System.String,System.Int32,GH_IO.Types.GH_BoundingBox)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetByte_1 generated for M:GH_IO.Serialization.GH_IWriter.SetByte(System.String,System.Int32,System.Byte)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetByteArray_1 generated for M:GH_IO.Serialization.GH_IWriter.SetByteArray(System.String,System.Int32,System.Byte[])
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetDate_1 generated for M:GH_IO.Serialization.GH_IWriter.SetDate(System.String,System.Int32,System.DateTime)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetDecimal_1 generated for M:GH_IO.Serialization.GH_IWriter.SetDecimal(System.String,System.Int32,System.Decimal)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetDouble_1 generated for M:GH_IO.Serialization.GH_IWriter.SetDouble(System.String,System.Int32,System.Double)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetDoubleArray_1 generated for M:GH_IO.Serialization.GH_IWriter.SetDoubleArray(System.String,System.Int32,System.Double[])
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetDrawingBitmap_1 generated for M:GH_IO.Serialization.GH_IWriter.SetDrawingBitmap(System.String,System.Int32,System.Drawing.Bitmap)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetDrawingColor_1 generated for M:GH_IO.Serialization.GH_IWriter.SetDrawingColor(System.String,System.Int32,System.Drawing.Color)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetDrawingPoint_1 generated for M:GH_IO.Serialization.GH_IWriter.SetDrawingPoint(System.String,System.Int32,System.Drawing.Point)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetDrawingPointF_1 generated for M:GH_IO.Serialization.GH_IWriter.SetDrawingPointF(System.String,System.Int32,System.Drawing.PointF)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetDrawingRectangle_1 generated for M:GH_IO.Serialization.GH_IWriter.SetDrawingRectangle(System.String,System.Int32,System.Drawing.Rectangle)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetDrawingRectangleF_1 generated for M:GH_IO.Serialization.GH_IWriter.SetDrawingRectangleF(System.String,System.Int32,System.Drawing.RectangleF)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetDrawingSize_1 generated for M:GH_IO.Serialization.GH_IWriter.SetDrawingSize(System.String,System.Int32,System.Drawing.Size)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetDrawingSizeF_1 generated for M:GH_IO.Serialization.GH_IWriter.SetDrawingSizeF(System.String,System.Int32,System.Drawing.SizeF)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetGuid_1 generated for M:GH_IO.Serialization.GH_IWriter.SetGuid(System.String,System.Int32,System.Guid)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetInt32_1 generated for M:GH_IO.Serialization.GH_IWriter.SetInt32(System.String,System.Int32,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetInt64_1 generated for M:GH_IO.Serialization.GH_IWriter.SetInt64(System.String,System.Int64)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetInterval1D_1 generated for M:GH_IO.Serialization.GH_IWriter.SetInterval1D(System.String,System.Int32,GH_IO.Types.GH_Interval1D)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetInterval2D_1 generated for M:GH_IO.Serialization.GH_IWriter.SetInterval2D(System.String,System.Int32,GH_IO.Types.GH_Interval2D)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetLine_1 generated for M:GH_IO.Serialization.GH_IWriter.SetLine(System.String,System.Int32,GH_IO.Types.GH_Line)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetPath_1 generated for M:GH_IO.Serialization.GH_IWriter.SetPath(System.String,System.String,System.String)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetPlane_1 generated for M:GH_IO.Serialization.GH_IWriter.SetPlane(System.String,System.Int32,GH_IO.Types.GH_Plane)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetPoint2D_1 generated for M:GH_IO.Serialization.GH_IWriter.SetPoint2D(System.String,System.Int32,GH_IO.Types.GH_Point2D)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetPoint3D_1 generated for M:GH_IO.Serialization.GH_IWriter.SetPoint3D(System.String,System.Int32,GH_IO.Types.GH_Point3D)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetPoint4D_1 generated for M:GH_IO.Serialization.GH_IWriter.SetPoint4D(System.String,System.Int32,GH_IO.Types.GH_Point4D)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetSingle_1 generated for M:GH_IO.Serialization.GH_IWriter.SetSingle(System.String,System.Single)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetString_1 generated for M:GH_IO.Serialization.GH_IWriter.SetString(System.String,System.String)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetVersion_1 generated for M:GH_IO.Serialization.GH_IWriter.SetVersion(System.String,System.Int32,GH_IO.Types.GH_Version)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetVersion_2 generated for M:GH_IO.Serialization.GH_IWriter.SetVersion(System.String,System.Int32,System.Int32,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_IWriter_SetVersion_3 generated for M:GH_IO.Serialization.GH_IWriter.SetVersion(System.String,System.Int32,System.Int32,System.Int32,System.Int32)
+    Unique name M_GH_IO_Serialization_GH_Message__ctor_1 generated for M:GH_IO.Serialization.GH_Message.#ctor(System.String)
+    Unique name M_GH_IO_Serialization_GH_Message__ctor_2 generated for M:GH_IO.Serialization.GH_Message.#ctor(System.String,GH_IO.Serialization.GH_Message_Type)
+    Unique name M_GH_IO_Serialization_ID__ctor_1 generated for M:GH_IO.Serialization.ID.#ctor(System.String,System.Int32)
+    Unique name M_GH_IO_Types_GH_BoundingBox__ctor_1 generated for M:GH_IO.Types.GH_BoundingBox.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+    Unique name M_GH_IO_Types_GH_Interval2D__ctor_1 generated for M:GH_IO.Types.GH_Interval2D.#ctor(System.Double,System.Double,System.Double,System.Double)
+    Unique name M_GH_IO_Types_GH_Item__ctor_1 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,GH_IO.Types.GH_Interval1D)
+    Unique name M_GH_IO_Types_GH_Item__ctor_2 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,GH_IO.Types.GH_Interval2D)
+    Unique name M_GH_IO_Types_GH_Item__ctor_3 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,GH_IO.Types.GH_Line)
+    Unique name M_GH_IO_Types_GH_Item__ctor_4 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,GH_IO.Types.GH_Plane)
+    Unique name M_GH_IO_Types_GH_Item__ctor_5 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,GH_IO.Types.GH_Point2D)
+    Unique name M_GH_IO_Types_GH_Item__ctor_6 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,GH_IO.Types.GH_Point3D)
+    Unique name M_GH_IO_Types_GH_Item__ctor_7 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,GH_IO.Types.GH_Point4D)
+    Unique name M_GH_IO_Types_GH_Item__ctor_8 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,GH_IO.Types.GH_Version)
+    Unique name M_GH_IO_Types_GH_Item__ctor_9 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Boolean)
+    Unique name M_GH_IO_Types_GH_Item__ctor_10 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Byte)
+    Unique name M_GH_IO_Types_GH_Item__ctor_11 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Byte[])
+    Unique name M_GH_IO_Types_GH_Item__ctor_12 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.DateTime)
+    Unique name M_GH_IO_Types_GH_Item__ctor_13 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Decimal)
+    Unique name M_GH_IO_Types_GH_Item__ctor_14 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Double)
+    Unique name M_GH_IO_Types_GH_Item__ctor_15 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Double[])
+    Unique name M_GH_IO_Types_GH_Item__ctor_16 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Drawing.Bitmap)
+    Unique name M_GH_IO_Types_GH_Item__ctor_17 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Drawing.Color)
+    Unique name M_GH_IO_Types_GH_Item__ctor_18 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Drawing.Point)
+    Unique name M_GH_IO_Types_GH_Item__ctor_19 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Drawing.PointF)
+    Unique name M_GH_IO_Types_GH_Item__ctor_20 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Drawing.Rectangle)
+    Unique name M_GH_IO_Types_GH_Item__ctor_21 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Drawing.RectangleF)
+    Unique name M_GH_IO_Types_GH_Item__ctor_22 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Drawing.Size)
+    Unique name M_GH_IO_Types_GH_Item__ctor_23 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Drawing.SizeF)
+    Unique name M_GH_IO_Types_GH_Item__ctor_24 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Guid)
+    Unique name M_GH_IO_Types_GH_Item__ctor_25 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32)
+    Unique name M_GH_IO_Types_GH_Item__ctor_26 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,GH_IO.Types.GH_BoundingBox)
+    Unique name M_GH_IO_Types_GH_Item__ctor_27 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,GH_IO.Types.GH_Interval1D)
+    Unique name M_GH_IO_Types_GH_Item__ctor_28 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,GH_IO.Types.GH_Interval2D)
+    Unique name M_GH_IO_Types_GH_Item__ctor_29 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,GH_IO.Types.GH_Line)
+    Unique name M_GH_IO_Types_GH_Item__ctor_30 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,GH_IO.Types.GH_Plane)
+    Unique name M_GH_IO_Types_GH_Item__ctor_31 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,GH_IO.Types.GH_Point2D)
+    Unique name M_GH_IO_Types_GH_Item__ctor_32 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,GH_IO.Types.GH_Point3D)
+    Unique name M_GH_IO_Types_GH_Item__ctor_33 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,GH_IO.Types.GH_Point4D)
+    Unique name M_GH_IO_Types_GH_Item__ctor_34 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,GH_IO.Types.GH_Version)
+    Unique name M_GH_IO_Types_GH_Item__ctor_35 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Boolean)
+    Unique name M_GH_IO_Types_GH_Item__ctor_36 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Byte)
+    Unique name M_GH_IO_Types_GH_Item__ctor_37 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Byte[])
+    Unique name M_GH_IO_Types_GH_Item__ctor_38 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.DateTime)
+    Unique name M_GH_IO_Types_GH_Item__ctor_39 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Decimal)
+    Unique name M_GH_IO_Types_GH_Item__ctor_40 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Double)
+    Unique name M_GH_IO_Types_GH_Item__ctor_41 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Double[])
+    Unique name M_GH_IO_Types_GH_Item__ctor_42 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Drawing.Bitmap)
+    Unique name M_GH_IO_Types_GH_Item__ctor_43 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Drawing.Color)
+    Unique name M_GH_IO_Types_GH_Item__ctor_44 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Drawing.Point)
+    Unique name M_GH_IO_Types_GH_Item__ctor_45 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Drawing.PointF)
+    Unique name M_GH_IO_Types_GH_Item__ctor_46 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Drawing.Rectangle)
+    Unique name M_GH_IO_Types_GH_Item__ctor_47 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Drawing.RectangleF)
+    Unique name M_GH_IO_Types_GH_Item__ctor_48 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Drawing.Size)
+    Unique name M_GH_IO_Types_GH_Item__ctor_49 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Drawing.SizeF)
+    Unique name M_GH_IO_Types_GH_Item__ctor_50 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Guid)
+    Unique name M_GH_IO_Types_GH_Item__ctor_51 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Int32)
+    Unique name M_GH_IO_Types_GH_Item__ctor_52 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Int64)
+    Unique name M_GH_IO_Types_GH_Item__ctor_53 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.Single)
+    Unique name M_GH_IO_Types_GH_Item__ctor_54 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int32,System.String)
+    Unique name M_GH_IO_Types_GH_Item__ctor_55 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Int64)
+    Unique name M_GH_IO_Types_GH_Item__ctor_56 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.Single)
+    Unique name M_GH_IO_Types_GH_Item__ctor_57 generated for M:GH_IO.Types.GH_Item.#ctor(System.String,System.String)
+    Unique name M_GH_IO_Types_GH_Item_CreateFrom_1 generated for M:GH_IO.Types.GH_Item.CreateFrom(System.Xml.XmlNode)
+    Unique name M_GH_IO_Types_GH_Item_Read_1 generated for M:GH_IO.Types.GH_Item.Read(System.Xml.XmlNode)
+    Unique name M_GH_IO_Types_GH_Item_Write_1 generated for M:GH_IO.Types.GH_Item.Write(System.Xml.XmlWriter)
+    Unique name M_GH_IO_Types_GH_Line__ctor_1 generated for M:GH_IO.Types.GH_Line.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+    Unique name M_GH_IO_Types_GH_Plane__ctor_1 generated for M:GH_IO.Types.GH_Plane.#ctor(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Double)
+    Unique name M_GH_IO_Types_GH_Version__ctor_1 generated for M:GH_IO.Types.GH_Version.#ctor(System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_DataTree_1__ctor_1 generated for M:Grasshopper.DataTree`1.#ctor(Grasshopper.DataTree{`0})
+    Unique name M_Grasshopper_DataTree_1__ctor_2 generated for M:Grasshopper.DataTree`1.#ctor(Grasshopper.DataTree{`0},Grasshopper.DataTree{`0}.DuplicateT)
+    Unique name M_Grasshopper_DataTree_1__ctor_3 generated for M:Grasshopper.DataTree`1.#ctor(System.Collections.Generic.IEnumerable{`0},Grasshopper.Kernel.Data.GH_Path)
+    Unique name M_Grasshopper_DataTree_1_Add_1 generated for M:Grasshopper.DataTree`1.Add(`0,Grasshopper.Kernel.Data.GH_Path)
+    Unique name M_Grasshopper_DataTree_1_AddRange_1 generated for M:Grasshopper.DataTree`1.AddRange(System.Collections.Generic.IEnumerable{`0},Grasshopper.Kernel.Data.GH_Path)
+    Unique name M_Grasshopper_DataTree_1_Branch_1 generated for M:Grasshopper.DataTree`1.Branch(System.Int32)
+    Unique name M_Grasshopper_DataTree_1_Branch_2 generated for M:Grasshopper.DataTree`1.Branch(System.Int32[])
+    Unique name M_Grasshopper_DataTree_1_EnsurePath_1 generated for M:Grasshopper.DataTree`1.EnsurePath(System.Int32[])
+    Unique name M_Grasshopper_DataTree_1_Graft_1 generated for M:Grasshopper.DataTree`1.Graft(System.Boolean)
+    Unique name M_Grasshopper_DataTree_1_PathExists_1 generated for M:Grasshopper.DataTree`1.PathExists(System.Int32[])
+    Unique name M_Grasshopper_DataTree_1_RemovePath_1 generated for M:Grasshopper.DataTree`1.RemovePath(System.Int32[])
+    Unique name M_Grasshopper_DataTree_1_RenumberPaths_1 generated for M:Grasshopper.DataTree`1.RenumberPaths(System.String)
+    Unique name M_Grasshopper_Tracing_Assert_1 generated for M:Grasshopper.Tracing.Assert(System.Guid,System.Exception)
+    Unique name M_Grasshopper_Tracing_Assert_2 generated for M:Grasshopper.Tracing.Assert(System.Guid,System.String)
+    Unique name M_Grasshopper_Tracing_Assert_3 generated for M:Grasshopper.Tracing.Assert(System.Guid,System.String,System.Exception)
+    Unique name M_Grasshopper_Utility_InvokeMethod_1 generated for M:Grasshopper.Utility.InvokeMethod(System.Object,System.String,System.Object[])
+    Unique name M_Grasshopper_Utility_InvokeMethodSafe_1 generated for M:Grasshopper.Utility.InvokeMethodSafe(System.Object,System.String,System.Object[])
+    Unique name M_Grasshopper_Documentation_GH_Format_Create_1 generated for M:Grasshopper.Documentation.GH_Format.Create(System.String,Grasshopper.Documentation.GH_Style)
+    Unique name M_Grasshopper_Documentation_GH_Link_CreateExternalLink_1 generated for M:Grasshopper.Documentation.GH_Link.CreateExternalLink(System.String,System.String,System.String)
+    Unique name M_Grasshopper_Documentation_GH_Link_CreateGlossaryLink_1 generated for M:Grasshopper.Documentation.GH_Link.CreateGlossaryLink(System.String,System.String)
+    Unique name M_Grasshopper_Documentation_GH_Link_CreateSharedLink_1 generated for M:Grasshopper.Documentation.GH_Link.CreateSharedLink(System.String,System.String,System.String)
+    Unique name M_Grasshopper_Documentation_GH_Link_CreateTopicLink_1 generated for M:Grasshopper.Documentation.GH_Link.CreateTopicLink(System.String,System.String,System.String)
+    Unique name M_Grasshopper_Documentation_GH_List_Create_1 generated for M:Grasshopper.Documentation.GH_List.Create(System.Boolean,System.Collections.Generic.IEnumerable{Grasshopper.Documentation.IGH_Content})
+    Unique name M_Grasshopper_Documentation_GH_Paragraph_Create_1 generated for M:Grasshopper.Documentation.GH_Paragraph.Create(System.String[])
+    Unique name M_Grasshopper_Documentation_GH_Parser_IsLinkLine_1 generated for M:Grasshopper.Documentation.GH_Parser.IsLinkLine(System.String,System.String@,System.String@,System.String@)
+    Unique name M_Grasshopper_GUI_GH_Animator_DecimalAnimator_1 generated for M:Grasshopper.GUI.GH_Animator.DecimalAnimator(System.Decimal,System.Decimal,System.DateTime,System.DateTime)
+    Unique name M_Grasshopper_GUI_GH_Animator_DecimalAnimator_2 generated for M:Grasshopper.GUI.GH_Animator.DecimalAnimator(System.Decimal,System.Decimal,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_Animator_DoubleAnimator_1 generated for M:Grasshopper.GUI.GH_Animator.DoubleAnimator(System.Double,System.Double,System.DateTime,System.DateTime)
+    Unique name M_Grasshopper_GUI_GH_Animator_DoubleAnimator_2 generated for M:Grasshopper.GUI.GH_Animator.DoubleAnimator(System.Double,System.Double,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_Animator_IntegerAnimator_1 generated for M:Grasshopper.GUI.GH_Animator.IntegerAnimator(System.Int32,System.Int32,System.DateTime,System.DateTime)
+    Unique name M_Grasshopper_GUI_GH_Animator_IntegerAnimator_2 generated for M:Grasshopper.GUI.GH_Animator.IntegerAnimator(System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_Animator_PointAnimator_1 generated for M:Grasshopper.GUI.GH_Animator.PointAnimator(System.Drawing.Point,System.Drawing.Point,System.DateTime,System.DateTime)
+    Unique name M_Grasshopper_GUI_GH_Animator_PointAnimator_2 generated for M:Grasshopper.GUI.GH_Animator.PointAnimator(System.Drawing.Point,System.Drawing.Point,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_Animator_PointFAnimator_1 generated for M:Grasshopper.GUI.GH_Animator.PointFAnimator(System.Drawing.PointF,System.Drawing.PointF,System.DateTime,System.DateTime)
+    Unique name M_Grasshopper_GUI_GH_Animator_PointFAnimator_2 generated for M:Grasshopper.GUI.GH_Animator.PointFAnimator(System.Drawing.PointF,System.Drawing.PointF,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_Animator_RectangleAnimator_1 generated for M:Grasshopper.GUI.GH_Animator.RectangleAnimator(System.Drawing.Rectangle,System.Drawing.Rectangle,System.DateTime,System.DateTime)
+    Unique name M_Grasshopper_GUI_GH_Animator_RectangleAnimator_2 generated for M:Grasshopper.GUI.GH_Animator.RectangleAnimator(System.Drawing.Rectangle,System.Drawing.Rectangle,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_Animator_RectangleFAnimator_1 generated for M:Grasshopper.GUI.GH_Animator.RectangleFAnimator(System.Drawing.RectangleF,System.Drawing.RectangleF,System.DateTime,System.DateTime)
+    Unique name M_Grasshopper_GUI_GH_Animator_RectangleFAnimator_2 generated for M:Grasshopper.GUI.GH_Animator.RectangleFAnimator(System.Drawing.RectangleF,System.Drawing.RectangleF,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_Animator_SingleAnimator_1 generated for M:Grasshopper.GUI.GH_Animator.SingleAnimator(System.Single,System.Single,System.DateTime,System.DateTime)
+    Unique name M_Grasshopper_GUI_GH_Animator_SingleAnimator_2 generated for M:Grasshopper.GUI.GH_Animator.SingleAnimator(System.Single,System.Single,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_Animator_1__ctor_1 generated for M:Grasshopper.GUI.GH_Animator`1.#ctor(`0,`0,System.TimeSpan,Grasshopper.GUI.GH_Animator{`0}.Interpolate)
+    Unique name M_Grasshopper_GUI_GH_Animator_1_AdjustAnimation_1 generated for M:Grasshopper.GUI.GH_Animator`1.AdjustAnimation(`0,System.DateTime,System.DateTime)
+    Unique name M_Grasshopper_GUI_GH_Animator_1_AdjustAnimation_2 generated for M:Grasshopper.GUI.GH_Animator`1.AdjustAnimation(`0,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_AsynchFileData__ctor_1 generated for M:Grasshopper.GUI.GH_AsynchFileData.#ctor(System.String,System.Boolean,Grasshopper.GUI.GH_AsynchFileData.FileChangedDelegate)
+    Unique name M_Grasshopper_GUI_GH_AsynchFileData_StartPeriodicUpdate_1 generated for M:Grasshopper.GUI.GH_AsynchFileData.StartPeriodicUpdate(System.Int32)
+    Unique name M_Grasshopper_GUI_GH_AsynchFileData_StartPeriodicUpdate_2 generated for M:Grasshopper.GUI.GH_AsynchFileData.StartPeriodicUpdate(System.TimeSpan)
+    Unique name M_Grasshopper_GUI_GH_CanvasMouseEvent__ctor_1 generated for M:Grasshopper.GUI.GH_CanvasMouseEvent.#ctor(Grasshopper.GUI.Canvas.GH_Viewport,System.Windows.Forms.MouseEventArgs)
+    Unique name M_Grasshopper_GUI_GH_CanvasMouseEvent__ctor_2 generated for M:Grasshopper.GUI.GH_CanvasMouseEvent.#ctor(System.Drawing.Point,System.Drawing.PointF,System.Windows.Forms.MouseButtons,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_DocumentEditor_ScriptAccess_OpenDocument_1 generated for M:Grasshopper.GUI.GH_DocumentEditor.ScriptAccess_OpenDocument(System.String)
+    Unique name M_Grasshopper_GUI_GH_DocumentEditor_ScriptAccess_SaveDocumentAs_1 generated for M:Grasshopper.GUI.GH_DocumentEditor.ScriptAccess_SaveDocumentAs(System.String)
+    Unique name M_Grasshopper_GUI_GH_FadeAnimation__ctor_1 generated for M:Grasshopper.GUI.GH_FadeAnimation.#ctor(System.Single)
+    Unique name M_Grasshopper_GUI_GH_FadeAnimation__ctor_2 generated for M:Grasshopper.GUI.GH_FadeAnimation.#ctor(System.Single,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_FadeAnimation_Evaluate_1 generated for M:Grasshopper.GUI.GH_FadeAnimation.Evaluate(Grasshopper.GUI.Canvas.GH_Canvas,System.Boolean)
+    Unique name M_Grasshopper_GUI_GH_FadeAnimation_Evaluate_2 generated for M:Grasshopper.GUI.GH_FadeAnimation.Evaluate(Grasshopper.GUI.Canvas.GH_Canvas,System.Single)
+    Unique name M_Grasshopper_GUI_GH_FadeAnimation_Evaluate_3 generated for M:Grasshopper.GUI.GH_FadeAnimation.Evaluate(Grasshopper.GUI.Canvas.GH_Canvas,System.Single,System.Boolean)
+    Unique name M_Grasshopper_GUI_GH_FontPicker_ShowFontPickerWindow_1 generated for M:Grasshopper.GUI.GH_FontPicker.ShowFontPickerWindow(System.Drawing.Font,System.Windows.Forms.Form)
+    Unique name M_Grasshopper_GUI_GH_GDI_Util_FilletPolyline_1 generated for M:Grasshopper.GUI.GH_GDI_Util.FilletPolyline(System.Drawing.PointF[],System.Single)
+    Unique name M_Grasshopper_GUI_GH_GDI_Util_Freeform_Blob_1 generated for M:Grasshopper.GUI.GH_GDI_Util.Freeform_Blob(System.Collections.Generic.IEnumerable{System.Drawing.RectangleF},System.Int32,System.Double,GH_Util.MetaBall.GH_Context.FieldSolver,System.Double)
+    Unique name M_Grasshopper_GUI_GH_GeometricFont_DrawNumber_1 generated for M:Grasshopper.GUI.GH_GeometricFont.DrawNumber(System.Drawing.Graphics,System.Int64,System.Drawing.Color,System.Drawing.PointF)
+    Unique name M_Grasshopper_GUI_GH_GeometricFont_DrawNumber_2 generated for M:Grasshopper.GUI.GH_GeometricFont.DrawNumber(System.Drawing.Graphics,System.UInt32,System.Drawing.Color,System.Drawing.PointF)
+    Unique name M_Grasshopper_GUI_GH_GeometricFont_DrawNumber_3 generated for M:Grasshopper.GUI.GH_GeometricFont.DrawNumber(System.Drawing.Graphics,System.UInt64,System.Drawing.Color,System.Drawing.PointF)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_AppendArc_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.AppendArc(System.Drawing.PointF,System.Drawing.PointF,System.Drawing.SizeF,System.Drawing.Drawing2D.GraphicsPath)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_BlendColour_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.BlendColour(System.Drawing.Color,System.Drawing.Color,System.Double)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_BoxClosestPoint_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.BoxClosestPoint(System.Drawing.PointF,System.Drawing.RectangleF)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_BoxFurthestPoint_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.BoxFurthestPoint(System.Drawing.PointF,System.Drawing.RectangleF)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_ColourARGB_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.ColourARGB(System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_ColourARGB_2 generated for M:Grasshopper.GUI.GH_GraphicsUtil.ColourARGB(System.Int32,System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_DentHorizontal_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.DentHorizontal(System.Drawing.Graphics,System.Drawing.Rectangle,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_DentVertical_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.DentVertical(System.Drawing.Graphics,System.Drawing.Rectangle,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_EtchHorizontal_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.EtchHorizontal(System.Drawing.Graphics,System.Single,System.Single,System.Single,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_EtchVertical_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.EtchVertical(System.Drawing.Graphics,System.Single,System.Single,System.Single,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_Grid_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.Grid(System.Drawing.Graphics,System.Drawing.RectangleF,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_Grid_2 generated for M:Grasshopper.GUI.GH_GraphicsUtil.Grid(System.Drawing.Graphics,System.Drawing.RectangleF,System.Int32,System.Int32,System.Drawing.Color,System.Drawing.Color)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_OffsetColour_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.OffsetColour(System.Drawing.Color,System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_RenderBalloonTag_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.RenderBalloonTag(System.Drawing.Graphics,System.String,System.Drawing.Font,System.Drawing.Color,System.Drawing.Color,System.Drawing.PointF,System.Drawing.RectangleF)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_RenderBalloonTag_2 generated for M:Grasshopper.GUI.GH_GraphicsUtil.RenderBalloonTag(System.Drawing.Graphics,System.String,System.Drawing.Font,System.Drawing.PointF,System.Drawing.RectangleF)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_RenderBalloonTag_3 generated for M:Grasshopper.GUI.GH_GraphicsUtil.RenderBalloonTag(System.Drawing.Graphics,System.String,System.Drawing.PointF,System.Drawing.RectangleF)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_RenderCenteredIcon_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.RenderCenteredIcon(System.Drawing.Graphics,System.Drawing.RectangleF,System.Drawing.Image,System.Double)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_RenderCenteredIcon_2 generated for M:Grasshopper.GUI.GH_GraphicsUtil.RenderCenteredIcon(System.Drawing.Graphics,System.Drawing.RectangleF,System.Drawing.Image,System.Single)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_RenderFadedImage_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.RenderFadedImage(System.Drawing.Graphics,System.Drawing.Image,System.Drawing.Rectangle,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_RenderHighlightBox_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.RenderHighlightBox(System.Drawing.Graphics,System.Drawing.Rectangle,System.Int32,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_RenderHighlightBox_2 generated for M:Grasshopper.GUI.GH_GraphicsUtil.RenderHighlightBox(System.Drawing.Graphics,System.Drawing.Rectangle,System.Int32,System.Drawing.Color,System.Drawing.Color)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_RenderObjectOverlay_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.RenderObjectOverlay(System.Drawing.Graphics,Grasshopper.Kernel.IGH_ObjectProxy,System.Drawing.RectangleF)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_RenderUnscaledIcon_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.RenderUnscaledIcon(System.Drawing.Graphics,System.Drawing.Image,System.Int32,System.Int32,System.Double)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_ShadowHorizontal_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.ShadowHorizontal(System.Drawing.Graphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_ShadowHorizontal_2 generated for M:Grasshopper.GUI.GH_GraphicsUtil.ShadowHorizontal(System.Drawing.Graphics,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_ShadowRectangle_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.ShadowRectangle(System.Drawing.Graphics,System.Drawing.Rectangle,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_ShadowVertical_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.ShadowVertical(System.Drawing.Graphics,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_ShadowVertical_2 generated for M:Grasshopper.GUI.GH_GraphicsUtil.ShadowVertical(System.Drawing.Graphics,System.Single,System.Single,System.Single,System.Single,System.Boolean,System.Int32)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_SolveArc_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.SolveArc(System.Double,System.Double,System.Double,System.Double,System.Double,System.Double,System.Drawing.RectangleF@,System.Single@,System.Single@)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_SolveArc_2 generated for M:Grasshopper.GUI.GH_GraphicsUtil.SolveArc(System.Drawing.PointF,System.Drawing.PointF,System.Drawing.SizeF,System.Drawing.RectangleF@,System.Single@,System.Single@)
+    Unique name M_Grasshopper_GUI_GH_GraphicsUtil_TransparencyMatrix_1 generated for M:Grasshopper.GUI.GH_GraphicsUtil.TransparencyMatrix(System.Int32)
+    Unique name M_Grasshopper_GUI_GH_MouseTracker__ctor_1 generated for M:Grasshopper.GUI.GH_MouseTracker.#ctor(System.Drawing.Point)
+    Unique name M_Grasshopper_GUI_GH_MouseTracker__ctor_2 generated for M:Grasshopper.GUI.GH_MouseTracker.#ctor(System.Drawing.Point,System.Object)
+    Unique name M_Grasshopper_GUI_GH_MouseTracker_Deviation_1 generated for M:Grasshopper.GUI.GH_MouseTracker.Deviation(System.DateTime,System.DateTime)
+    Unique name M_Grasshopper_GUI_GH_MouseTracker_DropFrames_1 generated for M:Grasshopper.GUI.GH_MouseTracker.DropFrames(System.Double)
+    Unique name M_Grasshopper_GUI_GH_MouseTracker_DropFrames_2 generated for M:Grasshopper.GUI.GH_MouseTracker.DropFrames(System.Double,System.Drawing.Point)
+    Unique name M_Grasshopper_GUI_GH_MouseTracker_Record_1 generated for M:Grasshopper.GUI.GH_MouseTracker.Record(System.Drawing.Point,System.Object)
+    Unique name M_Grasshopper_GUI_GH_RotationalTuningData_1__ctor_1 generated for M:Grasshopper.GUI.GH_RotationalTuningData`1.#ctor(`0,System.Drawing.PointF,System.Drawing.PointF)
+    Unique name M_Grasshopper_GUI_GH_SamplingSphere_SampleSphere_1 generated for M:Grasshopper.GUI.GH_SamplingSphere.SampleSphere(Rhino.Geometry.Sphere,Grasshopper.Kernel.GH_MemoryBitmap)
+    Unique name M_Grasshopper_GUI_GH_SettingsCategory__ctor_1 generated for M:Grasshopper.GUI.GH_SettingsCategory.#ctor(System.String,System.String,System.Drawing.Bitmap)
+    Unique name M_Grasshopper_GUI_GH_WindowsControlUtil_FixTextRenderingDefault_1 generated for M:Grasshopper.GUI.GH_WindowsControlUtil.FixTextRenderingDefault(System.Windows.Forms.Control.ControlCollection)
+    Unique name M_Grasshopper_GUI_Base_GH_ColourCube_Average_1 generated for M:Grasshopper.GUI.Base.GH_ColourCube.Average(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)
+    Unique name M_Grasshopper_GUI_Base_GH_ColourPickerBase_SetupColourPicker_1 generated for M:Grasshopper.GUI.Base.GH_ColourPickerBase.SetupColourPicker(System.Drawing.Color,System.Drawing.Color,Grasshopper.GUI.Base.GH_ColourSpace)
+    Unique name M_Grasshopper_GUI_Base_GH_DigitNumber__ctor_1 generated for M:Grasshopper.GUI.Base.GH_DigitNumber.#ctor(System.Int32)
+    Unique name M_Grasshopper_GUI_Base_GH_DigitNumber__ctor_2 generated for M:Grasshopper.GUI.Base.GH_DigitNumber.#ctor(System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Base_GH_DigitScrollerBase_ShowTextInputBox_1 generated for M:Grasshopper.GUI.Base.GH_DigitScrollerBase.ShowTextInputBox(System.Windows.Forms.Control,System.Boolean)
+    Unique name M_Grasshopper_GUI_Base_GH_DigitScrollerBase_ShowTextInputBox_2 generated for M:Grasshopper.GUI.Base.GH_DigitScrollerBase.ShowTextInputBox(System.Windows.Forms.Control,System.Boolean,System.Drawing.Drawing2D.Matrix)
+    Unique name M_Grasshopper_GUI_Base_GH_ScrollBarVerticalBase_ScrollBar_1 generated for M:Grasshopper.GUI.Base.GH_ScrollBarVerticalBase.ScrollBar(System.Drawing.RectangleF)
+    Unique name M_Grasshopper_GUI_Base_GH_SliderBase_ShowTextInputBox_1 generated for M:Grasshopper.GUI.Base.GH_SliderBase.ShowTextInputBox(System.Windows.Forms.Control,System.Boolean)
+    Unique name M_Grasshopper_GUI_Base_GH_SliderBase_ShowTextInputBox_2 generated for M:Grasshopper.GUI.Base.GH_SliderBase.ShowTextInputBox(System.Windows.Forms.Control,System.Boolean,System.Drawing.Drawing2D.Matrix)
+    Unique name M_Grasshopper_GUI_Base_GH_SliderBase_ShowTextInputBox_3 generated for M:Grasshopper.GUI.Base.GH_SliderBase.ShowTextInputBox(System.Windows.Forms.Control,System.Boolean,System.Drawing.Drawing2D.Matrix,System.String)
+    Unique name M_Grasshopper_GUI_Base_GH_TextBoxInputBase_ShowTextInputBox_1 generated for M:Grasshopper.GUI.Base.GH_TextBoxInputBase.ShowTextInputBox(System.Windows.Forms.Control,System.String,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_GUI_Base_GH_TextBoxInputBase_ShowTextInputBox_2 generated for M:Grasshopper.GUI.Base.GH_TextBoxInputBase.ShowTextInputBox(System.Windows.Forms.Control,System.String,System.Boolean,System.Boolean,System.Drawing.Drawing2D.Matrix)
+    Unique name M_Grasshopper_GUI_Base_SliderSnapRange__ctor_1 generated for M:Grasshopper.GUI.Base.SliderSnapRange.#ctor(System.Decimal,System.Decimal)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Border_CreateBorders_1 generated for M:Grasshopper.GUI.Canvas.GH_Border.CreateBorders(System.Drawing.RectangleF,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Border_CreateBorders_2 generated for M:Grasshopper.GUI.Canvas.GH_Border.CreateBorders(System.Drawing.RectangleF,System.Int32,System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Border_CreateBorders_3 generated for M:Grasshopper.GUI.Canvas.GH_Border.CreateBorders(System.Drawing.RectangleF,System.Windows.Forms.Padding)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Canvas_InstantiateNewObject_1 generated for M:Grasshopper.GUI.Canvas.GH_Canvas.InstantiateNewObject(System.Guid,System.String,System.Drawing.PointF,System.Boolean)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Canvas_RemoveTagArtist_1 generated for M:Grasshopper.GUI.Canvas.GH_Canvas.RemoveTagArtist(System.Guid)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Canvas_ShowComponentSearchBox_1 generated for M:Grasshopper.GUI.Canvas.GH_Canvas.ShowComponentSearchBox(System.Drawing.Point)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Canvas_GH_ImageSettings__ctor_1 generated for M:Grasshopper.GUI.Canvas.GH_Canvas.GH_ImageSettings.#ctor(System.String)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Canvas_GH_ImageSettings__ctor_2 generated for M:Grasshopper.GUI.Canvas.GH_Canvas.GH_ImageSettings.#ctor(System.String,System.String,System.String)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_AddInputGrip_1 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.AddInputGrip(System.Drawing.PointF)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_AddInputGrip_2 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.AddInputGrip(System.Single)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_AddInputGrip_3 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.AddInputGrip(System.Single,System.Single)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_AddOutputGrip_1 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.AddOutputGrip(System.Drawing.PointF)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_AddOutputGrip_2 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.AddOutputGrip(System.Single)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_AddOutputGrip_3 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.AddOutputGrip(System.Single,System.Single)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateCapsule_1 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateCapsule(System.Drawing.Rectangle,Grasshopper.GUI.Canvas.GH_Palette,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateCapsule_2 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateCapsule(System.Drawing.Rectangle,Grasshopper.GUI.Canvas.GH_Palette,System.Int32[],System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateCapsule_3 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateCapsule(System.Drawing.RectangleF,Grasshopper.GUI.Canvas.GH_Palette)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateCapsule_4 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateCapsule(System.Drawing.RectangleF,Grasshopper.GUI.Canvas.GH_Palette,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateCapsule_5 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateCapsule(System.Drawing.RectangleF,Grasshopper.GUI.Canvas.GH_Palette,System.Int32[],System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_1 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.Rectangle,System.Drawing.Rectangle,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Drawing.Font)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_2 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.Rectangle,System.Drawing.Rectangle,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Drawing.Font,Grasshopper.GUI.Canvas.GH_Orientation)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_3 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.Rectangle,System.Drawing.Rectangle,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Drawing.Font,Grasshopper.GUI.Canvas.GH_Orientation,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_4 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.Rectangle,System.Drawing.Rectangle,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Drawing.Font,Grasshopper.GUI.Canvas.GH_Orientation,System.Int32[],System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_5 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.Rectangle,System.Drawing.Rectangle,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Drawing.Font,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_6 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.Rectangle,System.Drawing.Rectangle,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Drawing.Font,System.Int32[],System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_7 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.Rectangle,System.Drawing.Rectangle,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_8 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.Rectangle,System.Drawing.Rectangle,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Int32[],System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_9 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.RectangleF,System.Drawing.RectangleF,Grasshopper.GUI.Canvas.GH_Palette,System.String)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_10 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.RectangleF,System.Drawing.RectangleF,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Drawing.Font)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_11 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.RectangleF,System.Drawing.RectangleF,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Drawing.Font,Grasshopper.GUI.Canvas.GH_Orientation)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_12 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.RectangleF,System.Drawing.RectangleF,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Drawing.Font,Grasshopper.GUI.Canvas.GH_Orientation,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_13 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.RectangleF,System.Drawing.RectangleF,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Drawing.Font,Grasshopper.GUI.Canvas.GH_Orientation,System.Int32[],System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_14 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.RectangleF,System.Drawing.RectangleF,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Drawing.Font,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_15 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.RectangleF,System.Drawing.RectangleF,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Drawing.Font,System.Int32[],System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_16 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.RectangleF,System.Drawing.RectangleF,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_CreateTextCapsule_17 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.CreateTextCapsule(System.Drawing.RectangleF,System.Drawing.RectangleF,Grasshopper.GUI.Canvas.GH_Palette,System.String,System.Int32[],System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_Dispose_1 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.Dispose(System.Boolean)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_Render_1 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.Render(System.Drawing.Graphics,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_Render_2 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.Render(System.Drawing.Graphics,System.Drawing.Color)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_Render_3 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.Render(System.Drawing.Graphics,System.Drawing.Image,Grasshopper.GUI.Canvas.GH_PaletteStyle)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_Render_4 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.Render(System.Drawing.Graphics,System.Drawing.Image,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Capsule_Render_5 generated for M:Grasshopper.GUI.Canvas.GH_Capsule.Render(System.Drawing.Graphics,System.Drawing.Image,System.Drawing.Color)
+    Unique name M_Grasshopper_GUI_Canvas_GH_CapsuleRenderEngine_CreateHighlightBar_1 generated for M:Grasshopper.GUI.Canvas.GH_CapsuleRenderEngine.CreateHighlightBar(System.Drawing.Rectangle,System.Int32,System.Int32,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_GUI_Canvas_GH_CapsuleRenderEngine_CreateHighlightBar_2 generated for M:Grasshopper.GUI.Canvas.GH_CapsuleRenderEngine.CreateHighlightBar(System.Drawing.Rectangle,System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_CapsuleRenderEngine_CreateHighlightBar_3 generated for M:Grasshopper.GUI.Canvas.GH_CapsuleRenderEngine.CreateHighlightBar(System.Drawing.Rectangle,System.Int32,System.Int32,System.Int32,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_GUI_Canvas_GH_CapsuleRenderEngine_CreateRoundedRectangle_1 generated for M:Grasshopper.GUI.Canvas.GH_CapsuleRenderEngine.CreateRoundedRectangle(System.Drawing.Rectangle,System.Int32,System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_CapsuleRenderEngine_CreateRoundedRectangle_2 generated for M:Grasshopper.GUI.Canvas.GH_CapsuleRenderEngine.CreateRoundedRectangle(System.Drawing.RectangleF,System.Single)
+    Unique name M_Grasshopper_GUI_Canvas_GH_CapsuleRenderEngine_CreateRoundedRectangle_3 generated for M:Grasshopper.GUI.Canvas.GH_CapsuleRenderEngine.CreateRoundedRectangle(System.Drawing.RectangleF,System.Single,System.Single,System.Single,System.Single)
+    Unique name M_Grasshopper_GUI_Canvas_GH_CapsuleRenderEngine_GetImpliedStyle_1 generated for M:Grasshopper.GUI.Canvas.GH_CapsuleRenderEngine.GetImpliedStyle(Grasshopper.GUI.Canvas.GH_Palette,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_GUI_Canvas_GH_CapsuleRenderEngine_GetPaletteStyle_1 generated for M:Grasshopper.GUI.Canvas.GH_CapsuleRenderEngine.GetPaletteStyle(Grasshopper.GUI.Canvas.GH_Palette,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_GUI_Canvas_GH_CapsuleRenderEngine_RenderIcon_1 generated for M:Grasshopper.GUI.Canvas.GH_CapsuleRenderEngine.RenderIcon(System.Drawing.Graphics,System.Drawing.Image,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_DocDiagramPainter_MapPoint_1 generated for M:Grasshopper.GUI.Canvas.GH_DocDiagramPainter.MapPoint(System.Drawing.PointF)
+    Unique name M_Grasshopper_GUI_Canvas_GH_DocDiagramPainter_MapX_1 generated for M:Grasshopper.GUI.Canvas.GH_DocDiagramPainter.MapX(System.Single)
+    Unique name M_Grasshopper_GUI_Canvas_GH_DocDiagramPainter_MapY_1 generated for M:Grasshopper.GUI.Canvas.GH_DocDiagramPainter.MapY(System.Single)
+    Unique name M_Grasshopper_GUI_Canvas_GH_DocDiagramPainter_PaintDiagram_1 generated for M:Grasshopper.GUI.Canvas.GH_DocDiagramPainter.PaintDiagram(System.Collections.Generic.IEnumerable{Grasshopper.Kernel.IGH_DocumentObject},System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_NamedView__ctor_1 generated for M:Grasshopper.GUI.Canvas.GH_NamedView.#ctor(Grasshopper.GUI.Canvas.GH_Viewport,System.Drawing.Point,System.Drawing.PointF)
+    Unique name M_Grasshopper_GUI_Canvas_GH_NamedView__ctor_2 generated for M:Grasshopper.GUI.Canvas.GH_NamedView.#ctor(Grasshopper.GUI.Canvas.GH_Viewport,System.Drawing.Rectangle,System.Drawing.PointF)
+    Unique name M_Grasshopper_GUI_Canvas_GH_NamedView__ctor_3 generated for M:Grasshopper.GUI.Canvas.GH_NamedView.#ctor(System.Drawing.Rectangle,System.Drawing.RectangleF)
+    Unique name M_Grasshopper_GUI_Canvas_GH_NamedView__ctor_4 generated for M:Grasshopper.GUI.Canvas.GH_NamedView.#ctor(System.String,System.Drawing.PointF,System.Single,Grasshopper.GUI.Canvas.GH_NamedViewType)
+    Unique name M_Grasshopper_GUI_Canvas_GH_NamedView_SetToViewport_1 generated for M:Grasshopper.GUI.Canvas.GH_NamedView.SetToViewport(Grasshopper.GUI.Canvas.GH_Canvas,System.Int32)
+    Unique name M_Grasshopper_GUI_Canvas_GH_NamedView_SetToViewport_2 generated for M:Grasshopper.GUI.Canvas.GH_NamedView.SetToViewport(Grasshopper.GUI.Canvas.GH_Viewport)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Painter_DrawRecipientLinks_1 generated for M:Grasshopper.GUI.Canvas.GH_Painter.DrawRecipientLinks(Grasshopper.Kernel.IGH_Param)
+    Unique name M_Grasshopper_GUI_Canvas_GH_PaletteStyle__ctor_1 generated for M:Grasshopper.GUI.Canvas.GH_PaletteStyle.#ctor(System.Drawing.Color,System.Drawing.Color)
+    Unique name M_Grasshopper_GUI_Canvas_GH_PaletteStyle__ctor_2 generated for M:Grasshopper.GUI.Canvas.GH_PaletteStyle.#ctor(System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)
+    Unique name M_Grasshopper_GUI_Canvas_GH_ResizeBorder__ctor_1 generated for M:Grasshopper.GUI.Canvas.GH_ResizeBorder.#ctor(System.Drawing.RectangleF,Grasshopper.GUI.Canvas.GH_BorderTopology)
+    Unique name M_Grasshopper_GUI_Canvas_GH_ResizeBorder_Setup_1 generated for M:Grasshopper.GUI.Canvas.GH_ResizeBorder.Setup(Grasshopper.Kernel.IGH_Attributes,System.Drawing.PointF,System.Drawing.SizeF)
+    Unique name M_Grasshopper_GUI_Canvas_GH_ResizeBorder_Setup_2 generated for M:Grasshopper.GUI.Canvas.GH_ResizeBorder.Setup(Grasshopper.Kernel.IGH_Attributes,System.Drawing.PointF,System.Drawing.SizeF,System.Drawing.SizeF)
+    Unique name M_Grasshopper_GUI_Canvas_GH_ResizeBorder_Setup_3 generated for M:Grasshopper.GUI.Canvas.GH_ResizeBorder.Setup(System.Drawing.RectangleF,System.Drawing.PointF,System.Drawing.PointF)
+    Unique name M_Grasshopper_GUI_Canvas_GH_ResizeBorder_Setup_4 generated for M:Grasshopper.GUI.Canvas.GH_ResizeBorder.Setup(System.Drawing.RectangleF,System.Drawing.PointF,System.Drawing.PointF,System.Drawing.SizeF)
+    Unique name M_Grasshopper_GUI_Canvas_GH_ResizeBorder_Setup_5 generated for M:Grasshopper.GUI.Canvas.GH_ResizeBorder.Setup(System.Drawing.RectangleF,System.Drawing.PointF,System.Drawing.PointF,System.Drawing.SizeF,System.Drawing.SizeF)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Viewport__ctor_1 generated for M:Grasshopper.GUI.Canvas.GH_Viewport.#ctor(Grasshopper.GUI.Canvas.GH_Viewport)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Viewport__ctor_2 generated for M:Grasshopper.GUI.Canvas.GH_Viewport.#ctor(System.Drawing.Point)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Viewport__ctor_3 generated for M:Grasshopper.GUI.Canvas.GH_Viewport.#ctor(System.Drawing.Point,System.Single)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Viewport_Focus_1 generated for M:Grasshopper.GUI.Canvas.GH_Viewport.Focus(System.Collections.Generic.List{Grasshopper.Kernel.IGH_Attributes})
+    Unique name M_Grasshopper_GUI_Canvas_GH_Viewport_Focus_2 generated for M:Grasshopper.GUI.Canvas.GH_Viewport.Focus(System.Drawing.Point)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Viewport_Focus_3 generated for M:Grasshopper.GUI.Canvas.GH_Viewport.Focus(System.Drawing.PointF)
+    Unique name M_Grasshopper_GUI_Canvas_GH_Viewport_IsVisible_1 generated for M:Grasshopper.GUI.Canvas.GH_Viewport.IsVisible(System.Drawing.RectangleF@,System.Single)
+    Unique name P_Grasshopper_GUI_Canvas_GH_Viewport_Zoom_1 generated for P:Grasshopper.GUI.Canvas.GH_Viewport.Zoom(System.Boolean)
+    Unique name M_Grasshopper_GUI_Gradient_GH_Gradient__ctor_1 generated for M:Grasshopper.GUI.Gradient.GH_Gradient.#ctor(Grasshopper.GUI.Gradient.GH_Gradient)
+    Unique name M_Grasshopper_GUI_Gradient_GH_Gradient__ctor_2 generated for M:Grasshopper.GUI.Gradient.GH_Gradient.#ctor(System.Collections.Generic.IEnumerable{System.Double},System.Collections.Generic.IEnumerable{System.Drawing.Color})
+    Unique name M_Grasshopper_GUI_Gradient_GH_Gradient_AddGrip_1 generated for M:Grasshopper.GUI.Gradient.GH_Gradient.AddGrip(System.Double)
+    Unique name M_Grasshopper_GUI_Gradient_GH_Gradient_AddGrip_2 generated for M:Grasshopper.GUI.Gradient.GH_Gradient.AddGrip(System.Double,System.Drawing.Color)
+    Unique name M_Grasshopper_GUI_Gradient_GH_Gradient_AddGrip_3 generated for M:Grasshopper.GUI.Gradient.GH_Gradient.AddGrip(System.Double,System.Drawing.Color,System.Drawing.Color)
+    Unique name M_Grasshopper_GUI_Gradient_GH_Gradient_NearestGrip_1 generated for M:Grasshopper.GUI.Gradient.GH_Gradient.NearestGrip(System.Double,Grasshopper.GUI.Gradient.GH_GripSide)
+    Unique name M_Grasshopper_GUI_Gradient_GH_Gradient_NearestGrip_2 generated for M:Grasshopper.GUI.Gradient.GH_Gradient.NearestGrip(System.Drawing.RectangleF,System.Drawing.PointF,System.Double)
+    Unique name M_Grasshopper_GUI_Gradient_GH_Gradient_RemoveGrip_1 generated for M:Grasshopper.GUI.Gradient.GH_Gradient.RemoveGrip(System.Int32)
+    Unique name M_Grasshopper_GUI_Gradient_GH_Grip__ctor_1 generated for M:Grasshopper.GUI.Gradient.GH_Grip.#ctor(Grasshopper.GUI.Gradient.GH_Grip)
+    Unique name M_Grasshopper_GUI_Gradient_GH_Grip__ctor_2 generated for M:Grasshopper.GUI.Gradient.GH_Grip.#ctor(System.Double,System.Drawing.Color)
+    Unique name M_Grasshopper_GUI_Gradient_GH_Grip__ctor_3 generated for M:Grasshopper.GUI.Gradient.GH_Grip.#ctor(System.Double,System.Drawing.Color,System.Drawing.Color)
+    Unique name M_Grasshopper_GUI_Theme_GH_Theme__ctor_1 generated for M:Grasshopper.GUI.Theme.GH_Theme.#ctor(Grasshopper.GUI.Theme.GH_Theme)
+    Unique name M_Grasshopper_Kernel_GH_ActiveObject__ctor_1 generated for M:Grasshopper.Kernel.GH_ActiveObject.#ctor(System.String,System.String,System.String,System.String,System.String)
+    Unique name M_Grasshopper_Kernel_GH_Alias__ctor_1 generated for M:Grasshopper.Kernel.GH_Alias.#ctor(Grasshopper.Kernel.GH_Alias)
+    Unique name M_Grasshopper_Kernel_GH_Alias__ctor_2 generated for M:Grasshopper.Kernel.GH_Alias.#ctor(System.String,System.Guid)
+    Unique name M_Grasshopper_Kernel_GH_Attributes_1_IsPickRegion_1 generated for M:Grasshopper.Kernel.GH_Attributes`1.IsPickRegion(System.Drawing.RectangleF,Grasshopper.Kernel.GH_PickBox)
+    Unique name M_Grasshopper_Kernel_GH_Attributes_1_NewInstanceGuid_1 generated for M:Grasshopper.Kernel.GH_Attributes`1.NewInstanceGuid(System.Guid)
+    Unique name M_Grasshopper_Kernel_GH_Attributes_1_RenderIncomingWires_1 generated for M:Grasshopper.Kernel.GH_Attributes`1.RenderIncomingWires(Grasshopper.GUI.Canvas.GH_Painter,System.Collections.Generic.IEnumerable{Grasshopper.Kernel.IGH_Param},System.Collections.Generic.IEnumerable{System.Drawing.Pen})
+    Unique name M_Grasshopper_Kernel_GH_Author__ctor_1 generated for M:Grasshopper.Kernel.GH_Author.#ctor(Grasshopper.Kernel.IGH_Author)
+    Unique name M_Grasshopper_Kernel_GH_CharPatternParamNameConstructor__ctor_1 generated for M:Grasshopper.Kernel.GH_CharPatternParamNameConstructor.#ctor(System.String)
+    Unique name M_Grasshopper_Kernel_GH_CharPatternParamNameConstructor__ctor_2 generated for M:Grasshopper.Kernel.GH_CharPatternParamNameConstructor.#ctor(System.String,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_Component_BakeGeometry_1 generated for M:Grasshopper.Kernel.GH_Component.BakeGeometry(Rhino.RhinoDoc,System.Collections.Generic.List{System.Guid})
+    Unique name M_Grasshopper_Kernel_GH_Component_GenerateParameterHelp_1 generated for M:Grasshopper.Kernel.GH_Component.GenerateParameterHelp(Grasshopper.Kernel.IGH_Param)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddAngleParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddAngleParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Collections.Generic.IEnumerable{System.Double})
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddAngleParameter_2 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddAngleParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Double)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddArcParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddArcParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,Rhino.Geometry.Arc)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddBooleanParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddBooleanParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddBooleanParameter_2 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddBooleanParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Collections.Generic.IEnumerable{System.Boolean})
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddBoxParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddBoxParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,Rhino.Geometry.Box)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddCircleParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddCircleParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,Rhino.Geometry.Circle)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddColourParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddColourParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Collections.Generic.IEnumerable{System.Drawing.Color})
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddColourParameter_2 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddColourParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Drawing.Color)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddComplexNumberParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddComplexNumberParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,Grasshopper.Kernel.Types.GH_ComplexNumber)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddCultureParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddCultureParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Globalization.CultureInfo)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddIntegerParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddIntegerParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Collections.Generic.IEnumerable{System.Int32})
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddIntegerParameter_2 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddIntegerParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddIntervalParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddIntervalParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,Rhino.Geometry.Interval)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddIntervalParameter_2 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddIntervalParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Collections.Generic.IEnumerable{Rhino.Geometry.Interval})
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddLineParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddLineParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,Rhino.Geometry.Line)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddNumberParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddNumberParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Collections.Generic.IEnumerable{System.Double})
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddNumberParameter_2 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddNumberParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Double)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddParameter(Grasshopper.Kernel.IGH_Param,System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddPlaneParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddPlaneParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,Rhino.Geometry.Plane)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddPointParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddPointParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,Rhino.Geometry.Point3d)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddPointParameter_2 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddPointParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Collections.Generic.IEnumerable{Rhino.Geometry.Point3d})
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddRectangleParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddRectangleParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,Rhino.Geometry.Rectangle3d)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddTextParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddTextParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.Collections.Generic.IEnumerable{System.String})
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddTextParameter_2 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddTextParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.String)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddTimeParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddTimeParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,System.DateTime)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_InputParamManager_AddVectorParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_InputParamManager.AddVectorParameter(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess,Rhino.Geometry.Vector3d)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_AddParameter_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.AddParameter(Grasshopper.Kernel.IGH_Param,System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_2DIntervalParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_2DIntervalParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_ArcParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_ArcParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_BooleanParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_BooleanParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_BoxParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_BoxParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_BRepParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_BRepParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_CircleParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_CircleParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_ColourParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_ColourParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_ComplexParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_ComplexParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_CurveParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_CurveParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_DoubleParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_DoubleParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_FieldParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_FieldParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_GenericParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_GenericParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_GeometryParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_GeometryParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_GroupParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_GroupParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_IntegerParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_IntegerParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_IntervalParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_IntervalParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_LineParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_LineParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_MatrixParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_MatrixParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_MeshFaceParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_MeshFaceParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_MeshParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_MeshParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_PathParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_PathParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_PlaneParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_PlaneParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_PointParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_PointParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_RectangleParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_RectangleParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_StringParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_StringParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_SurfaceParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_SurfaceParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_TransformParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_TransformParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_Register_VectorParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.Register_VectorParam(System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_RegisterParam_1 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.RegisterParam(Grasshopper.Kernel.IGH_Param,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_RegisterParam_2 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.RegisterParam(Grasshopper.Kernel.IGH_Param,System.String,System.String,System.String)
+    Unique name M_Grasshopper_Kernel_GH_Component_GH_OutputParamManager_RegisterParam_3 generated for M:Grasshopper.Kernel.GH_Component.GH_OutputParamManager.RegisterParam(Grasshopper.Kernel.IGH_Param,System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_Clear_1 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.Clear(System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_GetHashCode_1 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.GetHashCode(Grasshopper.Kernel.GH_ParamHashFields)
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_IndexOfInputParam_1 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.IndexOfInputParam(System.String)
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_IndexOfOutputParam_1 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.IndexOfOutputParam(System.String)
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_InventUniqueNickname_1 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.InventUniqueNickname(System.String,System.Collections.Generic.IEnumerable{System.String})
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_RegisterInputParam_1 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.RegisterInputParam(Grasshopper.Kernel.IGH_Param,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_RegisterOutputParam_1 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.RegisterOutputParam(Grasshopper.Kernel.IGH_Param,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_SortInput_1 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.SortInput(System.Int32[])
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_SortInput_2 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.SortInput(System.Single[])
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_SortOutput_1 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.SortOutput(System.Int32[])
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_SortOutput_2 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.SortOutput(System.Single[])
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_Sync_1 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.Sync(Grasshopper.Kernel.GH_ComponentParamServer.IGH_SyncObject,System.Int32@)
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_Sync_2 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.Sync(System.Object)
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_UnregisterInputParameter_1 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.UnregisterInputParameter(Grasshopper.Kernel.IGH_Param,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_UnregisterOutputParameter_1 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.UnregisterOutputParameter(Grasshopper.Kernel.IGH_Param,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_ComponentParamServer_UnregisterParameter_1 generated for M:Grasshopper.Kernel.GH_ComponentParamServer.UnregisterParameter(Grasshopper.Kernel.IGH_Param,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_ComponentServer_FindAssemblyByObject_1 generated for M:Grasshopper.Kernel.GH_ComponentServer.FindAssemblyByObject(System.Guid)
+    Unique name M_Grasshopper_Kernel_GH_ComponentServer_FindObjects_1 generated for M:Grasshopper.Kernel.GH_ComponentServer.FindObjects(System.String[],System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_ComponentServer_RemoveCachedObject_1 generated for M:Grasshopper.Kernel.GH_ComponentServer.RemoveCachedObject(System.String)
+    Unique name M_Grasshopper_Kernel_GH_ConnectivityDiagram__ctor_1 generated for M:Grasshopper.Kernel.GH_ConnectivityDiagram.#ctor(Grasshopper.Kernel.GH_Document)
+    Unique name M_Grasshopper_Kernel_GH_Convert_CreatePureTime_1 generated for M:Grasshopper.Kernel.GH_Convert.CreatePureTime(System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_Convert_GetTimeKind_1 generated for M:Grasshopper.Kernel.GH_Convert.GetTimeKind(System.DateTime,System.DateTime)
+    Unique name M_Grasshopper_Kernel_GH_Convert_ToSHA_Hash_1 generated for M:Grasshopper.Kernel.GH_Convert.ToSHA_Hash(System.IO.Stream)
+    Unique name M_Grasshopper_Kernel_GH_DebugDescriptionWriter_WriteLine_1 generated for M:Grasshopper.Kernel.GH_DebugDescriptionWriter.WriteLine(System.String)
+    Unique name M_Grasshopper_Kernel_GH_DebugDescriptionWriter_WriteLine_2 generated for M:Grasshopper.Kernel.GH_DebugDescriptionWriter.WriteLine(System.String,System.Object[])
+    Unique name M_Grasshopper_Kernel_GH_Document_AlignObjects_1 generated for M:Grasshopper.Kernel.GH_Document.AlignObjects(Grasshopper.GUI.Alignment.GH_Align,Grasshopper.GUI.Alignment.GH_Distribute,System.Collections.Generic.List{Grasshopper.Kernel.IGH_DocumentObject})
+    Unique name M_Grasshopper_Kernel_GH_Document_AutoSave_1 generated for M:Grasshopper.Kernel.GH_Document.AutoSave(Grasshopper.Kernel.GH_AutoSaveTrigger,System.Guid)
+    Unique name M_Grasshopper_Kernel_GH_Document_FilterObjects_1 generated for M:Grasshopper.Kernel.GH_Document.FilterObjects(System.Collections.Generic.List{Grasshopper.Kernel.IGH_DocumentObject},Grasshopper.Kernel.GH_Filter,Grasshopper.Kernel.GH_Filter,Grasshopper.Kernel.GH_Filter)
+    Unique name M_Grasshopper_Kernel_GH_Document_FindAllDownstreamObjects_1 generated for M:Grasshopper.Kernel.GH_Document.FindAllDownstreamObjects(Grasshopper.Kernel.IGH_ActiveObject,Grasshopper.Kernel.GH_Document.GH_ActiveObjectFilter)
+    Unique name M_Grasshopper_Kernel_GH_Document_FindAllDownstreamObjects_2 generated for M:Grasshopper.Kernel.GH_Document.FindAllDownstreamObjects(System.Collections.Generic.List{Grasshopper.Kernel.IGH_ActiveObject})
+    Unique name M_Grasshopper_Kernel_GH_Document_FindAllDownstreamObjects_3 generated for M:Grasshopper.Kernel.GH_Document.FindAllDownstreamObjects(System.Collections.Generic.List{Grasshopper.Kernel.IGH_ActiveObject},Grasshopper.Kernel.GH_Document.GH_ActiveObjectFilter)
+    Unique name M_Grasshopper_Kernel_GH_Document_FindAttribute_1 generated for M:Grasshopper.Kernel.GH_Document.FindAttribute(System.Guid)
+    Unique name M_Grasshopper_Kernel_GH_Document_FindAttributeByGrip_1 generated for M:Grasshopper.Kernel.GH_Document.FindAttributeByGrip(System.Drawing.PointF,System.Boolean,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_Document_FindClusters_1 generated for M:Grasshopper.Kernel.GH_Document.FindClusters(System.String)
+    Unique name M_Grasshopper_Kernel_GH_Document_FindComponent_1 generated for M:Grasshopper.Kernel.GH_Document.FindComponent(System.Guid)
+    Unique name M_Grasshopper_Kernel_GH_Document_FindObject_1 generated for M:Grasshopper.Kernel.GH_Document.FindObject(System.Guid,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_Document_MergeDocument_1 generated for M:Grasshopper.Kernel.GH_Document.MergeDocument(Grasshopper.Kernel.GH_Document,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_Document_MergeDocument_2 generated for M:Grasshopper.Kernel.GH_Document.MergeDocument(Grasshopper.Kernel.GH_Document,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_Document_NewSolution_1 generated for M:Grasshopper.Kernel.GH_Document.NewSolution(System.Boolean,Grasshopper.Kernel.GH_SolutionMode)
+    Unique name M_Grasshopper_Kernel_GH_Document_RelevantObjectAtPoint_1 generated for M:Grasshopper.Kernel.GH_Document.RelevantObjectAtPoint(System.Drawing.PointF,Grasshopper.Kernel.GH_RelevantObjectFilter)
+    Unique name M_Grasshopper_Kernel_GH_Document_RemoveObject_1 generated for M:Grasshopper.Kernel.GH_Document.RemoveObject(Grasshopper.Kernel.IGH_DocumentObject,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_Document_ScheduleSolution_1 generated for M:Grasshopper.Kernel.GH_Document.ScheduleSolution(System.Int32,Grasshopper.Kernel.GH_Document.GH_ScheduleDelegate)
+    Unique name M_Grasshopper_Kernel_GH_Document_Select_1 generated for M:Grasshopper.Kernel.GH_Document.Select(Grasshopper.Kernel.GH_RelevantObjectData,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_Document_SetEnabledFlags_1 generated for M:Grasshopper.Kernel.GH_Document.SetEnabledFlags(System.Collections.Generic.List{Grasshopper.Kernel.IGH_DocumentObject},System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_Document_SetPreviewFlags_1 generated for M:Grasshopper.Kernel.GH_Document.SetPreviewFlags(System.Collections.Generic.List{Grasshopper.Kernel.IGH_DocumentObject},System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_Document_ToggleEnabledFlags_1 generated for M:Grasshopper.Kernel.GH_Document.ToggleEnabledFlags(System.Collections.Generic.List{Grasshopper.Kernel.IGH_DocumentObject})
+    Unique name M_Grasshopper_Kernel_GH_Document_TogglePreviewFlags_1 generated for M:Grasshopper.Kernel.GH_Document.TogglePreviewFlags(System.Collections.Generic.List{Grasshopper.Kernel.IGH_DocumentObject})
+    Unique name M_Grasshopper_Kernel_GH_Document_Write_1 generated for M:Grasshopper.Kernel.GH_Document.Write(GH_IO.Serialization.GH_IWriter,System.Collections.Generic.IList{Grasshopper.Kernel.IGH_DocumentObject})
+    Unique name M_Grasshopper_Kernel_GH_Document_GH_UndoUtil_CreateAddObjectEvent_1 generated for M:Grasshopper.Kernel.GH_Document.GH_UndoUtil.CreateAddObjectEvent(System.String,System.Collections.Generic.IEnumerable{Grasshopper.Kernel.IGH_DocumentObject})
+    Unique name M_Grasshopper_Kernel_GH_Document_GH_UndoUtil_CreateLayoutEvent_1 generated for M:Grasshopper.Kernel.GH_Document.GH_UndoUtil.CreateLayoutEvent(System.String,System.Collections.Generic.IEnumerable{Grasshopper.Kernel.IGH_DocumentObject})
+    Unique name M_Grasshopper_Kernel_GH_Document_GH_UndoUtil_CreatePivotEvent_1 generated for M:Grasshopper.Kernel.GH_Document.GH_UndoUtil.CreatePivotEvent(System.String,System.Collections.Generic.IEnumerable{Grasshopper.Kernel.IGH_DocumentObject})
+    Unique name M_Grasshopper_Kernel_GH_Document_GH_UndoUtil_CreateRemoveObjectEvent_1 generated for M:Grasshopper.Kernel.GH_Document.GH_UndoUtil.CreateRemoveObjectEvent(System.String,System.Collections.Generic.IEnumerable{Grasshopper.Kernel.IGH_DocumentObject})
+    Unique name M_Grasshopper_Kernel_GH_Document_GH_UndoUtil_CreateWireEvent_1 generated for M:Grasshopper.Kernel.GH_Document.GH_UndoUtil.CreateWireEvent(System.String,System.Collections.Generic.IEnumerable{Grasshopper.Kernel.IGH_Param})
+    Unique name M_Grasshopper_Kernel_GH_Document_GH_UndoUtil_RecordAddObjectEvent_1 generated for M:Grasshopper.Kernel.GH_Document.GH_UndoUtil.RecordAddObjectEvent(System.String,System.Collections.Generic.IEnumerable{Grasshopper.Kernel.IGH_DocumentObject})
+    Unique name M_Grasshopper_Kernel_GH_Document_GH_UndoUtil_RecordEvent_1 generated for M:Grasshopper.Kernel.GH_Document.GH_UndoUtil.RecordEvent(System.String,Grasshopper.Kernel.Undo.IGH_UndoAction)
+    Unique name M_Grasshopper_Kernel_GH_Document_GH_UndoUtil_RecordEvent_2 generated for M:Grasshopper.Kernel.GH_Document.GH_UndoUtil.RecordEvent(System.String,Grasshopper.Kernel.Undo.IGH_UndoAction[])
+    Unique name M_Grasshopper_Kernel_GH_Document_GH_UndoUtil_RecordEvent_3 generated for M:Grasshopper.Kernel.GH_Document.GH_UndoUtil.RecordEvent(System.String,System.Collections.Generic.IEnumerable{Grasshopper.Kernel.Undo.IGH_UndoAction})
+    Unique name M_Grasshopper_Kernel_GH_Document_GH_UndoUtil_RecordLayoutEvent_1 generated for M:Grasshopper.Kernel.GH_Document.GH_UndoUtil.RecordLayoutEvent(System.String,System.Collections.Generic.IEnumerable{Grasshopper.Kernel.IGH_DocumentObject})
+    Unique name M_Grasshopper_Kernel_GH_Document_GH_UndoUtil_RecordPivotEvent_1 generated for M:Grasshopper.Kernel.GH_Document.GH_UndoUtil.RecordPivotEvent(System.String,System.Collections.Generic.IEnumerable{Grasshopper.Kernel.IGH_DocumentObject})
+    Unique name M_Grasshopper_Kernel_GH_Document_GH_UndoUtil_RecordRemoveObjectEvent_1 generated for M:Grasshopper.Kernel.GH_Document.GH_UndoUtil.RecordRemoveObjectEvent(System.String,System.Collections.Generic.IEnumerable{Grasshopper.Kernel.IGH_DocumentObject})
+    Unique name M_Grasshopper_Kernel_GH_Document_GH_UndoUtil_RecordWireEvent_1 generated for M:Grasshopper.Kernel.GH_Document.GH_UndoUtil.RecordWireEvent(System.String,System.Collections.Generic.IEnumerable{Grasshopper.Kernel.IGH_Param})
+    Unique name M_Grasshopper_Kernel_GH_DocumentIO__ctor_1 generated for M:Grasshopper.Kernel.GH_DocumentIO.#ctor(Grasshopper.Kernel.GH_Document)
+    Unique name M_Grasshopper_Kernel_GH_DocumentIO_Copy_1 generated for M:Grasshopper.Kernel.GH_DocumentIO.Copy(Grasshopper.Kernel.GH_ClipboardType,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_DocumentIO_Copy_2 generated for M:Grasshopper.Kernel.GH_DocumentIO.Copy(Grasshopper.Kernel.GH_ClipboardType,System.Collections.Generic.IEnumerable{System.Guid})
+    Unique name M_Grasshopper_Kernel_GH_DocumentIO_Open_1 generated for M:Grasshopper.Kernel.GH_DocumentIO.Open(System.String)
+    Unique name M_Grasshopper_Kernel_GH_DocumentIO_SubsidiaryDocumentSavePrompt_1 generated for M:Grasshopper.Kernel.GH_DocumentIO.SubsidiaryDocumentSavePrompt(System.String,System.Boolean,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject__ctor_1 generated for M:Grasshopper.Kernel.GH_DocumentObject.#ctor(System.String,System.String,System.String,System.String)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject__ctor_2 generated for M:Grasshopper.Kernel.GH_DocumentObject.#ctor(System.String,System.String,System.String,System.String,System.String)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_GetValue_1 generated for M:Grasshopper.Kernel.GH_DocumentObject.GetValue(System.String,System.Double)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_GetValue_2 generated for M:Grasshopper.Kernel.GH_DocumentObject.GetValue(System.String,System.Drawing.Color)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_GetValue_3 generated for M:Grasshopper.Kernel.GH_DocumentObject.GetValue(System.String,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_GetValue_4 generated for M:Grasshopper.Kernel.GH_DocumentObject.GetValue(System.String,System.String)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_Menu_AppendCustomItem_1 generated for M:Grasshopper.Kernel.GH_DocumentObject.Menu_AppendCustomItem(System.Windows.Forms.ToolStripDropDown,System.Windows.Forms.Control,Grasshopper.GUI.GH_MenuCustomControl.KeyDownEventHandler)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_Menu_AppendCustomItem_2 generated for M:Grasshopper.Kernel.GH_DocumentObject.Menu_AppendCustomItem(System.Windows.Forms.ToolStripDropDown,System.Windows.Forms.Control,Grasshopper.GUI.GH_MenuCustomControl.KeyDownEventHandler,System.Boolean,System.Int32,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_Menu_AppendItem_1 generated for M:Grasshopper.Kernel.GH_DocumentObject.Menu_AppendItem(System.Windows.Forms.ToolStrip,System.String,System.EventHandler)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_Menu_AppendItem_2 generated for M:Grasshopper.Kernel.GH_DocumentObject.Menu_AppendItem(System.Windows.Forms.ToolStrip,System.String,System.EventHandler,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_Menu_AppendItem_3 generated for M:Grasshopper.Kernel.GH_DocumentObject.Menu_AppendItem(System.Windows.Forms.ToolStrip,System.String,System.EventHandler,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_Menu_AppendItem_4 generated for M:Grasshopper.Kernel.GH_DocumentObject.Menu_AppendItem(System.Windows.Forms.ToolStrip,System.String,System.EventHandler,System.Drawing.Image)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_Menu_AppendItem_5 generated for M:Grasshopper.Kernel.GH_DocumentObject.Menu_AppendItem(System.Windows.Forms.ToolStrip,System.String,System.EventHandler,System.Drawing.Image,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_Menu_AppendItem_6 generated for M:Grasshopper.Kernel.GH_DocumentObject.Menu_AppendItem(System.Windows.Forms.ToolStrip,System.String,System.EventHandler,System.Drawing.Image,System.Object)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_Menu_AppendTextItem_1 generated for M:Grasshopper.Kernel.GH_DocumentObject.Menu_AppendTextItem(System.Windows.Forms.ToolStripDropDown,System.String,Grasshopper.GUI.GH_MenuTextBox.KeyDownEventHandler,Grasshopper.GUI.GH_MenuTextBox.TextChangedEventHandler,System.Boolean,System.Int32,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_Menu_MoveItem_1 generated for M:Grasshopper.Kernel.GH_DocumentObject.Menu_MoveItem(System.Windows.Forms.ToolStripItem,System.String[])
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_OnObjectChanged_1 generated for M:Grasshopper.Kernel.GH_DocumentObject.OnObjectChanged(Grasshopper.Kernel.GH_ObjectEventType)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_OnObjectChanged_2 generated for M:Grasshopper.Kernel.GH_DocumentObject.OnObjectChanged(Grasshopper.Kernel.GH_ObjectEventType,System.Object)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_OnObjectChanged_3 generated for M:Grasshopper.Kernel.GH_DocumentObject.OnObjectChanged(System.String)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_OnObjectChanged_4 generated for M:Grasshopper.Kernel.GH_DocumentObject.OnObjectChanged(System.String,System.Object)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_RecordUndoEvent_1 generated for M:Grasshopper.Kernel.GH_DocumentObject.RecordUndoEvent(System.String)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_RecordUndoEvent_2 generated for M:Grasshopper.Kernel.GH_DocumentObject.RecordUndoEvent(System.String,Grasshopper.Kernel.Undo.IGH_UndoAction)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_SetValue_1 generated for M:Grasshopper.Kernel.GH_DocumentObject.SetValue(System.String,System.Double)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_SetValue_2 generated for M:Grasshopper.Kernel.GH_DocumentObject.SetValue(System.String,System.Drawing.Color)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_SetValue_3 generated for M:Grasshopper.Kernel.GH_DocumentObject.SetValue(System.String,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_SetValue_4 generated for M:Grasshopper.Kernel.GH_DocumentObject.SetValue(System.String,System.String)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_TriggerAutoSave_1 generated for M:Grasshopper.Kernel.GH_DocumentObject.TriggerAutoSave(Grasshopper.Kernel.GH_AutoSaveTrigger)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_TriggerAutoSave_2 generated for M:Grasshopper.Kernel.GH_DocumentObject.TriggerAutoSave(Grasshopper.Kernel.GH_AutoSaveTrigger,System.Guid)
+    Unique name M_Grasshopper_Kernel_GH_DocumentObject_TriggerAutoSave_3 generated for M:Grasshopper.Kernel.GH_DocumentObject.TriggerAutoSave(System.Guid)
+    Unique name M_Grasshopper_Kernel_GH_DocumentServer_AddDocument_1 generated for M:Grasshopper.Kernel.GH_DocumentServer.AddDocument(System.String,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_DocumentServer_IndexOf_1 generated for M:Grasshopper.Kernel.GH_DocumentServer.IndexOf(System.String)
+    Unique name M_Grasshopper_Kernel_GH_FileSystemEventServer_RemoveWatcher_1 generated for M:Grasshopper.Kernel.GH_FileSystemEventServer.RemoveWatcher(System.Object,System.String)
+    Unique name M_Grasshopper_Kernel_GH_FileWatcher_CreateDirectoryWatcher_1 generated for M:Grasshopper.Kernel.GH_FileWatcher.CreateDirectoryWatcher(System.String,System.String,Grasshopper.Kernel.GH_FileWatcherEvents,Grasshopper.Kernel.GH_FileWatcher.FileChangedSimple)
+    Unique name M_Grasshopper_Kernel_GH_FileWatcher_CreateFileWatcher_1 generated for M:Grasshopper.Kernel.GH_FileWatcher.CreateFileWatcher(System.String,Grasshopper.Kernel.GH_FileWatcherEvents,Grasshopper.Kernel.GH_FileWatcher.FileChangedSimple)
+    Unique name M_Grasshopper_Kernel_GH_FileWatcher_Dispose_1 generated for M:Grasshopper.Kernel.GH_FileWatcher.Dispose(System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_FileWatcher_SetCustomUIThread_1 generated for M:Grasshopper.Kernel.GH_FileWatcher.SetCustomUIThread(System.Windows.Forms.Form)
+    Unique name M_Grasshopper_Kernel_GH_FontServer_MeasureString_1 generated for M:Grasshopper.Kernel.GH_FontServer.MeasureString(System.String,System.Drawing.Font,System.Drawing.SizeF)
+    Unique name M_Grasshopper_Kernel_GH_FontServer_MeasureString_2 generated for M:Grasshopper.Kernel.GH_FontServer.MeasureString(System.String,System.Drawing.Font,System.Single)
+    Unique name M_Grasshopper_Kernel_GH_FontServer_NewFont_1 generated for M:Grasshopper.Kernel.GH_FontServer.NewFont(System.Drawing.Font,System.Single)
+    Unique name M_Grasshopper_Kernel_GH_FontServer_NewFont_2 generated for M:Grasshopper.Kernel.GH_FontServer.NewFont(System.Drawing.Font,System.Single,System.Drawing.FontStyle)
+    Unique name M_Grasshopper_Kernel_GH_FontServer_NewFont_3 generated for M:Grasshopper.Kernel.GH_FontServer.NewFont(System.Drawing.FontFamily,System.Single)
+    Unique name M_Grasshopper_Kernel_GH_FontServer_NewFont_4 generated for M:Grasshopper.Kernel.GH_FontServer.NewFont(System.Drawing.FontFamily,System.Single,System.Drawing.FontStyle)
+    Unique name M_Grasshopper_Kernel_GH_FontServer_NewFont_5 generated for M:Grasshopper.Kernel.GH_FontServer.NewFont(System.String,System.Single,System.Drawing.FontStyle)
+    Unique name M_Grasshopper_Kernel_GH_FontServer_StringWidth_1 generated for M:Grasshopper.Kernel.GH_FontServer.StringWidth(System.String,System.Drawing.Font)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatArc_1 generated for M:Grasshopper.Kernel.GH_Format.FormatArc(Rhino.Geometry.Arc)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatBoolean_1 generated for M:Grasshopper.Kernel.GH_Format.FormatBoolean(System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatBox_1 generated for M:Grasshopper.Kernel.GH_Format.FormatBox(Rhino.Geometry.Box)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatBrep_1 generated for M:Grasshopper.Kernel.GH_Format.FormatBrep(Rhino.Geometry.Brep)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatCircle_1 generated for M:Grasshopper.Kernel.GH_Format.FormatCircle(Rhino.Geometry.Circle)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatColour_1 generated for M:Grasshopper.Kernel.GH_Format.FormatColour(System.Drawing.Color)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatComplexNumber_1 generated for M:Grasshopper.Kernel.GH_Format.FormatComplexNumber(Grasshopper.Kernel.Types.GH_ComplexNumber)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatCurve_1 generated for M:Grasshopper.Kernel.GH_Format.FormatCurve(Rhino.Geometry.Curve,System.String,System.String)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatDate_1 generated for M:Grasshopper.Kernel.GH_Format.FormatDate(System.DateTime)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatDouble_1 generated for M:Grasshopper.Kernel.GH_Format.FormatDouble(System.Double)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatFilePath_1 generated for M:Grasshopper.Kernel.GH_Format.FormatFilePath(System.String,System.Int32,System.Drawing.Font)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatInteger_1 generated for M:Grasshopper.Kernel.GH_Format.FormatInteger(System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatInterval_1 generated for M:Grasshopper.Kernel.GH_Format.FormatInterval(Grasshopper.Kernel.Types.GH_Interval2D)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatInterval_2 generated for M:Grasshopper.Kernel.GH_Format.FormatInterval(Rhino.Geometry.Interval)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatInterval_3 generated for M:Grasshopper.Kernel.GH_Format.FormatInterval(System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatLine_1 generated for M:Grasshopper.Kernel.GH_Format.FormatLine(Rhino.Geometry.Line)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatMatrix_1 generated for M:Grasshopper.Kernel.GH_Format.FormatMatrix(Rhino.Geometry.Matrix)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatMesh_1 generated for M:Grasshopper.Kernel.GH_Format.FormatMesh(Rhino.Geometry.Mesh,System.String)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatPlane_1 generated for M:Grasshopper.Kernel.GH_Format.FormatPlane(Rhino.Geometry.Plane)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatPoint_1 generated for M:Grasshopper.Kernel.GH_Format.FormatPoint(Rhino.Geometry.Point3d)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatSurface_1 generated for M:Grasshopper.Kernel.GH_Format.FormatSurface(Rhino.Geometry.Brep)
+    Unique name M_Grasshopper_Kernel_GH_Format_FormatVector_1 generated for M:Grasshopper.Kernel.GH_Format.FormatVector(Rhino.Geometry.Vector3d)
+    Unique name M_Grasshopper_Kernel_GH_GHXHarvester_HarvestBoundingBoxes_1 generated for M:Grasshopper.Kernel.GH_GHXHarvester.HarvestBoundingBoxes(GH_IO.Serialization.GH_IReader)
+    Unique name M_Grasshopper_Kernel_GH_GHXHarvester_HarvestBoundingBoxes_2 generated for M:Grasshopper.Kernel.GH_GHXHarvester.HarvestBoundingBoxes(System.String)
+    Unique name M_Grasshopper_Kernel_GH_GHXHarvester_HarvestPivots_1 generated for M:Grasshopper.Kernel.GH_GHXHarvester.HarvestPivots(GH_IO.Serialization.GH_IReader)
+    Unique name M_Grasshopper_Kernel_GH_GHXHarvester_HarvestPivots_2 generated for M:Grasshopper.Kernel.GH_GHXHarvester.HarvestPivots(System.String)
+    Unique name M_Grasshopper_Kernel_GH_InstanceDescription_NewInstanceGuid_1 generated for M:Grasshopper.Kernel.GH_InstanceDescription.NewInstanceGuid(System.Guid)
+    Unique name M_Grasshopper_Kernel_GH_MemoryBitmap__ctor_1 generated for M:Grasshopper.Kernel.GH_MemoryBitmap.#ctor(System.Drawing.Bitmap,System.Drawing.Drawing2D.WrapMode)
+    Unique name M_Grasshopper_Kernel_GH_MemoryBitmap_Colour_1 generated for M:Grasshopper.Kernel.GH_MemoryBitmap.Colour(System.Int32,System.Int32,System.Drawing.Color)
+    Unique name M_Grasshopper_Kernel_GH_MemoryBitmap_Filter_Blur_1 generated for M:Grasshopper.Kernel.GH_MemoryBitmap.Filter_Blur(System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_MemoryBitmap_Filter_Blur_2 generated for M:Grasshopper.Kernel.GH_MemoryBitmap.Filter_Blur(System.Int32,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_MemoryBitmap_Filter_Blur_3 generated for M:Grasshopper.Kernel.GH_MemoryBitmap.Filter_Blur(System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_MemoryBitmap_Filter_GreyScale_1 generated for M:Grasshopper.Kernel.GH_MemoryBitmap.Filter_GreyScale(System.Double)
+    Unique name M_Grasshopper_Kernel_GH_MemoryBitmap_Filter_Multiply_1 generated for M:Grasshopper.Kernel.GH_MemoryBitmap.Filter_Multiply(Grasshopper.Kernel.GH_BitmapChannel,System.Double,System.Byte)
+    Unique name M_Grasshopper_Kernel_GH_MemoryBitmap_Sample_1 generated for M:Grasshopper.Kernel.GH_MemoryBitmap.Sample(System.Int32,System.Int32,System.Drawing.Color@)
+    Unique name M_Grasshopper_Kernel_GH_ObjectChangedEventArgs__ctor_1 generated for M:Grasshopper.Kernel.GH_ObjectChangedEventArgs.#ctor(Grasshopper.Kernel.IGH_DocumentObject,Grasshopper.Kernel.GH_ObjectEventType,System.Object)
+    Unique name M_Grasshopper_Kernel_GH_ObjectChangedEventArgs__ctor_2 generated for M:Grasshopper.Kernel.GH_ObjectChangedEventArgs.#ctor(Grasshopper.Kernel.IGH_DocumentObject,System.String)
+    Unique name M_Grasshopper_Kernel_GH_ObjectChangedEventArgs__ctor_3 generated for M:Grasshopper.Kernel.GH_ObjectChangedEventArgs.#ctor(Grasshopper.Kernel.IGH_DocumentObject,System.String,System.Object)
+    Unique name M_Grasshopper_Kernel_GH_Param_1__ctor_1 generated for M:Grasshopper.Kernel.GH_Param`1.#ctor(Grasshopper.Kernel.IGH_InstanceDescription,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Param_1__ctor_2 generated for M:Grasshopper.Kernel.GH_Param`1.#ctor(System.String,System.String,System.String,System.String,System.String,Grasshopper.Kernel.GH_ParamAccess)
+    Unique name M_Grasshopper_Kernel_GH_Param_1_AddSource_1 generated for M:Grasshopper.Kernel.GH_Param`1.AddSource(Grasshopper.Kernel.IGH_Param,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_Param_1_AddVolatileData_1 generated for M:Grasshopper.Kernel.GH_Param`1.AddVolatileData(Grasshopper.Kernel.Data.GH_Path,System.Int32,`0)
+    Unique name M_Grasshopper_Kernel_GH_Param_1_AddVolatileDataList_1 generated for M:Grasshopper.Kernel.GH_Param`1.AddVolatileDataList(Grasshopper.Kernel.Data.GH_Path,System.Collections.IEnumerable)
+    Unique name M_Grasshopper_Kernel_GH_Param_1_AddVolatileDataTree_1 generated for M:Grasshopper.Kernel.GH_Param`1.AddVolatileDataTree(Grasshopper.Kernel.Data.IGH_Structure)
+    Unique name M_Grasshopper_Kernel_GH_Param_1_RemoveSource_1 generated for M:Grasshopper.Kernel.GH_Param`1.RemoveSource(System.Guid)
+    Unique name M_Grasshopper_Kernel_GH_Param_1_ReplaceSource_1 generated for M:Grasshopper.Kernel.GH_Param`1.ReplaceSource(System.Guid,Grasshopper.Kernel.IGH_Param)
+    Unique name M_Grasshopper_Kernel_GH_PersistentGeometryParam_1__ctor_1 generated for M:Grasshopper.Kernel.GH_PersistentGeometryParam`1.#ctor(Grasshopper.Kernel.GH_InstanceDescription,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_PersistentParam_1__ctor_1 generated for M:Grasshopper.Kernel.GH_PersistentParam`1.#ctor(Grasshopper.Kernel.GH_InstanceDescription,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_PersistentParam_1__ctor_2 generated for M:Grasshopper.Kernel.GH_PersistentParam`1.#ctor(System.String,System.String,System.String,System.String,System.String)
+    Unique name M_Grasshopper_Kernel_GH_PersistentParam_1_AddPersistentData_1 generated for M:Grasshopper.Kernel.GH_PersistentParam`1.AddPersistentData(`0)
+    Unique name M_Grasshopper_Kernel_GH_PersistentParam_1_SetPersistentData_1 generated for M:Grasshopper.Kernel.GH_PersistentParam`1.SetPersistentData(System.Collections.Generic.IEnumerable{`0})
+    Unique name M_Grasshopper_Kernel_GH_PersistentParam_1_SetPersistentData_2 generated for M:Grasshopper.Kernel.GH_PersistentParam`1.SetPersistentData(System.Object[])
+    Unique name M_Grasshopper_Kernel_GH_PersistentParam_1_SetPersistentData_3 generated for M:Grasshopper.Kernel.GH_PersistentParam`1.SetPersistentData(`0)
+    Unique name M_Grasshopper_Kernel_GH_PreviewUtil__ctor_1 generated for M:Grasshopper.Kernel.GH_PreviewUtil.#ctor(System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer__ctor_1 generated for M:Grasshopper.Kernel.GH_SettingsServer.#ctor(System.String,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_GetValue_1 generated for M:Grasshopper.Kernel.GH_SettingsServer.GetValue(System.String,System.Byte)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_GetValue_2 generated for M:Grasshopper.Kernel.GH_SettingsServer.GetValue(System.String,System.DateTime)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_GetValue_3 generated for M:Grasshopper.Kernel.GH_SettingsServer.GetValue(System.String,System.Double)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_GetValue_4 generated for M:Grasshopper.Kernel.GH_SettingsServer.GetValue(System.String,System.Drawing.Color)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_GetValue_5 generated for M:Grasshopper.Kernel.GH_SettingsServer.GetValue(System.String,System.Drawing.Point)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_GetValue_6 generated for M:Grasshopper.Kernel.GH_SettingsServer.GetValue(System.String,System.Drawing.Rectangle)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_GetValue_7 generated for M:Grasshopper.Kernel.GH_SettingsServer.GetValue(System.String,System.Drawing.Size)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_GetValue_8 generated for M:Grasshopper.Kernel.GH_SettingsServer.GetValue(System.String,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_GetValue_9 generated for M:Grasshopper.Kernel.GH_SettingsServer.GetValue(System.String,System.String)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_SetValue_1 generated for M:Grasshopper.Kernel.GH_SettingsServer.SetValue(System.String,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_SetValue_2 generated for M:Grasshopper.Kernel.GH_SettingsServer.SetValue(System.String,System.Byte)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_SetValue_3 generated for M:Grasshopper.Kernel.GH_SettingsServer.SetValue(System.String,System.DateTime)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_SetValue_4 generated for M:Grasshopper.Kernel.GH_SettingsServer.SetValue(System.String,System.Double)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_SetValue_5 generated for M:Grasshopper.Kernel.GH_SettingsServer.SetValue(System.String,System.Drawing.Color)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_SetValue_6 generated for M:Grasshopper.Kernel.GH_SettingsServer.SetValue(System.String,System.Drawing.Point)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_SetValue_7 generated for M:Grasshopper.Kernel.GH_SettingsServer.SetValue(System.String,System.Drawing.Rectangle)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_SetValue_8 generated for M:Grasshopper.Kernel.GH_SettingsServer.SetValue(System.String,System.Drawing.Size)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_SetValue_9 generated for M:Grasshopper.Kernel.GH_SettingsServer.SetValue(System.String,System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_SettingsServer_SetValue_10 generated for M:Grasshopper.Kernel.GH_SettingsServer.SetValue(System.String,System.String)
+    Unique name M_Grasshopper_Kernel_GH_State__ctor_1 generated for M:Grasshopper.Kernel.GH_State.#ctor(Grasshopper.Kernel.GH_State)
+    Unique name P_Grasshopper_Kernel_GH_State_Data_1 generated for P:Grasshopper.Kernel.GH_State.Data(System.Int32)
+    Unique name M_Grasshopper_Kernel_GH_StateServer_RestoreState_1 generated for M:Grasshopper.Kernel.GH_StateServer.RestoreState(System.Int32,System.Int32@,System.Int32@)
+    Unique name M_Grasshopper_Kernel_GH_StateServer_RestoreState_2 generated for M:Grasshopper.Kernel.GH_StateServer.RestoreState(System.String,System.Int32@,System.Int32@)
+    Unique name M_Grasshopper_Kernel_GH_StateTag_RenderTagBlankIcon_1 generated for M:Grasshopper.Kernel.GH_StateTag.RenderTagBlankIcon(System.Drawing.Graphics,Grasshopper.Kernel.GH_StateTag.DrawCallback)
+    Unique name M_Grasshopper_Kernel_GH_UpgradeUtil_MigrateInputParameters_1 generated for M:Grasshopper.Kernel.GH_UpgradeUtil.MigrateInputParameters(Grasshopper.Kernel.IGH_Component,Grasshopper.Kernel.IGH_Component,System.Int32[],System.Int32[])
+    Unique name M_Grasshopper_Kernel_GH_UpgradeUtil_MigrateOutputParameters_1 generated for M:Grasshopper.Kernel.GH_UpgradeUtil.MigrateOutputParameters(Grasshopper.Kernel.IGH_Component,Grasshopper.Kernel.IGH_Component,System.Int32[],System.Int32[])
+    Unique name M_Grasshopper_Kernel_GH_UpgradeUtil_SwapComponents_1 generated for M:Grasshopper.Kernel.GH_UpgradeUtil.SwapComponents(Grasshopper.Kernel.IGH_Component,Grasshopper.Kernel.IGH_Component,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_UpgradeUtil_SwapComponents_2 generated for M:Grasshopper.Kernel.GH_UpgradeUtil.SwapComponents(Grasshopper.Kernel.IGH_Component,System.Guid)
+    Unique name M_Grasshopper_Kernel_GH_UpgradeUtil_SwapComponents_3 generated for M:Grasshopper.Kernel.GH_UpgradeUtil.SwapComponents(Grasshopper.Kernel.IGH_Component,System.Guid,System.Boolean)
+    Unique name M_Grasshopper_Kernel_GH_UserObject__ctor_1 generated for M:Grasshopper.Kernel.GH_UserObject.#ctor(System.String)
+    Unique name M_Grasshopper_Kernel_GH_VarParamEventArgs__ctor_1 generated for M:Grasshopper.Kernel.GH_VarParamEventArgs.#ctor(Grasshopper.Kernel.IGH_Param,Grasshopper.Kernel.GH_VarParamSide,System.Int32)
+    Unique name M_Grasshopper_Kernel_IGH_Attributes_IsPickRegion_1 generated for M:Grasshopper.Kernel.IGH_Attributes.IsPickRegion(System.Drawing.RectangleF,Grasshopper.Kernel.GH_PickBox)
+    Unique name M_Grasshopper_Kernel_IGH_Attributes_NewInstanceGuid_1 generated for M:Grasshopper.Kernel.IGH_Attributes.NewInstanceGuid(System.Guid)
+    Unique name M_Grasshopper_Kernel_IGH_BakeAwareObject_BakeGeometry_1 generated for M:Grasshopper.Kernel.IGH_BakeAwareObject.BakeGeometry(Rhino.RhinoDoc,System.Collections.Generic.List{System.Guid})
+    Unique name M_Grasshopper_Kernel_IGH_DataAccess_DisableGapLogic_1 generated for M:Grasshopper.Kernel.IGH_DataAccess.DisableGapLogic(System.Int32)
+    Unique name M_Grasshopper_Kernel_IGH_DataAccess_GetData__1_1 generated for M:Grasshopper.Kernel.IGH_DataAccess.GetData``1(System.String,``0@)
+    Unique name M_Grasshopper_Kernel_IGH_DataAccess_GetDataList__1_1 generated for M:Grasshopper.Kernel.IGH_DataAccess.GetDataList``1(System.String,System.Collections.Generic.List{``0})
+    Unique name M_Grasshopper_Kernel_IGH_DataAccess_GetDataTree__1_1 generated for M:Grasshopper.Kernel.IGH_DataAccess.GetDataTree``1(System.String,Grasshopper.Kernel.Data.GH_Structure{``0}@)
+    Unique name M_Grasshopper_Kernel_IGH_DataAccess_SetData_1 generated for M:Grasshopper.Kernel.IGH_DataAccess.SetData(System.Int32,System.Object,System.Int32)
+    Unique name M_Grasshopper_Kernel_IGH_DataAccess_SetData_2 generated for M:Grasshopper.Kernel.IGH_DataAccess.SetData(System.String,System.Object)
+    Unique name M_Grasshopper_Kernel_IGH_DataAccess_SetDataList_1 generated for M:Grasshopper.Kernel.IGH_DataAccess.SetDataList(System.Int32,System.Collections.IEnumerable,System.Int32)
+    Unique name M_Grasshopper_Kernel_IGH_DataAccess_SetDataList_2 generated for M:Grasshopper.Kernel.IGH_DataAccess.SetDataList(System.String,System.Collections.IEnumerable)
+    Unique name M_Grasshopper_Kernel_IGH_DataAccess_SetDataTree_1 generated for M:Grasshopper.Kernel.IGH_DataAccess.SetDataTree(System.Int32,Grasshopper.Kernel.Data.IGH_Structure)
+    Unique name M_Grasshopper_Kernel_IGH_DocumentObject_OnObjectChanged_1 generated for M:Grasshopper.Kernel.IGH_DocumentObject.OnObjectChanged(Grasshopper.Kernel.GH_ObjectEventType)
+    Unique name M_Grasshopper_Kernel_IGH_DocumentObject_OnObjectChanged_2 generated for M:Grasshopper.Kernel.IGH_DocumentObject.OnObjectChanged(Grasshopper.Kernel.GH_ObjectEventType,System.Object)
+    Unique name M_Grasshopper_Kernel_IGH_DocumentObject_OnObjectChanged_3 generated for M:Grasshopper.Kernel.IGH_DocumentObject.OnObjectChanged(System.String)
+    Unique name M_Grasshopper_Kernel_IGH_DocumentObject_OnObjectChanged_4 generated for M:Grasshopper.Kernel.IGH_DocumentObject.OnObjectChanged(System.String,System.Object)
+    Unique name M_Grasshopper_Kernel_IGH_DocumentObject_RecordUndoEvent_1 generated for M:Grasshopper.Kernel.IGH_DocumentObject.RecordUndoEvent(System.String)
+    Unique name M_Grasshopper_Kernel_IGH_DocumentObject_RecordUndoEvent_2 generated for M:Grasshopper.Kernel.IGH_DocumentObject.RecordUndoEvent(System.String,Grasshopper.Kernel.Undo.IGH_UndoAction)
+    Unique name M_Grasshopper_Kernel_IGH_DocumentObject_TriggerAutoSave_1 generated for M:Grasshopper.Kernel.IGH_DocumentObject.TriggerAutoSave(Grasshopper.Kernel.GH_AutoSaveTrigger)
+    Unique name M_Grasshopper_Kernel_IGH_DocumentObject_TriggerAutoSave_2 generated for M:Grasshopper.Kernel.IGH_DocumentObject.TriggerAutoSave(Grasshopper.Kernel.GH_AutoSaveTrigger,System.Guid)
+    Unique name M_Grasshopper_Kernel_IGH_DocumentObject_TriggerAutoSave_3 generated for M:Grasshopper.Kernel.IGH_DocumentObject.TriggerAutoSave(System.Guid)
+    Unique name M_Grasshopper_Kernel_IGH_InstanceDescription_NewInstanceGuid_1 generated for M:Grasshopper.Kernel.IGH_InstanceDescription.NewInstanceGuid(System.Guid)
+    Unique name M_Grasshopper_Kernel_IGH_Param_AddSource_1 generated for M:Grasshopper.Kernel.IGH_Param.AddSource(Grasshopper.Kernel.IGH_Param,System.Int32)
+    Unique name M_Grasshopper_Kernel_IGH_Param_RemoveSource_1 generated for M:Grasshopper.Kernel.IGH_Param.RemoveSource(System.Guid)
+    Unique name M_Grasshopper_Kernel_IGH_Param_ReplaceSource_1 generated for M:Grasshopper.Kernel.IGH_Param.ReplaceSource(System.Guid,Grasshopper.Kernel.IGH_Param)
+    Unique name M_Grasshopper_Kernel_Attributes_GH_ComponentAttributes_RenderComponentCapsule_1 generated for M:Grasshopper.Kernel.Attributes.GH_ComponentAttributes.RenderComponentCapsule(Grasshopper.GUI.Canvas.GH_Canvas,System.Drawing.Graphics,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_Kernel_Data_GH_BracketMismatchException__ctor_1 generated for M:Grasshopper.Kernel.Data.GH_BracketMismatchException.#ctor(System.String)
+    Unique name M_Grasshopper_Kernel_Data_GH_BracketMismatchException__ctor_2 generated for M:Grasshopper.Kernel.Data.GH_BracketMismatchException.#ctor(System.String,System.Int32)
+    Unique name M_Grasshopper_Kernel_Data_GH_IndexRange__ctor_1 generated for M:Grasshopper.Kernel.Data.GH_IndexRange.#ctor(System.Int32,System.Int32)
+    Unique name M_Grasshopper_Kernel_Data_GH_IndexRange_Contains_1 generated for M:Grasshopper.Kernel.Data.GH_IndexRange.Contains(System.Int32)
+    Unique name M_Grasshopper_Kernel_Data_GH_IndexRuleSet_AddDigitPatternRule_1 generated for M:Grasshopper.Kernel.Data.GH_IndexRuleSet.AddDigitPatternRule(System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_Kernel_Data_GH_IndexRuleSet_AddDigitPatternRule_2 generated for M:Grasshopper.Kernel.Data.GH_IndexRuleSet.AddDigitPatternRule(System.Int32[])
+    Unique name M_Grasshopper_Kernel_Data_GH_Lexer__ctor_1 generated for M:Grasshopper.Kernel.Data.GH_Lexer.#ctor(System.String)
+    Unique name M_Grasshopper_Kernel_Data_GH_Lexer_PerformLexicalReplace__1_1 generated for M:Grasshopper.Kernel.Data.GH_Lexer.PerformLexicalReplace``1(Grasshopper.Kernel.Data.GH_Lexer,Grasshopper.Kernel.Data.GH_Lexer,Grasshopper.Kernel.Data.IGH_Structure,Grasshopper.Kernel.Data.GH_Structure{``0})
+    Unique name M_Grasshopper_Kernel_Data_GH_LexerCombo__ctor_1 generated for M:Grasshopper.Kernel.Data.GH_LexerCombo.#ctor(Grasshopper.Kernel.Data.GH_Lexer,Grasshopper.Kernel.Data.GH_Lexer)
+    Unique name M_Grasshopper_Kernel_Data_GH_LexerCombo__ctor_2 generated for M:Grasshopper.Kernel.Data.GH_LexerCombo.#ctor(System.String,System.String)
+    Unique name M_Grasshopper_Kernel_Data_GH_Path__ctor_1 generated for M:Grasshopper.Kernel.Data.GH_Path.#ctor(Grasshopper.Kernel.Data.GH_Path)
+    Unique name M_Grasshopper_Kernel_Data_GH_Path__ctor_2 generated for M:Grasshopper.Kernel.Data.GH_Path.#ctor(System.Int32)
+    Unique name M_Grasshopper_Kernel_Data_GH_Path__ctor_3 generated for M:Grasshopper.Kernel.Data.GH_Path.#ctor(System.Int32[])
+    Unique name M_Grasshopper_Kernel_Data_GH_Path_Increment_1 generated for M:Grasshopper.Kernel.Data.GH_Path.Increment(System.Int32,System.Int32)
+    Unique name M_Grasshopper_Kernel_Data_GH_Path_IsCoincident_1 generated for M:Grasshopper.Kernel.Data.GH_Path.IsCoincident(System.Int32[])
+    Unique name M_Grasshopper_Kernel_Data_GH_Path_ToString_1 generated for M:Grasshopper.Kernel.Data.GH_Path.ToString(System.Boolean)
+    Unique name M_Grasshopper_Kernel_Data_GH_PathOffset__ctor_1 generated for M:Grasshopper.Kernel.Data.GH_PathOffset.#ctor(System.Collections.Generic.IEnumerable{System.Int32})
+    Unique name M_Grasshopper_Kernel_Data_GH_PathOffset__ctor_2 generated for M:Grasshopper.Kernel.Data.GH_PathOffset.#ctor(System.Collections.Generic.IEnumerable{System.Int32},System.Int32)
+    Unique name M_Grasshopper_Kernel_Data_GH_PathOffset__ctor_3 generated for M:Grasshopper.Kernel.Data.GH_PathOffset.#ctor(System.Collections.Generic.IEnumerable{System.Int32},System.Int32,System.Boolean,System.Boolean)
+    Unique name M_Grasshopper_Kernel_Data_GH_PathOffset_OffsetPath_1 generated for M:Grasshopper.Kernel.Data.GH_PathOffset.OffsetPath(Grasshopper.Kernel.Data.GH_Path,System.Int32,Grasshopper.Kernel.Data.IGH_Structure,Grasshopper.Kernel.Data.GH_Path@,System.Int32@)
+    Unique name M_Grasshopper_Kernel_Data_GH_StringMismatchException__ctor_1 generated for M:Grasshopper.Kernel.Data.GH_StringMismatchException.#ctor(System.String)
+    Unique name M_Grasshopper_Kernel_Data_GH_Structure_1__ctor_1 generated for M:Grasshopper.Kernel.Data.GH_Structure`1.#ctor(Grasshopper.Kernel.Data.GH_Structure{`0},System.Boolean)
+    Unique name M_Grasshopper_Kernel_Data_GH_Structure_1_Append_1 generated for M:Grasshopper.Kernel.Data.GH_Structure`1.Append(`0,Grasshopper.Kernel.Data.GH_Path)
+    Unique name M_Grasshopper_Kernel_Data_GH_Structure_1_AppendRange_1 generated for M:Grasshopper.Kernel.Data.GH_Structure`1.AppendRange(System.Collections.Generic.IEnumerable{`0},Grasshopper.Kernel.Data.GH_Path)
+    Unique name P_Grasshopper_Kernel_Data_GH_Structure_1_Branch_1 generated for P:Grasshopper.Kernel.Data.GH_Structure`1.Branch(System.Int32)
+    Unique name P_Grasshopper_Kernel_Data_GH_Structure_1_DataItem_1 generated for P:Grasshopper.Kernel.Data.GH_Structure`1.DataItem(System.Int32)
+    Unique name P_Grasshopper_Kernel_Data_GH_Structure_1_DataList_1 generated for P:Grasshopper.Kernel.Data.GH_Structure`1.DataList(System.Int32)
+    Unique name M_Grasshopper_Kernel_Data_GH_Structure_1_EnsurePath_1 generated for M:Grasshopper.Kernel.Data.GH_Structure`1.EnsurePath(System.Int32[])
+    Unique name M_Grasshopper_Kernel_Data_GH_Structure_1_Graft_1 generated for M:Grasshopper.Kernel.Data.GH_Structure`1.Graft(Grasshopper.Kernel.Data.GH_GraftMode,Grasshopper.Kernel.Data.GH_Path)
+    Unique name M_Grasshopper_Kernel_Data_GH_Structure_1_Graft_2 generated for M:Grasshopper.Kernel.Data.GH_Structure`1.Graft(Grasshopper.Kernel.Data.GH_Path,System.Boolean)
+    Unique name M_Grasshopper_Kernel_Data_GH_Structure_1_Graft_3 generated for M:Grasshopper.Kernel.Data.GH_Structure`1.Graft(System.Boolean)
+    Unique name M_Grasshopper_Kernel_Data_GH_TreeRules_Apply_1 generated for M:Grasshopper.Kernel.Data.GH_TreeRules.Apply(Grasshopper.Kernel.Data.GH_Path,System.Int32)
+    Unique name P_Grasshopper_Kernel_Data_IGH_Structure_Branch_1 generated for P:Grasshopper.Kernel.Data.IGH_Structure.Branch(System.Int32)
+    Unique name M_Grasshopper_Kernel_Data_IGH_Structure_Graft_1 generated for M:Grasshopper.Kernel.Data.IGH_Structure.Graft(Grasshopper.Kernel.Data.GH_GraftMode,Grasshopper.Kernel.Data.GH_Path)
+    Unique name M_Grasshopper_Kernel_Data_IGH_Structure_Graft_2 generated for M:Grasshopper.Kernel.Data.IGH_Structure.Graft(Grasshopper.Kernel.Data.GH_Path,System.Boolean)
+    Unique name M_Grasshopper_Kernel_Data_IGH_Structure_Graft_3 generated for M:Grasshopper.Kernel.Data.IGH_Structure.Graft(System.Boolean)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ExpressionParser__ctor_1 generated for M:Grasshopper.Kernel.Expressions.GH_ExpressionParser.#ctor(System.Boolean)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ExpressionParser_AddVariable_1 generated for M:Grasshopper.Kernel.Expressions.GH_ExpressionParser.AddVariable(System.String,Rhino.Geometry.Plane)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ExpressionParser_AddVariable_2 generated for M:Grasshopper.Kernel.Expressions.GH_ExpressionParser.AddVariable(System.String,Rhino.Geometry.Point3d)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ExpressionParser_AddVariable_3 generated for M:Grasshopper.Kernel.Expressions.GH_ExpressionParser.AddVariable(System.String,Rhino.Geometry.Vector3d)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ExpressionParser_AddVariable_4 generated for M:Grasshopper.Kernel.Expressions.GH_ExpressionParser.AddVariable(System.String,System.Boolean)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ExpressionParser_AddVariable_5 generated for M:Grasshopper.Kernel.Expressions.GH_ExpressionParser.AddVariable(System.String,System.Double)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ExpressionParser_AddVariable_6 generated for M:Grasshopper.Kernel.Expressions.GH_ExpressionParser.AddVariable(System.String,System.Int32)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ExpressionParser_AddVariable_7 generated for M:Grasshopper.Kernel.Expressions.GH_ExpressionParser.AddVariable(System.String,System.String)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ExpressionParser_AddVariableEx_1 generated for M:Grasshopper.Kernel.Expressions.GH_ExpressionParser.AddVariableEx(System.String,Grasshopper.Kernel.Types.IGH_Goo)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ExpressionParser_Evaluate_1 generated for M:Grasshopper.Kernel.Expressions.GH_ExpressionParser.Evaluate(System.Collections.Generic.Queue{Grasshopper.Kernel.Expressions.GH_ParserSymbol})
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ExpressionParser_Evaluate_2 generated for M:Grasshopper.Kernel.Expressions.GH_ExpressionParser.Evaluate(System.String)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ExpressionSyntaxWriter_RewriteForEvaluator_1 generated for M:Grasshopper.Kernel.Expressions.GH_ExpressionSyntaxWriter.RewriteForEvaluator(System.String)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ExpressionSyntaxWriter_RewriteForGraphicInterface_1 generated for M:Grasshopper.Kernel.Expressions.GH_ExpressionSyntaxWriter.RewriteForGraphicInterface(System.String)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ParserSymbol__ctor_1 generated for M:Grasshopper.Kernel.Expressions.GH_ParserSymbol.#ctor(System.String,Grasshopper.Kernel.Expressions.GH_ParserTokenClass,Grasshopper.Kernel.Expressions.GH_ParserPrecedence)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant__ctor_1 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.#ctor(Rhino.Geometry.Plane)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant__ctor_2 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.#ctor(Rhino.Geometry.Point3d)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant__ctor_3 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.#ctor(Rhino.Geometry.Vector3d)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant__ctor_4 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.#ctor(System.Boolean)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant__ctor_5 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.#ctor(System.Byte)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant__ctor_6 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.#ctor(System.DateTime)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant__ctor_7 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.#ctor(System.Double)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant__ctor_8 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.#ctor(System.Int32)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant__ctor_9 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.#ctor(System.String)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Explicit_1 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Explicit(Grasshopper.Kernel.Expressions.GH_ScriptVariant)~System.Int32
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Explicit_2 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Explicit(Grasshopper.Kernel.Expressions.GH_ScriptVariant)~System.Double
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Explicit_3 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Explicit(Grasshopper.Kernel.Expressions.GH_ScriptVariant)~System.String
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Explicit_4 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Explicit(Grasshopper.Kernel.Expressions.GH_ScriptVariant)~System.DateTime
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Explicit_5 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Explicit(Grasshopper.Kernel.Expressions.GH_ScriptVariant)~Rhino.Geometry.Point3d
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Explicit_6 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Explicit(Grasshopper.Kernel.Expressions.GH_ScriptVariant)~Rhino.Geometry.Vector3d
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Explicit_7 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Explicit(Grasshopper.Kernel.Expressions.GH_ScriptVariant)~Rhino.Geometry.Plane
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Implicit_1 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Implicit(Rhino.Geometry.Point3d)~Grasshopper.Kernel.Expressions.GH_ScriptVariant
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Implicit_2 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Implicit(Rhino.Geometry.Vector3d)~Grasshopper.Kernel.Expressions.GH_ScriptVariant
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Implicit_3 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Implicit(System.Boolean)~Grasshopper.Kernel.Expressions.GH_ScriptVariant
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Implicit_4 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Implicit(System.DateTime)~Grasshopper.Kernel.Expressions.GH_ScriptVariant
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Implicit_5 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Implicit(System.Double)~Grasshopper.Kernel.Expressions.GH_ScriptVariant
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Implicit_6 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Implicit(System.Int32)~Grasshopper.Kernel.Expressions.GH_ScriptVariant
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_op_Implicit_7 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.op_Implicit(System.String)~Grasshopper.Kernel.Expressions.GH_ScriptVariant
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_ThrowOperatorException_1 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.ThrowOperatorException(System.String,Grasshopper.Kernel.Expressions.GH_ScriptVariantType,Grasshopper.Kernel.Expressions.GH_ScriptVariantType)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_ThrowOperatorException_2 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.ThrowOperatorException(System.String,System.String)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_ScriptVariant_ThrowOperatorException_3 generated for M:Grasshopper.Kernel.Expressions.GH_ScriptVariant.ThrowOperatorException(System.String,System.String,System.String)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_Variant__ctor_1 generated for M:Grasshopper.Kernel.Expressions.GH_Variant.#ctor(Grasshopper.Kernel.Expressions.GH_Variant)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_Variant__ctor_2 generated for M:Grasshopper.Kernel.Expressions.GH_Variant.#ctor(Grasshopper.Kernel.Types.Complex)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_Variant__ctor_3 generated for M:Grasshopper.Kernel.Expressions.GH_Variant.#ctor(Rhino.Geometry.Plane)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_Variant__ctor_4 generated for M:Grasshopper.Kernel.Expressions.GH_Variant.#ctor(Rhino.Geometry.Point3d)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_Variant__ctor_5 generated for M:Grasshopper.Kernel.Expressions.GH_Variant.#ctor(Rhino.Geometry.Vector3d)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_Variant__ctor_6 generated for M:Grasshopper.Kernel.Expressions.GH_Variant.#ctor(System.Boolean)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_Variant__ctor_7 generated for M:Grasshopper.Kernel.Expressions.GH_Variant.#ctor(System.Double)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_Variant__ctor_8 generated for M:Grasshopper.Kernel.Expressions.GH_Variant.#ctor(System.Int32)
+    Unique name M_Grasshopper_Kernel_Expressions_GH_Variant__ctor_9 generated for M:Grasshopper.Kernel.Expressions.GH_Variant.#ctor(System.String)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1__ctor_1 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.#ctor(Grasshopper.Kernel.Geometry.SpatialTrees.Coordinates3d{`0},Rhino.Geometry.BoundingBox,System.Int32)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_FurthestItem_1 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.FurthestItem(Rhino.Geometry.Point3d,System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_FurthestItem_2 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.FurthestItem(System.Double,System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_FurthestItem_3 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.FurthestItem(System.Double,System.Double,System.Double,System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_FurthestItem_4 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.FurthestItem(`0)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_FurthestItem_5 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.FurthestItem(`0,System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_NearestItem_1 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.NearestItem(Rhino.Geometry.Point3d,System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_NearestItem_2 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.NearestItem(System.Double,System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_NearestItem_3 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.NearestItem(System.Double,System.Double,System.Double,Grasshopper.Kernel.Geometry.SpatialTrees.Validation3d{`0})
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_NearestItem_4 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.NearestItem(System.Double,System.Double,System.Double,System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_NearestItem_5 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.NearestItem(`0)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_NearestItem_6 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.NearestItem(`0,System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_NearestItems_1 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.NearestItems(System.Double,System.Double,System.Double,System.Int32,System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_NearestItems_2 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.NearestItems(`0,System.Int32)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_NearestItems_3 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.NearestItems(`0,System.Int32,System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_Remove_1 generated for M:Grasshopper.Kernel.Geometry.SpatialTrees.Node3d`1.Remove(System.Int32)
+    Unique name M_Grasshopper_Kernel_Types_Complex__ctor_1 generated for M:Grasshopper.Kernel.Types.Complex.#ctor(System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_Types_Complex_op_Addition_1 generated for M:Grasshopper.Kernel.Types.Complex.op_Addition(Grasshopper.Kernel.Types.Complex,System.Double)
+    Unique name M_Grasshopper_Kernel_Types_Complex_op_Addition_2 generated for M:Grasshopper.Kernel.Types.Complex.op_Addition(System.Double,Grasshopper.Kernel.Types.Complex)
+    Unique name M_Grasshopper_Kernel_Types_Complex_op_Division_1 generated for M:Grasshopper.Kernel.Types.Complex.op_Division(Grasshopper.Kernel.Types.Complex,System.Double)
+    Unique name M_Grasshopper_Kernel_Types_Complex_op_Division_2 generated for M:Grasshopper.Kernel.Types.Complex.op_Division(System.Double,Grasshopper.Kernel.Types.Complex)
+    Unique name M_Grasshopper_Kernel_Types_Complex_op_Multiply_1 generated for M:Grasshopper.Kernel.Types.Complex.op_Multiply(Grasshopper.Kernel.Types.Complex,System.Double)
+    Unique name M_Grasshopper_Kernel_Types_Complex_op_Multiply_2 generated for M:Grasshopper.Kernel.Types.Complex.op_Multiply(System.Double,Grasshopper.Kernel.Types.Complex)
+    Unique name M_Grasshopper_Kernel_Types_Complex_op_Subtraction_1 generated for M:Grasshopper.Kernel.Types.Complex.op_Subtraction(Grasshopper.Kernel.Types.Complex,System.Double)
+    Unique name M_Grasshopper_Kernel_Types_Complex_op_Subtraction_2 generated for M:Grasshopper.Kernel.Types.Complex.op_Subtraction(System.Double,Grasshopper.Kernel.Types.Complex)
+    Unique name M_Grasshopper_Kernel_Types_GH_Arc__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Arc.#ctor(Grasshopper.Kernel.Types.GH_Arc)
+    Unique name M_Grasshopper_Kernel_Types_GH_Arc__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Arc.#ctor(Rhino.Geometry.Arc)
+    Unique name M_Grasshopper_Kernel_Types_GH_Boolean__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Boolean.#ctor(Grasshopper.Kernel.Types.GH_Boolean)
+    Unique name M_Grasshopper_Kernel_Types_GH_Boolean__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Boolean.#ctor(System.Boolean)
+    Unique name M_Grasshopper_Kernel_Types_GH_Box__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Box.#ctor(Grasshopper.Kernel.Types.GH_Box)
+    Unique name M_Grasshopper_Kernel_Types_GH_Box__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Box.#ctor(Rhino.Geometry.BoundingBox)
+    Unique name M_Grasshopper_Kernel_Types_GH_Box__ctor_3 generated for M:Grasshopper.Kernel.Types.GH_Box.#ctor(Rhino.Geometry.Box)
+    Unique name M_Grasshopper_Kernel_Types_GH_Box__ctor_4 generated for M:Grasshopper.Kernel.Types.GH_Box.#ctor(System.Guid)
+    Unique name M_Grasshopper_Kernel_Types_GH_Brep__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Brep.#ctor(Grasshopper.Kernel.Types.GH_Brep)
+    Unique name M_Grasshopper_Kernel_Types_GH_Brep__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Brep.#ctor(Rhino.Geometry.Brep)
+    Unique name M_Grasshopper_Kernel_Types_GH_Brep__ctor_3 generated for M:Grasshopper.Kernel.Types.GH_Brep.#ctor(System.Guid)
+    Unique name M_Grasshopper_Kernel_Types_GH_Circle__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Circle.#ctor(Grasshopper.Kernel.Types.GH_Circle)
+    Unique name M_Grasshopper_Kernel_Types_GH_Circle__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Circle.#ctor(Rhino.Geometry.Circle)
+    Unique name M_Grasshopper_Kernel_Types_GH_Colour__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Colour.#ctor(Grasshopper.Kernel.Types.GH_Colour)
+    Unique name M_Grasshopper_Kernel_Types_GH_Colour__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Colour.#ctor(System.Drawing.Color)
+    Unique name M_Grasshopper_Kernel_Types_GH_ComplexNumber__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_ComplexNumber.#ctor(Grasshopper.Kernel.Types.Complex)
+    Unique name M_Grasshopper_Kernel_Types_GH_ComplexNumber__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_ComplexNumber.#ctor(Grasshopper.Kernel.Types.GH_ComplexNumber)
+    Unique name M_Grasshopper_Kernel_Types_GH_Culture__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Culture.#ctor(Grasshopper.Kernel.Types.GH_Culture)
+    Unique name M_Grasshopper_Kernel_Types_GH_Culture__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Culture.#ctor(System.Globalization.CultureInfo)
+    Unique name M_Grasshopper_Kernel_Types_GH_Curve__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Curve.#ctor(Grasshopper.Kernel.Types.GH_Curve)
+    Unique name M_Grasshopper_Kernel_Types_GH_Curve__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Curve.#ctor(Rhino.Geometry.Curve)
+    Unique name M_Grasshopper_Kernel_Types_GH_Curve__ctor_3 generated for M:Grasshopper.Kernel.Types.GH_Curve.#ctor(System.Guid)
+    Unique name M_Grasshopper_Kernel_Types_GH_Curve__ctor_4 generated for M:Grasshopper.Kernel.Types.GH_Curve.#ctor(System.Guid,System.Int32)
+    Unique name M_Grasshopper_Kernel_Types_GH_Field__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Field.#ctor(Grasshopper.Kernel.Types.GH_Field)
+    Unique name M_Grasshopper_Kernel_Types_GH_GeometricGoo_1__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_GeometricGoo`1.#ctor(`0)
+    Unique name M_Grasshopper_Kernel_Types_GH_GeometricGoo_1_LoadGeometry_1 generated for M:Grasshopper.Kernel.Types.GH_GeometricGoo`1.LoadGeometry(Rhino.RhinoDoc)
+    Unique name M_Grasshopper_Kernel_Types_GH_GeometricGooWrapper__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_GeometricGooWrapper.#ctor(Grasshopper.Kernel.Types.IGH_GeometricGoo)
+    Unique name M_Grasshopper_Kernel_Types_GH_GeometricGooWrapper_LoadGeometry_1 generated for M:Grasshopper.Kernel.Types.GH_GeometricGooWrapper.LoadGeometry(Rhino.RhinoDoc)
+    Unique name M_Grasshopper_Kernel_Types_GH_GeometryGroup_LoadGeometry_1 generated for M:Grasshopper.Kernel.Types.GH_GeometryGroup.LoadGeometry(Rhino.RhinoDoc)
+    Unique name M_Grasshopper_Kernel_Types_GH_Goo_1__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Goo`1.#ctor(Grasshopper.Kernel.Types.GH_Goo{`0})
+    Unique name M_Grasshopper_Kernel_Types_GH_Goo_1__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Goo`1.#ctor(`0)
+    Unique name M_Grasshopper_Kernel_Types_GH_Guid__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Guid.#ctor(Grasshopper.Kernel.Types.GH_Guid)
+    Unique name M_Grasshopper_Kernel_Types_GH_Guid__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Guid.#ctor(System.Guid)
+    Unique name M_Grasshopper_Kernel_Types_GH_Integer__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Integer.#ctor(Grasshopper.Kernel.Types.GH_Integer)
+    Unique name M_Grasshopper_Kernel_Types_GH_Integer__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Integer.#ctor(System.Int32)
+    Unique name M_Grasshopper_Kernel_Types_GH_Interval__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Interval.#ctor(Grasshopper.Kernel.Types.GH_Interval)
+    Unique name M_Grasshopper_Kernel_Types_GH_Interval__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Interval.#ctor(Rhino.Geometry.Interval)
+    Unique name M_Grasshopper_Kernel_Types_GH_Interval2D__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Interval2D.#ctor(Grasshopper.Kernel.Types.GH_Interval2D)
+    Unique name M_Grasshopper_Kernel_Types_GH_Interval2D__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Interval2D.#ctor(Grasshopper.Kernel.Types.UVInterval)
+    Unique name M_Grasshopper_Kernel_Types_GH_Line__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Line.#ctor(Grasshopper.Kernel.Types.GH_Line)
+    Unique name M_Grasshopper_Kernel_Types_GH_Line__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Line.#ctor(Rhino.Geometry.Line)
+    Unique name M_Grasshopper_Kernel_Types_GH_LonLatCoordinate__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_LonLatCoordinate.#ctor(System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_Types_GH_Material__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Material.#ctor(Grasshopper.Kernel.Types.GH_Material)
+    Unique name M_Grasshopper_Kernel_Types_GH_Material__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Material.#ctor(Rhino.Display.DisplayMaterial)
+    Unique name M_Grasshopper_Kernel_Types_GH_Material__ctor_3 generated for M:Grasshopper.Kernel.Types.GH_Material.#ctor(System.Drawing.Color)
+    Unique name M_Grasshopper_Kernel_Types_GH_Material__ctor_4 generated for M:Grasshopper.Kernel.Types.GH_Material.#ctor(System.Guid)
+    Unique name M_Grasshopper_Kernel_Types_GH_Matrix__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Matrix.#ctor(Grasshopper.Kernel.Types.GH_Matrix)
+    Unique name M_Grasshopper_Kernel_Types_GH_Matrix__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Matrix.#ctor(Rhino.Geometry.Matrix)
+    Unique name M_Grasshopper_Kernel_Types_GH_Mesh__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Mesh.#ctor(Grasshopper.Kernel.Types.GH_Mesh)
+    Unique name M_Grasshopper_Kernel_Types_GH_Mesh__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Mesh.#ctor(Rhino.Geometry.Mesh)
+    Unique name M_Grasshopper_Kernel_Types_GH_Mesh__ctor_3 generated for M:Grasshopper.Kernel.Types.GH_Mesh.#ctor(System.Guid)
+    Unique name M_Grasshopper_Kernel_Types_GH_MeshFace__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_MeshFace.#ctor(Grasshopper.Kernel.Types.GH_MeshFace)
+    Unique name M_Grasshopper_Kernel_Types_GH_MeshFace__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_MeshFace.#ctor(Rhino.Geometry.MeshFace)
+    Unique name M_Grasshopper_Kernel_Types_GH_MeshFace__ctor_3 generated for M:Grasshopper.Kernel.Types.GH_MeshFace.#ctor(System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_Kernel_Types_GH_MeshFace__ctor_4 generated for M:Grasshopper.Kernel.Types.GH_MeshFace.#ctor(System.Int32,System.Int32,System.Int32,System.Int32)
+    Unique name M_Grasshopper_Kernel_Types_GH_MeshingParameters__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_MeshingParameters.#ctor(Rhino.Geometry.MeshingParameters)
+    Unique name M_Grasshopper_Kernel_Types_GH_Number__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Number.#ctor(Grasshopper.Kernel.Types.GH_Number)
+    Unique name M_Grasshopper_Kernel_Types_GH_Number__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Number.#ctor(System.Double)
+    Unique name M_Grasshopper_Kernel_Types_GH_ObjectWrapper__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_ObjectWrapper.#ctor(System.Object)
+    Unique name M_Grasshopper_Kernel_Types_GH_Plane__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Plane.#ctor(Grasshopper.Kernel.Types.GH_Plane)
+    Unique name M_Grasshopper_Kernel_Types_GH_Plane__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Plane.#ctor(Rhino.Geometry.Plane)
+    Unique name M_Grasshopper_Kernel_Types_GH_Plane_DrawPlane_1 generated for M:Grasshopper.Kernel.Types.GH_Plane.DrawPlane(Rhino.Display.DisplayPipeline,Rhino.Geometry.Plane,System.Double,System.Int32)
+    Unique name M_Grasshopper_Kernel_Types_GH_Plane_DrawPlane_2 generated for M:Grasshopper.Kernel.Types.GH_Plane.DrawPlane(Rhino.Display.DisplayPipeline,Rhino.Geometry.Plane,System.Double,System.Int32,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)
+    Unique name M_Grasshopper_Kernel_Types_GH_Plane_DrawPlane_3 generated for M:Grasshopper.Kernel.Types.GH_Plane.DrawPlane(Rhino.Display.DisplayPipeline,Rhino.Geometry.Plane,System.Double,System.Int32,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color,System.Drawing.Color)
+    Unique name M_Grasshopper_Kernel_Types_GH_Point__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Point.#ctor(Grasshopper.Kernel.Types.GH_Point)
+    Unique name M_Grasshopper_Kernel_Types_GH_Point__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Point.#ctor(Rhino.Geometry.Point3d)
+    Unique name M_Grasshopper_Kernel_Types_GH_Point__ctor_3 generated for M:Grasshopper.Kernel.Types.GH_Point.#ctor(System.Guid)
+    Unique name M_Grasshopper_Kernel_Types_GH_Point_LoadGeometry_1 generated for M:Grasshopper.Kernel.Types.GH_Point.LoadGeometry(Rhino.RhinoDoc)
+    Unique name M_Grasshopper_Kernel_Types_GH_Point_ReferenceCurve_1 generated for M:Grasshopper.Kernel.Types.GH_Point.ReferenceCurve(Rhino.DocObjects.RhinoObject)
+    Unique name M_Grasshopper_Kernel_Types_GH_Point_ReferenceIndex_1 generated for M:Grasshopper.Kernel.Types.GH_Point.ReferenceIndex(System.Int32)
+    Unique name M_Grasshopper_Kernel_Types_GH_Point_ReferenceParam_1 generated for M:Grasshopper.Kernel.Types.GH_Point.ReferenceParam(System.Int32,System.Double)
+    Unique name M_Grasshopper_Kernel_Types_GH_Point_ReferenceType_1 generated for M:Grasshopper.Kernel.Types.GH_Point.ReferenceType(Grasshopper.Kernel.Types.GH_PointRefType)
+    Unique name M_Grasshopper_Kernel_Types_GH_Point_ShowReferenceDialog_1 generated for M:Grasshopper.Kernel.Types.GH_Point.ShowReferenceDialog(System.Windows.Forms.IWin32Window)
+    Unique name M_Grasshopper_Kernel_Types_GH_PointRefData__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_PointRefData.#ctor(Grasshopper.Kernel.Types.GH_PointRefData)
+    Unique name M_Grasshopper_Kernel_Types_GH_Rectangle__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Rectangle.#ctor(Grasshopper.Kernel.Types.GH_Rectangle)
+    Unique name M_Grasshopper_Kernel_Types_GH_Rectangle__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Rectangle.#ctor(Rhino.Geometry.Rectangle3d)
+    Unique name M_Grasshopper_Kernel_Types_GH_String__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_String.#ctor(Grasshopper.Kernel.Types.GH_String)
+    Unique name M_Grasshopper_Kernel_Types_GH_String__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_String.#ctor(System.String)
+    Unique name M_Grasshopper_Kernel_Types_GH_StructurePath__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_StructurePath.#ctor(Grasshopper.Kernel.Data.GH_Path)
+    Unique name M_Grasshopper_Kernel_Types_GH_StructurePath__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_StructurePath.#ctor(Grasshopper.Kernel.Types.GH_StructurePath)
+    Unique name M_Grasshopper_Kernel_Types_GH_Surface__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Surface.#ctor(Grasshopper.Kernel.Types.GH_Surface)
+    Unique name M_Grasshopper_Kernel_Types_GH_Surface__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Surface.#ctor(Rhino.Geometry.Brep)
+    Unique name M_Grasshopper_Kernel_Types_GH_Surface__ctor_3 generated for M:Grasshopper.Kernel.Types.GH_Surface.#ctor(Rhino.Geometry.Surface)
+    Unique name M_Grasshopper_Kernel_Types_GH_Surface__ctor_4 generated for M:Grasshopper.Kernel.Types.GH_Surface.#ctor(System.Guid)
+    Unique name M_Grasshopper_Kernel_Types_GH_Time__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Time.#ctor(Grasshopper.Kernel.Types.GH_Time)
+    Unique name M_Grasshopper_Kernel_Types_GH_Time__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Time.#ctor(System.DateTime)
+    Unique name M_Grasshopper_Kernel_Types_GH_Transform__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Transform.#ctor(Grasshopper.Kernel.Types.GH_Transform)
+    Unique name M_Grasshopper_Kernel_Types_GH_Transform__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Transform.#ctor(Grasshopper.Kernel.Types.Transforms.ITransform)
+    Unique name M_Grasshopper_Kernel_Types_GH_Transform__ctor_3 generated for M:Grasshopper.Kernel.Types.GH_Transform.#ctor(Rhino.Geometry.Transform)
+    Unique name M_Grasshopper_Kernel_Types_GH_Vector__ctor_1 generated for M:Grasshopper.Kernel.Types.GH_Vector.#ctor(Grasshopper.Kernel.Types.GH_Vector)
+    Unique name M_Grasshopper_Kernel_Types_GH_Vector__ctor_2 generated for M:Grasshopper.Kernel.Types.GH_Vector.#ctor(Rhino.Geometry.Vector3d)
+    Unique name M_Grasshopper_Kernel_Types_IGH_GeometricGoo_LoadGeometry_1 generated for M:Grasshopper.Kernel.Types.IGH_GeometricGoo.LoadGeometry(Rhino.RhinoDoc)
+    Unique name M_Grasshopper_Kernel_Types_Transforms_Generic__ctor_1 generated for M:Grasshopper.Kernel.Types.Transforms.Generic.#ctor(Rhino.Geometry.Transform)
+    Unique name M_Grasshopper_Kernel_Types_Transforms_Orientation__ctor_1 generated for M:Grasshopper.Kernel.Types.Transforms.Orientation.#ctor(Rhino.Geometry.Plane,Rhino.Geometry.Plane)
+    Unique name M_Grasshopper_Kernel_Types_Transforms_Projection__ctor_1 generated for M:Grasshopper.Kernel.Types.Transforms.Projection.#ctor(Rhino.Geometry.Plane)
+    Unique name M_Grasshopper_Kernel_Types_Transforms_Rotation__ctor_1 generated for M:Grasshopper.Kernel.Types.Transforms.Rotation.#ctor(Rhino.Geometry.Point3d,Rhino.Geometry.Vector3d,Rhino.Geometry.Vector3d)
+    Unique name M_Grasshopper_Kernel_Types_Transforms_Rotation__ctor_2 generated for M:Grasshopper.Kernel.Types.Transforms.Rotation.#ctor(Rhino.Geometry.Point3d,Rhino.Geometry.Vector3d,System.Double)
+    Unique name M_Grasshopper_Kernel_Types_Transforms_Scale__ctor_1 generated for M:Grasshopper.Kernel.Types.Transforms.Scale.#ctor(Rhino.Geometry.Plane,System.Double)
+    Unique name M_Grasshopper_Kernel_Types_Transforms_Scale__ctor_2 generated for M:Grasshopper.Kernel.Types.Transforms.Scale.#ctor(Rhino.Geometry.Plane,System.Double,System.Double,System.Double)
+    Unique name M_Grasshopper_Kernel_Types_Transforms_Scale__ctor_3 generated for M:Grasshopper.Kernel.Types.Transforms.Scale.#ctor(Rhino.Geometry.Point3d,System.Double)
+    Unique name M_Grasshopper_Kernel_Types_Transforms_Translation__ctor_1 generated for M:Grasshopper.Kernel.Types.Transforms.Translation.#ctor(Rhino.Geometry.Vector3d)
+    Unique name M_Grasshopper_Kernel_Undo_GH_UndoException__ctor_1 generated for M:Grasshopper.Kernel.Undo.GH_UndoException.#ctor(System.String,System.Object[])
+    Unique name M_Grasshopper_Kernel_Undo_GH_UndoRecord__ctor_1 generated for M:Grasshopper.Kernel.Undo.GH_UndoRecord.#ctor(System.String)
+    Unique name M_Grasshopper_Kernel_Undo_GH_UndoRecord__ctor_2 generated for M:Grasshopper.Kernel.Undo.GH_UndoRecord.#ctor(System.String,Grasshopper.Kernel.Undo.IGH_UndoAction)
+    Unique name M_Grasshopper_Kernel_Undo_GH_UndoRecord__ctor_3 generated for M:Grasshopper.Kernel.Undo.GH_UndoRecord.#ctor(System.String,Grasshopper.Kernel.Undo.IGH_UndoAction[])
+    Unique name M_Grasshopper_Kernel_Undo_GH_UndoRecord__ctor_4 generated for M:Grasshopper.Kernel.Undo.GH_UndoRecord.#ctor(System.String,System.Collections.Generic.IEnumerable{Grasshopper.Kernel.Undo.IGH_UndoAction})
+    Unique name M_Grasshopper_Kernel_Undo_GH_UndoServer_PushUndoRecord_1 generated for M:Grasshopper.Kernel.Undo.GH_UndoServer.PushUndoRecord(System.String,Grasshopper.Kernel.Undo.GH_UndoAction)
+    Unique name M_Grasshopper_Plugin_GH_PluginUtil_SendKeyCodeToRhino_1 generated for M:Grasshopper.Plugin.GH_PluginUtil.SendKeyCodeToRhino(System.Int32)
+    Unique name M_Grasshopper_Plugin_GH_PluginUtil_SendKeyCodeToRhino_2 generated for M:Grasshopper.Plugin.GH_PluginUtil.SendKeyCodeToRhino(System.String)
   XslTransform (v2016.5.28.0)
   Copyright &#169; 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved.
@@ -90,12 +1078,12 @@ Done Building Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper
 
 Build succeeded.
 
-Time Elapsed 00:00:03.59
-    Last step completed in 00:00:03.7500
+Time Elapsed 00:00:07.15
+    Last step completed in 00:00:07.3496
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.2656
+    Last step completed in 00:00:00.3350
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -184,28 +1172,28 @@ Generating conceptual topic files
     C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_CustomAttributes.aml -&gt; C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\ddueXml\8a7974ab-7b2b-4f48-84d0-6e81b184e6b0.xml
     Parsing topic file &#39;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_ComponentWithOption.aml&#39;
     C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_ComponentWithOption.aml -&gt; C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\ddueXml\5f6a9f31-8838-40e6-ad37-a407be8f2c15.xml
-    Last step completed in 00:00:00.5469
+    Last step completed in 00:00:00.8411
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.1719
+    Last step completed in 00:00:00.2610
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0156
+    Last step completed in 00:00:00.0060
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0070
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 12/09/2016 10:26:25.
+Build started 26/09/2016 13:58:25.
 Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2016.5.28.0)
@@ -216,14 +1204,14 @@ Done Building Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper
 
 Build succeeded.
 
-Time Elapsed 00:00:00.70
+Time Elapsed 00:00:00.97
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.9376
+    Last step completed in 00:00:01.2751
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.6875
+    Last step completed in 00:00:01.0082
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -231,12 +1219,12 @@ C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Worki
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0478
+    Last step completed in 00:00:00.0379
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
-Build started 12/09/2016 10:26:26.
+Build started 26/09/2016 13:58:27.
 Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2016.5.28.0)
@@ -3373,17 +4361,16 @@ BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Plugin.GH_Resour
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 14 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
-  SaveComponent: Waiting for the document writer task to finish (96 Website API file(s) remaining)...
 Done Building Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj&quot; (default targets).
 
 Build succeeded.
 
-Time Elapsed 00:25:34.18
-    Last step completed in 00:25:34.3514
+Time Elapsed 00:13:03.03
+    Last step completed in 00:13:05.2787
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0948
+    Last step completed in 00:00:00.1420
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -3405,7 +4392,7 @@ Processed 8487 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\WebKI.xml
 Saving website table of contents to C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\WebTOC.xml
-    Last step completed in 00:05:27.1755
+    Last step completed in 00:07:10.6953
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -3546,19 +4533,19 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:00.8916
+    Last step completed in 00:00:01.5691
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0146
+    Last step completed in 00:00:00.0020
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.1251
+    Last step completed in 00:00:00.1800
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -3573,7 +4560,7 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 0 minutes, 34 seconds
+  Compile time: 0 minutes, 46 seconds
   
   8,489	Topics
   
@@ -3587,22 +4574,22 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\HtmlHelp1\GrasshopperSDK.chm, 10,594,120 bytes
+  Created c:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\HtmlHelp1\GrasshopperSDK.chm, 7,038,586 bytes
   
-  Compression decreased file by 60,658,220 bytes.
+  Compression decreased file by 65,221,286 bytes.
   
-    Last step completed in 00:00:34.9667
+    Last step completed in 00:00:47.7700
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0000
+    Last step completed in 00:00:00.0030
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:01:41.6085
+</plugIn>    Last step completed in 00:05:50.1531
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -3628,15 +4615,15 @@ Copied 9000 files
 Copied 9500 files
 Copied 10000 files
 Copied 10415 files for the website content
-    Last step completed in 00:00:16.0950
+    Last step completed in 00:02:25.1172
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:06.9522
+    Last step completed in 00:00:21.1731
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 12/09/2016 11:00:09.  Total time: 00:33:56.5739
+Build completed successfully at 26/09/2016 14:28:09.  Total time: 00:30:03.6714
 
 </buildStep>
 </shfbBuild>

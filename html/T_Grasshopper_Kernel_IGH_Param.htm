@@ -1,0 +1,141 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>IGH_Param Interface</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="IGH_Param interface" /><meta name="System.Keywords" content="Grasshopper.Kernel.IGH_Param interface" /><meta name="System.Keywords" content="IGH_Param interface, about IGH_Param interface" /><meta name="Microsoft.Help.F1" content="Grasshopper.Kernel.IGH_Param" /><meta name="Microsoft.Help.Id" content="T:Grasshopper.Kernel.IGH_Param" /><meta name="Description" content="Base interface for all Parameter types in Grasshopper. Do not implement this interface from scratch, derive from GH_Param or GH_PersistentParam instead." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="Grasshopper.Kernel" /><meta name="file" content="T_Grasshopper_Kernel_IGH_Param" /><meta name="guid" content="T_Grasshopper_Kernel_IGH_Param" /><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-1.11.0.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Grasshopper SDK<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="723c01da-9986-4db2-8f53-6f3a7494df75.htm" title="Grasshopper SDK" tocid="roottoc">Grasshopper SDK</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="N_Grasshopper_Kernel.htm" title="Grasshopper.Kernel" tocid="N_Grasshopper_Kernel">Grasshopper.Kernel</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="T_Grasshopper_Kernel_IGH_Param.htm" title="IGH_Param Interface" tocid="T_Grasshopper_Kernel_IGH_Param">IGH_Param Interface</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Properties_T_Grasshopper_Kernel_IGH_Param.htm" title="IGH_Param Properties" tocid="Properties_T_Grasshopper_Kernel_IGH_Param">IGH_Param Properties</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="Methods_T_Grasshopper_Kernel_IGH_Param.htm" title="IGH_Param Methods" tocid="Methods_T_Grasshopper_Kernel_IGH_Param">IGH_Param Methods</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn">IGH_Param Interface</td></tr></table><span class="introStyle"></span><div class="summary">
+ Base interface for all Parameter types in Grasshopper. 
+ Do not implement this interface from scratch, derive from GH_Param or 
+ GH_PersistentParam instead.
+ </div><p> </p><strong>Namespace:</strong> <a href="N_Grasshopper_Kernel.htm">Grasshopper.Kernel</a><br /><strong>Assembly:</strong> Grasshopper (in Grasshopper.dll) Version: 6.0.16265.1000 (6.0.16265.01000)<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="identifier">IGH_Param</span> : <span class="identifier">IGH_ActiveObject</span></pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Interface</span> <span class="identifier">IGH_Param</span>
+	<span class="keyword">Inherits</span> <span class="identifier">IGH_ActiveObject</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script></div><p>The <span class="selflink">IGH_Param</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID2RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_Access.htm">Access</a></td><td><div class="summary">
+ Gets or sets the Access level for this parameter.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_DataMapping.htm">DataMapping</a></td><td><div class="summary">
+ Gets or sets the data mapping of this Parameter.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_DataType.htm">DataType</a></td><td><div class="summary">
+ Gets the type of the current data state.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_HasProxySources.htm">HasProxySources</a></td><td><div class="summary">
+ Gets a value indicating whether or not this parameter maintains proxy sources. 
+ Proxy sources are used during file IO, when actual sources might not be available yet. 
+ Once an IO operation has been completed there should be no more proxy sources.
+ </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_ActiveObject_IsDataProvider.htm">IsDataProvider</a></td><td><div class="summary">
+ Gets whether or not this object is capable of emitting data.
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_Kind.htm">Kind</a></td><td><div class="summary">
+ Gets the parameter kind. The kind is evaluated lazily and cached.
+ </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_ActiveObject_Locked.htm">Locked</a></td><td><div class="summary">
+ Gets or sets the locked flag of this object. Locked objects are ignored during solutions.
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_ActiveObject_MutableNickName.htm">MutableNickName</a></td><td><div class="summary">
+ Gets or sets a value that enables Nick name changes through the menu. 
+ The default is TRUE.
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_Optional.htm">Optional</a></td><td><div class="summary">
+ Gets or sets whether or not this parameter is considered optional by the owner component. 
+ Empty, non-optional parameters prevent the component from being solved.
+ </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_ActiveObject_Phase.htm">Phase</a></td><td><div class="summary">
+ Gets the solution phase in which this object is currently stuck.
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_ActiveObject_ProcessorTime.htm">ProcessorTime</a></td><td><div class="summary">
+ Gets the most recent measured processor time.
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_ProxySourceCount.htm">ProxySourceCount</a></td><td><div class="summary">
+ Gets the number of proxy sources for this parameter.
+ Proxy sources are used during file IO, when actual sources might not be available yet. 
+ Once an IO operation has been completed there should be no more proxy sources.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_Recipients.htm">Recipients</a></td><td><div class="summary">
+ Gets a list of all the recipients of this parameter. 
+ I.e. a recipient has this parameter as one of the sources. 
+ The Recipient list is maintained by the parameter, 
+ do not modify it yourself.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_Reverse.htm">Reverse</a></td><td><div class="summary">
+ Gets or sets the data reverse modifier of this parameter.
+ </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_ActiveObject_RuntimeMessageLevel.htm">RuntimeMessageLevel</a></td><td><div class="summary">
+ Gets the worst-case level of all messages. I.e. if only warnings have been recorded, 
+ the level will be ::warning. If even a single error exists, the level will be ::error.
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_Simplify.htm">Simplify</a></td><td><div class="summary">
+ Gets or sets the simplify modifier for this parameter.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_SourceCount.htm">SourceCount</a></td><td><div class="summary">
+ Gets the number of sources for this parameter.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_Sources.htm">Sources</a></td><td><div class="summary">
+ Gets a list of source parameters. Do not modify this list, 
+ if you wish to add or remove sources, use dedicated functions 
+ like AddSource() and RemoveSource instead.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_StateTags.htm">StateTags</a></td><td><div class="summary">
+ Gets all the StateTags that are associated with this parameter. 
+ A state tag is a visual feedback icon that represents specific internal settings.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_Type.htm">Type</a></td><td><div class="summary">
+ Gets the Framework Type descriptor for the stored Data.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_TypeName.htm">TypeName</a></td><td><div class="summary">
+ Gets a human readable description of the data stored in this parameter.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_VolatileData.htm">VolatileData</a></td><td><div class="summary">
+ Gets the instance of the volatile data tree stored in this parameter.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_VolatileDataCount.htm">VolatileDataCount</a></td><td><div class="summary">
+ Gets the total number of volatile data items stored in this parameter.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_IGH_Param_WireDisplay.htm">WireDisplay</a></td><td><div class="summary">
+ Gets or sets the wire display style for this parameter. 
+ Wire display only affects the wires connected to the parameter input.
+ </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID3RBSection" class="collapsibleSection"><table id="memberList" class="members"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_ActiveObject_AddRuntimeMessage.htm">AddRuntimeMessage</a></td><td><div class="summary">
+ Add a new message to this object. Valid message type flags are Warning and Error.
+ If the Message string is empty or zero-length no message is added.
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_AddSource.htm">AddSource(IGH_Param)</a></td><td><div class="summary">
+ Append a new Source parameter to the end of the Sources list. 
+ Sources provide this parameter with data at runtime.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_AddSource_1.htm">AddSource(IGH_Param, Int32)</a></td><td><div class="summary">
+ Insert a new Source parameter into the Sources list. 
+ Sources provide this parameter with data at runtime.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_AddVolatileData.htm">AddVolatileData</a></td><td><div class="summary">
+ Inserts an item of volatile data into the data structure.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_AddVolatileDataList.htm">AddVolatileDataList</a></td><td><div class="summary">
+ Inserts a list of items into the data structure.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_AddVolatileDataTree.htm">AddVolatileDataTree</a></td><td><div class="summary">
+ Insert an entire data tree into this parameter.
+ </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_ActiveObject_ClearData.htm">ClearData</a></td><td><div class="summary">
+ This function is called whenever the object needs to 
+ clear all solution data. This usually amounts to wiping volatile caches and messages. 
+ This function will not affect any other objects, but it will set the Phase flag to 
+ Blank
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_ClearProxySources.htm">ClearProxySources</a></td><td><div class="summary">
+ Remove all proxy sources without attempting to relink them.
+ </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_ActiveObject_ClearRuntimeMessages.htm">ClearRuntimeMessages</a></td><td><div class="summary">
+ Clear all message lists.
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_ActiveObject_CollectData.htm">CollectData</a></td><td><div class="summary">
+ This function is called whenever the object is required to collect 
+ all data. Either from Persistent records, from source params or whatever. 
+ This step is only performed if the phase flag is Blank or Failed. 
+ Upon completion, the phase flag will be set to Collected
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_ActiveObject_ComputeData.htm">ComputeData</a></td><td><div class="summary">
+ This function is called whenever the object is required to generate new data. 
+ This step is only performed by some objects and only when the Phase flag is Collected.
+ Upon completion, the Phase will be Computed. If this object throws exceptions, 
+ it is the responsibility of the caller to set the Phase flag to Failed.
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_CreateProxySources.htm">CreateProxySources</a></td><td><div class="summary">
+ Convert all proper source parameters into proxy sources.
+ </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_ActiveObject_DependsOn.htm">DependsOn</a></td><td><div class="summary">
+ Solve the inheritance relationship between this object and a potential parental object.
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_ActiveObject_RegisterRemoteIDs.htm">RegisterRemoteIDs</a></td><td><div class="summary">
+ If this object depends on Rhino Objects, you must register the UUIDs of those objects. 
+ Failure to do so will result in faulty event handling.
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_RelinkProxySources.htm">RelinkProxySources</a></td><td><div class="summary">
+ Attempt to replace all proxy sources with real sources. 
+ Proxy sources are used during file IO, when actual sources might not be available yet. 
+ Once an IO operation has been completed there should be no more proxy sources.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_RemoveAllSources.htm">RemoveAllSources</a></td><td><div class="summary">
+ Remove all sources from this parameter.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_RemoveEffects.htm">RemoveEffects</a></td><td><div class="summary">
+ Remove all post-process effects.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_RemoveSource_1.htm">RemoveSource(Guid)</a></td><td><div class="summary">
+ Remove the specified source from this parameter.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_RemoveSource.htm">RemoveSource(IGH_Param)</a></td><td><div class="summary">
+ Remove the specified source from this parameter.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_ReplaceSource_1.htm">ReplaceSource(Guid, IGH_Param)</a></td><td><div class="summary">
+ Replace an existing source with a new one. If the old_source 
+ does not exist in this parameter, nothing happens.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_Param_ReplaceSource.htm">ReplaceSource(IGH_Param, IGH_Param)</a></td><td><div class="summary">
+ Replace an existing source with a new one. If the old_source 
+ does not exist in this parameter, nothing happens.
+ </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_ActiveObject_RuntimeMessages.htm">RuntimeMessages</a></td><td><div class="summary">
+ Gets the list of cached runtime messages that were recorded during solver-time processes.
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_Grasshopper_Kernel_IGH_ActiveObject_SDKCompliancy.htm">SDKCompliancy</a></td><td><div class="summary">
+ Test whether this object is compliant with a given Rhino version.
+ </div> (Inherited from <a href="T_Grasshopper_Kernel_IGH_ActiveObject.htm">IGH_ActiveObject</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID4RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Grasshopper_Kernel.htm">Grasshopper.Kernel Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper version: 1.0.x<p><a href="http://www.mcneel.com" target="_blank">Copyright © 2009-2016 Robert McNeel &amp; Associates</a></p><div class="feedbackLink">Send comments on this topic to
+        <a id="HT_MailLink" href="mailto:david%40mcneel.com?Subject=Grasshopper SDK">Grasshopper development</a></div><script type="text/javascript">
+        var HT_mailLink = document.getElementById("HT_MailLink");
+        var HT_mailLinkText = HT_mailLink.innerHTML;
+        HT_mailLink.href += ": " + document.title + "\u0026body=" + encodeURIComponent("Your feedback is used to improve the documentation and the product. Your e-mail address will not be used for any other purpose and is disposed of after the issue you report is resolved. While working to resolve the issue that you report, you may be contacted via e-mail to get further details or clarification on the feedback you sent. After the issue you report has been addressed, you may receive an e-mail to let you know that your feedback has been addressed.");
+        HT_mailLink.innerHTML = HT_mailLinkText;
+        </script> </div></body></html>
