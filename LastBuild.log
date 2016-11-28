@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\GrasshopperSDKHelp.shfbproj" started="26/09/2016 13:58:06">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2016.5.28.0" projectFile="C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\GrasshopperSDKHelp.shfbproj" started="28/11/2016 11:46:28">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\&#39;
@@ -14,8 +14,12 @@ Loading and initializing plug-ins...
 Lightweight Website Style Version 2016.5.28.0
 Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved
 Portions Copyright &#169; 2014, Sam Harwell, All Rights Reserved
+</buildStep>
+<buildStep step="ClearWorkFolder">
+Clearing working folder...
 -------------------------------
 Clearing any prior web/markdown output...
+    Did not delete folder &#39;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\.git&#39; as it contains read-only or hidden folders/files
 </buildStep>
 <buildStep step="ValidatingDocumentationSources">
 Validating and copying documentation source information
@@ -36,16 +40,16 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0702
+</plugIn>    Last step completed in 00:00:00.0313
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:05.7823
+    Last step completed in 00:00:04.9692
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateRefInfo.proj]
-Build started 26/09/2016 13:58:13.
+Build started 28/11/2016 11:46:34.
 Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
@@ -54,7 +58,7 @@ GenerateRefInfo:
   Copyright &#169; 2006-2016, Microsoft Corporation, All Rights Reserved.
   Portions Copyright &#169; 2006-2016, Eric Woodruff, All Rights Reserved.
   Loaded 2 assemblies for reflection and 2 dependency assemblies.
-  Wrote information on 23 namespaces, 636 types, and 6892 members
+  Wrote information on 23 namespaces, 636 types, and 6887 members
   Copying file from &quot;reflection.org&quot; to &quot;reflection.all&quot;.
   XslTransform (v2016.5.28.0)
   Copyright &#169; 2006-2016, Microsoft Corporation, All Rights Reserved.
@@ -64,13 +68,13 @@ Done Building Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper
 
 Build succeeded.
 
-Time Elapsed 00:00:03.41
-    Last step completed in 00:00:03.6983
+Time Elapsed 00:00:03.78
+    Last step completed in 00:00:04.0316
 </buildStep>
 <buildStep step="TransformReflectionInfo">
 Transforming reflection output...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - TransformManifest.proj]
-Build started 26/09/2016 13:58:16.
+Build started 28/11/2016 11:46:38.
 Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\TransformManifest.proj&quot; on node 1 (default targets).
 TransformManifest:
   XslTransform (v2016.5.28.0)
@@ -1078,12 +1082,12 @@ Done Building Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper
 
 Build succeeded.
 
-Time Elapsed 00:00:07.15
-    Last step completed in 00:00:07.3496
+Time Elapsed 00:00:05.90
+    Last step completed in 00:00:06.0787
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.3350
+    Last step completed in 00:00:00.2660
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -1172,28 +1176,28 @@ Generating conceptual topic files
     C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_CustomAttributes.aml -&gt; C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\ddueXml\8a7974ab-7b2b-4f48-84d0-6e81b184e6b0.xml
     Parsing topic file &#39;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_ComponentWithOption.aml&#39;
     C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_ComponentWithOption.aml -&gt; C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\ddueXml\5f6a9f31-8838-40e6-ad37-a407be8f2c15.xml
-    Last step completed in 00:00:00.8411
+    Last step completed in 00:00:00.6875
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.2610
+    Last step completed in 00:00:00.2342
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0060
+    Last step completed in 00:00:00.0156
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0070
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - GenerateIntermediateTOC.proj]
-Build started 26/09/2016 13:58:25.
+Build started 28/11/2016 11:46:45.
 Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateIntermediateTOC.proj&quot; on node 1 (default targets).
 GenerateIntermediateTOC:
   XslTransform (v2016.5.28.0)
@@ -1204,14 +1208,14 @@ Done Building Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper
 
 Build succeeded.
 
-Time Elapsed 00:00:00.97
+Time Elapsed 00:00:00.76
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:01.2751
+    Last step completed in 00:00:01.0162
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:01.0082
+    Last step completed in 00:00:01.0465
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -1219,12 +1223,12 @@ C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Worki
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0379
+    Last step completed in 00:00:00.0313
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\MSBuild\14.0\bin\MSBuild.exe - BuildTopics.proj]
-Build started 26/09/2016 13:58:27.
+Build started 28/11/2016 11:46:47.
 Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
   BuildAssembler (v2016.5.28.0)
@@ -4354,7 +4358,7 @@ BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Plugin.GH_Resour
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Plugin.GH_ResourceGate.Warning_24x24] Missing &lt;value&gt; documentation [C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Plugin.GH_ResourceGate.Warning_40x40] Missing &lt;value&gt; documentation [C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Plugin.GH_ResourceGate.WhiteIcon] Missing &lt;value&gt; documentation [C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-  Processed 8487 topic(s)
+  Processed 8480 topic(s)
   3122 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
@@ -4365,12 +4369,12 @@ Done Building Project &quot;C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper
 
 Build succeeded.
 
-Time Elapsed 00:13:03.03
-    Last step completed in 00:13:05.2787
+Time Elapsed 00:16:25.82
+    Last step completed in 00:16:26.0605
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.1420
+    Last step completed in 00:00:00.0938
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
@@ -4382,17 +4386,17 @@ E-Mail: Eric@EWoodruff.us
 Using LCID &#39;1033&#39;, code page &#39;65001&#39;, encoding charset &#39;UTF-8&#39;.
 
 Processing Help 1 files in C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\HtmlHelp1
-Processed 8487 HTML files
+Processed 8480 HTML files
 Sorting keywords and generating See Also indices
 Saving HTML Help 1 keyword index to C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GrasshopperSDK.hhk
 Saving HTML Help 1 table of contents to C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GrasshopperSDK.hhc
 
 Processing website files in C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website
-Processed 8487 HTML files
+Processed 8480 HTML files
 Sorting keywords and generating See Also indices
 Saving website keyword index to C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\WebKI.xml
 Saving website table of contents to C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\WebTOC.xml
-    Last step completed in 00:07:10.6953
+    Last step completed in 00:04:54.0240
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -4533,19 +4537,19 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyle
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\icons\TocOpen.gif -&gt; C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\icons\TocOpen.gif
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\branding-Website.js -&gt; C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\PresentationStyles\VS2013\Web\scripts\jquery-1.11.0.min.js -&gt; C:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\scripts\jquery-1.11.0.min.js
-    Last step completed in 00:00:01.5691
+    Last step completed in 00:00:01.0625
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating HTML Help 1 table of contents file...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateHelpFileIndex">
 Generating HTML Help 1 index file...
-    Last step completed in 00:00:00.0020
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.1800
+    Last step completed in 00:00:00.1256
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -4560,13 +4564,13 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 0 minutes, 46 seconds
+  Compile time: 0 minutes, 37 seconds
   
-  8,489	Topics
+  8,482	Topics
   
-  98,967	Local links
+  98,898	Local links
   
-  17,762	Internet links
+  17,750	Internet links
   
   0	Graphics
   
@@ -4574,22 +4578,22 @@ Compiling HTML Help 1 file...
   
   
   
-  Created c:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\HtmlHelp1\GrasshopperSDK.chm, 7,038,586 bytes
+  Created c:\DEV\mcneel\rhino\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\HtmlHelp1\GrasshopperSDK.chm, 7,025,126 bytes
   
-  Compression decreased file by 65,221,286 bytes.
+  Compression decreased file by 65,041,554 bytes.
   
-    Last step completed in 00:00:47.7700
+    Last step completed in 00:00:38.2957
 </buildStep>
 <buildStep step="GenerateHelpFormatTableOfContents">
 Generating website table of contents file...
-    Last step completed in 00:00:00.0030
+    Last step completed in 00:00:00.0000
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:05:50.1531
+</plugIn>    Last step completed in 00:02:38.1907
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -4614,16 +4618,16 @@ Copied 8500 files
 Copied 9000 files
 Copied 9500 files
 Copied 10000 files
-Copied 10415 files for the website content
-    Last step completed in 00:02:25.1172
+Copied 10406 files for the website content
+    Last step completed in 00:00:22.6417
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:21.1731
+    Last step completed in 00:00:08.9535
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 26/09/2016 14:28:09.  Total time: 00:30:03.6714
+Build completed successfully at 28/11/2016 12:11:57.  Total time: 00:25:28.8089
 
 </buildStep>
 </shfbBuild>
