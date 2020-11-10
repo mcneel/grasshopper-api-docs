@@ -1,0 +1,415 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>GH_IReader Interface</title><meta name="Language" content="en-us" /><meta name="System.Keywords" content="GH_IReader interface" /><meta name="System.Keywords" content="GH_IO.Serialization.GH_IReader interface" /><meta name="Microsoft.Help.F1" content="GH_IO.Serialization.GH_IReader" /><meta name="Microsoft.Help.Id" content="T:GH_IO.Serialization.GH_IReader" /><meta name="Description" content="Provides access to a subset of GH_Chunk methods used for reading archives." /><meta name="Microsoft.Help.ContentType" content="Reference" /><meta name="BrandingAware" content="true" /><meta name="container" content="GH_IO.Serialization" /><meta name="file" content="T_GH_IO_Serialization_GH_IReader" /><meta name="guid" content="T_GH_IO_Serialization_GH_IReader" /><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-3.3.1.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Grasshopper API<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/723c01da-9986-4db2-8f53-6f3a7494df75.htm" title="Grasshopper API" tocid="roottoc">Grasshopper API</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/N_GH_IO_Serialization.htm" title="GH_IO.Serialization" tocid="N_GH_IO_Serialization">GH_IO.Serialization</a></div><div class="toclevel1 current" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/T_GH_IO_Serialization_GH_IReader.htm" title="GH_IReader Interface" tocid="T_GH_IO_Serialization_GH_IReader">GH_IReader Interface</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/Properties_T_GH_IO_Serialization_GH_IReader.htm" title="GH_IReader Properties" tocid="Properties_T_GH_IO_Serialization_GH_IReader">GH_IReader Properties</a></div><div class="toclevel2" data-toclevel="2"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/Methods_T_GH_IO_Serialization_GH_IReader.htm" title="GH_IReader Methods" tocid="Methods_T_GH_IO_Serialization_GH_IReader">GH_IReader Methods</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn"><h1>GH_IReader Interface</h1></td></tr></table><span class="introStyle"></span> <div class="summary">
+            Provides access to a subset of GH_Chunk methods used for reading archives.
+            </div><p> </p>
+    <strong>Namespace:</strong> 
+   <a href="N_GH_IO_Serialization.htm">GH_IO.Serialization</a><br />
+    <strong>Assembly:</strong>
+   GH_IO (in GH_IO.dll)<div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Syntax</span></div><div id="ID1RBSection" class="collapsibleSection"><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EBCA_tab1" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','cs','1','2');return false;">C#</a></div><div id="ID0EBCA_tab2" class="codeSnippetContainerTab"><a href="#" onclick="javascript:ChangeTab('ID0EBCA','vb','2','2');return false;">VB</a></div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EBCA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EBCA');return false;" title="Copy">Copy</a></div></div><div id="ID0EBCA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="keyword">public</span> <span class="keyword">interface</span> <span class="identifier">GH_IReader</span> : <span class="identifier">GH_IChunk</span>, 
+	<span class="identifier">GH_IBinarySupport</span>, <span class="identifier">GH_IXmlSupport</span></pre></div><div id="ID0EBCA_code_Div2" class="codeSnippetContainerCode" style="display: none"><pre xml:space="preserve"><span class="keyword">Public</span> <span class="keyword">Interface</span> <span class="identifier">GH_IReader</span>
+	<span class="keyword">Inherits</span> <span class="identifier">GH_IChunk</span>, <span class="identifier">GH_IBinarySupport</span>, <span class="identifier">GH_IXmlSupport</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EBCA");</script></div><p>The <span class="selflink">GH_IReader</span> type exposes the following members.</p><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Properties</span></div><div id="ID2RBSection" class="collapsibleSection"><table class="members" id="propertyList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GH_IO_Serialization_GH_IChunk_Archive.htm">Archive</a></td><td><div class="summary">
+            Gets a pointer to the archive that owns the Root of the tree this chunk belongs to.
+            </div> (Inherited from <a href="T_GH_IO_Serialization_GH_IChunk.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GH_IO_Serialization_GH_IChunk_ArchiveLocation.htm">ArchiveLocation</a></td><td><div class="summary">
+            Gets a string representing the URI with which the archive is associated. 
+            The location may be a null string.
+            </div> (Inherited from <a href="T_GH_IO_Serialization_GH_IChunk.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GH_IO_Serialization_GH_IChunk_ChunkCount.htm">ChunkCount</a></td><td><div class="summary">
+            Gets the number of child chunks contained in this chunk. 
+            The set of all child chunks is referred to as a 'litter'.
+            </div> (Inherited from <a href="T_GH_IO_Serialization_GH_IChunk.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GH_IO_Serialization_GH_IChunk_Chunks.htm">Chunks</a></td><td><div class="summary">
+            Gets a pointer to the internal list of child chunks. 
+            Do not access this list unless you know what you are doing.
+            </div> (Inherited from <a href="T_GH_IO_Serialization_GH_IChunk.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GH_IO_Serialization_GH_IChunk_Index.htm">Index</a></td><td><div class="summary">
+            Gets the index of this chunk. The index is set by the owner of this chunk. 
+            Indices smaller than zero imply no index has been set. 
+            The combination of name+index is always unique among a set of chunks in the same litter.
+            </div> (Inherited from <a href="T_GH_IO_Serialization_GH_IChunk.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GH_IO_Serialization_GH_IChunk_ItemCount.htm">ItemCount</a></td><td><div class="summary">
+            Gets the number of items contained in this chunk. 
+            </div> (Inherited from <a href="T_GH_IO_Serialization_GH_IChunk.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GH_IO_Serialization_GH_IChunk_Items.htm">Items</a></td><td><div class="summary">
+            Gets a pointer to the internal list of items. 
+            Do not access this list unless you know what you are doing.
+            </div> (Inherited from <a href="T_GH_IO_Serialization_GH_IChunk.htm">GH_IChunk</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_GH_IO_Serialization_GH_IChunk_Name.htm">Name</a></td><td><div class="summary">
+            Gets the name of this chunk. The name is set by the owner of this chunk. 
+            Names must be at least 1 character long. 
+            The combination of name+index is always unique among a set of chunks in a single litter.
+            </div> (Inherited from <a href="T_GH_IO_Serialization_GH_IChunk.htm">GH_IChunk</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Methods</span></div><div id="ID3RBSection" class="collapsibleSection"><table class="members" id="methodList"><tr><th class="iconColumn">
+								 
+							</th><th>Name</th><th>Description</th></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IChunk_AddMessage.htm">AddMessage</a></td><td><div class="summary">
+            Log a new message with the top-level archive. 
+            Messages are collected during read/write operations, 
+            and can be displayed to the user upon completion using GH_Archive.ShowMessageLog().
+            </div> (Inherited from <a href="T_GH_IO_Serialization_GH_IChunk.htm">GH_IChunk</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_ChunkExists.htm">ChunkExists(String)</a></td><td><div class="summary">
+            Checks whether a chunk with the specified name exists in the litter. 
+            Only chunks without index qualifiers are considered. 
+            Name comparisons are not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_ChunkExists_1.htm">ChunkExists(String, Int32)</a></td><td><div class="summary">
+            Checks whether a chunk with the specified name and index exists in the litter. 
+            Only chunks with index qualifiers are considered. 
+            Name comparisons are not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_FindChunk.htm">FindChunk(String)</a></td><td><div class="summary">
+            Finds the first chunk in the litter that matches the given name. 
+            Only chunks without index qualifiers are considered.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_FindChunk_1.htm">FindChunk(String, Int32)</a></td><td><div class="summary">
+            Finds the first chunk in the list that matches the given name and index. 
+            Only chunks with index qualifiers are considered.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_FindItem.htm">FindItem(String)</a></td><td><div class="summary">
+            Finds the first item that matches the given name. 
+            Only items without index qualifiers are considered. 
+            Name comparisons are not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_FindItem_1.htm">FindItem(String, Int32)</a></td><td><div class="summary">
+            Finds the first item that matches the given name and index. 
+            Only items with index qualifiers are considered. 
+            Name comparisons are not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetBoolean.htm">GetBoolean(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetBoolean_1.htm">GetBoolean(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetBoundingBox.htm">GetBoundingBox(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetBoundingBox_1.htm">GetBoundingBox(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetByte.htm">GetByte(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetByte_1.htm">GetByte(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetByteArray.htm">GetByteArray(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetByteArray_1.htm">GetByteArray(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDate.htm">GetDate(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDate_1.htm">GetDate(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDecimal.htm">GetDecimal(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDecimal_1.htm">GetDecimal(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDouble.htm">GetDouble(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDouble_1.htm">GetDouble(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDoubleArray.htm">GetDoubleArray(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDoubleArray_1.htm">GetDoubleArray(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingBitmap.htm">GetDrawingBitmap(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingBitmap_1.htm">GetDrawingBitmap(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingColor.htm">GetDrawingColor(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingColor_1.htm">GetDrawingColor(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingPoint.htm">GetDrawingPoint(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingPoint_1.htm">GetDrawingPoint(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingPointF.htm">GetDrawingPointF(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingPointF_1.htm">GetDrawingPointF(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingRectangle.htm">GetDrawingRectangle(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingRectangle_1.htm">GetDrawingRectangle(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingRectangleF.htm">GetDrawingRectangleF(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingRectangleF_1.htm">GetDrawingRectangleF(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingSize.htm">GetDrawingSize(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingSize_1.htm">GetDrawingSize(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingSizeF.htm">GetDrawingSizeF(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetDrawingSizeF_1.htm">GetDrawingSizeF(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetGuid.htm">GetGuid(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetGuid_1.htm">GetGuid(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetInt32.htm">GetInt32(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetInt32_1.htm">GetInt32(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetInt64.htm">GetInt64(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetInt64_1.htm">GetInt64(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetInterval1D.htm">GetInterval1D(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetInterval1D_1.htm">GetInterval1D(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetInterval2D.htm">GetInterval2D(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetInterval2D_1.htm">GetInterval2D(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetLine.htm">GetLine(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetLine_1.htm">GetLine(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetPath_1.htm">GetPath(String, String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetPath.htm">GetPath(String, Int32, String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetPlane.htm">GetPlane(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetPlane_1.htm">GetPlane(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetPoint2D.htm">GetPoint2D(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetPoint2D_1.htm">GetPoint2D(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetPoint3D.htm">GetPoint3D(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetPoint3D_1.htm">GetPoint3D(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetPoint4D.htm">GetPoint4D(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetPoint4D_1.htm">GetPoint4D(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetSingle.htm">GetSingle(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetSingle_1.htm">GetSingle(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetString.htm">GetString(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetString_1.htm">GetString(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetVersion.htm">GetVersion(String)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_GetVersion_1.htm">GetVersion(String, Int32)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_ItemExists.htm">ItemExists(String)</a></td><td><div class="summary">
+            Checks whether an item with the specified name exists. 
+            Only items without index qualifiers are considered. 
+            Name comparisons are not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_ItemExists_1.htm">ItemExists(String, Int32)</a></td><td><div class="summary">
+            Checks whether an item with the specified name and index exists. 
+            Only items with index qualifiers are considered. 
+            Name comparisons are not case-sensitive.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IBinarySupport_Read.htm">Read(BinaryReader)</a></td><td><div class="summary">
+            Called when an object is required to deserialize itself.
+            </div> (Inherited from <a href="T_GH_IO_Serialization_GH_IBinarySupport.htm">GH_IBinarySupport</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IXmlSupport_Read.htm">Read(XmlNode)</a></td><td><div class="summary">
+            Called when an object is required to deserialize itself.
+            </div> (Inherited from <a href="T_GH_IO_Serialization_GH_IXmlSupport.htm">GH_IXmlSupport</a>.)</td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetBoolean.htm">TryGetBoolean(String, Boolean<span id="LST6820A988_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_0?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetBoolean_1.htm">TryGetBoolean(String, Int32, Boolean<span id="LST6820A988_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_1?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetBoundingBox.htm">TryGetBoundingBox(String, GH_BoundingBox<span id="LST6820A988_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_2?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetBoundingBox_1.htm">TryGetBoundingBox(String, Int32, GH_BoundingBox<span id="LST6820A988_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_3?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetByte.htm">TryGetByte(String, Byte<span id="LST6820A988_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_4?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetByte_1.htm">TryGetByte(String, Int32, Byte<span id="LST6820A988_5"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_5?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDate.htm">TryGetDate(String, DateTime<span id="LST6820A988_6"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_6?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDate_1.htm">TryGetDate(String, Int32, DateTime<span id="LST6820A988_7"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_7?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDecimal.htm">TryGetDecimal(String, Decimal<span id="LST6820A988_8"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_8?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDecimal_1.htm">TryGetDecimal(String, Int32, Decimal<span id="LST6820A988_9"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_9?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDouble.htm">TryGetDouble(String, Double<span id="LST6820A988_10"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_10?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDouble_1.htm">TryGetDouble(String, Int32, Double<span id="LST6820A988_11"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_11?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingColor.htm">TryGetDrawingColor(String, Color<span id="LST6820A988_12"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_12?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingColor_1.htm">TryGetDrawingColor(String, Int32, Color<span id="LST6820A988_13"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_13?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingPoint.htm">TryGetDrawingPoint(String, Point<span id="LST6820A988_14"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_14?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingPoint_1.htm">TryGetDrawingPoint(String, Int32, Point<span id="LST6820A988_15"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_15?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingPointF.htm">TryGetDrawingPointF(String, PointF<span id="LST6820A988_16"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_16?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingPointF_1.htm">TryGetDrawingPointF(String, Int32, PointF<span id="LST6820A988_17"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_17?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingRectangle.htm">TryGetDrawingRectangle(String, Rectangle<span id="LST6820A988_18"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_18?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingRectangle_1.htm">TryGetDrawingRectangle(String, Int32, Rectangle<span id="LST6820A988_19"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_19?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingRectangleF.htm">TryGetDrawingRectangleF(String, RectangleF<span id="LST6820A988_20"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_20?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingRectangleF_1.htm">TryGetDrawingRectangleF(String, Int32, RectangleF<span id="LST6820A988_21"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_21?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingSize.htm">TryGetDrawingSize(String, Size<span id="LST6820A988_22"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_22?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingSize_1.htm">TryGetDrawingSize(String, Int32, Size<span id="LST6820A988_23"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_23?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingSizeF.htm">TryGetDrawingSizeF(String, SizeF<span id="LST6820A988_24"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_24?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetDrawingSizeF_1.htm">TryGetDrawingSizeF(String, Int32, SizeF<span id="LST6820A988_25"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_25?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetGuid.htm">TryGetGuid(String, Guid<span id="LST6820A988_26"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_26?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetGuid_1.htm">TryGetGuid(String, Int32, Guid<span id="LST6820A988_27"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_27?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetInt32_1.htm">TryGetInt32(String, Int32<span id="LST6820A988_28"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_28?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetInt32.htm">TryGetInt32(String, Int32, Int32<span id="LST6820A988_29"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_29?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetInt64_1.htm">TryGetInt64(String, Int64<span id="LST6820A988_30"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_30?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetInt64.htm">TryGetInt64(String, Int32, Int64<span id="LST6820A988_31"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_31?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetInterval1D.htm">TryGetInterval1D(String, GH_Interval1D<span id="LST6820A988_32"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_32?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetInterval1D_1.htm">TryGetInterval1D(String, Int32, GH_Interval1D<span id="LST6820A988_33"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_33?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetInterval2D.htm">TryGetInterval2D(String, GH_Interval2D<span id="LST6820A988_34"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_34?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetInterval2D_1.htm">TryGetInterval2D(String, Int32, GH_Interval2D<span id="LST6820A988_35"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_35?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetLine.htm">TryGetLine(String, GH_Line<span id="LST6820A988_36"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_36?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetLine_1.htm">TryGetLine(String, Int32, GH_Line<span id="LST6820A988_37"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_37?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetPlane.htm">TryGetPlane(String, GH_Plane<span id="LST6820A988_38"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_38?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetPlane_1.htm">TryGetPlane(String, Int32, GH_Plane<span id="LST6820A988_39"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_39?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetPoint2D.htm">TryGetPoint2D(String, GH_Point2D<span id="LST6820A988_40"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_40?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetPoint2D_1.htm">TryGetPoint2D(String, Int32, GH_Point2D<span id="LST6820A988_41"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_41?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetPoint3D.htm">TryGetPoint3D(String, GH_Point3D<span id="LST6820A988_42"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_42?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetPoint3D_1.htm">TryGetPoint3D(String, Int32, GH_Point3D<span id="LST6820A988_43"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_43?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetPoint4D.htm">TryGetPoint4D(String, GH_Point4D<span id="LST6820A988_44"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_44?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetPoint4D_1.htm">TryGetPoint4D(String, Int32, GH_Point4D<span id="LST6820A988_45"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_45?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetSingle_1.htm">TryGetSingle(String, Single<span id="LST6820A988_46"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_46?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetSingle.htm">TryGetSingle(String, Int32, Single<span id="LST6820A988_47"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_47?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetString_1.htm">TryGetString(String, String<span id="LST6820A988_48"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_48?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetString.htm">TryGetString(String, Int32, String<span id="LST6820A988_49"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_49?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetVersion.htm">TryGetVersion(String, GH_Version<span id="LST6820A988_50"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_50?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IReader_TryGetVersion_1.htm">TryGetVersion(String, Int32, GH_Version<span id="LST6820A988_51"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST6820A988_51?cpp=%");</script>)</a></td><td><div class="summary">
+            Gets the value of the item with the specified name and index. 
+            Name comparison is not case-sensitive.
+            </div></td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IBinarySupport_Write.htm">Write(BinaryWriter)</a></td><td><div class="summary">
+            Called when an object is required to serialize itself.
+            </div> (Inherited from <a href="T_GH_IO_Serialization_GH_IBinarySupport.htm">GH_IBinarySupport</a>.)</td></tr><tr data="public;inherited;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /></td><td><a href="M_GH_IO_Serialization_GH_IXmlSupport_Write.htm">Write(XmlWriter)</a></td><td><div class="summary">
+            Called when an object is required to serialize itself.
+            </div> (Inherited from <a href="T_GH_IO_Serialization_GH_IXmlSupport.htm">GH_IXmlSupport</a>.)</td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID4RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_GH_IO_Serialization.htm">GH_IO.Serialization Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper for Rhino 7.0.20315.01000 (Last updated: 10/11/2020)<br />Copyright © 2009-2020 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/grasshopper" target="_blank">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>

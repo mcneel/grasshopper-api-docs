@@ -1,0 +1,202 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Simple Component (VB)</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="b883d0c0-4947-48bc-8e9e-492a6d6c2a06" /><meta name="Description" content="IntroductionGrasshopper.Kernel.GH_ComponentThe Component ConstructorComponent GUIDsParameter RegistrationThe Solver Routine" /><meta name="Microsoft.Help.ContentType" content="Concepts" /><meta name="BrandingAware" content="true" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-3.3.1.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Grasshopper API<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/723c01da-9986-4db2-8f53-6f3a7494df75.htm" title="Grasshopper API" tocid="roottoc">Grasshopper API</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/d113a9f0-6e27-46df-8316-2079c44382ac.htm" title="Examples" tocid="d113a9f0-6e27-46df-8316-2079c44382ac">Examples</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/b883d0c0-4947-48bc-8e9e-492a6d6c2a06.htm" title="Visual Basic .NET" tocid="dd62138a-515b-470b-b10b-d3cc3d811444">Visual Basic .NET</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="../html/b883d0c0-4947-48bc-8e9e-492a6d6c2a06.htm" title="Simple Component (VB)" tocid="b883d0c0-4947-48bc-8e9e-492a6d6c2a06">Simple Component (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/2824c770-2673-49a3-8683-1a70bc0349cc.htm" title="Simple Mathematics (VB)" tocid="2824c770-2673-49a3-8683-1a70bc0349cc">Simple Mathematics (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/4306b177-1bf1-41bc-ac0e-2f6869d02365.htm" title="Simple Geometry (VB)" tocid="4306b177-1bf1-41bc-ac0e-2f6869d02365">Simple Geometry (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/f9aa207f-3d19-414c-af01-1e5ad42a8cab.htm" title="Simple Data Types (VB)" tocid="f9aa207f-3d19-414c-af01-1e5ad42a8cab">Simple Data Types (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/0edd8dc9-32a7-40aa-b217-8e01e35e58bc.htm" title="Simple Parameters (VB)" tocid="0edd8dc9-32a7-40aa-b217-8e01e35e58bc">Simple Parameters (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/4db493ec-0bb3-4b73-943a-fdff03863e1d.htm" title="List Component (VB)" tocid="4db493ec-0bb3-4b73-943a-fdff03863e1d">List Component (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/99cd32c8-7c1f-4f9a-87ea-76b032de7f70.htm" title="Extending the GUI (VB)" tocid="99cd32c8-7c1f-4f9a-87ea-76b032de7f70">Extending the GUI (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/ad6e93fe-e1c8-451e-a6d0-77cb8dd4516d.htm" title="Custom Attributes (VB)" tocid="ad6e93fe-e1c8-451e-a6d0-77cb8dd4516d">Custom Attributes (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/434018c0-6110-4478-bf2a-dcd099d8b8b2.htm" title="Custom Component Options (VB)" tocid="434018c0-6110-4478-bf2a-dcd099d8b8b2">Custom Component Options (VB)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn"><h1>Simple Component (VB)</h1></td></tr></table><span class="introStyle"></span> <p><ul><li><a href="#Introduction">Introduction</a></li><li><a href="#GH_ComponentInheritance">Grasshopper.Kernel.GH_Component</a></li><li><a href="#GH_ComponentConstructor">The Component Constructor</a></li><li><a href="#GH_ComponentGuid">Component GUIDs</a></li><li><a href="#GH_ComponentParameters">Parameter Registration</a></li><li><a href="#GH_ComponentSolveInstance">The Solver Routine</a></li></ul></p><div class="introduction" id="Introduction"><p>
+      This article contains an exhaustive, step by step explanation of how to build your first component in VB.NET. 
+      It will skip over any complicated issues (such as mathematics, geometry and data handling) in order to reduce 
+      the totality of new concepts. You will however need to have a good understanding of 
+      basic OOP concepts such as classes, types and inheritance. If you do not understand 
+      these DotNET essentials, we recommend you start with some other reading material first.       
+      </p></div><div class="collapsibleAreaRegion" id="GH_ComponentInheritance"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Grasshopper.Kernel.GH_Component</span></div><div id="ID1RBSection" class="collapsibleSection"><p>
+        All you need to do in order to define a new Component is to inherit from the 
+        <a href="T_Grasshopper_Kernel_GH_Component.htm">GH_Component</a>
+        base class in Grasshopper. Assuming you've set up your project correctly, 
+        create a new, blank class in your project:
+        </p><p><span class="media"><img src="../media/VB_CreateNewClass.png" /></span></p><p>
+        At this point a new file should be created (MyFirstComponent.vb) with the following content:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAQAAEAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAQAAEAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAQAAEAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAQAAEAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">Public</span> <span class="highlight-keyword">Class</span> MyFirstComponent
+
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAQAAEAAA");</script>
+        
+        Since we'll be using primarily types from the <span class="code">Grasshopper.Kernel</span> namespace. 
+        We'll import this namespace so that we have easy access to all types contained within it (unless otherwise 
+        specified, all further types discussed in this topic belong to <span class="code">Grasshopper.Kernel</span>):
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAKAAEAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAKAAEAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAKAAEAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAKAAEAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">Imports</span> Grasshopper.Kernel
+<span class="highlight-keyword">Public</span> <span class="highlight-keyword">Class</span> MyFirstComponent
+
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAKAAEAAA");</script>
+        
+        Now, we need to derive our MyFirstComponent class from the <span class="code">GH_Component</span> base class 
+        defined inside Grasshopper. <span class="code">GH_Component</span> takes care of almost all the complicated 
+        actions and mannerisms that constitute a Component.
+        It will handle data conversion, GUI, menus, file Input/Output, Error trapping and much, much more. This 
+        allows us to focus only on the unique aspects of our Component.
+        In order to derive from <span class="code">GH_Component</span>, add the following line directly 
+        underneath the class declarator:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EACAAEAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EACAAEAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EACAAEAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EACAAEAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">Imports</span> Grasshopper.Kernel
+<span class="highlight-keyword">Public</span> <span class="highlight-keyword">Class</span> MyFirstComponent
+  <span class="highlight-keyword">Inherits</span> GH_Component
+
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EACAAEAAA");</script>
+        
+        As soon as you press Enter after finishing that line, Visual Studio will insert a bunch of empty properties and
+        subroutines which we are required to fill out, but we'll deal with that in the next sections:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAAAEAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAAAEAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAAAEAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAAAEAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">Imports</span> Grasshopper.Kernel
+<span class="highlight-keyword">Public</span> <span class="highlight-keyword">Class</span> MyFirstComponent
+  <span class="highlight-keyword">Inherits</span> GH_Component
+
+  <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> RegisterInputParams(<span class="highlight-keyword">ByVal</span> pManager <span class="highlight-keyword">As</span> GH_Component.GH_InputParamManager)
+    <span class="highlight-comment">'Don't worry about this just yet!</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+
+  <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> RegisterOutputParams(<span class="highlight-keyword">ByVal</span> pManager <span class="highlight-keyword">As</span> GH_Component.GH_OutputParamManager)
+    <span class="highlight-comment">'We'll get to it soon enough.</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+
+  <span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> SolveInstance(<span class="highlight-keyword">ByVal</span> DA <span class="highlight-keyword">As</span> IGH_DataAccess)
+    <span class="highlight-comment">'I know it all looks scary.</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">ReadOnly</span> <span class="highlight-keyword">Property</span> ComponentGuid() <span class="highlight-keyword">As</span> System.Guid
+    <span class="highlight-keyword">Get</span>
+      <span class="highlight-comment">'But we'll deal with it one item at a time.  </span>
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Get</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Property</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAAAEAAA");</script></p></div><div class="collapsibleAreaRegion" id="GH_ComponentConstructor"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />The Component Constructor</span></div><div id="ID2RBSection" class="collapsibleSection"><p>
+        As we've seen in the previous section, Visual Studio will populate the MyFirstComponent class 
+        with a collection of properties and subroutines that we need to implement. There is however another 
+        subroutine that requires our attention that is missing. This is the <em>constructor</em>. 
+        The constructor is a special subroutine inside each class which gets called when the 
+        class is instantiated (or "constructed"). This can happen only once (we feeble humans can only be born once as 
+        well after all) and it necessarily happens before anything else is allowed to happen. The 
+        <span class="code">GH_Component </span> base class
+        has a constructor which is not empty, so we have to call that constructor from within our constructor and supply it 
+        with all the information it needs. Let's play ball. Add the following code near the top of the MyFirstComponent class:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EABCADAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EABCADAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EABCADAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EABCADAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">Imports</span> Grasshopper.Kernel
+<span class="highlight-keyword">Public</span> <span class="highlight-keyword">Class</span> MyFirstComponent
+  <span class="highlight-keyword">Inherits</span> GH_Component
+
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Sub</span> <span class="highlight-keyword">New</span>()
+    <span class="highlight-keyword">MyBase</span>.<span class="highlight-keyword">New</span>(<span class="highlight-literal">"MyFirst"</span>, <span class="highlight-literal">"MFC"</span>, <span class="highlight-literal">"My first component"</span>, <span class="highlight-literal">"Extra"</span>, <span class="highlight-literal">"Simple"</span>)
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+
+  ...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EABCADAAA");</script>
+        
+        As you can see we need to supply a set of text constants, which are used to name and identify 
+        our component within the Grasshopper GUI. The text fields are:
+        </p><p><div class="tableSection"><table><tr><th>Parameter</th><th>Purpose</th></tr><tr><td>name</td><td>The name of our component. 
+			The name is what appears on tooltips and Panel dropdowns.</td></tr><tr><td>abbreviation</td><td>The abbreviation of our component. 
+			The abbreviation is what is written on the component once it appears on the Canvas.</td></tr><tr><td>description</td><td>A description of our component. 
+			The description is used on tooltips to provide users with a more detailed idea 
+			about what this component is for.</td></tr><tr><td>category</td><td>The tab category for the component. 
+			The category equals the name of the Tab onto which the Component will appear. 
+			If a non-existing category is supplied, a new Tab will be added to the Grasshopper GUI.</td></tr><tr><td>subCategory</td><td>The panel category for the component. 
+			The sub-category equals the name of the Panel onto which the Component will appear. 
+			If a non-existing sub-category is supplied, a new Panel will be added to the Category Tab.</td></tr></table></div></p><p><span class="media"><img src="../media/Component_TextConstants.png" /></span></p></div><div class="collapsibleAreaRegion" id="GH_ComponentGuid"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Component Guids</span></div><div id="ID3RBSection" class="collapsibleSection"><p>
+        Every type of object inside a Grasshopper document must have a Guid associated with it. When
+        a Grasshopper file (*.gh or *.ghx) is written these Guids are used as markers, so it becomes clear 
+        what portions of the file belong to which object. When the file is read back in, that marker is compared
+        against the list of all cached components and if a match is found the appropriate component is asked 
+        to please go and deserialize itself. (You thought I was going to say something else didn't you?). When
+        no matching component can be found it is assumed that whoever wrote the file had access to certain
+        components that are not available locally, and that portion of the file is dutifully skipped.
+        </p><p>
+        So, long story short, we need to invent a Guid (Globally Unique IDentifier) that will positively and 
+        unerringly indicate <em>this</em> component. You can generate spanking new Guids using 
+        an 
+        
+        <a href="http://www.newguid.com/" target="_blank">Online Guid Generator</a>
+
+        or Microsofts popular guidgen.exe. <strong>Never</strong> re-use a Guid and <strong>never</strong> 
+        edit one by hand. Always generate a proper one using an official tool.
+        </p><p>
+        Once you have a new Guid standing by, modify the 
+        <a href="P_Grasshopper_Kernel_IGH_DocumentObject_ComponentGuid.htm">ComponentGuid</a> 
+        property to return it:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAAACAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAAACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+<span class="highlight-keyword">Public</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">ReadOnly</span> <span class="highlight-keyword">Property</span> ComponentGuid() <span class="highlight-keyword">As</span> System.Guid
+  <span class="highlight-keyword">Get</span>
+    <span class="highlight-comment">'Don't copy this GUID, make a new one</span>
+    <span class="highlight-keyword">Return</span> <span class="highlight-keyword">New</span> Guid(<span class="highlight-literal">"419c3a3a-cc48-4717-8cef-5f5647a5ecfc"</span>)  
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Get</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Property</span>
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAAACAAA");</script></p></div><div class="collapsibleAreaRegion" id="GH_ComponentParameters"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID4RB')" onkeypress="SectionExpandCollapse_CheckKey('ID4RB', event)" tabindex="0"><img id="ID4RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Parameter Registration</span></div><div id="ID4RBSection" class="collapsibleSection"><p>
+        Components have unique input and output parameters which are most often fixed. We are ignoring those 
+        rare cases where a component either has no inputs or no outputs, or where there is a variable 
+        number of parameters. There are two subroutines that allow you to define (or "register") these 
+        parameters. These routines are called from within the base class constructor and they are only called once. 
+        Let's have a look at the default implementation that Visual Studio generated again:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAHDABAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAHDABAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAHDABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAHDABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+<span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> RegisterInputParams(<span class="highlight-keyword">ByVal</span> pManager <span class="highlight-keyword">As</span> GH_Component.GH_InputParamManager)
+
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+
+<span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> RegisterOutputParams(<span class="highlight-keyword">ByVal</span> pManager <span class="highlight-keyword">As</span> GH_Component.GH_OutputParamManager)
+
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAHDABAAA");</script>
+        
+        Although it would technically be possible to manually register parameters, we <em>highly</em> 
+        recommend you use the methods on <span class="code">pManager</span>. <span class="code">pManager</span> has 
+        methods for adding all the basic parameter types
+        and it often even allows you to specify default values:
+        </p><p><span class="media"><img src="../media/VB_PManagerAutoComplete.png" /></span></p><p>
+        In this example we'll only create two parameters (one input, one output) and they will both be of type <span class="code">String</span>.
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EABBABAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EABBABAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EABBABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EABBABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+<span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> RegisterInputParams(<span class="highlight-keyword">ByVal</span> pManager <span class="highlight-keyword">As</span> Grasshopper.Kernel.GH_Component.GH_InputParamManager)
+  pManager.AddTextParameter(<span class="highlight-literal">"String"</span>, <span class="highlight-literal">"S"</span>, <span class="highlight-literal">"String to reverse"</span>)
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+
+<span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> RegisterOutputParams(<span class="highlight-keyword">ByVal</span> pManager <span class="highlight-keyword">As</span> Grasshopper.Kernel.GH_Component.GH_OutputParamManager)
+  pManager.AddTextParameter(<span class="highlight-literal">"Reverse"</span>, <span class="highlight-literal">"R"</span>, <span class="highlight-literal">"Reversed string"</span>)
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EABBABAAA");</script>
+        
+        When we compile this project (assuming it has been setup correctly), the component will already be 
+        available on the Grasshopper tabs and it can be placed onto the canvas:
+        </p><p><span class="media"><img src="../media/MyFirstComponentOnCanvas.png" /></span></p></div><div class="collapsibleAreaRegion" id="GH_ComponentSolveInstance"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID5RB')" onkeypress="SectionExpandCollapse_CheckKey('ID5RB', event)" tabindex="0"><img id="ID5RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />The Solver Routine</span></div><div id="ID5RBSection" class="collapsibleSection"><p>
+        Our new component sure looks perky and expensive, but it doesn't do anything useful yet 
+        (am I the only one who's reminded of Paris Hilton?). We still need to write
+        the contents of the 
+        <a href="M_Grasshopper_Kernel_GH_Component_SolveInstance.htm">SolveInstance</a>
+        subroutine, which is where all the action takes place.
+        The <span class="code">SolveInstance()</span> function is called upon whenever the component needs to handle input data. 
+        In this particular example, if we plug a list of twelve Strings into the [S] parameter, 
+        <span class="code">SolveInstance()</span> will be called twelve times.
+        </p><p>
+        As you may already have guessed, the component we're writing will reverse a given textual string 
+        from [S] and output the result to [R]. Since we're operating on individual items of data 
+        (the default behaviour),
+        all we need to do inside the <span class="code">SolveInstance()</span> function is retrieve the current String from [S], 
+        reverse it and assign it to [R]. Now, String reversal is not a function that is directly 
+        available in the framework <span class="code">String</span> type, so we need to actually do some thinking:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABAAAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABAAAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+<span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> SolveInstance(<span class="highlight-keyword">ByVal</span> DA <span class="highlight-keyword">As</span> Grasshopper.Kernel.IGH_DataAccess)
+  <span class="highlight-comment">'Declare a variable for the input String</span>
+  <span class="highlight-keyword">Dim</span> data <span class="highlight-keyword">As</span> <span class="highlight-keyword">String</span> = <span class="highlight-keyword">Nothing</span>
+
+  <span class="highlight-comment">'Use the DA object to retrieve the data inside the first input parameter.</span>
+  <span class="highlight-comment">'If the retieval fails (for example if there is no data) we need to abort.</span>
+  <span class="highlight-keyword">If</span> (<span class="highlight-keyword">Not</span> DA.GetData(<span class="highlight-number">0</span>, data)) <span class="highlight-keyword">Then</span> <span class="highlight-keyword">Return</span>
+
+  <span class="highlight-comment">'If the retrieved data is Nothing, we need to abort.</span>
+  <span class="highlight-comment">'We're also going to abort on a zero-length String.</span>
+  <span class="highlight-keyword">If</span> (data <span class="highlight-keyword">Is</span> <span class="highlight-keyword">Nothing</span>) <span class="highlight-keyword">Then</span> <span class="highlight-keyword">Return</span>
+  <span class="highlight-keyword">If</span> (data.Length = <span class="highlight-number">0</span>) <span class="highlight-keyword">Then</span> <span class="highlight-keyword">Return</span>
+
+  <span class="highlight-comment">'Convert the String to a character array.</span>
+  <span class="highlight-keyword">Dim</span> chars <span class="highlight-keyword">As</span> <span class="highlight-keyword">Char</span>() = data.ToCharArray()
+
+  <span class="highlight-comment">'Reverse the array of character.</span>
+  Array.Reverse(chars)
+
+  <span class="highlight-comment">'Use the DA object to assign a new String to the first output parameter.</span>
+  DA.SetData(<span class="highlight-number">0</span>, <span class="highlight-keyword">New</span> <span class="highlight-keyword">String</span>(chars))
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABAAAAA");</script></p><p><span class="media"><img src="../media/MyFirstComponentVictory.png" /></span></p></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper for Rhino 7.0.20315.01000 (Last updated: 10/11/2020)<br />Copyright © 2009-2020 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/grasshopper" target="_blank">Report wishes and bugs at discourse.mcneel.com</a></p></div></body></html>
