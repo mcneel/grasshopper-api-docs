@@ -1,0 +1,129 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>List Component (C#)</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="020a5098-963f-4da8-bf65-650993c73bcb" /><meta name="Description" content="IntroductionList ParametersSolving Routine" /><meta name="Microsoft.Help.ContentType" content="Concepts" /><meta name="BrandingAware" content="true" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-3.3.1.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Grasshopper API<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/723c01da-9986-4db2-8f53-6f3a7494df75.htm" title="Grasshopper API" tocid="roottoc">Grasshopper API</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/d113a9f0-6e27-46df-8316-2079c44382ac.htm" title="Examples" tocid="d113a9f0-6e27-46df-8316-2079c44382ac">Examples</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/730f0792-7bfb-4310-a416-239e8c315645.htm" title="C#" tocid="abb7bd81-9d0e-426a-96a2-1456676ab994">C#</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/730f0792-7bfb-4310-a416-239e8c315645.htm" title="Simple Component (C#)" tocid="730f0792-7bfb-4310-a416-239e8c315645">Simple Component (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/fdd35a9c-bf08-47cf-abe8-08ccb192475f.htm" title="Simple Mathematics (C#)" tocid="fdd35a9c-bf08-47cf-abe8-08ccb192475f">Simple Mathematics (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/5764fa15-29d1-4e37-8496-2478d3cf28dc.htm" title="Simple Geometry (C#)" tocid="5764fa15-29d1-4e37-8496-2478d3cf28dc">Simple Geometry (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/d823ee90-ea94-4a8a-a972-df5d006a8d9f.htm" title="Simple Data Types (C#)" tocid="d823ee90-ea94-4a8a-a972-df5d006a8d9f">Simple Data Types (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/fbfe5e40-ba8d-4e53-97c6-27572e049835.htm" title="Simple Parameters (C#)" tocid="fbfe5e40-ba8d-4e53-97c6-27572e049835">Simple Parameters (C#)</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="../html/020a5098-963f-4da8-bf65-650993c73bcb.htm" title="List Component (C#)" tocid="020a5098-963f-4da8-bf65-650993c73bcb">List Component (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/a367a8b3-a8b6-4d92-ad15-00b5aa60fd48.htm" title="Extending the GUI (C#)" tocid="a367a8b3-a8b6-4d92-ad15-00b5aa60fd48">Extending the GUI (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/8a7974ab-7b2b-4f48-84d0-6e81b184e6b0.htm" title="Custom Attributes (C#)" tocid="8a7974ab-7b2b-4f48-84d0-6e81b184e6b0">Custom Attributes (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/5f6a9f31-8838-40e6-ad37-a407be8f2c15.htm" title="Custom Component Options (C#)" tocid="5f6a9f31-8838-40e6-ad37-a407be8f2c15">Custom Component Options (C#)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn"><h1>List Component (C#)</h1></td></tr></table><span class="introStyle"></span> <p><ul><li><a href="#Introduction">Introduction</a></li><li><a href="#ListParameters">List Parameters</a></li><li><a href="#SolveInstance">Solving Routine</a></li></ul></p><div class="introduction" id="Introduction"><p>
+      So far the example components have all operated on individual data items. This is known as One-In-One-Out. 
+      But what if you want to operate on more than one item at a time; One-In-Many-Out, Many-In-One-Out or Many-In-Many-Out? 
+      This requires that input or output parameters have a non-standard 
+      <a href="T_Grasshopper_Kernel_GH_ParamAccess.htm">Grasshopper.Kernel<span id="LST2420BC57_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2420BC57_0?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>GH_ParamAccess</a>
+      flag.
+      </p></div><div class="collapsibleAreaRegion" id="ListParameters"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />List Parameters</span></div><div id="ID1RBSection" class="collapsibleSection"><p>
+        Input and Output parameters that are part of Grasshopper components have an access flag that affects how the component
+        treats data stored in these parameters. Take for example the Polyline component. It creates a <em>single</em> 
+        polyline object from a <em>collection</em> of corner-points. This is a Many-In-One-Out kind of logic. The Divide
+        component creates a whole bunch of division points from a single curve. This is an example of One-In-Many-Out. The Cull components 
+        remove certain items from lists, this is an example of Many-In-Many-Out.
+        </p><p>
+        Most components treat their inputs and outputs as parameters that provide individual instances of data, 
+        rather than related collections of data. This is indicated by all parameters having an 
+        <a href="T_Grasshopper_Kernel_GH_ParamAccess.htm">GH_ParamAccess<span id="LST2420BC57_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2420BC57_1?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>item</a>
+        access flag. You can however assign different access flags to parameters. Preferably this flag should be assigned only once, 
+        namely in the 
+        <a href="M_Grasshopper_Kernel_GH_Component_RegisterInputParams.htm">RegisterInputParams</a>
+        or 
+        <a href="M_Grasshopper_Kernel_GH_Component_RegisterOutputParams.htm">RegisterOutputParams</a>
+        method overrides. It is legal to modify an access flag as long as a solution is not currently in progress, but it is not recommended.
+        </p><p>
+        In this tutorial, we'll be writing a component that removes (culls) the bottom-most N objects in a collection of geometric shapes. 
+        As inputs we'll need a collection of geometry and an integer indicating how many objects the user wants to remove, and as output we'll 
+        provide the same collection of geometry, but with the bottom-most objects missing. This is therefore a Many-In-Many-Out case.
+        </p><p>
+        The Component code (without the RegisterInputParams, RegisterOutputParams and SolveInstance methods) may look like this:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAJAABAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAJAABAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAJAABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAJAABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> Component_CullByElevation : GH_Component
+{
+  <span class="highlight-keyword">public</span> Component_CullByElevation()
+    : <span class="highlight-keyword">base</span>(<span class="highlight-literal">"Cull Elevation"</span>, <span class="highlight-literal">"CullZ"</span>, <span class="highlight-literal">"Cull objects by relative elevation"</span>, <span class="highlight-literal">"Sets"</span>, <span class="highlight-literal">"Sequence"</span>)
+  { }
+
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> Kernel.GH_Exposure Exposure
+  {
+    <span class="highlight-keyword">get</span> { <span class="highlight-keyword">return</span> GH_Exposure.primary | GH_Exposure.obscure; }
+  }
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> System.Guid ComponentGuid
+  {
+    <span class="highlight-keyword">get</span> { <span class="highlight-keyword">return</span> <span class="highlight-keyword">new</span> Guid(<span class="highlight-literal">"{A8FF9CBA-0837-4cd6-9198-0D17325D3F8F}"</span>); }
+  }
+
+  <span class="highlight-comment">//...additional component code will go here..</span>
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAJAABAAA");</script>
+        
+        We'll need to register the parameters as well, and we'll use the overloaded methods to immediately assign the correct parameter access flags.
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAHAABAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAHAABAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAHAABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAHAABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> RegisterInputParams(Kernel.GH_Component.GH_InputParamManager pManager)
+{
+  pManager.AddGeometryParameter(<span class="highlight-literal">"Geometry"</span>, <span class="highlight-literal">"G"</span>, <span class="highlight-literal">"Geometry to cull"</span>, GH_ParamAccess.list);
+  pManager.AddIntegerParameter(<span class="highlight-literal">"Count"</span>, <span class="highlight-literal">"C"</span>, <span class="highlight-literal">"Number of objects to cull"</span>, GH_ParamAccess.item, <span class="highlight-number">1</span>);
+}
+<span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> RegisterOutputParams(Kernel.GH_Component.GH_OutputParamManager pManager)
+{
+  pManager.AddGeometryParameter(<span class="highlight-literal">"Geometry"</span>, <span class="highlight-literal">"G"</span>, <span class="highlight-literal">"Culled geometry"</span>, GH_ParamAccess.list);
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAHAABAAA");</script>
+		
+		Input parameters rigorously enforce their access. You are only allowed to retrieve individual items from inputs that have the 
+		<a href="T_Grasshopper_Kernel_GH_ParamAccess.htm">GH_ParamAccess<span id="LST2420BC57_2"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2420BC57_2?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>item</a>
+		flag set. Lists can only be retrieved when the access is set to 
+		<a href="T_Grasshopper_Kernel_GH_ParamAccess.htm">GH_ParamAccess<span id="LST2420BC57_3"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2420BC57_3?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>list</a>
+		and data trees can only be gotten from a 
+		<a href="T_Grasshopper_Kernel_GH_ParamAccess.htm">GH_ParamAccess<span id="LST2420BC57_4"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST2420BC57_4?cs=.|vb=.|cpp=::|nu=.|fs=.");</script>tree</a>
+		parameter. Failure to do so will result in an error message at runtime. Output parameter are more flexible, 
+		but this is only because output access was added only in Grasshopper 0.9.0001 and strict enforcement would result 
+		in SDK breakage with previous versions.
+        </p></div><div class="collapsibleAreaRegion" id="SolveInstance"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Solving Routine</span></div><div id="ID2RBSection" class="collapsibleSection"><p>
+        The SolveInstance implementation is basically identical to previous examples, the only difference is the way the component
+        interacts with the parameters.
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAAAAAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAAAAAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAAAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAAAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> SolveInstance(Kernel.IGH_DataAccess DA)
+{
+  <span class="highlight-comment">//Declare a new List(Of T) to hold your data.</span>
+  <span class="highlight-comment">//This list must exist and should probably be empty.</span>
+  List&lt;IGH_GeometricGoo&gt; geometry = <span class="highlight-keyword">new</span> List&lt;IGH_GeometricGoo&gt;();
+  Int32 count = <span class="highlight-number">0</span>;
+
+  <span class="highlight-comment">//Retrieve the whole list using Da.GetDataList().</span>
+  <span class="highlight-keyword">if</span> ((!DA.GetDataList(<span class="highlight-number">0</span>, geometry)))
+    <span class="highlight-keyword">return</span>;
+  <span class="highlight-keyword">if</span> ((!DA.GetData(<span class="highlight-number">1</span>, count)))
+    <span class="highlight-keyword">return</span>;
+
+  <span class="highlight-comment">//Validate inputs.</span>
+  <span class="highlight-keyword">if</span> ((count &lt; <span class="highlight-number">0</span>))
+  {
+    AddRuntimeMessage(GH_RuntimeMessageLevel.Error, <span class="highlight-literal">"Count must be a positive integer"</span>);
+    <span class="highlight-keyword">return</span>;
+  }
+
+  <span class="highlight-comment">//The number of objects to cull is larger than or </span>
+  <span class="highlight-comment">//equal to the total number of objects. I.e. cull them all.</span>
+  <span class="highlight-keyword">if</span> ((geometry.Count &lt;= count))
+    <span class="highlight-keyword">return</span>;
+
+  <span class="highlight-comment">//Iteratively remove the lowest object from the list.</span>
+  <span class="highlight-keyword">for</span> (Int32 N = <span class="highlight-number">1</span>; N &lt;= count; N++)
+  {
+    <span class="highlight-keyword">double</span> lowestElevation = <span class="highlight-keyword">double</span>.MaxValue;
+    Int32 lowestIndex = <span class="highlight-number">-1</span>;
+
+    <span class="highlight-comment">//Iterate over all remaining geometry and find the lowest one.</span>
+    <span class="highlight-keyword">for</span> (Int32 i = <span class="highlight-number">0</span>; i &lt;= geometry.Count - <span class="highlight-number">1</span>; i++)
+    {
+      <span class="highlight-keyword">if</span> ((geometry[i] == <span class="highlight-keyword">null</span>))
+        <span class="highlight-keyword">continue</span>;
+      BoundingBox bbox = geometry[i].Boundingbox;
+      <span class="highlight-keyword">if</span> ((!bbox.IsValid))
+        <span class="highlight-keyword">continue</span>;
+
+      <span class="highlight-keyword">double</span> localElevation = bbox.Min.Z;
+      <span class="highlight-keyword">if</span> ((localElevation &lt; lowestElevation))
+      {
+        lowestElevation = localElevation;
+        lowestIndex = i;
+      }
+    }
+
+    <span class="highlight-comment">//Delete the lowest object.</span>
+    geometry.RemoveAt(lowestIndex);
+  }
+
+  <span class="highlight-comment">//Assign the remaining geometry </span>
+  <span class="highlight-comment">//(even if it is only a single item!)</span>
+  <span class="highlight-comment">//using the DA.SetDataList() method.</span>
+  DA.SetDataList(<span class="highlight-number">0</span>, geometry);
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAAAAAAA");</script></p></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper for Rhino 6.30.20288.16410 (Last updated: 10/20/2020)<br />Copyright © 2009-2020 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/grasshopper" target="_blank">Report wishes and bugs at discourse.mcneel.com</a></p></div></body></html>

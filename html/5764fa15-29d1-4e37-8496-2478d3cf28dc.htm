@@ -1,0 +1,158 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Simple Geometry (C#)</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="5764fa15-29d1-4e37-8496-2478d3cf28dc" /><meta name="Description" content="IntroductionInput parametersOutput parametersSolveInstance" /><meta name="Microsoft.Help.ContentType" content="Concepts" /><meta name="BrandingAware" content="true" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-3.3.1.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Grasshopper API<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/723c01da-9986-4db2-8f53-6f3a7494df75.htm" title="Grasshopper API" tocid="roottoc">Grasshopper API</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/d113a9f0-6e27-46df-8316-2079c44382ac.htm" title="Examples" tocid="d113a9f0-6e27-46df-8316-2079c44382ac">Examples</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/730f0792-7bfb-4310-a416-239e8c315645.htm" title="C#" tocid="abb7bd81-9d0e-426a-96a2-1456676ab994">C#</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/730f0792-7bfb-4310-a416-239e8c315645.htm" title="Simple Component (C#)" tocid="730f0792-7bfb-4310-a416-239e8c315645">Simple Component (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/fdd35a9c-bf08-47cf-abe8-08ccb192475f.htm" title="Simple Mathematics (C#)" tocid="fdd35a9c-bf08-47cf-abe8-08ccb192475f">Simple Mathematics (C#)</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="../html/5764fa15-29d1-4e37-8496-2478d3cf28dc.htm" title="Simple Geometry (C#)" tocid="5764fa15-29d1-4e37-8496-2478d3cf28dc">Simple Geometry (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/d823ee90-ea94-4a8a-a972-df5d006a8d9f.htm" title="Simple Data Types (C#)" tocid="d823ee90-ea94-4a8a-a972-df5d006a8d9f">Simple Data Types (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/fbfe5e40-ba8d-4e53-97c6-27572e049835.htm" title="Simple Parameters (C#)" tocid="fbfe5e40-ba8d-4e53-97c6-27572e049835">Simple Parameters (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/020a5098-963f-4da8-bf65-650993c73bcb.htm" title="List Component (C#)" tocid="020a5098-963f-4da8-bf65-650993c73bcb">List Component (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/a367a8b3-a8b6-4d92-ad15-00b5aa60fd48.htm" title="Extending the GUI (C#)" tocid="a367a8b3-a8b6-4d92-ad15-00b5aa60fd48">Extending the GUI (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/8a7974ab-7b2b-4f48-84d0-6e81b184e6b0.htm" title="Custom Attributes (C#)" tocid="8a7974ab-7b2b-4f48-84d0-6e81b184e6b0">Custom Attributes (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/5f6a9f31-8838-40e6-ad37-a407be8f2c15.htm" title="Custom Component Options (C#)" tocid="5f6a9f31-8838-40e6-ad37-a407be8f2c15">Custom Component Options (C#)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn"><h1>Simple Geometry (C#)</h1></td></tr></table><span class="introStyle"></span> <p><ul><li><a href="#Introduction">Introduction</a></li><li><a href="#InputParameters">Input parameters</a></li><li><a href="#OutputParameters">Output parameters</a></li><li><a href="#SolveInstance">SolveInstance</a></li></ul></p><div class="introduction" id="Introduction"><p>
+      This article shows how to use some of the simpler geometry types and classes in the RhinoCommon 
+      and Grasshopper SDK. We'll discuss how to deal with different access levels of input data and 
+      invalid Structs vs. invalid and null Classes. You should have read the
+      <a href="730f0792-7bfb-4310-a416-239e8c315645.htm">My First Component</a> and 
+      <a href="fdd35a9c-bf08-47cf-abe8-08ccb192475f.htm">Simple Mathematics</a> 
+      topics before starting this one.
+      </p><p>
+      This component will perform a simple Circle|Line Split operation. We'll retrieve a single Circle 
+      and a single Line input, make sure the data is valid, project the line onto the circle plane, 
+      determine whether or not the Split operation is valid and then output the two arcs on either 
+      side of the slicing line.
+      </p><p>
+      Before you start with this topic, create a new class that derives from Grasshopper.Kernel.GH_Component, 
+      as outlined in the <a href="730f0792-7bfb-4310-a416-239e8c315645.htm">My First Component</a> topic.
+      </p></div><div class="collapsibleAreaRegion" id="InputParameters"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Input parameters</span></div><div id="ID1RBSection" class="collapsibleSection"><p>
+        This part of the component is very similar to the 
+        <a href="fdd35a9c-bf08-47cf-abe8-08ccb192475f.htm">Simple Mathematics</a> 
+        topic. Except this time there will be no default values.
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EANBACAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EANBACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EANBACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EANBACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+<span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> RegisterInputParams(GH_Component.GH_InputParamManager pManager)
+{
+  pManager.AddCircleParameter(<span class="highlight-literal">"Circle"</span>, <span class="highlight-literal">"C"</span>, <span class="highlight-literal">"The circle to slice"</span>, GH_ParamAccess.item);
+  pManager.AddLineParameter(<span class="highlight-literal">"Line"</span>, <span class="highlight-literal">"L"</span>, <span class="highlight-literal">"Slicing line"</span>, GH_ParamAccess.item);
+}
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EANBACAAA");</script>
+        
+        The first parameter is of type 
+        <span class="nolink">Param_Circle</span>
+        and the data it contains will consist solely of 
+        <a href="T_Grasshopper_Kernel_Types_GH_Circle.htm">GH_Circle</a>.
+        <span class="code">GH_Circle</span> is a class that wraps the <span class="code">Rhino.Geometry.Circle</span> structure. It 
+        provides methods that allow Grasshopper to incorporate RhinoCommon circles into the default GUI. 
+        These methods include Archiving, Previewing, Baking and Casting (Converting) functions. 
+        However, when accessing data inside a <span class="code">Param_Circle</span> parameter, 
+        you are not limited to the <span class="code">GH_Circle</span> type, as we shall see.
+        </p><p>
+        The second parameter is of type 
+        <span class="nolink">Param_Line</span>
+        and it works very similar to the <span class="code">Param_Circle</span> type discussed above.
+        </p></div><div class="collapsibleAreaRegion" id="OutputParameters"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Output parameters</span></div><div id="ID2RBSection" class="collapsibleSection"><p>
+		Our component will output two arcs on success, or nulls on failure.
+
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAAABAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAAABAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAAABAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAAABAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+<span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> RegisterOutputParams(GH_Component.GH_OutputParamManager pManager)
+{
+  pManager.AddArcParameter(<span class="highlight-literal">"Arc A"</span>, <span class="highlight-literal">"A"</span>, <span class="highlight-literal">"First Split result."</span>, GH_ParamAccess.item);
+  pManager.AddArcParameter(<span class="highlight-literal">"Arc B"</span>, <span class="highlight-literal">"B"</span>, <span class="highlight-literal">"Second Split result."</span>, GH_ParamAccess.item);
+}
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAAABAAA");</script></p></div><div class="collapsibleAreaRegion" id="SolveInstance"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />SolveInstance</span></div><div id="ID3RBSection" class="collapsibleSection"><p>
+		The <span class="code">SolveInstance()</span> implementation for this component is responsible for the following steps:
+		
+		<ol><li>Declare placeholder variables for the input data.</li><li>Retrieve input data.</li><li>Test input data for validity.</li><li>Project line segment onto circle plane.</li><li>Test projected segment for validity.</li><li>Solve intersections for circle and projected segment.</li><li>Abort on insufficient intersections.</li><li>Create the slice arcs.</li><li>Assign arcs to the output parameters.</li></ol></p><p>
+        Item 2 and 9 however can be approached from different directions. First I'll show you the 
+        recommended approach and then we'll have a look at the alternatives:
+        </p><p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAEAAAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAEAAAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAEAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAEAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+<span class="highlight-keyword">protected</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">void</span> SolveInstance(IGH_DataAccess DA)
+{
+  <span class="highlight-comment">// 1. Declare placeholder variables and assign initial invalid data.</span>
+  <span class="highlight-comment">//    This way, if the input parameters fail to supply valid data, we know when to abort.</span>
+  Rhino.Geometry.Circle circle = Rhino.Geometry.Circle.Unset;
+  Rhino.Geometry.Line line = Rhino.Geometry.Line.Unset;
+
+  <span class="highlight-comment">// 2. Retrieve input data.</span>
+  <span class="highlight-keyword">if</span> (!DA.GetData(<span class="highlight-number">0</span>, <span class="highlight-keyword">ref</span> circle)) { <span class="highlight-keyword">return</span>; }
+  <span class="highlight-keyword">if</span> (!DA.GetData(<span class="highlight-number">1</span>, <span class="highlight-keyword">ref</span> line)) { <span class="highlight-keyword">return</span>; }
+
+  <span class="highlight-comment">// 3. Abort on invalid inputs.</span>
+  <span class="highlight-keyword">if</span> (!circle.IsValid) { <span class="highlight-keyword">return</span>; }
+  <span class="highlight-keyword">if</span> (!line.IsValid) { <span class="highlight-keyword">return</span>; }
+
+  <span class="highlight-comment">// 4. Project line segment onto circle plane.</span>
+  line.Transform(Rhino.Geometry.Transform.PlanarProjection(circle.Plane));
+
+  <span class="highlight-comment">// 5. Test projected segment for validity.</span>
+  <span class="highlight-keyword">if</span> (line.Length &lt; Rhino.RhinoMath.ZeroTolerance)
+  {
+    AddRuntimeMessage(GH_RuntimeMessageLevel.Error, <span class="highlight-literal">"Line could not be projected onto the Circle plane"</span>);
+    <span class="highlight-keyword">return</span>;
+  }
+
+  <span class="highlight-comment">// 6. Solve intersections and 7. Abort if there are less than two intersections.</span>
+  <span class="highlight-keyword">double</span> t1;
+  <span class="highlight-keyword">double</span> t2;
+  Rhino.Geometry.Point3d p1;
+  Rhino.Geometry.Point3d p2;
+
+  <span class="highlight-keyword">switch</span> (Rhino.Geometry.Intersect.Intersection.LineCircle(line, circle, <span class="highlight-keyword">out</span> t1, <span class="highlight-keyword">out</span> p1, <span class="highlight-keyword">out</span> t2, <span class="highlight-keyword">out</span> p2))
+  {
+    <span class="highlight-keyword">case</span> Rhino.Geometry.Intersect.LineCircleIntersection.None:
+      AddRuntimeMessage(GH_RuntimeMessageLevel.Warning, <span class="highlight-literal">"No intersections were found"</span>);
+      <span class="highlight-keyword">return</span>;
+
+    <span class="highlight-keyword">case</span> Rhino.Geometry.Intersect.LineCircleIntersection.Single:
+      AddRuntimeMessage(GH_RuntimeMessageLevel.Warning, <span class="highlight-literal">"Only a single intersection was found"</span>);
+      <span class="highlight-keyword">return</span>;
+  }
+
+  <span class="highlight-comment">// 8. Create slicing arcs.</span>
+  <span class="highlight-keyword">double</span> ct;
+  circle.ClosestParameterTo(p1, <span class="highlight-keyword">out</span> ct);
+
+  Rhino.Geometry.Vector3d tan = circle.TangentAt(ct);
+
+  <span class="highlight-comment">// 9. Assign output arcs.</span>
+  DA.SetData(<span class="highlight-number">0</span>, <span class="highlight-keyword">new</span> Rhino.Geometry.Arc(p1, tan, p2));
+  DA.SetData(<span class="highlight-number">1</span>, <span class="highlight-keyword">new</span> Rhino.Geometry.Arc(p1, -tan, p2));
+}
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAEAAAAA");</script></p><p>
+        As I mentioned before, the first input parameter is of type 
+        <span class="code">Param_Circl</span>e and it contains data of type 
+        <span class="code">GH_Circle</span>. But when we're accessing the parameter 
+        via the <span class="code">DA.GetData(0, circle</span>) method, we're using 
+        <span class="code">Rhino.Geometry.Circle</span> instead of <span class="code">GH_Circle</span>. 
+        The <span class="code">DA.GetData()</span> method is capable of converting data from the 
+        intrinsic parameter type into requested types, provided the conversion makes sense. 
+        <span class="code">GH_Circle</span> to <span class="code">Rhino.Geometry.Circle</span> is 
+        a perfectly valid conversion, <span class="code">GH_Circle</span> to 
+        <span class="code">Rhino.Geometry.Transform</span> would not be. 
+        </p><p>
+        The Grasshopper Component SDK
+        has been designed on the premise that the bulk of all components that operate on data only care 
+        about the data itself, not how it is wrapped up inside the Grasshopper data structures. 
+        The conversion routines that translate <span class="code">GH_Circle</span> data into 
+        <span class="code">Rhino.Geometry.Circle</span> data (and obviously also 
+        <span class="code">GH_Number</span> into <span class="code">System.Double</span>, and 
+        <span class="code">GH_Colour</span> into <span class="code">System.Drawing.Color</span> etc.),
+        have been highly optimised and should be used in almost all circumstances.
+        </p><p>
+        If however you feel the need to get access to the <span class="code">GH_Circle</span> data 
+        directly, you can retrieve that instance in the same fashion:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAPBAAAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAPBAAAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAPBAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAPBAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">...
+Grasshopper.Kernel.Data.GH_Circle circle = <span class="highlight-keyword">null</span>;
+<span class="highlight-keyword">if</span> (!DA.GetData(<span class="highlight-number">0</span>, circle)) { <span class="highlight-keyword">return</span>; }
+...</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAPBAAAAA");</script>
+		
+		Note that a single instance of <em>GH_Circle</em> may be shared among any number 
+		of parameters in Grasshopper, and thus changing one will change data everywhere. If you request 
+		<em>Rhino.Geometry.Circle</em>, 
+		<em>System.Double</em> or 
+		<em>System.Drawing.Color</em>
+		instead of 
+		<em>GH_Circle</em>, 
+		<em>GH_Number</em> or 
+		<em>GH_Colour</em> you won't have to worry about this pitfall since 
+		you will always be given an object that has been disassociated from the (potentially shared) 
+		wrapper type.
+        </p><p>
+        Similarly, you are allowed to store output data in different formats as well. Instead of:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAEAAAAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAEAAAAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAEAAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAEAAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">DA.SetData(<span class="highlight-number">0</span>, <span class="highlight-keyword">new</span> Rhino.Geometry.Arc(p1, tan, p2));</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAEAAAAAA");</script>
+        
+        you could also provide an instance of <span class="code">Grasshopper.Kernel.Types.GH_Arc</span>:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAAAAAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAAAAAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAAAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAAAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">Grasshopper.Kernel.Types.GH_Arc gh_arc = <span class="highlight-keyword">new</span> Grasshopper.Kernel.Types.GH_Arc(<span class="highlight-keyword">new</span> Rhino.Geometry.Arc(p1, tan, p2));
+DA.SetData(<span class="highlight-number">0</span>, gh_arc);</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAAAAAAA");</script></p></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper for Rhino 6.30.20288.16410 (Last updated: 10/20/2020)<br />Copyright © 2009-2020 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/grasshopper" target="_blank">Report wishes and bugs at discourse.mcneel.com</a></p></div></body></html>
