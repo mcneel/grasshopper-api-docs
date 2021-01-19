@@ -1,0 +1,240 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Custom Attributes (VB)</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="ad6e93fe-e1c8-451e-a6d0-77cb8dd4516d" /><meta name="Description" content="This article contains a step-by-step walkthrough regarding custom object display. Objects on the Grasshopper canvas consist of two parts. The most important piece is the class that implements the T:Grasshopper.Kernel.IGH_DocumentObject interface." /><meta name="Microsoft.Help.ContentType" content="Concepts" /><meta name="BrandingAware" content="true" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-3.3.1.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Grasshopper API<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/723c01da-9986-4db2-8f53-6f3a7494df75.htm" title="Grasshopper API" tocid="roottoc">Grasshopper API</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/d113a9f0-6e27-46df-8316-2079c44382ac.htm" title="Examples" tocid="d113a9f0-6e27-46df-8316-2079c44382ac">Examples</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/b883d0c0-4947-48bc-8e9e-492a6d6c2a06.htm" title="Visual Basic .NET" tocid="53a64aca-1d90-49fe-b148-5a5f3809ca92">Visual Basic .NET</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/b883d0c0-4947-48bc-8e9e-492a6d6c2a06.htm" title="Simple Component (VB)" tocid="b883d0c0-4947-48bc-8e9e-492a6d6c2a06">Simple Component (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/2824c770-2673-49a3-8683-1a70bc0349cc.htm" title="Simple Mathematics (VB)" tocid="2824c770-2673-49a3-8683-1a70bc0349cc">Simple Mathematics (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/4306b177-1bf1-41bc-ac0e-2f6869d02365.htm" title="Simple Geometry (VB)" tocid="4306b177-1bf1-41bc-ac0e-2f6869d02365">Simple Geometry (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/f9aa207f-3d19-414c-af01-1e5ad42a8cab.htm" title="Simple Data Types (VB)" tocid="f9aa207f-3d19-414c-af01-1e5ad42a8cab">Simple Data Types (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/0edd8dc9-32a7-40aa-b217-8e01e35e58bc.htm" title="Simple Parameters (VB)" tocid="0edd8dc9-32a7-40aa-b217-8e01e35e58bc">Simple Parameters (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/4db493ec-0bb3-4b73-943a-fdff03863e1d.htm" title="List Component (VB)" tocid="4db493ec-0bb3-4b73-943a-fdff03863e1d">List Component (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/99cd32c8-7c1f-4f9a-87ea-76b032de7f70.htm" title="Extending the GUI (VB)" tocid="99cd32c8-7c1f-4f9a-87ea-76b032de7f70">Extending the GUI (VB)</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="../html/ad6e93fe-e1c8-451e-a6d0-77cb8dd4516d.htm" title="Custom Attributes (VB)" tocid="ad6e93fe-e1c8-451e-a6d0-77cb8dd4516d">Custom Attributes (VB)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/434018c0-6110-4478-bf2a-dcd099d8b8b2.htm" title="Custom Component Options (VB)" tocid="434018c0-6110-4478-bf2a-dcd099d8b8b2">Custom Component Options (VB)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn"><h1>Custom Attributes (VB)</h1></td></tr></table><span class="introStyle"></span> <ul><li><a href="#Introduction">Introduction</a></li><li><a href="#GH_Attributes">Grasshopper.Kernel.GH_Attributes</a></li><li><a href="#GH_Attributes.Layout">Layout</a></li><li><a href="#GH_Attributes.Render">Render</a></li></ul><div class="introduction" id="Introduction"><p>
+      This article contains a step-by-step walkthrough regarding custom object display.  
+      Objects on the Grasshopper canvas consist of two parts. The most important piece is 
+      the class that implements the 
+      <a href="T_Grasshopper_Kernel_IGH_DocumentObject.htm">IGH_DocumentObject</a> 
+      interface. This interface provides the basic
+      plumbing needed to make objects work within a Grasshopper node network. The interface part of 
+      objects however is handled separately. Every <span class="code">IGH_DocumentObject</span>       
+      carries around an instance of a class that implements the 
+      <a href="T_Grasshopper_Kernel_IGH_Attributes.htm">IGH_Attributes</a>
+      interface (indeed, every <span class="code">IGH_DocumentObject</span>
+      knows how to create its own stand-alone attributes) and it is this class that takes care of 
+      display, mouse interactions, popup menus, tooltips and so forth.
+      </p><p>
+      In this article I'll explain how you can create your own attributes object. Since it's not possible 
+      to have an <span class="code">IGH_Attributes</span> instance work on its own, we need an 
+      <span class="code">IGH_DocumentObject</span> to tie it to. For this
+      article we'll assume we have a custom simple parameter (i.e. without persistent data) that holds integers.
+      
+      <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABFAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABFAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABFAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABFAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">Public</span> <span class="highlight-keyword">Class</span> MySimpleIntegerParameter
+  <span class="highlight-keyword">Inherits</span> GH_Param(<span class="highlight-keyword">Of</span> Types.GH_Integer)
+
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Sub</span> <span class="highlight-keyword">New</span>()
+    <span class="highlight-keyword">MyBase</span>.<span class="highlight-keyword">New</span>(<span class="highlight-keyword">New</span> GH_InstanceDescription(<span class="highlight-literal">"Integer with stats"</span>, <span class="highlight-literal">"Int(stats)"</span>, <span class="highlight-literal">"Integer with basic statistics"</span>, <span class="highlight-literal">"Params"</span>, <span class="highlight-literal">"Primitive"</span>))
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">ReadOnly</span> <span class="highlight-keyword">Property</span> ComponentGuid() <span class="highlight-keyword">As</span> System.Guid
+    <span class="highlight-keyword">Get</span>
+      <span class="highlight-keyword">Return</span> <span class="highlight-keyword">New</span> Guid(<span class="highlight-literal">"{33D07726-8298-4104-9EBC-5398D8AD5420}"</span>)
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Get</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Property</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABFAAA");</script></p><p>
+      What we'll do is create a special attributes object for this parameter which also displays the median and mean values 
+      of the collection of all integers. We want to put this information below the parameter name, but inside the parameter box. 
+      The first step here is to override the <span class="code">CreateAttributes()</span> on <span class="code">MySimpleIntegerParameter</span> 
+      and assign a new instance of our
+      (yet to be written) attributes class:
+      
+      <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EANAFAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EANAFAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EANAFAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EANAFAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">Public</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> CreateAttributes()
+  m_attributes = <span class="highlight-keyword">New</span> MySimpleIntegerParameterAttributes(<span class="highlight-keyword">Me</span>)
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EANAFAAA");</script>
+      
+      That's it, no more code is required inside the <span class="code">MySimpleIntegerParameter</span> class. 
+      This part at least is simple. If you
+      <em>don't</em> override the <span class="code">CreateAttributes()</span> method, then an instance of 
+      <a href="T_Grasshopper_Kernel_Attributes_GH_FloatingParamAttributes.htm">GH_FloatingParamAttributes</a>
+      will be created instead. If your parameter is to be attached to
+      a component as an input or output, then the component will assign an instance of 
+      <a href="T_Grasshopper_Kernel_Attributes_GH_LinkedParamAttributes.htm">GH_LinkedParamAttributes</a>
+      to the parameter and <span class="code">CreateAttributes()</span> will never be called.
+      </p></div><div class="collapsibleAreaRegion" id="GH_Attributes"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Grasshopper.Kernel.GH_Attributes</span></div><div id="ID1RBSection" class="collapsibleSection"><p>
+        Although the 
+        <a href="T_Grasshopper_Kernel_IGH_Attributes.htm">IGH_Attributes</a>
+        interface is required for custom attributes, it is usually a good idea to derive from one of the abstract 
+        attribute classes already available. 
+        <a href="T_Grasshopper_Kernel_GH_Attributes_1.htm">GH_Attributes<span id="LST78568981_0"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST78568981_0?cs=&lt;|vb=(Of |cpp=&lt;|nu=(|fs=&lt;'");</script>T<span id="LST78568981_1"></span><script type="text/javascript">AddLanguageSpecificTextSet("LST78568981_1?cs=&gt;|vb=)|cpp=&gt;|nu=)|fs=&gt;");</script></a> 
+        is the most basic and obvious choice and it implements a large amount of methods with default 
+        behaviour, saving you a lot of time and effort:
+        
+          <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAEAEAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAEAEAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAEAEAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAEAEAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">Public</span> <span class="highlight-keyword">Class</span> MySimpleIntegerParameterAttributes
+  <span class="highlight-keyword">Inherits</span> GH_Attributes(<span class="highlight-keyword">Of</span> MySimpleIntegerParameter)
+
+  <span class="highlight-keyword">Public</span> <span class="highlight-keyword">Sub</span> <span class="highlight-keyword">New</span>(<span class="highlight-keyword">ByVal</span> owner <span class="highlight-keyword">As</span> MySimpleIntegerParameter)
+    <span class="highlight-keyword">MyBase</span>.<span class="highlight-keyword">New</span>(owner)
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Class</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAEAEAAA");</script></p><p>
+        This is enough so far to make it work, eventhough all the logic is still standard. We need to start overriding 
+        methods in <span class="code">MySimpleIntegerParameterAttributes</span> to suit our needs. But first some basic information regarding the 
+        default behaviour.
+        </p><p><span class="code">GH_Attributes(Of T)</span> assumes that the object that owns it is rectangular. This is true for most objects in Grasshopper, 
+        but there are some notable exceptions such as Pie-Graphs, Sketches and Scribbles. But this assumption (which holds 
+        true in our case) allows <span class="code">GH_Attributes(Of T)</span> to supply basic functionality for a wide variety of methods.
+        </p><p>
+        All attributes have a property that defines the size of the object called  
+        <a href="P_Grasshopper_Kernel_IGH_Attributes_Bounds.htm">Bounds</a>. 
+        Basically everything that happens outside of the <span class="code">Bounds</span> goes by unnoticed. Also, if the <span class="code">Bounds</span> 
+        rectangle is not
+        visible within the canvas area, Grasshopper might decide to not even bother calling any painting methods.
+        </p><p>
+        Because our parameter will be rectangular, we don't have to override any of the picking logic, as the default 
+        implementation of 
+        <a href="Overload_Grasshopper_Kernel_GH_Attributes_1_IsPickRegion.htm">IsPickRegion</a>, 
+        <a href="M_Grasshopper_Kernel_GH_Attributes_1_IsMenuRegion.htm">IsMenuRegion</a> and 
+        <a href="M_Grasshopper_Kernel_GH_Attributes_1_IsTooltipRegion.htm">IsTooltipRegion</a> 
+        will already work.
+        </p></div><div class="collapsibleAreaRegion" id="GH_Attributes.Layout"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Layout</span></div><div id="ID2RBSection" class="collapsibleSection"><p>
+        We do however need to supply custom Layout logic. The width of our Attributes depends on both the length of the 
+        <span class="code">NickName</span> of the <span class="code">MySimpleIntegerParameter</span> that owns these attributes 
+        <em>and</em> on the
+        length of the statistics information we want to include. The height of the parameter however is fixed, though 
+        larger than the standard height for parameters in Grasshopper.
+        </p><p>
+        In order to supply custom layout logic, we need to override the 
+        <a href="M_Grasshopper_Kernel_GH_Attributes_1_Layout.htm">Layout</a>
+        method. In this case I measure the width of the NickName of the <span class="code">Owner</span> object, and make sure the parameter is 
+        never narrower than 80 pixels:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAHBADAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAHBADAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAHBADAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAHBADAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> Layout()
+  <span class="highlight-comment">'Compute the width of the NickName of the owner (plus some extra padding), </span>
+  <span class="highlight-comment">'then make sure we have at least 80 pixels.</span>
+  <span class="highlight-keyword">Dim</span> width <span class="highlight-keyword">As</span> Int32 = GH_FontServer.StringWidth(Owner.NickName, GH_FontServer.Standard)
+  width = Math.Max(width + <span class="highlight-number">10</span>, <span class="highlight-number">80</span>)
+
+  <span class="highlight-comment">'The height of our object is always 60 pixels</span>
+  <span class="highlight-keyword">Dim</span> height <span class="highlight-keyword">As</span> Int32 = <span class="highlight-number">60</span>
+
+  <span class="highlight-comment">'Assign the width and height to the Bounds property.</span>
+  <span class="highlight-comment">'Also, make sure the Bounds are anchored to the Pivot</span>
+  Bounds = <span class="highlight-keyword">New</span> RectangleF(Pivot, <span class="highlight-keyword">New</span> SizeF(width, height))
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAHBADAAA");</script>
+
+		The <span class="code">Pivot</span> is a <span class="code">PointF</span> structure that is changed when the object is dragged. It is therefore 
+		important that you always 'anchor' the layout
+		of some attributes to the <span class="code">Pivot</span>. If you fail to do so, your attributes will become undraggable.
+		</p><p>
+		There is a method you can override that will be called prior to the call to
+		<a href="M_Grasshopper_Kernel_GH_Attributes_1_Layout.htm">Layout</a>
+		which can be used to destroy any cached data you might have that's to do with display. But note that if you override 
+		<a href="M_Grasshopper_Kernel_GH_Attributes_1_ExpireLayout.htm">ExpireLayout</a>
+		you <em>must</em> place a call to the base class method as well:
+		
+		<div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAAADAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAAADAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAAADAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAAADAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">Public</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> ExpireLayout()
+  <span class="highlight-keyword">MyBase</span>.ExpireLayout()
+
+  <span class="highlight-comment">'Destroy any data you have that becomes </span>
+  <span class="highlight-comment">'invalid when the layout expires.</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAAADAAA");</script></p></div><div class="collapsibleAreaRegion" id="GH_Attributes.Render"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />Render</span></div><div id="ID3RBSection" class="collapsibleSection"><p>
+		Now that we have handled the layout, we need to override the display of the parameter. There's two parts to doing so. 
+		You always have to override the 
+		<a href="M_Grasshopper_Kernel_GH_Attributes_1_Render.htm">Render</a>
+		method, as this is where the drawing takes place. Render is called a number of times as there are several 'layers' or 'channels'  
+		to a single Grasshopper canvas. At first, the background of the canvas is drawn. During this process attributes are not yet involved. Then there will be 
+		four channels where <span class="code">IGH_Attributes</span> will be allowed to draw various shapes. 
+		</p><p>
+		First the groups are drawn (as they are behind all other objects), but every
+		<span class="code">GH_Attributes.Render()</span> method will be called once for the 
+		<a href="T_Grasshopper_GUI_Canvas_GH_CanvasChannel.htm">Groups</a>
+		channel. Typically you should not draw anything in the Groups channel.
+		</p><p>
+		Next up is the
+		<a href="T_Grasshopper_GUI_Canvas_GH_CanvasChannel.htm">Wires</a>
+		channel where all parameter connector wires are drawn. If your object has input parameters or is a parameter, it is your 
+		responsibility to draw all wires coming into your object. Wires going out the right side will be drawn by the recipient objects.
+		</p><p>
+		Next the actual components and parameters themselves are drawn inside the 
+		<a href="T_Grasshopper_GUI_Canvas_GH_CanvasChannel.htm">Objects</a>
+		channel. This is typically the most work, though there are lots of classes that take care of common tasks. 
+		The default visual style of components and parameter objects is the shiny rectangle with rounded corners. You can use the 
+		<a href="T_Grasshopper_GUI_Canvas_GH_Capsule.htm">GH_Capsule</a>
+		type to draw these shapes with a minimum of fuss.
+		</p><p>
+		Ultimately there's an
+		<a href="T_Grasshopper_GUI_Canvas_GH_CanvasChannel.htm">Overlay</a>
+		channel which is rarely used but it allows you to draw shapes that need to be on top of all other components and parameters. 
+		After this, there are still more channels to do with canvas widgets, but <span class="code">IGH_Attributes</span> are not involved here.
+		</p><p>
+		Inside our implementation of the <span class="code">Render()</span> method, we need to draw the wires coming into the 
+		<span class="code">MySimpleIntegerParameter</span>, then the
+		parameter capsule, while taking care to assign the correct colours (grey for normal, green for selected, dark for disabled, 
+		orange for warnings and red for errors). Finally we have to draw three lines of text on top of the capsule; the name of the 
+		owner, the median integer and the mean integer. The important types involved here are:
+		
+		<ul><li><a href="T_Grasshopper_GUI_Canvas_GH_Canvas.htm">GH_Canvas</a></li><li><a href="T_Grasshopper_GUI_Canvas_GH_Painter.htm">GH_Painter</a></li><li><a href="T_Grasshopper_GUI_Canvas_GH_Palette.htm">GH_Palette</a></li><li><a href="T_Grasshopper_Kernel_GH_RuntimeMessageLevel.htm">GH_RuntimeMessageLevel</a></li><li><a href="T_Grasshopper_GUI_Canvas_GH_Capsule.htm">GH_Capsule</a></li><li><a href="T_Grasshopper_Kernel_GH_FontServer.htm">GH_FontServer</a></li></ul><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAHBACAAA_tab1" class="codeSnippetContainerTabSingle">VB</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAHBACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAHBACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAHBACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">Protected</span> <span class="highlight-keyword">Overrides</span> <span class="highlight-keyword">Sub</span> Render(<span class="highlight-keyword">ByVal</span> canvas <span class="highlight-keyword">As</span> GH_Canvas, <span class="highlight-keyword">ByVal</span> graphics <span class="highlight-keyword">As</span> Graphics, <span class="highlight-keyword">ByVal</span> channel <span class="highlight-keyword">As</span> GH_CanvasChannel)
+  <span class="highlight-comment">'Render all the wires that connect the Owner to all its Sources.</span>
+  <span class="highlight-keyword">If</span> (channel = GH_CanvasChannel.Wires) <span class="highlight-keyword">Then</span>
+    RenderIncomingWires(canvas.Painter, Owner.Sources, Owner.WireDisplay)
+    <span class="highlight-keyword">Return</span>
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+
+  <span class="highlight-comment">'Render the parameter capsule and any additional text on top of it.</span>
+  <span class="highlight-keyword">If</span> (channel = GH_CanvasChannel.Objects) <span class="highlight-keyword">Then</span>
+    <span class="highlight-comment">'Define the default palette.</span>
+    <span class="highlight-keyword">Dim</span> palette <span class="highlight-keyword">As</span> GH_Palette = GH_Palette.Normal
+
+    <span class="highlight-comment">'Adjust palette based on the Owner's worst case messaging level.</span>
+    <span class="highlight-keyword">Select</span> <span class="highlight-keyword">Case</span> Owner.RuntimeMessageLevel
+      <span class="highlight-keyword">Case</span> GH_RuntimeMessageLevel.Warning
+        palette = GH_Palette.Warning
+
+      <span class="highlight-keyword">Case</span> GH_RuntimeMessageLevel.<span class="highlight-keyword">Error</span>
+        palette = GH_Palette.<span class="highlight-keyword">Error</span>
+    <span class="highlight-keyword">End</span> <span class="highlight-keyword">Select</span>
+
+    <span class="highlight-comment">'Create a new Capsule without text or icon.</span>
+    <span class="highlight-keyword">Dim</span> capsule <span class="highlight-keyword">As</span> GH_Capsule = GH_Capsule.CreateCapsule(Bounds, palette)
+
+    <span class="highlight-comment">'Render the capsule using the current Selection, Locked and Hidden states.</span>
+    <span class="highlight-comment">'Integer parameters are always hidden since they cannot be drawn in the viewport.</span>
+    capsule.Render(graphics, Selected, Owner.Locked, <span class="highlight-keyword">True</span>)
+
+    <span class="highlight-comment">'Always dispose of a GH_Capsule when you're done with it.</span>
+    capsule.Dispose()
+    capsule = <span class="highlight-keyword">Nothing</span>
+
+    <span class="highlight-comment">'Now it's time to draw the text on top of the capsule.</span>
+    <span class="highlight-comment">'First we'll draw the Owner NickName using a standard font and a black brush.</span>
+    <span class="highlight-comment">'We'll also align the NickName in the center of the Bounds.</span>
+    <span class="highlight-keyword">Dim</span> format <span class="highlight-keyword">As</span> <span class="highlight-keyword">New</span> StringFormat()
+    format.Alignment = StringAlignment.Center
+    format.LineAlignment = StringAlignment.Center
+    format.Trimming = StringTrimming.EllipsisCharacter
+
+    <span class="highlight-comment">'Our entire capsule is 60 pixels high, and we'll draw </span>
+    <span class="highlight-comment">'three lines of text, each 20 pixels high.</span>
+    <span class="highlight-keyword">Dim</span> textRectangle <span class="highlight-keyword">As</span> RectangleF = Bounds
+    textRectangle.Height = <span class="highlight-number">20</span>
+
+    <span class="highlight-comment">'Draw the NickName in a Standard Grasshopper font.</span>
+    graphics.DrawString(Owner.NickName, GH_FontServer.Standard, Brushes.Black, textRectangle, format)
+
+
+    <span class="highlight-comment">'Now we need to draw the median and mean information.</span>
+    <span class="highlight-comment">'Adjust the formatting and the layout rectangle.</span>
+    format.Alignment = StringAlignment.Near
+    textRectangle.Inflate(<span class="highlight-number">-5</span>, <span class="highlight-number">0</span>)
+
+    textRectangle.Y += <span class="highlight-number">20</span>
+    graphics.DrawString(<span class="highlight-keyword">String</span>.Format(<span class="highlight-literal">"Median: {0}"</span>, Owner.MedianValue), _
+                        GH_FontServer.StandardItalic, Brushes.Black, _
+                        textRectangle, format)
+
+    textRectangle.Y += <span class="highlight-number">20</span>
+    graphics.DrawString(<span class="highlight-keyword">String</span>.Format(<span class="highlight-literal">"Mean: {0:0.00}"</span>, Owner.MeanValue), _
+                        GH_FontServer.StandardItalic, Brushes.Black, _
+                        textRectangle, format)
+
+    <span class="highlight-comment">'Always dispose of any GDI+ object that implement IDisposable.</span>
+    format.Dispose()
+  <span class="highlight-keyword">End</span> <span class="highlight-keyword">If</span>
+<span class="highlight-keyword">End</span> <span class="highlight-keyword">Sub</span></pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAHBACAAA");</script>
+		
+		Note that in this case I assume that <span class="code">MySimpleIntegerParameter</span> has two 
+	    properties called <span class="code">MedianValue</span> and <span class="code">MeanValue</span>.
+		I haven't written those, as they are not within the scope of this topic.
+		</p><p>
+		If you have cached display objects (for whatever reason I don't want to hear), a good place to ensure they are 
+		valid would be the 
+		<a href="M_Grasshopper_Kernel_GH_Attributes_1_PrepareForRender.htm">PrepareForRender</a>
+		method. It is called once (and only once) just before any calls to <span class="code">Render()</span>. You do not need to call the overridden method as it is empty by default.
+		</p></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper for Rhino 8.0.21012.12300 (Last updated: 1/19/2021)<br />Copyright © 2009-2021 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/grasshopper" target="_blank">Report wishes and bugs at discourse.mcneel.com</a></p></div></body></html>
