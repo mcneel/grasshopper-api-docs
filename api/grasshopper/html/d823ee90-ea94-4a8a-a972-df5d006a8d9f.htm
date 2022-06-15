@@ -1,0 +1,277 @@
+﻿<html><head><meta http-equiv="X-UA-Compatible" content="IE=edge" /><link rel="shortcut icon" href="../icons/favicon.ico" /><link rel="stylesheet" type="text/css" href="../styles/branding.css" /><link rel="stylesheet" type="text/css" href="../styles/branding-en-US.css" /><script type="text/javascript" src="../scripts/branding.js"> </script><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" /><title>Simple Data Types (C#)</title><meta name="Language" content="en-us" /><meta name="Microsoft.Help.Id" content="d823ee90-ea94-4a8a-a972-df5d006a8d9f" /><meta name="Description" content="IntroductionThe IGH_Goo interfaceThe GH_Goo abstract classAn Example TypeConstructorsFormattersSerializationCasting" /><meta name="Microsoft.Help.ContentType" content="Concepts" /><meta name="BrandingAware" content="true" /><link type="text/css" rel="stylesheet" href="../styles/highlight.css" /><script type="text/javascript" src="../scripts/highlight.js"> </script><link rel="stylesheet" type="text/css" href="../styles/branding-Website.css" /><script type="text/javascript" src="../scripts/jquery-3.3.1.min.js"></script><script type="text/javascript" src="../scripts/branding-Website.js"></script><script type="text/javascript" src="../scripts/clipboard.min.js"></script></head><body onload="OnLoad('cs')"><input type="hidden" id="userDataCache" class="userDataStyle" /><div class="pageHeader" id="PageHeader">Grasshopper API<form id="SearchForm" method="get" action="#" onsubmit="javascript:TransferToSearchPage(); return false;"><input id="SearchTextBox" type="text" maxlength="200" /><button id="SearchButton" type="submit"></button></form></div><div class="pageBody"><div class="leftNav" id="leftNav"><div id="tocNav"><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/723c01da-9986-4db2-8f53-6f3a7494df75.htm" title="Grasshopper API" tocid="roottoc">Grasshopper API</a></div><div class="toclevel0" data-toclevel="0"><a class="tocCollapsed" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/d113a9f0-6e27-46df-8316-2079c44382ac.htm" title="Examples" tocid="d113a9f0-6e27-46df-8316-2079c44382ac">Examples</a></div><div class="toclevel1" data-toclevel="1" data-childrenloaded="true"><a class="tocExpanded" onclick="javascript: Toggle(this);" href="#!" /><a data-tochassubtree="true" href="../html/730f0792-7bfb-4310-a416-239e8c315645.htm" title="C#" tocid="467ce257-a556-490c-8362-537275329cca">C#</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/730f0792-7bfb-4310-a416-239e8c315645.htm" title="Simple Component (C#)" tocid="730f0792-7bfb-4310-a416-239e8c315645">Simple Component (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/fdd35a9c-bf08-47cf-abe8-08ccb192475f.htm" title="Simple Mathematics (C#)" tocid="fdd35a9c-bf08-47cf-abe8-08ccb192475f">Simple Mathematics (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/5764fa15-29d1-4e37-8496-2478d3cf28dc.htm" title="Simple Geometry (C#)" tocid="5764fa15-29d1-4e37-8496-2478d3cf28dc">Simple Geometry (C#)</a></div><div class="toclevel2 current" data-toclevel="2"><a data-tochassubtree="false" href="../html/d823ee90-ea94-4a8a-a972-df5d006a8d9f.htm" title="Simple Data Types (C#)" tocid="d823ee90-ea94-4a8a-a972-df5d006a8d9f">Simple Data Types (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/fbfe5e40-ba8d-4e53-97c6-27572e049835.htm" title="Simple Parameters (C#)" tocid="fbfe5e40-ba8d-4e53-97c6-27572e049835">Simple Parameters (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/020a5098-963f-4da8-bf65-650993c73bcb.htm" title="List Component (C#)" tocid="020a5098-963f-4da8-bf65-650993c73bcb">List Component (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/a367a8b3-a8b6-4d92-ad15-00b5aa60fd48.htm" title="Extending the GUI (C#)" tocid="a367a8b3-a8b6-4d92-ad15-00b5aa60fd48">Extending the GUI (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/8a7974ab-7b2b-4f48-84d0-6e81b184e6b0.htm" title="Custom Attributes (C#)" tocid="8a7974ab-7b2b-4f48-84d0-6e81b184e6b0">Custom Attributes (C#)</a></div><div class="toclevel2" data-toclevel="2"><a data-tochassubtree="false" href="../html/5f6a9f31-8838-40e6-ad37-a407be8f2c15.htm" title="Custom Component Options (C#)" tocid="5f6a9f31-8838-40e6-ad37-a407be8f2c15">Custom Component Options (C#)</a></div></div><div id="tocResizableEW" onmousedown="OnMouseDown(event);"></div><div id="TocResize" class="tocResize"><img id="ResizeImageIncrease" src="../icons/TocOpen.gif" onclick="OnIncreaseToc()" alt="Click or drag to resize" title="Click or drag to resize" /><img id="ResizeImageReset" src="../icons/TocClose.gif" style="display:none" onclick="OnResetToc()" alt="Click or drag to resize" title="Click or drag to resize" /></div></div><div class="topicContent" id="TopicContent"><table class="titleTable"><tr><td class="titleColumn"><h1>Simple Data Types (C#)</h1></td></tr></table><span class="introStyle"></span> <p><ul><li><a href="#Introduction">Introduction</a></li><li><a href="#IGH_Goo">The IGH_Goo interface</a></li><li><a href="#GH_Goo">The GH_Goo abstract class</a></li><li><a href="#ExampleType">An Example Type</a><ul><li><a href="#ExampleTypeConstructors">Constructors</a></li><li><a href="#ExampleTypeFormatters">Formatters</a></li><li><a href="#ExampleTypeSerialization">Serialization</a></li><li><a href="#ExampleTypeCasting">Casting</a></li></ul></li></ul></p><div class="introduction" id="Introduction"><p>
+      This article discusses how Grasshopper deals with data items and types. It's a rather complicated topic as
+      data is an integral part of the Grasshopper process and GUI. Grasshopper needs to be able to 
+      (de)serialize data, display data in tooltips, convert data to other types of data, 
+      prompt the user for persistent data, draw geometry preview data in viewports and 
+      bake geometric data. In this topic I'll only talk about non-geometric data, we'll get to 
+      previews and baking in a later topic.
+      </p><p>
+      Practically all native data types in Grasshopper are based either on a .NET Framework type or a RhinoCommon 
+      SDK type. For example <span class="code">System.Boolean</span>, S<span class="code">ystem.String</span>, 
+      <span class="code">Rhino.Geometry.Point3d</span> and
+      <span class="code">Rhino.Geometry.Brep</span> to name but a few. However the parameters in Grasshopper don't directly store 
+      Booleans, String, Points and Breps as these types can't handle themselves in the cauldron that is 
+      Grasshopper.
+      </p><p>
+      All data used in Grasshopper <em>must</em> implement the 
+      <a href="T_Grasshopper_Kernel_Types_IGH_Goo.htm">IGH_Goo</a>
+      interface. <span class="code">IGH_Goo</span> defines the bare minimum of methods and properties for any kind 
+      of data before it is allowed to play ball.
+      </p></div><div class="collapsibleAreaRegion" id="IGH_Goo"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID1RB')" onkeypress="SectionExpandCollapse_CheckKey('ID1RB', event)" tabindex="0"><img id="ID1RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />The IGH_Goo interface</span></div><div id="ID1RBSection" class="collapsibleSection"><p>
+        In this section I'll briefly discuss all the methods and properties that are defined in 
+        <span class="code">IGH_Goo</span>. What they're for, who uses them at what time, etc, etc.
+        </p><div class="tableSection"><table><tr><th>Method</th><th>Purpose</th></tr><tr><td><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABIAACAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABIAACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABIAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABIAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">bool</span> IsValid { <span class="highlight-keyword">get</span>{} }</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABIAACAAA");</script></td><td>
+            Not all data types are valid all the time, and this property allows you to teint the current 
+            instance of your data. When data is invalid it will often be ignored by components.
+			</td></tr><tr><td><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABHAACAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABHAACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABHAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABHAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">string</span> TypeName { <span class="highlight-keyword">get</span>{} }</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABHAACAAA");</script></td><td>
+            This property must return a human-readable name for your data type.
+			</td></tr><tr><td><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABGAACAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABGAACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABGAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABGAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">string</span> TypeDescription { <span class="highlight-keyword">get</span>{} }</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABGAACAAA");</script></td><td>
+            This property must return a human-readable description of your data type.
+			</td></tr><tr><td><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABFAACAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABFAACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABFAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABFAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">IGH_Goo Duplicate()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABFAACAAA");</script></td><td>
+            This function must return an exact duplicate of the data item. Data is typically shared amongst multiple 
+            Grasshopper parameters, so before data is changed, it first needs to copy itself. When data only contains 
+            ValueTypes and Primitives, making a copy of an instance is usually quite easy.
+			</td></tr><tr><td><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABEAACAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABEAACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABEAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABEAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">string</span> ToString()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABEAACAAA");</script></td><td>
+            This function is called whenever Grasshopper needs a human-readable version of your data. 
+            It is this function that populates the data panel in parameter tooltips. You don't need to 
+            create a String that is parsable, it only needs to be somewhat informative.
+			</td></tr><tr><td><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABDAACAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABDAACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABDAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABDAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve">IGH_GooProxy EmitProxy()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABDAACAAA");</script></td><td>
+            Data proxies are used in the Data Collection Manager. You can ignore this function 
+            (i.e. Return Nothing) without crippling your data type.
+			</td></tr><tr><td><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABCAACAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABCAACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABCAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABCAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">bool</span> CastTo&lt;T&gt;(<span class="highlight-keyword">out</span> T target)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABCAACAAA");</script></td><td><p>
+            Data Casting is a core feature of Grasshopper data. It basically allows data types defined in 
+            Grasshopper add-ons to become an integral part of Grasshopper. Lets assume that we have a Component 
+            that operates on data type [A]. But instead of playing nice, we provide data of type [B]. 
+            Two conversion (casting) attempts will be made in order to change [B] into [A]. If [B] implements 
+            <span class="code">IGH_Goo</span>, then it is asked if it knows how to convert itself into an instance of [A]. 
+            Failing that, if [A] implements <span class="code">IGH_Goo</span>, it is asked whether or not it knows how to construct 
+            itself from an instance of [B].
+            </p><p>
+            The <span class="code">CastTo()</span> function is responsible for step 1. The <span class="code">CastTo()</span> 
+            method is a generic method, meaning the
+            types on which it operates are not defined until the method is actually called. This allows the function 
+            to operate 'intelligently' on data types. It also unfortunately means you have to be 'intelligent' when 
+            implementing this function.
+            </p></td></tr><tr><td><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABBAACAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABBAACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABBAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABBAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">bool</span> CastFrom(<span class="highlight-keyword">object</span> source)</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABBAACAAA");</script></td><td><p>
+            The <span class="code">CastFrom()</span> function is responsible for step 2 of data casting. Some kind of data is provided as a source object 
+            and if the local Type knows how to 'read' the source data it can perform the conversion.
+            </p></td></tr><tr><td><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAABAAACAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAABAAACAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAABAAACAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAABAAACAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">object</span> ScriptVariable()</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAABAAACAAA");</script></td><td><p>
+            When data is fed into a VB or C# script component, it is usually stripped of <span class="code">IGH_Goo</span> 
+            specific data and methods. The <span class="code">ScriptVariable()</span> method allows a data type to provide 
+            a stripped down version of itself for use in a Script component.
+            </p></td></tr></table></div></div><div class="collapsibleAreaRegion" id="GH_Goo"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID2RB')" onkeypress="SectionExpandCollapse_CheckKey('ID2RB', event)" tabindex="0"><img id="ID2RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />The GH_Goo abstract class</span></div><div id="ID2RBSection" class="collapsibleSection"><p>
+        Although all data in Grasshopper must implement the <span class="code">IGH_Goo</span> interface, it is not necessary 
+        to actually write a type from scratch. It is good practice to inherit from the abstract
+        class <span class="code">GH_Goo&lt;T&gt;</span>, as it takes care of some of the basic functionality. <span class="code">GH_Goo</span> is a generic type 
+        (that's what the "&lt;T&gt;" bit means), where T is the actual type you're wrapping.
+        
+        <span class="code">GH_Goo&lt;T&gt;</span> has several abstract methods and properties which <em>must</em> be
+        implemented, but a lot of the other methods are already implemented with basic (though usually useless) 
+        functionality.
+        </p></div><div class="collapsibleAreaRegion" id="ExampleType"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID3RB')" onkeypress="SectionExpandCollapse_CheckKey('ID3RB', event)" tabindex="0"><img id="ID3RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />An Example Type</span></div><div id="ID3RBSection" class="collapsibleSection"><p>
+        We'll now create a very simple custom type. This will introduce the basic concept of custom type development, 
+        without dealing with any of the baking and previewing logic yet. Our custom type will be a TriState flag, similar 
+        to boolean values but with an extra state called "Unknown". We'll represent these different states using integers:
+        </p><div class="tableSection"><table><tr><th>Integer</th><th>TriState</th></tr><tr><td>Negative One</td><td>Unknown</td></tr><tr><td>Zero</td><td>False</td></tr><tr><td>Positive One</td><td>True</td></tr></table></div><p>
+        We'll start with the general class layout, then drill down into each individual function. Create a new public class 
+        called TriStateType and inherit from <span class="code">GH_Goo&lt;Integer&gt;</span>. Be sure to import the Grasshopper 
+        <span class="code">Kernel</span> and <span class="code">Kernel.Types</span> namespaces
+        as we'll need them both:
+        
+        <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAEAAAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAEAAAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAEAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAEAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-keyword">using</span> Grasshopper.Kernel;
+<span class="highlight-keyword">using</span> Grasshopper.Kernel.Types;
+
+<span class="highlight-keyword">namespace</span> MyTypes
+{
+  <span class="highlight-keyword">public</span> <span class="highlight-keyword">class</span> TriStateType : GH_Goo&lt;<span class="highlight-keyword">int</span>&gt;
+  {
+
+  }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAEAAAAA");</script></p><h4 class="subHeading" id="ExampleTypeConstructors">Constructors</h4><div class="subsection"><p>
+	        Unless a constructor is defined, .NET classes always have a <em>default constructor</em> 
+	        which initializes all the fields of the class to their default values. This constructor does not require any 
+	        inputs and when you develop custom types it is a good idea to always provide a default constructor. If there is 
+	        no default constructor, then class instances cannot be created automatically which thwarts certain algorithms in 
+	        Grasshopper.
+	        </p><p>
+	        In addition to a default constructor I also find it useful to supply so called <em>copy constructors</em> 
+	        which create a new instance of the type class with a preset value.
+	        </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EACADAAAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EACADAAAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EACADAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EACADAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Default Constructor, sets the state to Unknown.</span>
+<span class="highlight-keyword">public</span> TriStateType()
+{
+  <span class="highlight-keyword">this</span>.Value = <span class="highlight-number">-1</span>;
+}
+
+<span class="highlight-comment">// Constructor with initial value</span>
+<span class="highlight-keyword">public</span> TriStateType(<span class="highlight-keyword">int</span> tristateValue)
+{
+  <span class="highlight-keyword">this</span>.Value = tristateValue;
+}
+
+<span class="highlight-comment">// Copy Constructor</span>
+<span class="highlight-keyword">public</span> TriStateType(TriStateType tristateSource)
+{
+  <span class="highlight-keyword">this</span>.Value = tristateSource.Value;
+}
+
+<span class="highlight-comment">// Duplication method (technically not a constructor)</span>
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> IGH_Goo Duplicate()
+{
+  <span class="highlight-keyword">return</span> <span class="highlight-keyword">new</span> TriStateType(<span class="highlight-keyword">this</span>);
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EACADAAAAA");</script><p>
+            Incidentally, the <span class="code">Value</span> property which we are using to assign integers to our local instance is provided 
+            by the <span class="code">GH_Goo&lt;T&gt;</span> base class. <span class="code">GH_Goo&lt;T&gt;</span> defines a 
+            protected field of type <span class="code">T</span> called <span class="code">m_value</span> and also
+            a public accessor property called <span class="code">Value</span> which gets or sets the <span class="code">m_value</span> field.
+            </p><p>
+            In this particular case, it actually makes sense to override the default <span class="code">Value</span> property implementation, as 
+            the number of sensible values we can assign (-1, 0 and +1) is a subset of the total number values available 
+            through the Integer data type. It makes no sense to assign -62 for example. We <em>could</em> 
+            of course agree that all negative values indicate an "Unknown" state, but we should try to restrict ourselves to
+            only three integer values:
+            
+            <div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAAADAAAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAAADAAAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAAADAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAAADAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Override the Value property to strip non-sensical states.</span>
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">int</span> Value
+{
+  <span class="highlight-keyword">get</span> { <span class="highlight-keyword">return</span> <span class="highlight-keyword">base</span>.Value; }
+  <span class="highlight-keyword">set</span>
+  {
+    <span class="highlight-keyword">if</span> (<span class="highlight-keyword">value</span> &lt; <span class="highlight-number">-1</span>) { <span class="highlight-keyword">value</span> = <span class="highlight-number">-1</span>; }
+    <span class="highlight-keyword">if</span> (<span class="highlight-keyword">value</span> &gt; <span class="highlight-number">+1</span>) { <span class="highlight-keyword">value</span> = <span class="highlight-number">+1</span>; }
+    <span class="highlight-keyword">base</span>.Value = <span class="highlight-keyword">value</span>;
+  }
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAAADAAAAA");</script></p></div><h4 class="subHeading" id="ExampleTypeFormatters">Formatters</h4><div class="subsection"><p>
+	        Formatting data is primarily a User Interface task. Both the data type and the data state need to be 
+	        presented in human-readable form every now and again. This mostly involves readonly properties as looking 
+	        at data does not change its state:
+	        </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAACAAAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAACAAAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAACAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAACAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// TriState instances are always valid</span>
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">bool</span> IsValid
+{
+  <span class="highlight-keyword">get</span> { <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>; }
+}
+
+<span class="highlight-comment">// Return a string with the name of this Type.</span>
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">string</span> TypeName
+{
+  <span class="highlight-keyword">get</span> { <span class="highlight-keyword">return</span> <span class="highlight-literal">"TriState"</span>; }
+}
+
+<span class="highlight-comment">// Return a string describing what this Type is about.</span>
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">string</span> TypeDescription
+{
+  <span class="highlight-keyword">get</span> { <span class="highlight-keyword">return</span> <span class="highlight-literal">"A TriState Value (True, False or Unknown)"</span>; }
+}
+
+<span class="highlight-comment">// Return a string representation of the state (value) of this instance.</span>
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">string</span> ToString()
+{
+  <span class="highlight-keyword">if</span> (<span class="highlight-keyword">this</span>.Value == <span class="highlight-number">0</span>) { <span class="highlight-keyword">return</span> <span class="highlight-literal">"False"</span>; }
+  <span class="highlight-keyword">if</span> (<span class="highlight-keyword">this</span>.Value &gt; <span class="highlight-number">0</span>) { <span class="highlight-keyword">return</span> <span class="highlight-literal">"True"</span>; }
+  <span class="highlight-keyword">return</span> <span class="highlight-literal">"Unknown"</span>;
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAACAAAAA");</script></div><h4 class="subHeading" id="ExampleTypeSerialization">Serialization</h4><div class="subsection"><p>
+	        Some data types can be stored as <em>persistent data</em>. Persistent data 
+	        must be able to serialize and deserialize itself from a Grasshopper file. Most simple types support 
+	        this feature (Booleans, Integers, Strings, Colours, Circles, Planes etc.), most complex geometry 
+	        types cannot be stored as persistent data (Curves, Breps, Meshes). If possible, you should aim to 
+	        provide robust (de)serialization for your data:
+	        </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAABAAAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAABAAAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAABAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAABAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Serialize this instance to a Grasshopper writer object.</span>
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">bool</span> Write(GH_IO.Serialization.GH_IWriter writer)
+{
+  writer.SetInt32(<span class="highlight-literal">"tri"</span>, <span class="highlight-keyword">this</span>.Value);
+  <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
+}
+
+<span class="highlight-comment">// Deserialize this instance from a Grasshopper reader object.</span>
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">bool</span> Read(GH_IO.Serialization.GH_IReader reader)
+{
+  <span class="highlight-keyword">this</span>.Value = reader.GetInt32(<span class="highlight-literal">"tri"</span>);
+  <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAABAAAAA");</script></div><h4 class="subHeading" id="ExampleTypeCasting">Casting</h4><div class="subsection"><p>
+	        There are three casting methods on <span class="code">IGH_Goo</span>; the <span class="code">CastFrom()</span> and 
+	        <span class="code">CastTo()</span> methods that facilitate conversions
+	        between different types of data and the <span class="code">ScriptVariable()</span> method which creates a safe instance of this data 
+	        to be used inside untrusted code (such as VB or C# Script components).
+	        </p><div class="codeSnippetContainer"><div class="codeSnippetContainerTabs"><div id="ID0EAAAAAAAAA_tab1" class="codeSnippetContainerTabSingle">C#</div></div><div class="codeSnippetContainerCodeContainer"><div class="codeSnippetToolBar"><div class="codeSnippetToolBarText"><a id="ID0EAAAAAAAAA_copyCode" href="#" class="copyCodeSnippet" onclick="javascript:CopyToClipboard('ID0EAAAAAAAAA');return false;" title="Copy">Copy</a></div></div><div id="ID0EAAAAAAAAA_code_Div1" class="codeSnippetContainerCode" style="display: block"><pre xml:space="preserve"><span class="highlight-comment">// Return the Integer we use to represent the TriState flag.</span>
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">object</span> ScriptVariable()
+{
+  <span class="highlight-keyword">return</span> <span class="highlight-keyword">this</span>.Value;
+}
+
+<span class="highlight-comment">// This function is called when Grasshopper needs to convert this </span>
+<span class="highlight-comment">// instance of TriStateType into some other type Q.</span>
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">bool</span> CastTo&lt;Q&gt;(<span class="highlight-keyword">ref</span> Q target)
+{
+  <span class="highlight-comment">//First, see if Q is similar to the Integer primitive.</span>
+  <span class="highlight-keyword">if</span> (<span class="highlight-keyword">typeof</span>(Q).IsAssignableFrom(<span class="highlight-keyword">typeof</span>(<span class="highlight-keyword">int</span>)))
+  {
+    <span class="highlight-keyword">object</span> ptr = <span class="highlight-keyword">this</span>.Value;
+    target = (Q)ptr;
+    <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
+  }
+
+  <span class="highlight-comment">//Then, see if Q is similar to the GH_Integer type.</span>
+  <span class="highlight-keyword">if</span> (<span class="highlight-keyword">typeof</span>(Q).IsAssignableFrom(<span class="highlight-keyword">typeof</span>(GH_Integer)))
+  {
+    <span class="highlight-keyword">object</span> ptr = <span class="highlight-keyword">new</span> GH_Integer(<span class="highlight-keyword">this</span>.Value);
+    target = (Q)ptr;
+    <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
+  }
+
+  <span class="highlight-comment">//We could choose to also handle casts to Boolean, GH_Boolean, </span>
+  <span class="highlight-comment">//Double and GH_Number, but this is left as an exercise for the reader.</span>
+  <span class="highlight-keyword">return</span> <span class="highlight-keyword">false</span>;
+}
+
+<span class="highlight-comment">// This function is called when Grasshopper needs to convert other data </span>
+<span class="highlight-comment">// into TriStateType.</span>
+<span class="highlight-keyword">public</span> <span class="highlight-keyword">override</span> <span class="highlight-keyword">bool</span> CastFrom(<span class="highlight-keyword">object</span> source)
+{
+  <span class="highlight-comment">//Abort immediately on bogus data.</span>
+  <span class="highlight-keyword">if</span> (source == <span class="highlight-keyword">null</span>) { <span class="highlight-keyword">return</span> <span class="highlight-keyword">false</span>; }
+
+  <span class="highlight-comment">//Use the Grasshopper Integer converter. By specifying GH_Conversion.Both </span>
+  <span class="highlight-comment">//we will get both exact and fuzzy results. You should always try to use the</span>
+  <span class="highlight-comment">//methods available through GH_Convert as they are extensive and consistent.</span>
+  <span class="highlight-keyword">int</span> val;
+  <span class="highlight-keyword">if</span> (GH_Convert.ToInt32(source, <span class="highlight-keyword">out</span> val, GH_Conversion.Both))
+  {
+    <span class="highlight-keyword">this</span>.Value = val;
+    <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
+  }
+
+  <span class="highlight-comment">//If the integer conversion failed, we can still try to parse Strings.</span>
+  <span class="highlight-comment">//If possible, you should ensure that your data type can 'deserialize' itself </span>
+  <span class="highlight-comment">//from the output of the ToString() method.</span>
+  <span class="highlight-keyword">string</span> str = <span class="highlight-keyword">null</span>;
+  <span class="highlight-keyword">if</span> (GH_Convert.ToString(source, <span class="highlight-keyword">out</span> str, GH_Conversion.Both))
+  {
+    <span class="highlight-keyword">switch</span> (str.ToUpperInvariant())
+    {
+      <span class="highlight-keyword">case</span> <span class="highlight-literal">"FALSE"</span>:
+      <span class="highlight-keyword">case</span> <span class="highlight-literal">"F"</span>:
+      <span class="highlight-keyword">case</span> <span class="highlight-literal">"NO"</span>:
+      <span class="highlight-keyword">case</span> <span class="highlight-literal">"N"</span>:
+        <span class="highlight-keyword">this</span>.Value = <span class="highlight-number">0</span>;
+        <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
+
+      <span class="highlight-keyword">case</span> <span class="highlight-literal">"TRUE"</span>:
+      <span class="highlight-keyword">case</span> <span class="highlight-literal">"T"</span>:
+      <span class="highlight-keyword">case</span> <span class="highlight-literal">"YES"</span>:
+      <span class="highlight-keyword">case</span> <span class="highlight-literal">"Y"</span>:
+        <span class="highlight-keyword">this</span>.Value = <span class="highlight-number">+1</span>;
+        <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
+
+      <span class="highlight-keyword">case</span> <span class="highlight-literal">"UNKNOWN"</span>:
+      <span class="highlight-keyword">case</span> <span class="highlight-literal">"UNSET"</span>:
+      <span class="highlight-keyword">case</span> <span class="highlight-literal">"MAYBE"</span>:
+      <span class="highlight-keyword">case</span> <span class="highlight-literal">"DUNNO"</span>:
+      <span class="highlight-keyword">case</span> <span class="highlight-literal">"?"</span>:
+        <span class="highlight-keyword">this</span>.Value = <span class="highlight-number">-1</span>;
+        <span class="highlight-keyword">return</span> <span class="highlight-keyword">true</span>;
+    }
+  }
+
+  <span class="highlight-comment">//We've exhausted the possible conversions, it seems that source</span>
+  <span class="highlight-comment">//cannot be converted into a TriStateType after all.</span>
+  <span class="highlight-keyword">return</span> <span class="highlight-keyword">false</span>;
+}</pre></div></div></div><script type="text/javascript">AddLanguageTabSet("ID0EAAAAAAAAA");</script></div></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper for Rhino 7.19.22165.13000 (Last updated: 6/15/2022)<br />Copyright © 2009-2022 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/grasshopper" target="_blank">Report wishes and bugs at discourse.mcneel.com</a></p></div></body></html>
