@@ -15,6 +15,8 @@
 								 
 							</th><th>Name</th><th>Description</th></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_AbortRequested.htm">AbortRequested</a></td><td><div class="summary">
  Gets the abortrequested flag state.
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_ActiveDoc.htm">ActiveDoc</a></td><td><div class="summary">
+ Gets or sets a value indicating that this document was last active in a multi-doc aware Rhino.
  </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_AttributeCount.htm">AttributeCount</a></td><td><div class="summary">
  Returns the total number of attributes in the document. Both Normal and Hidden ones
  </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_Attributes.htm">Attributes</a></td><td><div class="summary">
@@ -24,18 +26,11 @@
  Gets the author details associated with this document.
  </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_ConstantServer.htm">ConstantServer</a></td><td><div class="summary">
  Gets the dictionary of constants defined in this document.
- </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_ContainsCustomPreviewObjects.htm">ContainsCustomPreviewObjects</a></td><td><div class="summary">
- Gets whether this document contains *any* custom preview objects.
- </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_ContainsCustomRenderObjects.htm">ContainsCustomRenderObjects</a></td><td><div class="summary">
- Gets whether this document contains custom preview objects which
- are both ENABLED and included in RENDERING.
  </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_Context.htm">Context</a></td><td><div class="summary">
  Gets or sets the context for this document. Note that the context is not a state so much as an action. 
  Therefore it is not particularly useful to read the context after the fact, rather, 
  context is mostly intended to be a setter, not a getter. 
  When you set the context, all top-level document objects will be informed and the ContextChanged event will be raised. 
- </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_CustomRenderObjects.htm">CustomRenderObjects</a></td><td><div class="summary">
- Enumerate over all enabled, rendering, non-empty custom preview objects.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_DefaultPreviewColour.htm">DefaultPreviewColour</a></td><td><div class="summary">
  Gets or sets the default preview colour for normal objects.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_DefaultSelectedPreviewColour.htm">DefaultSelectedPreviewColour</a></td><td><div class="summary">
@@ -105,7 +100,7 @@
  If RaiseEvents is set to false, all the On....() methods of this document will stop raising events.
  </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_RemotePanelLayout.htm">RemotePanelLayout</a></td><td><div class="summary">
  Gets the Remote Control Panel layout for this document.
- </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_RuntimeID.htm">RuntimeID</a></td><td><div class="summary">
+ </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_RhinoDocument.htm">RhinoDocument</a></td><td /></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_RuntimeID.htm">RuntimeID</a></td><td><div class="summary">
  Gets the runtime ID of this document. RuntimeID is assigned once and never changed. 
  It is also not deserialized so every document will always have a unique ID when loaded.
  </div></td></tr><tr data="public;declared;notNetfw;"><td><img src="../icons/pubproperty.gif" alt="Public property" title="Public property" /></td><td><a href="P_Grasshopper_Kernel_GH_Document_ScheduleDelay.htm">ScheduleDelay</a></td><td><div class="summary">
@@ -502,4 +497,4 @@
  Defined the delay used to indicate the absence of a schedule.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_Grasshopper_Kernel_GH_Document_ScheduleRecursive.htm">ScheduleRecursive</a></td><td><div class="summary">
  Defines the delay used to indicate the schedule should be immedate and recursive.
- </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Grasshopper_Kernel.htm">Grasshopper.Kernel Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper for Rhino 7.33.23248.13000 (2023-09-05)<br />Copyright © 2009-2023 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/grasshopper" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+ </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID8RB')" onkeypress="SectionExpandCollapse_CheckKey('ID8RB', event)" tabindex="0"><img id="ID8RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID8RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Grasshopper_Kernel.htm">Grasshopper.Kernel Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper for Rhino 8.7.24117.17000 (2024-04-26)<br />Copyright © 2009-2024 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/grasshopper" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>

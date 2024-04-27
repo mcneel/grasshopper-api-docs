@@ -20,7 +20,7 @@
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_CommonObjectToByteArray.htm">CommonObjectToByteArray</a></td><td><div class="summary">
  Convert a RhinoCommon object into a compressed byte-array using 
  safe Rhino 5.0 OpenNurbs serialization.
- </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_CreatePureDate.htm">CreatePureDate</a></td><td><div class="summary">
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_CreateDateAndTime.htm">CreateDateAndTime</a></td><td /></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_CreatePureDate.htm">CreatePureDate</a></td><td><div class="summary">
  Convert a datetime structure into a pure date, i.e. remove the time portion. 
  As per convention, this leaves 1 tick into the day in question intact.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_CreatePureTime.htm">CreatePureTime(DateTime)</a></td><td><div class="summary">
@@ -34,14 +34,16 @@
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_FindRhinoObjectByNameAndType.htm">FindRhinoObjectByNameAndType</a></td><td><div class="summary">
  Search the current Rhino document for an object with a given name of a given type.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_GeometryToObjRef.htm">GeometryToObjRef</a></td><td><div class="summary">
- Create an ObjRef for a referenced IGH_GeometricGoo. Unreferenced
- IGH_GeometryGoo will return null
+ Create an ObjRef for a referenced IGH_GeometricGoo.
+ Unreferenced IGH_GeometryGoo will return null.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_GetBrepFromDocument.htm">GetBrepFromDocument</a></td><td><div class="summary">
  Harvest a brep object from a Rhino document.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_GetClippingPlaneFromDocument.htm">GetClippingPlaneFromDocument</a></td><td><div class="summary">
  Harvest a clipping plane surface from a Rhino document.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_GetCurveFromDocument.htm">GetCurveFromDocument</a></td><td><div class="summary">
  Harvest a curve object from a Rhino document.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_GetExtrusionFromDocument.htm">GetExtrusionFromDocument</a></td><td><div class="summary">
+ Harvest an extrusion object from a Rhino document.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_GetMeshFromDocument.htm">GetMeshFromDocument</a></td><td><div class="summary">
  Harvest a mesh object from a Rhino document.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_GetPointFromDocument.htm">GetPointFromDocument</a></td><td><div class="summary">
@@ -76,6 +78,14 @@
  A PM or AM symbol is allowed provided it does not border on any alphabetical characters.
  A time can be prefixed by a "X day[s] + " string which defines the total number of 24-hour periods to 
  include.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToAnnotationBase.htm">ToAnnotationBase</a></td><td><div class="summary">
+ Convert data into Rhino.Geometry.AnnotationBase.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToAnnotationBase_Primary.htm">ToAnnotationBase_Primary</a></td><td><div class="summary">
+ Performs a direct cast from Rhino.Geometry.AnnotationBase or GH_AnnotationBase.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToAnnotationBase_Secondary.htm">ToAnnotationBase_Secondary</a></td><td><div class="summary">
+ Attempts to convert other data types into an Rhino.Geometry.AnnotationBase. 
+ Data is not quaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToArc.htm">ToArc</a></td><td><div class="summary">
  Convert data into Rhino.Geometry.Arc.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToArc_Primary.htm">ToArc_Primary</a></td><td><div class="summary">
@@ -144,16 +154,42 @@
  Performs a direct cast from DateTime or GH_DateTime. 
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToDate_Secondary.htm">ToDate_Secondary</a></td><td><div class="summary">
  Performs indirect casts from other data types into DateTime constructs. 
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToDimension.htm">ToDimension</a></td><td><div class="summary">
+ Convert data into Rhino.Geometry.Dimension.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToDimension_Primary.htm">ToDimension_Primary</a></td><td><div class="summary">
+ Performs a direct cast from Rhino.Geometry.Dimension or GH_Dimension. 
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToDimension_Secondary.htm">ToDimension_Secondary</a></td><td><div class="summary">
+ Attempts to convert other data types into an Rhino.Geometry.Dimension. 
+ Data is not quaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToDouble.htm">ToDouble</a></td><td><div class="summary">
  Convert data into Doubles.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToDouble_Primary.htm">ToDouble_Primary</a></td><td><div class="summary">
  Performs a direct cast from Double or GH_Number. 
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToDouble_Secondary.htm">ToDouble_Secondary</a></td><td><div class="summary">
  Performs indirect casts from other data types into Doubles. 
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToExtrusion.htm">ToExtrusion</a></td><td><div class="summary">
+ Convert data into Rhino.Geometry.Brep.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToExtrusion_Primary.htm">ToExtrusion_Primary</a></td><td><div class="summary">
+ Performs a direct cast from Rhino.Geometry.Extrusion or GH_Extrusion. 
+ Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToExtrusion_Secondary.htm">ToExtrusion_Secondary</a></td><td><div class="summary">
+ Attempts to convert other data types into a Extrusion. 
+ Data is not quaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGeometricGoo.htm">ToGeometricGoo</a></td><td><div class="summary">
  Converts an object into GeometricGoo. Does not duplicate the data if a lossless conversion is possible.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGeometryBase.htm">ToGeometryBase</a></td><td><div class="summary">
  Attempt to convert an object into a Rhino.Geometry.GeometryBase instance.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHAngularDimension.htm">ToGHAngularDimension</a></td><td><div class="summary">
+ Convert data into GH_AngularDimension.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHAngularDimension_Primary.htm">ToGHAngularDimension_Primary</a></td><td><div class="summary">
+ Converts similar data into a GH_AngularDimension instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHAngularDimension_Secondary.htm">ToGHAngularDimension_Secondary</a></td><td><div class="summary">
+ Converts similar data into a GH_AngularDimension instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHAnnotationBase.htm">ToGHAnnotationBase</a></td><td><div class="summary">
+ Convert data into GH_AnnotationBase.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHArc.htm">ToGHArc</a></td><td><div class="summary">
  Convert data into GH_Arcs.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHArc_Primary.htm">ToGHArc_Primary</a></td><td><div class="summary">
@@ -186,6 +222,14 @@
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHBrep_Secondary.htm">ToGHBrep_Secondary</a></td><td><div class="summary">
  Converts similar data into a GH_Brep instance.
  Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHCentermark.htm">ToGHCentermark</a></td><td><div class="summary">
+ Convert data into GH_Centermark.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHCentermark_Primary.htm">ToGHCentermark_Primary</a></td><td><div class="summary">
+ Converts similar data into a GH_Centermark instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHCentermark_Secondary.htm">ToGHCentermark_Secondary</a></td><td><div class="summary">
+ Converts similar data into a GH_Centermark instance.
+ Data is not guaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHCircle.htm">ToGHCircle</a></td><td><div class="summary">
  Convert data into GH_Circles.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHCircle_Primary.htm">ToGHCircle_Primary</a></td><td><div class="summary">
@@ -218,6 +262,16 @@
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHCurve_Secondary.htm">ToGHCurve_Secondary</a></td><td><div class="summary">
  Converts similar data into a GH_Curve instance.
  Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHDimension.htm">ToGHDimension</a></td><td><div class="summary">
+ Convert data into GH_Dimension.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHExtrusion.htm">ToGHExtrusion</a></td><td><div class="summary">
+ Convert data into GH_Extrusion.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHExtrusion_Primary.htm">ToGHExtrusion_Primary</a></td><td><div class="summary">
+ Converts similar data into a GH_Extrusion instance.
+ Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHExtrusion_Secondary.htm">ToGHExtrusion_Secondary</a></td><td><div class="summary">
+ Converts similar data into a GH_Brep instance.
+ Data is not quaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHGuid.htm">ToGHGuid</a></td><td><div class="summary">
  Convert data into GH_Guid.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHGuid_Primary.htm">ToGHGuid_Primary</a></td><td><div class="summary">
@@ -226,6 +280,22 @@
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHGuid_Secondary.htm">ToGHGuid_Secondary</a></td><td><div class="summary">
  Converts similar data into a GH_Guid instance.
  Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHHatch.htm">ToGHHatch</a></td><td><div class="summary">
+ Convert data into GH_Hatch.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHHatch_Primary.htm">ToGHHatch_Primary</a></td><td><div class="summary">
+ Converts similar data into a GH_Hatch instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHHatch_Secondary.htm">ToGHHatch_Secondary</a></td><td><div class="summary">
+ Converts similar data into a GH_Hatch instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHInstanceReference.htm">ToGHInstanceReference</a></td><td><div class="summary">
+ Convert data into GH_InstanceReference.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHInstanceReference_Primary.htm">ToGHInstanceReference_Primary</a></td><td><div class="summary">
+ Converts similar data into a GH_InstanceReference instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHInstanceReference_Secondary.htm">ToGHInstanceReference_Secondary</a></td><td><div class="summary">
+ Converts similar data into a GH_InstanceReference instance.
+ Data is not guaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHInteger.htm">ToGHInteger</a></td><td><div class="summary">
  Convert data into GH_Integer.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHInteger_Primary.htm">ToGHInteger_Primary</a></td><td><div class="summary">
@@ -250,6 +320,22 @@
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHInterval2D_Secondary.htm">ToGHInterval2D_Secondary</a></td><td><div class="summary">
  Converts similar data into a GH_Interval2D instance.
  Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHLeader.htm">ToGHLeader</a></td><td><div class="summary">
+ Convert data into GH_Leader.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHLeader_Primary.htm">ToGHLeader_Primary</a></td><td><div class="summary">
+ Converts similar data into a GH_Leader instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHLeader_Secondary.htm">ToGHLeader_Secondary</a></td><td><div class="summary">
+ Converts similar data into a GH_Leader instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHLight.htm">ToGHLight</a></td><td><div class="summary">
+ Convert data into GH_Light.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHLight_Primary.htm">ToGHLight_Primary</a></td><td><div class="summary">
+ Converts similar data into a GH_Light instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHLight_Secondary.htm">ToGHLight_Secondary</a></td><td><div class="summary">
+ Converts similar data into a GH_Light instance.
+ Data is not guaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHLine.htm">ToGHLine</a></td><td><div class="summary">
  Convert data into GH_Lines.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHLine_Primary.htm">ToGHLine_Primary</a></td><td><div class="summary">
@@ -258,6 +344,14 @@
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHLine_Secondary.htm">ToGHLine_Secondary</a></td><td><div class="summary">
  Converts similar data into a GH_Line instance.
  Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHLinearDimension.htm">ToGHLinearDimension</a></td><td><div class="summary">
+ Convert data into GH_LinearDimension.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHLinearDimension_Primary.htm">ToGHLinearDimension_Primary</a></td><td><div class="summary">
+ Converts similar data into a GH_LinearDimension instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHLinearDimension_Secondary.htm">ToGHLinearDimension_Secondary</a></td><td><div class="summary">
+ Converts similar data into a GH_LinearDimension instance.
+ Data is not guaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHMatrix.htm">ToGHMatrix</a></td><td><div class="summary">
  Convert data into ToGHMatrix.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHMatrix_Primary.htm">ToGHMatrix_Primary</a></td><td><div class="summary">
@@ -290,6 +384,14 @@
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHNumber_Secondary.htm">ToGHNumber_Secondary</a></td><td><div class="summary">
  Converts similar data into a GH_Number instance.
  Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHOrdinateDimension.htm">ToGHOrdinateDimension</a></td><td><div class="summary">
+ Convert data into GH_OrdinateDimension.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHOrdinateDimension_Primary.htm">ToGHOrdinateDimension_Primary</a></td><td><div class="summary">
+ Converts similar data into a GH_OrdinateDimension instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHOrdinateDimension_Secondary.htm">ToGHOrdinateDimension_Secondary</a></td><td><div class="summary">
+ Converts similar data into a GH_OrdinateDimension instance.
+ Data is not guaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHPlane.htm">ToGHPlane</a></td><td><div class="summary">
  Convert data into GH_Planes.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHPlane_Primary.htm">ToGHPlane_Primary</a></td><td><div class="summary">
@@ -306,6 +408,22 @@
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHPoint_Secondary.htm">ToGHPoint_Secondary</a></td><td><div class="summary">
  Converts similar data into a GH_Point instance.
  Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHPointCloud.htm">ToGHPointCloud</a></td><td><div class="summary">
+ Convert data into GH_PointCloud.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHPointCloud_Primary.htm">ToGHPointCloud_Primary</a></td><td><div class="summary">
+ Converts similar data into a GH_PointCloud instance.
+ Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHPointCloud_Secondary.htm">ToGHPointCloud_Secondary</a></td><td><div class="summary">
+ Converts similar data into a GH_PointCloud instance.
+ Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHRadialDimension.htm">ToGHRadialDimension</a></td><td><div class="summary">
+ Convert data into GH_RadialDimension.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHRadialDimension_Primary.htm">ToGHRadialDimension_Primary</a></td><td><div class="summary">
+ Converts similar data into a GH_RadialDimension instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHRadialDimension_Secondary.htm">ToGHRadialDimension_Secondary</a></td><td><div class="summary">
+ Converts similar data into a GH_RadialDimension instance.
+ Data is not guaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHRectangle.htm">ToGHRectangle</a></td><td><div class="summary">
  Convert data into GH_Rectangles.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHRectangle_Primary.htm">ToGHRectangle_Primary</a></td><td><div class="summary">
@@ -328,7 +446,7 @@
  Converts similar data into a GH_SubD instance.
  Data is not quaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHSubD_Secondary.htm">ToGHSubD_Secondary</a></td><td><div class="summary">
- Converts similar data into a GH_Brep instance.
+ Converts similar data into a GH_SubD instance.
  Data is not quaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHSurface.htm">ToGHSurface</a></td><td><div class="summary">
  Convert data into GH_Surfaces.
@@ -338,6 +456,22 @@
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHSurface_Secondary.htm">ToGHSurface_Secondary</a></td><td><div class="summary">
  Converts similar data into a GH_Surface instance.
  Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHTextDot.htm">ToGHTextDot</a></td><td><div class="summary">
+ Convert data into GH_TextDot.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHTextDot_Primary.htm">ToGHTextDot_Primary</a></td><td><div class="summary">
+ Converts similar data into a GH_TextDot instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHTextDot_Secondary.htm">ToGHTextDot_Secondary</a></td><td><div class="summary">
+ Converts similar data into a GH_TextDot instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHTextEntity.htm">ToGHTextEntity</a></td><td><div class="summary">
+ Convert data into GH_TextEntity.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHTextEntity_Primary.htm">ToGHTextEntity_Primary</a></td><td><div class="summary">
+ Converts similar data into a GH_TextEntity instance.
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHTextEntity_Secondary.htm">ToGHTextEntity_Secondary</a></td><td><div class="summary">
+ Converts similar data into a GH_TextEntity instance.
+ Data is not guaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHTime.htm">ToGHTime</a></td><td><div class="summary">
  Convert data into GH_Time.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGHTime_Primary.htm">ToGHTime_Primary</a></td><td><div class="summary">
@@ -362,6 +496,14 @@
  Performs a direct cast from Guid, GH_Guid, String and GH_String.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToGUID_Secondary.htm">ToGUID_Secondary</a></td><td><div class="summary">
  Performs indirect casts from other data types into Guids. 
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToHatch.htm">ToHatch</a></td><td><div class="summary">
+ Convert data into Rhino.Geometry.Hatch.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToHatch_Primary.htm">ToHatch_Primary</a></td><td><div class="summary">
+ Performs a direct cast from Rhino.Geometry.Hatch or GH_Hatch. 
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToHatch_Secondary.htm">ToHatch_Secondary</a></td><td><div class="summary">
+ Attempts to convert other data types into an Rhino.Geometry.Hatch. 
+ Data is not quaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToInt32.htm">ToInt32</a></td><td><div class="summary">
  Convert data into Int32s.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToInt32_Primary.htm">ToInt32_Primary</a></td><td><div class="summary">
@@ -374,6 +516,17 @@
  Performs a direct cast from OnInterval or GH_Interval. 
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToInterval_Secondary.htm">ToInterval_Secondary</a></td><td><div class="summary">
  Attempts to convert other data types into an Interval. 
+ Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToLeader.htm">ToLeader</a></td><td><div class="summary">
+ Convert data into Rhino.Geometry.Leader.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToLeader_Primary.htm">ToLeader_Primary</a></td><td><div class="summary">
+ Performs a direct cast from Rhino.Geometry.Leader or GH_Leader. 
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToLeader_Secondary.htm">ToLeader_Secondary</a></td><td><div class="summary">
+ Attempts to convert other data types into an Rhino.Geometry.Leader. 
+ Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToLight_Secondary.htm">ToLight_Secondary</a></td><td><div class="summary">
+ Attempts to convert other data types into an Rhino.Geometry.Light. 
  Data is not quaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToLine.htm">ToLine</a></td><td><div class="summary">
  Convert data into Rhino.Geometry.Line.
@@ -393,8 +546,8 @@
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToMesh.htm">ToMesh</a></td><td><div class="summary">
  Convert data into Rhino.Geometry.Mesh.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToMesh_Primary.htm">ToMesh_Primary</a></td><td><div class="summary">
- Performs a direct cast from OnMesh or GH_Mesh. 
- Data is not quaranteed to be duplicated.
+ Performs a direct cast from Rhino.Geometry.Mesh or GH_Mesh. 
+ Data is not guaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToMesh_Secondary.htm">ToMesh_Secondary</a></td><td><div class="summary">
  Attempts to convert other data types into an OnMesh. 
  Data is not quaranteed to be duplicated.
@@ -420,6 +573,14 @@
  Data is not quaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToPoint3d_Secondary.htm">ToPoint3d_Secondary</a></td><td><div class="summary">
  Attempts to convert other data types into an Point. 
+ Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToPointCloud.htm">ToPointCloud</a></td><td><div class="summary">
+ Convert data into Rhino.Geometry.PointCloud.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToPointCloud_Primary.htm">ToPointCloud_Primary</a></td><td><div class="summary">
+ Performs a direct cast from Rhino.Geometry.PointCloud or GH_PointCloud. 
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToPointCloud_Secondary.htm">ToPointCloud_Secondary</a></td><td><div class="summary">
+ Attempts to convert other data types into an Rhino.Geometry.PointCloud. 
  Data is not quaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToPointF.htm">ToPointF</a></td><td><div class="summary">
  Convert a Rhino SDK point structure to a GDI point structure.
@@ -468,6 +629,22 @@
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToSurface_Secondary.htm">ToSurface_Secondary</a></td><td><div class="summary">
  Attempts to convert other data types into an IOnSurface. 
  Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToTextDot.htm">ToTextDot</a></td><td><div class="summary">
+ Convert data into Rhino.Geometry.TextDot.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToTextDot_Primary.htm">ToTextDot_Primary</a></td><td><div class="summary">
+ Performs a direct cast from Rhino.Geometry.TextDot or GH_TextDot. 
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToTextDot_Secondary.htm">ToTextDot_Secondary</a></td><td><div class="summary">
+ Attempts to convert other data types into an Rhino.Geometry.TextDot. 
+ Data is not quaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToTextEntity.htm">ToTextEntity</a></td><td><div class="summary">
+ Convert data into Rhino.Geometry.TextEntity.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToTextEntity_Primary.htm">ToTextEntity_Primary</a></td><td><div class="summary">
+ Performs a direct cast from Rhino.Geometry.TextEntity or GH_TextEntity. 
+ Data is not guaranteed to be duplicated.
+ </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToTextEntity_Secondary.htm">ToTextEntity_Secondary</a></td><td><div class="summary">
+ Attempts to convert other data types into an Rhino.Geometry.TextEntity. 
+ Data is not quaranteed to be duplicated.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToUVInterval.htm">ToUVInterval</a></td><td><div class="summary">
  Convert data into Grasshopper.Kernel.Types.UVInterval.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubmethod.gif" alt="Public method" title="Public method" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="M_Grasshopper_Kernel_GH_Convert_ToUVInterval_Primary.htm">ToUVInterval_Primary</a></td><td><div class="summary">
@@ -495,4 +672,4 @@
  Represents the total number of ticks past midnight that (by Grasshopper convention) identifies a pure date.
  </div></td></tr><tr data="public;static;declared;notNetfw;"><td><img src="../icons/pubfield.gif" alt="Public field" title="Public field" /><img src="../icons/static.gif" alt="Static member" title="Static member" /></td><td><a href="F_Grasshopper_Kernel_GH_Convert_PureTimeTicks.htm">PureTimeTicks</a></td><td><div class="summary">
  Represents the total number of ticks past a whole second that (by Grasshopper convention) identifies a pure time.
- </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Grasshopper_Kernel.htm">Grasshopper.Kernel Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper for Rhino 7.33.23248.13000 (2023-09-05)<br />Copyright © 2009-2023 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/grasshopper" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
+ </div></td></tr></table><a href="#PageHeader">Top</a></div><div class="collapsibleAreaRegion" id="seeAlsoSection"><span class="collapsibleRegionTitle" onclick="SectionExpandCollapse('ID6RB')" onkeypress="SectionExpandCollapse_CheckKey('ID6RB', event)" tabindex="0"><img id="ID6RBToggle" class="collapseToggle" src="../icons/SectionExpanded.png" />See Also</span></div><div id="ID6RBSection" class="collapsibleSection"><h4 class="subHeading">Reference</h4><div class="seeAlsoStyle"><a href="N_Grasshopper_Kernel.htm">Grasshopper.Kernel Namespace</a></div></div></div></div><div id="pageFooter" class="pageFooter">Grasshopper for Rhino 8.7.24117.17000 (2024-04-26)<br />Copyright © 2009-2024 Robert McNeel &amp; Associates<p><a href="https://discourse.mcneel.com/c/grasshopper" target="_blank" rel="noopener noreferrer">Report wishes and bugs at discourse.mcneel.com</a></p> </div></body></html>
