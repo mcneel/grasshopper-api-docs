@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.2.6.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\GrasshopperSDKHelp.shfbproj" started="3/12/2025 1:28:04 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.2.6.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\GrasshopperSDKHelp.shfbproj" started="4/8/2025 3:56:12 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
@@ -41,11 +41,11 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0341
+</plugIn>    Last step completed in 00:00:00.0354
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:04.5643
+    Last step completed in 00:00:05.3229
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -53,10 +53,10 @@ Generating reflection information...
 Adding ignored assembly names to assembly resolver configuration:
     Eto
     Yak
-</plugIn>[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-07ba9c30-74b9-4236-9b41-c5a9ac9d31fe.proj]
-Build started 3/12/2025 1:28:12 PM.
+</plugIn>[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-fba18856-9b41-4e7d-b6f0-882418a1a511.proj]
+Build started 4/8/2025 3:56:21 PM.
 
-Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-07ba9c30-74b9-4236-9b41-c5a9ac9d31fe.proj&quot; on node 1 (default targets).
+Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-fba18856-9b41-4e7d-b6f0-882418a1a511.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -64,16 +64,16 @@ GenerateRefInfo:
   c Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 2 assemblies for reflection and 5 dependency assemblies.
-MRefBuilder : warning : Ignoring unresolved assembly reference: Eto (Eto, Version=2.9.0.0, Culture=neutral, PublicKeyToken=552281e97c755530) required by Grasshopper [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-07ba9c30-74b9-4236-9b41-c5a9ac9d31fe.proj]
-  Wrote information on 36 namespaces, 818 types, and 9206 members
+MRefBuilder : warning : Ignoring unresolved assembly reference: Eto (Eto, Version=2.9.0.0, Culture=neutral, PublicKeyToken=552281e97c755530) required by Grasshopper [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-fba18856-9b41-4e7d-b6f0-882418a1a511.proj]
+  Wrote information on 36 namespaces, 817 types, and 9204 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-07ba9c30-74b9-4236-9b41-c5a9ac9d31fe.proj&quot; (default targets).
-    Last step completed in 00:00:04.7835
+Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-fba18856-9b41-4e7d-b6f0-882418a1a511.proj&quot; (default targets).
+    Last step completed in 00:00:05.1333
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:01.3801
+    Last step completed in 00:00:01.5659
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -1392,21 +1392,21 @@ Adding topic filenames to API members...
     Unique name M_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value_op_Implicit_1 generated for M:Grasshopper.Rhinoceros.Render.ObjectRenderMaterial.Value.op_Implicit(Grasshopper.Rhinoceros.Render.ObjectRenderMaterial.Value)~Rhino.DocObjects.ObjectMaterialSource
     Unique name M_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value_op_Implicit_2 generated for M:Grasshopper.Rhinoceros.Render.ObjectRenderMaterial.Value.op_Implicit(Grasshopper.Rhinoceros.Render.ObjectRenderMaterial.Value)~Grasshopper.Rhinoceros.Render.ModelRenderMaterial
     Unique name M_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value_op_Implicit_3 generated for M:Grasshopper.Rhinoceros.Render.ObjectRenderMaterial.Value.op_Implicit(Rhino.DocObjects.ObjectMaterialSource)~Grasshopper.Rhinoceros.Render.ObjectRenderMaterial.Value
-    Last step completed in 00:00:05.4866
+    Last step completed in 00:00:06.0047
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.2867
+    Last step completed in 00:00:00.3048
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.6471
+    Last step completed in 00:00:00.7225
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
 [C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateInheritedDocs.proj]
 
-    Last step completed in 00:00:02.2811
+    Last step completed in 00:00:02.5594
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -1493,33 +1493,33 @@ Generating conceptual topic files
     D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_CustomAttributes.aml -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\ddueXml\8a7974ab-7b2b-4f48-84d0-6e81b184e6b0.xml
     Parsing topic file &#39;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_ComponentWithOption.aml&#39;
     D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_ComponentWithOption.aml -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\ddueXml\5f6a9f31-8838-40e6-ad37-a407be8f2c15.xml
-    Last step completed in 00:00:00.6350
+    Last step completed in 00:00:00.6970
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0555
+    Last step completed in 00:00:00.0857
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0066
+    Last step completed in 00:00:00.0057
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0087
+    Last step completed in 00:00:00.0103
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.5931
+    Last step completed in 00:00:00.6151
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.6291
+    Last step completed in 00:00:00.6446
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -1527,12 +1527,12 @@ D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0131
+    Last step completed in 00:00:00.0144
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 3/12/2025 1:28:28 PM.
+Build started 4/8/2025 3:56:39 PM.
 
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
@@ -5985,54 +5985,54 @@ BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annot
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.AngleFormat] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.AngleDisplayFormat&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.AngleFormat] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.AngleDisplayFormat&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.AngleResolution] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.AngleRoundoff] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.AngleZeroSuppression] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.AngleZeroSuppression] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.ZeroSuppression&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.AngleZeroSuppression] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.ZeroSuppression&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.AngularRoundoff] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.GetDimensionStyle(Rhino.DocObjects.DimensionStyle@)] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.GetDimensionStyle(Rhino.DocObjects.DimensionStyle@)] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.LengthDisplay] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.LengthDisplay] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.LengthDisplay&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.LengthDisplay] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.LengthDisplay&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.LengthFactor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.LinearResolution] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.LengthPrefix] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.LengthResolution] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.LengthRoundoff] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.LengthSuffix] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.LengthZeroSuppression] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.LengthZeroSuppression] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.ZeroSuppression&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.LengthZeroSuppression] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.ZeroSuppression&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.op_Explicit(Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings)~Rhino.DocObjects.DimensionStyle] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.op_Explicit(Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings)~Rhino.DocObjects.DimensionStyle] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Prefix] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Roundoff] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.StackFractionFormat] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.StackFractionFormat] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.StackDisplayFormat&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.StackFractionFormat] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.StackDisplayFormat&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.StackHeightScale] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Suffix] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.ZeroSuppression] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.ZeroSuppression] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.ZeroSuppression&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.ZeroSuppression] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.ZeroSuppression&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.AngleFormat] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.AngleFormat] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.AngleDisplayFormat&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.AngleFormat] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.AngleDisplayFormat&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.AngleResolution] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.AngleRoundoff] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.AngleZeroSuppression] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.AngleZeroSuppression] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.ZeroSuppression&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.AngleZeroSuppression] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.ZeroSuppression&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.AngularRoundoff] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.From(Rhino.DocObjects.DimensionStyle)] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.From(Rhino.DocObjects.DimensionStyle)] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.LengthDisplay] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.LengthDisplay] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.LengthDisplay&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.LengthDisplay] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.LengthDisplay&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.LengthFactor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.LinearResolution] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.Prefix] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.Roundoff] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.LengthPrefix] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.LengthResolution] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.LengthRoundoff] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.LengthSuffix] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.LengthZeroSuppression] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.LengthZeroSuppression] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.ZeroSuppression&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.LengthZeroSuppression] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.ZeroSuppression&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.StackFractionFormat] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.StackFractionFormat] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.StackDisplayFormat&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.StackFractionFormat] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.StackDisplayFormat&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.StackHeightScale] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.Suffix] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.ZeroSuppression] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.ZeroSuppression] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.ZeroSuppression&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Annotations.AnnotationUnitsSettings.Attributes.ZeroSuppression] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle.ZeroSuppression&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Grasshopper.Rhinoceros.Annotations.ModelAnnotationStyle] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Grasshopper.Rhinoceros.Annotations.ModelAnnotationStyle] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Annotations.ModelAnnotationStyle.#ctor(Rhino.DocObjects.DimensionStyle)] Unknown reference link target &#39;T:Rhino.DocObjects.DimensionStyle&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
@@ -6260,7 +6260,6 @@ BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Displ
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.Params.Param_ModelView.Icon] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.Params.Param_ModelView.IsBakeCapable] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.Params.Param_ModelView.IsPreviewCapable] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.Params.Param_ModelView.ViewSource] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.Params.Param_ObjectDisplay.ComponentGuid] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.Params.Param_ObjectDisplay.Exposure] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.Params.Param_ObjectDisplayColor.ComponentGuid] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
@@ -6773,24 +6772,24 @@ BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Rende
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Render.Params.Param_ObjectRenderMaterial.RegisterRemoteIDs(Grasshopper.Kernel.GH_GuidTable)] Unknown reference link target &#39;T:Grasshopper.Kernel.GH_GuidTable&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Render.Params.Param_ObjectRenderMaterial.RegisterRemoteIDs(Grasshopper.Kernel.GH_GuidTable)] Unknown reference link target &#39;T:Grasshopper.Kernel.GH_GuidTable&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
   Processed 11739 topic(s)
-  5232 warning(s)
+  5231 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:02:00.1391
+    Last step completed in 00:02:05.1667
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0793
+    Last step completed in 00:00:00.0772
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
 [C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - ExtractHtmlInfo.proj]
 
-    Last step completed in 00:00:08.0463
+    Last step completed in 00:00:10.8398
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -6934,11 +6933,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\clipboard.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\jquery-3.5.1.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
-    Last step completed in 00:00:01.0793
+    Last step completed in 00:00:01.9522
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0669
+    Last step completed in 00:00:00.1160
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -6954,11 +6953,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 18 minutes, 1 second
+  Compile time: 17 minutes, 27 seconds
   
   11,741	Topics
   
-  168,061	Local links
+  168,054	Local links
   
   3	Internet links
   
@@ -6968,18 +6967,18 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\HtmlHelp1\Grasshopper.chm, 9,634,019 bytes
+  Created d:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\HtmlHelp1\Grasshopper.chm, 9,631,217 bytes
   
-  Compression decreased file by 89,843,246 bytes.
+  Compression decreased file by 89,846,189 bytes.
   
-    Last step completed in 00:18:02.9631
+    Last step completed in 00:17:29.4402
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:10.6229
+</plugIn>    Last step completed in 00:00:11.5412
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -7013,15 +7012,15 @@ Copied 13000 files
 Copied 13500 files
 Copied 14000 files
 Copied 14477 files for the website content
-    Last step completed in 00:00:10.6674
+    Last step completed in 00:00:11.3741
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:04.9903
+    Last step completed in 00:00:05.2485
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 3/12/2025 1:49:07 PM.  Total time: 00:21:02.4340
+Build completed successfully at 4/8/2025 4:16:54 PM.  Total time: 00:20:41.9321
 
 </buildStep>
 </shfbBuild>
