@@ -42,8 +42,8 @@
   <HelpKINode Title=" to ObjectRenderMaterial.Value.Value conversion" Url="html/M_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value_op_Implicit_3.htm" />
   <HelpKINode Title=". to AnnotationArrow conversion" Url="html/M_Grasshopper_Rhinoceros_Annotations_AnnotationArrow_op_Implicit_1.htm" />
   <HelpKINode Title="A enumeration member" Url="html/T_Grasshopper_Kernel_GH_BitmapChannel.htm" />
-  <HelpKINode Title="A field" Url="html/F_GH_IO_Types_GH_Line_A.htm" />
   <HelpKINode Title="a field" Url="html/F_GH_IO_Types_GH_Interval1D_a.htm" />
+  <HelpKINode Title="A field" Url="html/F_GH_IO_Types_GH_Line_A.htm" />
   <HelpKINode Title="A method" Url="html/M_Grasshopper_Kernel_GH_MemoryBitmap_A.htm" />
   <HelpKINode Title="A property" Url="html/P_Grasshopper_Kernel_Types_GH_MeshFace_GH_MeshFaceProxy_A.htm" />
   <HelpKINode Title="Abort enumeration member">
@@ -627,6 +627,7 @@
   <HelpKINode Title="AnnotationToleranceSettings.ToleranceLowerValue property" Url="html/P_Grasshopper_Rhinoceros_Annotations_AnnotationToleranceSettings_ToleranceLowerValue.htm" />
   <HelpKINode Title="AnnotationToleranceSettings.ToleranceResolution property" Url="html/P_Grasshopper_Rhinoceros_Annotations_AnnotationToleranceSettings_ToleranceResolution.htm" />
   <HelpKINode Title="AnnotationToleranceSettings.ToleranceUpperValue property" Url="html/P_Grasshopper_Rhinoceros_Annotations_AnnotationToleranceSettings_ToleranceUpperValue.htm" />
+  <HelpKINode Title="AnnotationType property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1_AnnotationType.htm" />
   <HelpKINode Title="AnnotationUnitsSettings class">
     <HelpKINode Title="AnnotationUnitsSettings Class" Url="html/T_Grasshopper_Rhinoceros_Annotations_AnnotationUnitsSettings.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationUnitsSettings__ctor.htm" />
@@ -755,9 +756,11 @@
     <HelpKINode Title="GH_Box.GH_BoxProxy.Area Property " Url="html/P_Grasshopper_Kernel_Types_GH_Box_GH_BoxProxy_Area.htm" />
     <HelpKINode Title="GH_Brep.GH_BrepProxy.Area Property " Url="html/P_Grasshopper_Kernel_Types_GH_Brep_GH_BrepProxy_Area.htm" />
     <HelpKINode Title="GH_Circle.GH_CircleProxy.Area Property " Url="html/P_Grasshopper_Kernel_Types_GH_Circle_GH_CircleProxy_Area.htm" />
+    <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.Area Property " Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_Area.htm" />
     <HelpKINode Title="GH_Interval2D.GH_Interval2DProxy.Area Property " Url="html/P_Grasshopper_Kernel_Types_GH_Interval2D_GH_Interval2DProxy_Area.htm" />
     <HelpKINode Title="GH_Mesh.GH_MeshProxy.Area Property " Url="html/P_Grasshopper_Kernel_Types_GH_Mesh_GH_MeshProxy_Area.htm" />
     <HelpKINode Title="GH_Rectangle.GH_RectangleProxy.Area Property " Url="html/P_Grasshopper_Kernel_Types_GH_Rectangle_GH_RectangleProxy_Area.htm" />
+    <HelpKINode Title="GH_SubD.GH_SubDProxy.Area Property " Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_Area.htm" />
     <HelpKINode Title="GH_Surface.GH_SurfaceProxy.Area Property " Url="html/P_Grasshopper_Kernel_Types_GH_Surface_GH_SurfaceProxy_Area.htm" />
   </HelpKINode>
   <HelpKINode Title="ARGB enumeration member" Url="html/T_Grasshopper_Kernel_GH_BitmapChannel.htm" />
@@ -819,69 +822,69 @@
   </HelpKINode>
   <HelpKINode Title="AttributeCount property" Url="html/P_Grasshopper_Kernel_GH_Document_AttributeCount.htm" />
   <HelpKINode Title="Attributes class">
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Display_ModelPageViewport_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_ModelData_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_ModelContent_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Drafting_ModelLinetype_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_ModelAnnotationStyle_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_AnnotationUnitsSettings_Attributes.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Model_ModelInstanceDefinition_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Display_ModelViewport_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_AnnotationToleranceSettings_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Render_ModelRenderSun_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_ModelData_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_AnnotationArrowSettings_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_AnnotationArrow_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Model_ModelEarthAnchorPoint_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_AnnotationLeaderSettings_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Render_ModelRenderTexture_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Display_ModelDisplayMode_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_ModelComponentContent_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_AnnotationDimensionSettings_Attributes.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Display_ModelNamedView_Attributes.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_AnnotationTextSettings_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Model_ModelEarthAnchorPoint_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Display_ModelStandardViewport_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Render_ModelRenderSun_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Render_ModelRenderTexture_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Drafting_ModelHatchPattern_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_AnnotationToleranceSettings_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Model_ModelLayer_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_ModelAnnotationStyle_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Drafting_ModelLinetype_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Render_ModelRenderSkylight_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_AnnotationUnitsSettings_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_ModelComponentContent_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Display_ModelDisplayMode_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Render_ModelRenderContent_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Render_ModelRenderEnvironment_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_AnnotationDimensionSettings_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_AnnotationArrowSettings_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_ModelContent_Attributes.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Model_ModelObject_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Drafting_ModelHatchPattern_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Display_ModelStandardViewport_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Display_ModelPageViewport_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Render_ModelRenderSkylight_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Display_ModelViewport_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Render_ModelRenderContent_Attributes.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Render_ModelRenderMaterial_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_AnnotationLeaderSettings_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Annotations_AnnotationArrow_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationDimensionSettings_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ModelDisplayMode_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationUnitsSettings_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Drafting_ModelHatchPattern_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationArrow_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Drafting_ModelLinetype_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationLeaderSettings_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_ModelAnnotationStyle_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ModelViewport_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationToleranceSettings_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationTextSettings_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Render_ModelRenderEnvironment_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Model_ModelLayer_Attributes.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Render_ModelRenderTexture_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Render_ModelRenderSun_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ModelPageViewport_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationArrowSettings_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_ModelAnnotationStyle_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationTextSettings_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationLeaderSettings_Attributes.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Model_ModelEarthAnchorPoint_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ModelNamedView_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Model_ModelInstanceDefinition_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationArrow_Attributes.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Model_ModelLayer_Attributes.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Model_ModelObject_Attributes.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Render_ModelRenderContent_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationArrowSettings_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Render_ModelRenderMaterial_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ModelStandardViewport_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_ModelContent_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_ModelComponentContent_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Render_ModelRenderSkylight_Attributes.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Render_ModelRenderEnvironment_Attributes.htm" />
-    <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Annotations_ModelAnnotationStyle_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Render_ModelRenderMaterial_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Render_ModelRenderSkylight_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationDimensionSettings_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Render_ModelRenderSun_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Model_ModelInstanceDefinition_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_ModelContent_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationUnitsSettings_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ModelDisplayMode_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ModelPageViewport_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ModelNamedView_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ModelStandardViewport_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Drafting_ModelHatchPattern_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Drafting_ModelLinetype_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Annotations_AnnotationToleranceSettings_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ModelViewport_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_ModelComponentContent_Attributes.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Render_ModelRenderTexture_Attributes.htm" />
-    <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Drafting_ModelHatchPattern_Attributes.htm" />
+    <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Annotations_ModelAnnotationStyle_Attributes.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Render_ModelRenderEnvironment_Attributes.htm" />
-    <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Drafting_ModelLinetype_Attributes.htm" />
-    <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Model_ModelInstanceDefinition_Attributes.htm" />
-    <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Render_ModelRenderMaterial_Attributes.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Model_ModelLayer_Attributes.htm" />
+    <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Model_ModelInstanceDefinition_Attributes.htm" />
+    <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Drafting_ModelLinetype_Attributes.htm" />
+    <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Drafting_ModelHatchPattern_Attributes.htm" />
+    <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Render_ModelRenderMaterial_Attributes.htm" />
   </HelpKINode>
   <HelpKINode Title="Attributes enumeration member" Url="html/T_Grasshopper_Kernel_GH_RelevantObjectFilter.htm" />
   <HelpKINode Title="Attributes property">
@@ -892,16 +895,16 @@
     <HelpKINode Title="IGH_DocumentObject.Attributes Property " Url="html/P_Grasshopper_Kernel_IGH_DocumentObject_Attributes.htm" />
   </HelpKINode>
   <HelpKINode Title="Attributes structure">
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Drafting_ObjectDrafting_Attributes.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Display_ObjectDisplay_Attributes.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Drafting_ModelHatchLine_Attributes.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Render_ObjectRender_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Display_ObjectDisplay_Attributes.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Display_ObjectVisibility_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Render_ObjectRender_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Drafting_ModelHatchLine_Attributes.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Drafting_ObjectDrafting_Attributes.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ObjectDisplay_Attributes.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Drafting_ObjectDrafting_Attributes.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ObjectVisibility_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Drafting_ModelHatchLine_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Drafting_ObjectDrafting_Attributes.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Render_ObjectRender_Attributes.htm" />
   </HelpKINode>
   <HelpKINode Title="AttributesChanged event">
     <HelpKINode Title="GH_DocumentObject.AttributesChanged Event" Url="html/E_Grasshopper_Kernel_GH_DocumentObject_AttributesChanged.htm" />
@@ -1021,6 +1024,7 @@
     <HelpKINode Title="AnnotationDimensionSettings.Attributes.BaselineSpacing Property " Url="html/P_Grasshopper_Rhinoceros_Annotations_AnnotationDimensionSettings_Attributes_BaselineSpacing.htm" />
     <HelpKINode Title="AnnotationDimensionSettings.BaselineSpacing Property " Url="html/P_Grasshopper_Rhinoceros_Annotations_AnnotationDimensionSettings_BaselineSpacing.htm" />
   </HelpKINode>
+  <HelpKINode Title="BasePoint property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy_BasePoint.htm" />
   <HelpKINode Title="BaseProperty property" Url="html/P_Grasshopper_Rhinoceros_Params_Param_ModelAttributeKey_BaseProperty.htm" />
   <HelpKINode Title="BaseSystem property">
     <HelpKINode Title="ModelUnitSystem.BaseSystem Property " Url="html/P_Grasshopper_Rhinoceros_ModelUnitSystem_BaseSystem.htm" />
@@ -1073,41 +1077,41 @@
   <HelpKINode Title="Boundary property" Url="html/P_Grasshopper_Kernel_GH_PreviewBoundary_Boundary.htm" />
   <HelpKINode Title="BoundaryVisible property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_BoundaryVisible.htm" />
   <HelpKINode Title="BoundingBox method" Url="html/M_Grasshopper_Kernel_GH_Document_BoundingBox.htm" />
-  <HelpKINode Title="BoundingBox property">
-    <HelpKINode Title="GH_SpinForce.BoundingBox Property " Url="html/P_Grasshopper_Kernel_Types_GH_SpinForce_BoundingBox.htm" />
-    <HelpKINode Title="GH_LineCharge.BoundingBox Property " Url="html/P_Grasshopper_Kernel_Types_GH_LineCharge_BoundingBox.htm" />
-    <HelpKINode Title="GH_DocDiagramPainter.BoundingBox Property " Url="html/P_Grasshopper_GUI_Canvas_GH_DocDiagramPainter_BoundingBox.htm" />
-    <HelpKINode Title="GH_PointCharge.BoundingBox Property " Url="html/P_Grasshopper_Kernel_Types_GH_PointCharge_BoundingBox.htm" />
-    <HelpKINode Title="GH_FieldElement.BoundingBox Property " Url="html/P_Grasshopper_Kernel_Types_GH_FieldElement_BoundingBox.htm" />
-    <HelpKINode Title="IGH_FieldElement.BoundingBox Property " Url="html/P_Grasshopper_Kernel_Types_IGH_FieldElement_BoundingBox.htm" />
-    <HelpKINode Title="GH_VectorForce.BoundingBox Property " Url="html/P_Grasshopper_Kernel_Types_GH_VectorForce_BoundingBox.htm" />
-    <HelpKINode Title="GH_StateTagList.BoundingBox Property " Url="html/P_Grasshopper_Kernel_GH_StateTagList_BoundingBox.htm" />
-  </HelpKINode>
   <HelpKINode Title="Boundingbox property">
-    <HelpKINode Title="GH_Brep.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Brep_Boundingbox.htm" />
     <HelpKINode Title="GH_AnnotationBase.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_Boundingbox.htm" />
     <HelpKINode Title="GH_Arc.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Arc_Boundingbox.htm" />
     <HelpKINode Title="GH_Box.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Box_Boundingbox.htm" />
-    <HelpKINode Title="GH_Circle.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Circle_Boundingbox.htm" />
-    <HelpKINode Title="GH_Curve.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Curve_Boundingbox.htm" />
-    <HelpKINode Title="GH_DetailView.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_DetailView_Boundingbox.htm" />
+    <HelpKINode Title="GH_Brep.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Brep_Boundingbox.htm" />
     <HelpKINode Title="GH_Extrusion.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_Boundingbox.htm" />
-    <HelpKINode Title="GH_GeometricGoo(T).Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_GeometricGoo_1_Boundingbox.htm" />
-    <HelpKINode Title="GH_GeometricGooWrapper.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_GeometricGooWrapper_Boundingbox.htm" />
-    <HelpKINode Title="GH_GeometryGroup.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_GeometryGroup_Boundingbox.htm" />
     <HelpKINode Title="GH_Hatch.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_Boundingbox.htm" />
     <HelpKINode Title="GH_InstanceReference.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_InstanceReference_Boundingbox.htm" />
-    <HelpKINode Title="GH_Light.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Light_Boundingbox.htm" />
-    <HelpKINode Title="GH_Line.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Line_Boundingbox.htm" />
     <HelpKINode Title="GH_Mesh.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Mesh_Boundingbox.htm" />
     <HelpKINode Title="GH_Plane.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Plane_Boundingbox.htm" />
     <HelpKINode Title="GH_Point.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Point_Boundingbox.htm" />
     <HelpKINode Title="GH_PointCloud.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_Boundingbox.htm" />
     <HelpKINode Title="GH_Rectangle.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Rectangle_Boundingbox.htm" />
     <HelpKINode Title="GH_SubD.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_SubD_Boundingbox.htm" />
-    <HelpKINode Title="IGH_GeometricGoo.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_IGH_GeometricGoo_Boundingbox.htm" />
+    <HelpKINode Title="GH_DetailView.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_DetailView_Boundingbox.htm" />
+    <HelpKINode Title="GH_Circle.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Circle_Boundingbox.htm" />
+    <HelpKINode Title="GH_GeometricGoo(T).Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_GeometricGoo_1_Boundingbox.htm" />
+    <HelpKINode Title="GH_Curve.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Curve_Boundingbox.htm" />
     <HelpKINode Title="GH_Surface.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Surface_Boundingbox.htm" />
+    <HelpKINode Title="GH_GeometricGooWrapper.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_GeometricGooWrapper_Boundingbox.htm" />
+    <HelpKINode Title="GH_GeometryGroup.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_GeometryGroup_Boundingbox.htm" />
+    <HelpKINode Title="GH_Light.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Light_Boundingbox.htm" />
+    <HelpKINode Title="GH_Line.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_Line_Boundingbox.htm" />
     <HelpKINode Title="GH_TextDot.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_Boundingbox.htm" />
+    <HelpKINode Title="IGH_GeometricGoo.Boundingbox Property " Url="html/P_Grasshopper_Kernel_Types_IGH_GeometricGoo_Boundingbox.htm" />
+  </HelpKINode>
+  <HelpKINode Title="BoundingBox property">
+    <HelpKINode Title="GH_DocDiagramPainter.BoundingBox Property " Url="html/P_Grasshopper_GUI_Canvas_GH_DocDiagramPainter_BoundingBox.htm" />
+    <HelpKINode Title="GH_FieldElement.BoundingBox Property " Url="html/P_Grasshopper_Kernel_Types_GH_FieldElement_BoundingBox.htm" />
+    <HelpKINode Title="GH_StateTagList.BoundingBox Property " Url="html/P_Grasshopper_Kernel_GH_StateTagList_BoundingBox.htm" />
+    <HelpKINode Title="GH_VectorForce.BoundingBox Property " Url="html/P_Grasshopper_Kernel_Types_GH_VectorForce_BoundingBox.htm" />
+    <HelpKINode Title="GH_LineCharge.BoundingBox Property " Url="html/P_Grasshopper_Kernel_Types_GH_LineCharge_BoundingBox.htm" />
+    <HelpKINode Title="GH_PointCharge.BoundingBox Property " Url="html/P_Grasshopper_Kernel_Types_GH_PointCharge_BoundingBox.htm" />
+    <HelpKINode Title="GH_SpinForce.BoundingBox Property " Url="html/P_Grasshopper_Kernel_Types_GH_SpinForce_BoundingBox.htm" />
+    <HelpKINode Title="IGH_FieldElement.BoundingBox Property " Url="html/P_Grasshopper_Kernel_Types_IGH_FieldElement_BoundingBox.htm" />
   </HelpKINode>
   <HelpKINode Title="Bounds property">
     <HelpKINode Title="GH_Attributes(T).Bounds Property " Url="html/P_Grasshopper_Kernel_GH_Attributes_1_Bounds.htm" />
@@ -1297,6 +1301,7 @@
   <HelpKINode Title="canvas_mono_color field" Url="html/F_Grasshopper_GUI_Canvas_GH_Skin_canvas_mono_color.htm" />
   <HelpKINode Title="canvas_shade field" Url="html/F_Grasshopper_GUI_Canvas_GH_Skin_canvas_shade.htm" />
   <HelpKINode Title="canvas_shade_size field" Url="html/F_Grasshopper_GUI_Canvas_GH_Skin_canvas_shade_size.htm" />
+  <HelpKINode Title="CapCount property" Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_CapCount.htm" />
   <HelpKINode Title="CapStyle property">
     <HelpKINode Title="ModelLinetype.Attributes.CapStyle Property " Url="html/P_Grasshopper_Rhinoceros_Drafting_ModelLinetype_Attributes_CapStyle.htm" />
     <HelpKINode Title="ModelLinetype.CapStyle Property " Url="html/P_Grasshopper_Rhinoceros_Drafting_ModelLinetype_CapStyle.htm" />
@@ -1956,12 +1961,12 @@
     <HelpKINode Title="ModelContentName.CompareTo Method " Url="html/Overload_Grasshopper_Rhinoceros_ModelContentName_CompareTo.htm" />
     <HelpKINode Title="ModelTags.CompareTo Method " Url="html/Overload_Grasshopper_Rhinoceros_ModelTags_CompareTo.htm" />
     <HelpKINode Title="SliderSnapRange.CompareTo Method " Url="html/M_Grasshopper_GUI_Base_SliderSnapRange_CompareTo.htm" />
+    <HelpKINode Title="Value.CompareTo Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ObjectDisplayColor_Value_CompareTo.htm" />
     <HelpKINode Title="Value.CompareTo Method " Url="html/Overload_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value_CompareTo.htm" />
     <HelpKINode Title="Value.CompareTo Method " Url="html/Overload_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLinetype_Value_CompareTo.htm" />
-    <HelpKINode Title="Value.CompareTo Method " Url="html/Overload_Grasshopper_Rhinoceros_ModelUnitSystem_Value_CompareTo.htm" />
-    <HelpKINode Title="Value.CompareTo Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ObjectDisplayColor_Value_CompareTo.htm" />
-    <HelpKINode Title="Value.CompareTo Method " Url="html/Overload_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLineWidth_Value_CompareTo.htm" />
     <HelpKINode Title="Value.CompareTo Method " Url="html/Overload_Grasshopper_Rhinoceros_Drafting_ObjectDraftingColor_Value_CompareTo.htm" />
+    <HelpKINode Title="Value.CompareTo Method " Url="html/Overload_Grasshopper_Rhinoceros_ModelUnitSystem_Value_CompareTo.htm" />
+    <HelpKINode Title="Value.CompareTo Method " Url="html/Overload_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLineWidth_Value_CompareTo.htm" />
     <HelpKINode Title="VersionNumber.CompareTo Method " Url="html/Overload_GH_IO_VersionNumber_CompareTo.htm" />
   </HelpKINode>
   <HelpKINode Title="CompiledObject enumeration member" Url="html/T_Grasshopper_Kernel_GH_ObjectType.htm" />
@@ -2107,13 +2112,20 @@
     <HelpKINode Title="GH_Brep.GH_BrepProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_Brep_GH_BrepProxy_Construct.htm" />
     <HelpKINode Title="GH_Circle.GH_CircleProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_Circle_GH_CircleProxy_Construct.htm" />
     <HelpKINode Title="GH_Curve.GH_CurveProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_Curve_GH_CurveProxy_Construct.htm" />
+    <HelpKINode Title="GH_Dimension.GH_DimensionProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_Dimension_GH_DimensionProxy_Construct.htm" />
+    <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_Construct.htm" />
     <HelpKINode Title="GH_GooProxy(T).Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_GooProxy_1_Construct.htm" />
+    <HelpKINode Title="GH_Hatch.GH_HatchProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy_Construct.htm" />
+    <HelpKINode Title="GH_InstanceReference.GH_InstanceReferenceProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_InstanceReference_GH_InstanceReferenceProxy_Construct.htm" />
     <HelpKINode Title="GH_Line.GH_LineProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_Line_GH_LineProxy_Construct.htm" />
     <HelpKINode Title="GH_Mesh.GH_MeshProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_Mesh_GH_MeshProxy_Construct.htm" />
     <HelpKINode Title="GH_Plane.GH_PlaneProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_Plane_GH_PlaneProxy_Construct.htm" />
     <HelpKINode Title="GH_Point.GH_PointProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_Point_GH_PointProxy_Construct.htm" />
+    <HelpKINode Title="GH_PointCloud.PointCloudProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_Construct.htm" />
     <HelpKINode Title="GH_Rectangle.GH_RectangleProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_Rectangle_GH_RectangleProxy_Construct.htm" />
+    <HelpKINode Title="GH_SubD.GH_SubDProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_Construct.htm" />
     <HelpKINode Title="GH_Surface.GH_SurfaceProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_Surface_GH_SurfaceProxy_Construct.htm" />
+    <HelpKINode Title="GH_TextDot.GH_TextDotProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy_Construct.htm" />
     <HelpKINode Title="GH_Vector.GH_VectorProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_GH_Vector_GH_VectorProxy_Construct.htm" />
     <HelpKINode Title="IGH_GooProxy.Construct Method " Url="html/M_Grasshopper_Kernel_Types_IGH_GooProxy_Construct.htm" />
   </HelpKINode>
@@ -2133,11 +2145,15 @@
     <HelpKINode Title="ModelTags.Contains Method " Url="html/M_Grasshopper_Rhinoceros_ModelTags_Contains.htm" />
   </HelpKINode>
   <HelpKINode Title="ContainsClusterHooks method" Url="html/M_Grasshopper_Kernel_GH_Document_ContainsClusterHooks.htm" />
+  <HelpKINode Title="ContainsColors property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_ContainsColors.htm" />
+  <HelpKINode Title="ContainsHiddenFlags property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_ContainsHiddenFlags.htm" />
   <HelpKINode Title="ContainsID method" Url="html/M_Grasshopper_Kernel_GH_ConnectivityDiagram_ContainsID.htm" />
   <HelpKINode Title="ContainsKey method">
     <HelpKINode Title="GH_RuntimeFile.ContainsKey Method " Url="html/M_Grasshopper_Documentation_GH_RuntimeFile_ContainsKey.htm" />
     <HelpKINode Title="ModelUserText.ContainsKey Method " Url="html/M_Grasshopper_Rhinoceros_ModelUserText_ContainsKey.htm" />
   </HelpKINode>
+  <HelpKINode Title="ContainsNormals property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_ContainsNormals.htm" />
+  <HelpKINode Title="ContainsValues property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_ContainsValues.htm" />
   <HelpKINode Title="Content property">
     <HelpKINode Title="GH_ContentCollection.Content Property " Url="html/P_Grasshopper_Documentation_GH_ContentCollection_Content.htm" />
     <HelpKINode Title="GH_Format.Content Property " Url="html/P_Grasshopper_Documentation_GH_Format_Content.htm" />
@@ -2461,9 +2477,9 @@
     <HelpKINode Title="ObjectRenderMaterial.Value.Deconstruct Method " Url="html/M_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value_Deconstruct.htm" />
   </HelpKINode>
   <HelpKINode Title="Default enumeration member">
-    <HelpKINode Title="GH_LoadingDemand Enumeration" Url="html/T_Grasshopper_Kernel_GH_LoadingDemand.htm" />
-    <HelpKINode Title="GH_SolutionMode Enumeration" Url="html/T_Grasshopper_Kernel_GH_SolutionMode.htm" />
     <HelpKINode Title="GH_PluginFolderType Enumeration" Url="html/T_Grasshopper_Kernel_GH_PluginFolderType.htm" />
+    <HelpKINode Title="GH_SolutionMode Enumeration" Url="html/T_Grasshopper_Kernel_GH_SolutionMode.htm" />
+    <HelpKINode Title="GH_LoadingDemand Enumeration" Url="html/T_Grasshopper_Kernel_GH_LoadingDemand.htm" />
   </HelpKINode>
   <HelpKINode Title="default enumeration member" Url="html/T_Grasshopper_Kernel_GH_ParamWireDisplay.htm" />
   <HelpKINode Title="Default property" Url="html/P_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value_Default.htm" />
@@ -2493,6 +2509,7 @@
   <HelpKINode Title="DefaultUserObjectFolder property" Url="html/P_Grasshopper_Folders_DefaultUserObjectFolder.htm" />
   <HelpKINode Title="DefaultWidth field" Url="html/F_Grasshopper_Kernel_Attributes_GH_FloatingParamAttributes_DefaultWidth.htm" />
   <HelpKINode Title="DefineConstant method" Url="html/M_Grasshopper_Kernel_GH_Document_DefineConstant.htm" />
+  <HelpKINode Title="Definition property" Url="html/P_Grasshopper_Kernel_Types_GH_InstanceReference_GH_InstanceReferenceProxy_Definition.htm" />
   <HelpKINode Title="Deformable property">
     <HelpKINode Title="GH_Curve.GH_CurveProxy.Deformable Property " Url="html/P_Grasshopper_Kernel_Types_GH_Curve_GH_CurveProxy_Deformable.htm" />
     <HelpKINode Title="GH_Surface.GH_SurfaceProxy.Deformable Property " Url="html/P_Grasshopper_Kernel_Types_GH_Surface_GH_SurfaceProxy_Deformable.htm" />
@@ -2562,8 +2579,8 @@
   </HelpKINode>
   <HelpKINode Title="DestroyProxySources method" Url="html/M_Grasshopper_Kernel_GH_Document_DestroyProxySources.htm" />
   <HelpKINode Title="DetermineWireType method" Url="html/M_Grasshopper_GUI_Canvas_GH_Painter_DetermineWireType.htm" />
-  <HelpKINode Title="Developer enumeration member" Url="html/T_GH_IO_VersionNumber_Branch.htm" />
   <HelpKINode Title="developer enumeration member" Url="html/T_Grasshopper_Kernel_GH_LibraryLicense.htm" />
+  <HelpKINode Title="Developer enumeration member" Url="html/T_GH_IO_VersionNumber_Branch.htm" />
   <HelpKINode Title="DeveloperContact property" Url="html/P_GH_IO_UserInterface_GH_DeveloperDetails_DeveloperContact.htm" />
   <HelpKINode Title="Deviation method" Url="html/Overload_Grasshopper_GUI_GH_MouseTracker_Deviation.htm" />
   <HelpKINode Title="Diagonal property" Url="html/P_Grasshopper_GUI_Canvas_GH_Viewport_Diagonal.htm" />
@@ -3138,6 +3155,7 @@
   <HelpKINode Title="EdgeCount property">
     <HelpKINode Title="GH_Brep.GH_BrepProxy.EdgeCount Property " Url="html/P_Grasshopper_Kernel_Types_GH_Brep_GH_BrepProxy_EdgeCount.htm" />
     <HelpKINode Title="GH_Mesh.GH_MeshProxy.EdgeCount Property " Url="html/P_Grasshopper_Kernel_Types_GH_Mesh_GH_MeshProxy_EdgeCount.htm" />
+    <HelpKINode Title="GH_SubD.GH_SubDProxy.EdgeCount Property " Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_EdgeCount.htm" />
     <HelpKINode Title="GH_Surface.GH_SurfaceProxy.EdgeCount Property " Url="html/P_Grasshopper_Kernel_Types_GH_Surface_GH_SurfaceProxy_EdgeCount.htm" />
   </HelpKINode>
   <HelpKINode Title="EditorFoldStateChanged event" Url="html/E_Grasshopper_GUI_GH_DocumentEditor_EditorFoldStateChanged.htm" />
@@ -3167,6 +3185,7 @@
   <HelpKINode Title="EmitObjectIcon method" Url="html/M_Grasshopper_Kernel_GH_ComponentServer_EmitObjectIcon.htm" />
   <HelpKINode Title="EmitObjectProxy method" Url="html/M_Grasshopper_Kernel_GH_ComponentServer_EmitObjectProxy.htm" />
   <HelpKINode Title="EmitProxy method">
+    <HelpKINode Title="GH_AnnotationBase.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_AnnotationBase_EmitProxy.htm" />
     <HelpKINode Title="GH_Arc.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Arc_EmitProxy.htm" />
     <HelpKINode Title="GH_Boolean.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Boolean_EmitProxy.htm" />
     <HelpKINode Title="GH_Box.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Box_EmitProxy.htm" />
@@ -3176,12 +3195,16 @@
     <HelpKINode Title="GH_ComplexNumber.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_ComplexNumber_EmitProxy.htm" />
     <HelpKINode Title="GH_Culture.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Culture_EmitProxy.htm" />
     <HelpKINode Title="GH_Curve.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Curve_EmitProxy.htm" />
+    <HelpKINode Title="GH_Dimension.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Dimension_EmitProxy.htm" />
+    <HelpKINode Title="GH_Extrusion.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_EmitProxy.htm" />
     <HelpKINode Title="GH_Field.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Field_EmitProxy.htm" />
     <HelpKINode Title="GH_GeometricGoo(T).EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_GeometricGoo_1_EmitProxy.htm" />
     <HelpKINode Title="GH_GeometricGooWrapper.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_GeometricGooWrapper_EmitProxy.htm" />
     <HelpKINode Title="GH_GeometryGroup.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_GeometryGroup_EmitProxy.htm" />
     <HelpKINode Title="GH_Goo(T).EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Goo_1_EmitProxy.htm" />
     <HelpKINode Title="GH_Guid.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Guid_EmitProxy.htm" />
+    <HelpKINode Title="GH_Hatch.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Hatch_EmitProxy.htm" />
+    <HelpKINode Title="GH_InstanceReference.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_InstanceReference_EmitProxy.htm" />
     <HelpKINode Title="GH_Integer.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Integer_EmitProxy.htm" />
     <HelpKINode Title="GH_Interval.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Interval_EmitProxy.htm" />
     <HelpKINode Title="GH_Interval2D.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Interval2D_EmitProxy.htm" />
@@ -3195,11 +3218,14 @@
     <HelpKINode Title="GH_ObjectWrapper.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_ObjectWrapper_EmitProxy.htm" />
     <HelpKINode Title="GH_Plane.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Plane_EmitProxy.htm" />
     <HelpKINode Title="GH_Point.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Point_EmitProxy.htm" />
+    <HelpKINode Title="GH_PointCloud.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_PointCloud_EmitProxy.htm" />
     <HelpKINode Title="GH_Predicate.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Predicate_EmitProxy.htm" />
     <HelpKINode Title="GH_Rectangle.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Rectangle_EmitProxy.htm" />
     <HelpKINode Title="GH_String.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_String_EmitProxy.htm" />
     <HelpKINode Title="GH_StructurePath.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_StructurePath_EmitProxy.htm" />
+    <HelpKINode Title="GH_SubD.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_SubD_EmitProxy.htm" />
     <HelpKINode Title="GH_Surface.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Surface_EmitProxy.htm" />
+    <HelpKINode Title="GH_TextDot.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_TextDot_EmitProxy.htm" />
     <HelpKINode Title="GH_Time.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Time_EmitProxy.htm" />
     <HelpKINode Title="GH_Transform.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Transform_EmitProxy.htm" />
     <HelpKINode Title="GH_Vector.EmitProxy Method " Url="html/M_Grasshopper_Kernel_Types_GH_Vector_EmitProxy.htm" />
@@ -3281,23 +3307,23 @@
   <HelpKINode Title="Equals enumeration member" Url="html/T_Grasshopper_Kernel_GH_PatternMatching_MatchingMode.htm" />
   <HelpKINode Title="Equals method">
     <HelpKINode Title="AnnotationDateTimeFormat.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationDateTimeFormat_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationUnitsSettings_Attributes_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_ModelComponentContent_Attributes_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ModelViewport_Attributes_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ObjectVisibility_Attributes_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Render_ObjectRender_Attributes_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_ModelContent_Attributes_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ObjectDisplay_Attributes_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationToleranceSettings_Attributes_Equals.htm" />
     <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationArrowSettings_Attributes_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Drafting_ObjectDrafting_Attributes_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ModelNamedView_Attributes_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Render_ModelRenderContent_Attributes_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationTextSettings_Attributes_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationLeaderSettings_Attributes_Equals.htm" />
-    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationDimensionSettings_Attributes_Equals.htm" />
     <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationArrow_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Drafting_ObjectDrafting_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_ModelComponentContent_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ObjectVisibility_Attributes_Equals.htm" />
     <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Drafting_ModelHatchLine_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationLeaderSettings_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationTextSettings_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_ModelContent_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Render_ModelRenderContent_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationDimensionSettings_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationToleranceSettings_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Render_ObjectRender_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ModelNamedView_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationUnitsSettings_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ModelViewport_Attributes_Equals.htm" />
+    <HelpKINode Title="Attributes.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ObjectDisplay_Attributes_Equals.htm" />
     <HelpKINode Title="GH_ParserOperator.Equals Method " Url="html/M_Grasshopper_Kernel_Expressions_GH_ParserOperator_Equals.htm" />
     <HelpKINode Title="GH_ParserSymbol.Equals Method " Url="html/M_Grasshopper_Kernel_Expressions_GH_ParserSymbol_Equals.htm" />
     <HelpKINode Title="GH_PatternMatching.Equals Method " Url="html/M_Grasshopper_Kernel_GH_PatternMatching_Equals.htm" />
@@ -3325,11 +3351,11 @@
     <HelpKINode Title="ObjectRender.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Render_ObjectRender_Equals.htm" />
     <HelpKINode Title="ObjectRenderMaterial.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Equals.htm" />
     <HelpKINode Title="ObjectVisibility.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ObjectVisibility_Equals.htm" />
-    <HelpKINode Title="Value.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ObjectDisplayColor_Value_Equals.htm" />
     <HelpKINode Title="Value.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Drafting_ObjectDraftingColor_Value_Equals.htm" />
-    <HelpKINode Title="Value.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLinetype_Value_Equals.htm" />
+    <HelpKINode Title="Value.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ObjectDisplayColor_Value_Equals.htm" />
     <HelpKINode Title="Value.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLineWidth_Value_Equals.htm" />
     <HelpKINode Title="Value.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_ModelUnitSystem_Value_Equals.htm" />
+    <HelpKINode Title="Value.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLinetype_Value_Equals.htm" />
     <HelpKINode Title="Value.Equals Method " Url="html/Overload_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value_Equals.htm" />
   </HelpKINode>
   <HelpKINode Title="EraseGeometryCaches method" Url="html/M_Grasshopper_Kernel_GH_PersistentGeometryParam_1_EraseGeometryCaches.htm" />
@@ -3528,6 +3554,7 @@
   <HelpKINode Title="FaceCount property">
     <HelpKINode Title="GH_Brep.GH_BrepProxy.FaceCount Property " Url="html/P_Grasshopper_Kernel_Types_GH_Brep_GH_BrepProxy_FaceCount.htm" />
     <HelpKINode Title="GH_Mesh.GH_MeshProxy.FaceCount Property " Url="html/P_Grasshopper_Kernel_Types_GH_Mesh_GH_MeshProxy_FaceCount.htm" />
+    <HelpKINode Title="GH_SubD.GH_SubDProxy.FaceCount Property " Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_FaceCount.htm" />
   </HelpKINode>
   <HelpKINode Title="Factor property">
     <HelpKINode Title="ModelUnitSystem.Factor Property " Url="html/P_Grasshopper_Rhinoceros_ModelUnitSystem_Factor.htm" />
@@ -3875,6 +3902,7 @@
   <HelpKINode Title="FromString method">
     <HelpKINode Title="GH_Brep.GH_BrepProxy.FromString Method " Url="html/M_Grasshopper_Kernel_Types_GH_Brep_GH_BrepProxy_FromString.htm" />
     <HelpKINode Title="GH_Curve.GH_CurveProxy.FromString Method " Url="html/M_Grasshopper_Kernel_Types_GH_Curve_GH_CurveProxy_FromString.htm" />
+    <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.FromString Method " Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_FromString.htm" />
     <HelpKINode Title="GH_GooProxy(T).FromString Method " Url="html/M_Grasshopper_Kernel_Types_GH_GooProxy_1_FromString.htm" />
     <HelpKINode Title="GH_Path.FromString Method " Url="html/M_Grasshopper_Kernel_Data_GH_Path_FromString.htm" />
     <HelpKINode Title="GH_Surface.GH_SurfaceProxy.FromString Method " Url="html/M_Grasshopper_Kernel_Types_GH_Surface_GH_SurfaceProxy_FromString.htm" />
@@ -4050,18 +4078,18 @@
   </HelpKINode>
   <HelpKINode Title="GetHashCode method">
     <HelpKINode Title="AnnotationDateTimeFormat.GetHashCode Method " Url="html/M_Grasshopper_Rhinoceros_Annotations_AnnotationDateTimeFormat_GetHashCode.htm" />
-    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_ModelContent_Attributes_GetHashCode.htm" />
-    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ModelViewport_Attributes_GetHashCode.htm" />
-    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationArrowSettings_Attributes_GetHashCode.htm" />
-    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationToleranceSettings_Attributes_GetHashCode.htm" />
-    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationArrow_Attributes_GetHashCode.htm" />
-    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationUnitsSettings_Attributes_GetHashCode.htm" />
-    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_ModelComponentContent_Attributes_GetHashCode.htm" />
-    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationTextSettings_Attributes_GetHashCode.htm" />
-    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationDimensionSettings_Attributes_GetHashCode.htm" />
-    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationLeaderSettings_Attributes_GetHashCode.htm" />
     <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Render_ModelRenderContent_Attributes_GetHashCode.htm" />
+    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_ModelComponentContent_Attributes_GetHashCode.htm" />
+    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ModelViewport_Attributes_GetHashCode.htm" />
+    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationLeaderSettings_Attributes_GetHashCode.htm" />
     <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Display_ModelNamedView_Attributes_GetHashCode.htm" />
+    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationUnitsSettings_Attributes_GetHashCode.htm" />
+    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationToleranceSettings_Attributes_GetHashCode.htm" />
+    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationTextSettings_Attributes_GetHashCode.htm" />
+    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationArrowSettings_Attributes_GetHashCode.htm" />
+    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationArrow_Attributes_GetHashCode.htm" />
+    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_ModelContent_Attributes_GetHashCode.htm" />
+    <HelpKINode Title="Attributes.GetHashCode Method " Url="html/Overload_Grasshopper_Rhinoceros_Annotations_AnnotationDimensionSettings_Attributes_GetHashCode.htm" />
     <HelpKINode Title="Complex.GetHashCode Method " Url="html/M_Grasshopper_Kernel_Types_Complex_GetHashCode.htm" />
     <HelpKINode Title="GH_ComponentParamServer.GetHashCode Method " Url="html/Overload_Grasshopper_Kernel_GH_ComponentParamServer_GetHashCode.htm" />
     <HelpKINode Title="GH_Path.GetHashCode Method " Url="html/M_Grasshopper_Kernel_Data_GH_Path_GetHashCode.htm" />
@@ -4340,9 +4368,28 @@
   <HelpKINode Title="GH_AnnotationBase.Duplicate method" Url="html/M_Grasshopper_Kernel_Types_GH_AnnotationBase_Duplicate.htm" />
   <HelpKINode Title="GH_AnnotationBase.DuplicateAnnotation method" Url="html/M_Grasshopper_Kernel_Types_GH_AnnotationBase_DuplicateAnnotation.htm" />
   <HelpKINode Title="GH_AnnotationBase.DuplicateGeometry method" Url="html/M_Grasshopper_Kernel_Types_GH_AnnotationBase_DuplicateGeometry.htm" />
+  <HelpKINode Title="GH_AnnotationBase.EmitProxy method" Url="html/M_Grasshopper_Kernel_Types_GH_AnnotationBase_EmitProxy.htm" />
   <HelpKINode Title="GH_AnnotationBase.GetBoundingBox method" Url="html/M_Grasshopper_Kernel_Types_GH_AnnotationBase_GetBoundingBox.htm" />
   <HelpKINode Title="GH_AnnotationBase.GetOverrides method" Url="html/M_Grasshopper_Kernel_Types_GH_AnnotationBase_GetOverrides.htm" />
   <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBase constructor" Url="html/Overload_Grasshopper_Kernel_Types_GH_AnnotationBase__ctor.htm" />
+  <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy(Of T) class">
+    <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy(T) Class" Url="html/T_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy(Of T).AnnotationType property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1_AnnotationType.htm" />
+  <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy(Of T).GH_AnnotationBaseProxy constructor" Url="html/M_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1__ctor.htm" />
+  <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy(Of T).ObjectID property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1_ObjectID.htm" />
+  <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy(Of T).PlainText property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1_PlainText.htm" />
+  <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy(Of T).Style property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1_Style.htm" />
+  <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy&lt;T&gt; class">
+    <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy(T) Class" Url="html/T_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy&lt;T&gt;.AnnotationType property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1_AnnotationType.htm" />
+  <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy&lt;T&gt;.GH_AnnotationBaseProxy constructor" Url="html/M_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1__ctor.htm" />
+  <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy&lt;T&gt;.ObjectID property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1_ObjectID.htm" />
+  <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy&lt;T&gt;.PlainText property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1_PlainText.htm" />
+  <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy&lt;T&gt;.Style property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1_Style.htm" />
   <HelpKINode Title="GH_AnnotationBase.IsGeometryLoaded property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_IsGeometryLoaded.htm" />
   <HelpKINode Title="GH_AnnotationBase.IsValid property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_IsValid.htm" />
   <HelpKINode Title="GH_AnnotationBase.IsValidWhyNot property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_IsValidWhyNot.htm" />
@@ -4359,6 +4406,14 @@
   <HelpKINode Title="GH_AnnotationBase.TypeName property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_TypeName.htm" />
   <HelpKINode Title="GH_AnnotationBase.ValueType property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_ValueType.htm" />
   <HelpKINode Title="GH_AnnotationBase.Write method" Url="html/M_Grasshopper_Kernel_Types_GH_AnnotationBase_Write.htm" />
+  <HelpKINode Title="GH_AnnotationBaseProxy(Of T) class">
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GH_AnnotationBaseProxy&lt;T&gt; class">
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1.htm" />
+  </HelpKINode>
   <HelpKINode Title="GH_Arc class">
     <HelpKINode Title="GH_Arc Class" Url="html/T_Grasshopper_Kernel_Types_GH_Arc.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Grasshopper_Kernel_Types_GH_Arc__ctor.htm" />
@@ -6486,9 +6541,21 @@
     <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Kernel_Types_GH_Dimension.htm" />
   </HelpKINode>
   <HelpKINode Title="GH_Dimension.CastTo method" Url="html/Overload_Grasshopper_Kernel_Types_GH_Dimension_CastTo.htm" />
+  <HelpKINode Title="GH_Dimension.EmitProxy method" Url="html/M_Grasshopper_Kernel_Types_GH_Dimension_EmitProxy.htm" />
   <HelpKINode Title="GH_Dimension.GH_Dimension constructor" Url="html/Overload_Grasshopper_Kernel_Types_GH_Dimension__ctor.htm" />
+  <HelpKINode Title="GH_Dimension.GH_DimensionProxy class">
+    <HelpKINode Title="GH_Dimension.GH_DimensionProxy Class" Url="html/T_Grasshopper_Kernel_Types_GH_Dimension_GH_DimensionProxy.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Grasshopper_Kernel_Types_GH_Dimension_GH_DimensionProxy__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GH_Dimension.GH_DimensionProxy.Construct method" Url="html/M_Grasshopper_Kernel_Types_GH_Dimension_GH_DimensionProxy_Construct.htm" />
+  <HelpKINode Title="GH_Dimension.GH_DimensionProxy.GH_DimensionProxy constructor" Url="html/M_Grasshopper_Kernel_Types_GH_Dimension_GH_DimensionProxy__ctor.htm" />
+  <HelpKINode Title="GH_Dimension.GH_DimensionProxy.Measure property" Url="html/P_Grasshopper_Kernel_Types_GH_Dimension_GH_DimensionProxy_Measure.htm" />
   <HelpKINode Title="GH_Dimension.Value property" Url="html/P_Grasshopper_Kernel_Types_GH_Dimension_Value.htm" />
   <HelpKINode Title="GH_Dimension.ValueType property" Url="html/P_Grasshopper_Kernel_Types_GH_Dimension_ValueType.htm" />
+  <HelpKINode Title="GH_DimensionProxy class">
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Kernel_Types_GH_Dimension_GH_DimensionProxy.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Kernel_Types_GH_Dimension_GH_DimensionProxy.htm" />
+  </HelpKINode>
   <HelpKINode Title="GH_DisplayExpiredEventArgs class">
     <HelpKINode Title="GH_DisplayExpiredEventArgs Class" Url="html/T_Grasshopper_Kernel_GH_DisplayExpiredEventArgs.htm" />
     <HelpKINode Title="constructor" Url="html/M_Grasshopper_Kernel_GH_DisplayExpiredEventArgs__ctor.htm" />
@@ -7143,9 +7210,23 @@
   <HelpKINode Title="GH_Extrusion.Duplicate method" Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_Duplicate.htm" />
   <HelpKINode Title="GH_Extrusion.DuplicateExtrusion method" Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_DuplicateExtrusion.htm" />
   <HelpKINode Title="GH_Extrusion.DuplicateGeometry method" Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_DuplicateGeometry.htm" />
+  <HelpKINode Title="GH_Extrusion.EmitProxy method" Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_EmitProxy.htm" />
   <HelpKINode Title="GH_Extrusion.GetBoundingBox method" Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_GetBoundingBox.htm" />
   <HelpKINode Title="GH_Extrusion.GetPreviewMeshes method" Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_GetPreviewMeshes.htm" />
   <HelpKINode Title="GH_Extrusion.GH_Extrusion constructor" Url="html/Overload_Grasshopper_Kernel_Types_GH_Extrusion__ctor.htm" />
+  <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy class">
+    <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy Class" Url="html/T_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.Area property" Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_Area.htm" />
+  <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.CapCount property" Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_CapCount.htm" />
+  <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.Construct method" Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_Construct.htm" />
+  <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.FromString method" Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_FromString.htm" />
+  <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.GH_ExtrusionProxy constructor" Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy__ctor.htm" />
+  <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.ObjectID property" Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_ObjectID.htm" />
+  <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.ProfileCount property" Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_ProfileCount.htm" />
+  <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.Solid property" Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_Solid.htm" />
+  <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.Volume property" Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_Volume.htm" />
   <HelpKINode Title="GH_Extrusion.IsGeometryLoaded property" Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_IsGeometryLoaded.htm" />
   <HelpKINode Title="GH_Extrusion.IsValid property" Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_IsValid.htm" />
   <HelpKINode Title="GH_Extrusion.IsValidWhyNot property" Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_IsValidWhyNot.htm" />
@@ -7160,6 +7241,10 @@
   <HelpKINode Title="GH_Extrusion.TypeName property" Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_TypeName.htm" />
   <HelpKINode Title="GH_Extrusion.Value property" Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_Value.htm" />
   <HelpKINode Title="GH_Extrusion.Write method" Url="html/M_Grasshopper_Kernel_Types_GH_Extrusion_Write.htm" />
+  <HelpKINode Title="GH_ExtrusionProxy class">
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy.htm" />
+  </HelpKINode>
   <HelpKINode Title="GH_FadeAnimation class">
     <HelpKINode Title="GH_FadeAnimation Class" Url="html/T_Grasshopper_GUI_GH_FadeAnimation.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Grasshopper_GUI_GH_FadeAnimation__ctor.htm" />
@@ -7904,8 +7989,20 @@
   <HelpKINode Title="GH_Hatch.Duplicate method" Url="html/M_Grasshopper_Kernel_Types_GH_Hatch_Duplicate.htm" />
   <HelpKINode Title="GH_Hatch.DuplicateGeometry method" Url="html/M_Grasshopper_Kernel_Types_GH_Hatch_DuplicateGeometry.htm" />
   <HelpKINode Title="GH_Hatch.DuplicateHatch method" Url="html/M_Grasshopper_Kernel_Types_GH_Hatch_DuplicateHatch.htm" />
+  <HelpKINode Title="GH_Hatch.EmitProxy method" Url="html/M_Grasshopper_Kernel_Types_GH_Hatch_EmitProxy.htm" />
   <HelpKINode Title="GH_Hatch.GetBoundingBox method" Url="html/M_Grasshopper_Kernel_Types_GH_Hatch_GetBoundingBox.htm" />
   <HelpKINode Title="GH_Hatch.GH_Hatch constructor" Url="html/Overload_Grasshopper_Kernel_Types_GH_Hatch__ctor.htm" />
+  <HelpKINode Title="GH_Hatch.GH_HatchProxy class">
+    <HelpKINode Title="GH_Hatch.GH_HatchProxy Class" Url="html/T_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GH_Hatch.GH_HatchProxy.BasePoint property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy_BasePoint.htm" />
+  <HelpKINode Title="GH_Hatch.GH_HatchProxy.Construct method" Url="html/M_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy_Construct.htm" />
+  <HelpKINode Title="GH_Hatch.GH_HatchProxy.GH_HatchProxy constructor" Url="html/M_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy__ctor.htm" />
+  <HelpKINode Title="GH_Hatch.GH_HatchProxy.ObjectID property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy_ObjectID.htm" />
+  <HelpKINode Title="GH_Hatch.GH_HatchProxy.Pattern property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy_Pattern.htm" />
+  <HelpKINode Title="GH_Hatch.GH_HatchProxy.PatternRotation property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy_PatternRotation.htm" />
+  <HelpKINode Title="GH_Hatch.GH_HatchProxy.PatternScale property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy_PatternScale.htm" />
   <HelpKINode Title="GH_Hatch.IsGeometryLoaded property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_IsGeometryLoaded.htm" />
   <HelpKINode Title="GH_Hatch.IsValid property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_IsValid.htm" />
   <HelpKINode Title="GH_Hatch.IsValidWhyNot property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_IsValidWhyNot.htm" />
@@ -7921,6 +8018,10 @@
   <HelpKINode Title="GH_Hatch.TypeName property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_TypeName.htm" />
   <HelpKINode Title="GH_Hatch.Value property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_Value.htm" />
   <HelpKINode Title="GH_Hatch.Write method" Url="html/M_Grasshopper_Kernel_Types_GH_Hatch_Write.htm" />
+  <HelpKINode Title="GH_HatchProxy class">
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy.htm" />
+  </HelpKINode>
   <HelpKINode Title="GH_HiddenAction class">
     <HelpKINode Title="GH_HiddenAction Class" Url="html/T_Grasshopper_Kernel_Undo_Actions_GH_HiddenAction.htm" />
     <HelpKINode Title="constructor" Url="html/M_Grasshopper_Kernel_Undo_Actions_GH_HiddenAction__ctor.htm" />
@@ -8095,8 +8196,17 @@
   <HelpKINode Title="GH_InstanceReference.Duplicate method" Url="html/M_Grasshopper_Kernel_Types_GH_InstanceReference_Duplicate.htm" />
   <HelpKINode Title="GH_InstanceReference.DuplicateGeometry method" Url="html/M_Grasshopper_Kernel_Types_GH_InstanceReference_DuplicateGeometry.htm" />
   <HelpKINode Title="GH_InstanceReference.DuplicateInstanceReference method" Url="html/M_Grasshopper_Kernel_Types_GH_InstanceReference_DuplicateInstanceReference.htm" />
+  <HelpKINode Title="GH_InstanceReference.EmitProxy method" Url="html/M_Grasshopper_Kernel_Types_GH_InstanceReference_EmitProxy.htm" />
   <HelpKINode Title="GH_InstanceReference.GetBoundingBox method" Url="html/M_Grasshopper_Kernel_Types_GH_InstanceReference_GetBoundingBox.htm" />
   <HelpKINode Title="GH_InstanceReference.GH_InstanceReference constructor" Url="html/Overload_Grasshopper_Kernel_Types_GH_InstanceReference__ctor.htm" />
+  <HelpKINode Title="GH_InstanceReference.GH_InstanceReferenceProxy class">
+    <HelpKINode Title="GH_InstanceReference.GH_InstanceReferenceProxy Class" Url="html/T_Grasshopper_Kernel_Types_GH_InstanceReference_GH_InstanceReferenceProxy.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Grasshopper_Kernel_Types_GH_InstanceReference_GH_InstanceReferenceProxy__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GH_InstanceReference.GH_InstanceReferenceProxy.Construct method" Url="html/M_Grasshopper_Kernel_Types_GH_InstanceReference_GH_InstanceReferenceProxy_Construct.htm" />
+  <HelpKINode Title="GH_InstanceReference.GH_InstanceReferenceProxy.Definition property" Url="html/P_Grasshopper_Kernel_Types_GH_InstanceReference_GH_InstanceReferenceProxy_Definition.htm" />
+  <HelpKINode Title="GH_InstanceReference.GH_InstanceReferenceProxy.GH_InstanceReferenceProxy constructor" Url="html/M_Grasshopper_Kernel_Types_GH_InstanceReference_GH_InstanceReferenceProxy__ctor.htm" />
+  <HelpKINode Title="GH_InstanceReference.GH_InstanceReferenceProxy.ObjectID property" Url="html/P_Grasshopper_Kernel_Types_GH_InstanceReference_GH_InstanceReferenceProxy_ObjectID.htm" />
   <HelpKINode Title="GH_InstanceReference.InstanceDefinition property" Url="html/P_Grasshopper_Kernel_Types_GH_InstanceReference_InstanceDefinition.htm" />
   <HelpKINode Title="GH_InstanceReference.IsGeometryLoaded property" Url="html/P_Grasshopper_Kernel_Types_GH_InstanceReference_IsGeometryLoaded.htm" />
   <HelpKINode Title="GH_InstanceReference.IsReferencedGeometry property" Url="html/P_Grasshopper_Kernel_Types_GH_InstanceReference_IsReferencedGeometry.htm" />
@@ -8113,6 +8223,10 @@
   <HelpKINode Title="GH_InstanceReference.TypeDescription property" Url="html/P_Grasshopper_Kernel_Types_GH_InstanceReference_TypeDescription.htm" />
   <HelpKINode Title="GH_InstanceReference.TypeName property" Url="html/P_Grasshopper_Kernel_Types_GH_InstanceReference_TypeName.htm" />
   <HelpKINode Title="GH_InstanceReference.Write method" Url="html/M_Grasshopper_Kernel_Types_GH_InstanceReference_Write.htm" />
+  <HelpKINode Title="GH_InstanceReferenceProxy class">
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Kernel_Types_GH_InstanceReference_GH_InstanceReferenceProxy.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Kernel_Types_GH_InstanceReference_GH_InstanceReferenceProxy.htm" />
+  </HelpKINode>
   <HelpKINode Title="gh_int32 enumeration member" Url="html/T_GH_IO_Types_GH_Types.htm" />
   <HelpKINode Title="gh_int64 enumeration member" Url="html/T_GH_IO_Types_GH_Types.htm" />
   <HelpKINode Title="GH_Integer class">
@@ -8532,8 +8646,8 @@
   <HelpKINode Title="GH_Line.EmitProxy method" Url="html/M_Grasshopper_Kernel_Types_GH_Line_EmitProxy.htm" />
   <HelpKINode Title="GH_Line.GetBoundingBox method" Url="html/M_Grasshopper_Kernel_Types_GH_Line_GetBoundingBox.htm" />
   <HelpKINode Title="GH_Line.GH_Line constructor">
-    <HelpKINode Title="GH_Line Constructor " Url="html/Overload_Grasshopper_Kernel_Types_GH_Line__ctor.htm" />
     <HelpKINode Title="GH_Line Constructor " Url="html/Overload_GH_IO_Types_GH_Line__ctor.htm" />
+    <HelpKINode Title="GH_Line Constructor " Url="html/Overload_Grasshopper_Kernel_Types_GH_Line__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="GH_Line.GH_LineProxy class">
     <HelpKINode Title="GH_Line.GH_LineProxy Class" Url="html/T_Grasshopper_Kernel_Types_GH_Line_GH_LineProxy.htm" />
@@ -9704,8 +9818,8 @@
   <HelpKINode Title="GH_Plane.EmitProxy method" Url="html/M_Grasshopper_Kernel_Types_GH_Plane_EmitProxy.htm" />
   <HelpKINode Title="GH_Plane.GetBoundingBox method" Url="html/M_Grasshopper_Kernel_Types_GH_Plane_GetBoundingBox.htm" />
   <HelpKINode Title="GH_Plane.GH_Plane constructor">
-    <HelpKINode Title="GH_Plane Constructor " Url="html/Overload_GH_IO_Types_GH_Plane__ctor.htm" />
     <HelpKINode Title="GH_Plane Constructor " Url="html/Overload_Grasshopper_Kernel_Types_GH_Plane__ctor.htm" />
+    <HelpKINode Title="GH_Plane Constructor " Url="html/Overload_GH_IO_Types_GH_Plane__ctor.htm" />
   </HelpKINode>
   <HelpKINode Title="GH_Plane.GH_PlaneProxy class">
     <HelpKINode Title="GH_Plane.GH_PlaneProxy Class" Url="html/T_Grasshopper_Kernel_Types_GH_Plane_GH_PlaneProxy.htm" />
@@ -9892,6 +10006,7 @@
   <HelpKINode Title="GH_PointCloud.Duplicate method" Url="html/M_Grasshopper_Kernel_Types_GH_PointCloud_Duplicate.htm" />
   <HelpKINode Title="GH_PointCloud.DuplicateGeometry method" Url="html/M_Grasshopper_Kernel_Types_GH_PointCloud_DuplicateGeometry.htm" />
   <HelpKINode Title="GH_PointCloud.DuplicatePointCloud method" Url="html/M_Grasshopper_Kernel_Types_GH_PointCloud_DuplicatePointCloud.htm" />
+  <HelpKINode Title="GH_PointCloud.EmitProxy method" Url="html/M_Grasshopper_Kernel_Types_GH_PointCloud_EmitProxy.htm" />
   <HelpKINode Title="GH_PointCloud.GetBoundingBox method" Url="html/M_Grasshopper_Kernel_Types_GH_PointCloud_GetBoundingBox.htm" />
   <HelpKINode Title="GH_PointCloud.GH_PointCloud constructor" Url="html/Overload_Grasshopper_Kernel_Types_GH_PointCloud__ctor.htm" />
   <HelpKINode Title="GH_PointCloud.IsGeometryLoaded property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_IsGeometryLoaded.htm" />
@@ -9899,6 +10014,19 @@
   <HelpKINode Title="GH_PointCloud.IsValidWhyNot property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_IsValidWhyNot.htm" />
   <HelpKINode Title="GH_PointCloud.LoadGeometry method" Url="html/Overload_Grasshopper_Kernel_Types_GH_PointCloud_LoadGeometry.htm" />
   <HelpKINode Title="GH_PointCloud.Morph method" Url="html/M_Grasshopper_Kernel_Types_GH_PointCloud_Morph.htm" />
+  <HelpKINode Title="GH_PointCloud.PointCloudProxy class">
+    <HelpKINode Title="GH_PointCloud.PointCloudProxy Class" Url="html/T_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GH_PointCloud.PointCloudProxy.Construct method" Url="html/M_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_Construct.htm" />
+  <HelpKINode Title="GH_PointCloud.PointCloudProxy.ContainsColors property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_ContainsColors.htm" />
+  <HelpKINode Title="GH_PointCloud.PointCloudProxy.ContainsHiddenFlags property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_ContainsHiddenFlags.htm" />
+  <HelpKINode Title="GH_PointCloud.PointCloudProxy.ContainsNormals property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_ContainsNormals.htm" />
+  <HelpKINode Title="GH_PointCloud.PointCloudProxy.ContainsValues property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_ContainsValues.htm" />
+  <HelpKINode Title="GH_PointCloud.PointCloudProxy.HiddenPointCount property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_HiddenPointCount.htm" />
+  <HelpKINode Title="GH_PointCloud.PointCloudProxy.ObjectID property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_ObjectID.htm" />
+  <HelpKINode Title="GH_PointCloud.PointCloudProxy.PointCloudProxy constructor" Url="html/M_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy__ctor.htm" />
+  <HelpKINode Title="GH_PointCloud.PointCloudProxy.PointCount property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_PointCount.htm" />
   <HelpKINode Title="GH_PointCloud.Read method" Url="html/M_Grasshopper_Kernel_Types_GH_PointCloud_Read.htm" />
   <HelpKINode Title="GH_PointCloud.ReferenceID property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_ReferenceID.htm" />
   <HelpKINode Title="GH_PointCloud.ScriptVariable method" Url="html/M_Grasshopper_Kernel_Types_GH_PointCloud_ScriptVariable.htm" />
@@ -11054,9 +11182,23 @@
   <HelpKINode Title="GH_SubD.Duplicate method" Url="html/M_Grasshopper_Kernel_Types_GH_SubD_Duplicate.htm" />
   <HelpKINode Title="GH_SubD.DuplicateGeometry method" Url="html/M_Grasshopper_Kernel_Types_GH_SubD_DuplicateGeometry.htm" />
   <HelpKINode Title="GH_SubD.DuplicateSubD method" Url="html/M_Grasshopper_Kernel_Types_GH_SubD_DuplicateSubD.htm" />
+  <HelpKINode Title="GH_SubD.EmitProxy method" Url="html/M_Grasshopper_Kernel_Types_GH_SubD_EmitProxy.htm" />
   <HelpKINode Title="GH_SubD.GetBoundingBox method" Url="html/M_Grasshopper_Kernel_Types_GH_SubD_GetBoundingBox.htm" />
   <HelpKINode Title="GH_SubD.GetPreviewMeshes method" Url="html/M_Grasshopper_Kernel_Types_GH_SubD_GetPreviewMeshes.htm" />
   <HelpKINode Title="GH_SubD.GH_SubD constructor" Url="html/Overload_Grasshopper_Kernel_Types_GH_SubD__ctor.htm" />
+  <HelpKINode Title="GH_SubD.GH_SubDProxy class">
+    <HelpKINode Title="GH_SubD.GH_SubDProxy Class" Url="html/T_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GH_SubD.GH_SubDProxy.Area property" Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_Area.htm" />
+  <HelpKINode Title="GH_SubD.GH_SubDProxy.Construct method" Url="html/M_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_Construct.htm" />
+  <HelpKINode Title="GH_SubD.GH_SubDProxy.EdgeCount property" Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_EdgeCount.htm" />
+  <HelpKINode Title="GH_SubD.GH_SubDProxy.FaceCount property" Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_FaceCount.htm" />
+  <HelpKINode Title="GH_SubD.GH_SubDProxy.GH_SubDProxy constructor" Url="html/M_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy__ctor.htm" />
+  <HelpKINode Title="GH_SubD.GH_SubDProxy.ObjectID property" Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_ObjectID.htm" />
+  <HelpKINode Title="GH_SubD.GH_SubDProxy.Solid property" Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_Solid.htm" />
+  <HelpKINode Title="GH_SubD.GH_SubDProxy.VertexCount property" Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_VertexCount.htm" />
+  <HelpKINode Title="GH_SubD.GH_SubDProxy.Volume property" Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_Volume.htm" />
   <HelpKINode Title="GH_SubD.IsGeometryLoaded property" Url="html/P_Grasshopper_Kernel_Types_GH_SubD_IsGeometryLoaded.htm" />
   <HelpKINode Title="GH_SubD.IsValid property" Url="html/P_Grasshopper_Kernel_Types_GH_SubD_IsValid.htm" />
   <HelpKINode Title="GH_SubD.IsValidWhyNot property" Url="html/P_Grasshopper_Kernel_Types_GH_SubD_IsValidWhyNot.htm" />
@@ -11071,6 +11213,10 @@
   <HelpKINode Title="GH_SubD.TypeName property" Url="html/P_Grasshopper_Kernel_Types_GH_SubD_TypeName.htm" />
   <HelpKINode Title="GH_SubD.Value property" Url="html/P_Grasshopper_Kernel_Types_GH_SubD_Value.htm" />
   <HelpKINode Title="GH_SubD.Write method" Url="html/M_Grasshopper_Kernel_Types_GH_SubD_Write.htm" />
+  <HelpKINode Title="GH_SubDProxy class">
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy.htm" />
+  </HelpKINode>
   <HelpKINode Title="GH_Surface class">
     <HelpKINode Title="GH_Surface Class" Url="html/T_Grasshopper_Kernel_Types_GH_Surface.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Grasshopper_Kernel_Types_GH_Surface__ctor.htm" />
@@ -11239,8 +11385,19 @@
   <HelpKINode Title="GH_TextDot.Duplicate method" Url="html/M_Grasshopper_Kernel_Types_GH_TextDot_Duplicate.htm" />
   <HelpKINode Title="GH_TextDot.DuplicateGeometry method" Url="html/M_Grasshopper_Kernel_Types_GH_TextDot_DuplicateGeometry.htm" />
   <HelpKINode Title="GH_TextDot.DuplicateTextDot method" Url="html/M_Grasshopper_Kernel_Types_GH_TextDot_DuplicateTextDot.htm" />
+  <HelpKINode Title="GH_TextDot.EmitProxy method" Url="html/M_Grasshopper_Kernel_Types_GH_TextDot_EmitProxy.htm" />
   <HelpKINode Title="GH_TextDot.GetBoundingBox method" Url="html/M_Grasshopper_Kernel_Types_GH_TextDot_GetBoundingBox.htm" />
   <HelpKINode Title="GH_TextDot.GH_TextDot constructor" Url="html/Overload_Grasshopper_Kernel_Types_GH_TextDot__ctor.htm" />
+  <HelpKINode Title="GH_TextDot.GH_TextDotProxy class">
+    <HelpKINode Title="GH_TextDot.GH_TextDotProxy Class" Url="html/T_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy.htm" />
+    <HelpKINode Title="constructor" Url="html/M_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy__ctor.htm" />
+  </HelpKINode>
+  <HelpKINode Title="GH_TextDot.GH_TextDotProxy.Construct method" Url="html/M_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy_Construct.htm" />
+  <HelpKINode Title="GH_TextDot.GH_TextDotProxy.GH_TextDotProxy constructor" Url="html/M_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy__ctor.htm" />
+  <HelpKINode Title="GH_TextDot.GH_TextDotProxy.ObjectID property" Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy_ObjectID.htm" />
+  <HelpKINode Title="GH_TextDot.GH_TextDotProxy.Point property" Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy_Point.htm" />
+  <HelpKINode Title="GH_TextDot.GH_TextDotProxy.SecondaryText property" Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy_SecondaryText.htm" />
+  <HelpKINode Title="GH_TextDot.GH_TextDotProxy.Text property" Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy_Text.htm" />
   <HelpKINode Title="GH_TextDot.IsGeometryLoaded property" Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_IsGeometryLoaded.htm" />
   <HelpKINode Title="GH_TextDot.IsValid property" Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_IsValid.htm" />
   <HelpKINode Title="GH_TextDot.IsValidWhyNot property" Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_IsValidWhyNot.htm" />
@@ -11255,6 +11412,10 @@
   <HelpKINode Title="GH_TextDot.TypeName property" Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_TypeName.htm" />
   <HelpKINode Title="GH_TextDot.Value property" Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_Value.htm" />
   <HelpKINode Title="GH_TextDot.Write method" Url="html/M_Grasshopper_Kernel_Types_GH_TextDot_Write.htm" />
+  <HelpKINode Title="GH_TextDotProxy class">
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy.htm" />
+  </HelpKINode>
   <HelpKINode Title="GH_TextEntity class">
     <HelpKINode Title="GH_TextEntity Class" Url="html/T_Grasshopper_Kernel_Types_GH_TextEntity.htm" />
     <HelpKINode Title="constructor" Url="html/Overload_Grasshopper_Kernel_Types_GH_TextEntity__ctor.htm" />
@@ -12687,6 +12848,8 @@
   <HelpKINode Title="Grasshopper.Kernel.Types.Complex structure" Url="html/T_Grasshopper_Kernel_Types_Complex.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_AngularDimension class" Url="html/T_Grasshopper_Kernel_Types_GH_AngularDimension.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_AnnotationBase class" Url="html/T_Grasshopper_Kernel_Types_GH_AnnotationBase.htm" />
+  <HelpKINode Title="Grasshopper.Kernel.Types.GH_AnnotationBase.GH_AnnotationBaseProxy(Of T) class" Url="html/T_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1.htm" />
+  <HelpKINode Title="Grasshopper.Kernel.Types.GH_AnnotationBase.GH_AnnotationBaseProxy&lt;T&gt; class" Url="html/T_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Arc class" Url="html/T_Grasshopper_Kernel_Types_GH_Arc.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Boolean class" Url="html/T_Grasshopper_Kernel_Types_GH_Boolean.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Box class" Url="html/T_Grasshopper_Kernel_Types_GH_Box.htm" />
@@ -12704,7 +12867,9 @@
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_DetailView class" Url="html/T_Grasshopper_Kernel_Types_GH_DetailView.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_DifferentialSolver enumeration" Url="html/T_Grasshopper_Kernel_Types_GH_DifferentialSolver.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Dimension class" Url="html/T_Grasshopper_Kernel_Types_GH_Dimension.htm" />
+  <HelpKINode Title="Grasshopper.Kernel.Types.GH_Dimension.GH_DimensionProxy class" Url="html/T_Grasshopper_Kernel_Types_GH_Dimension_GH_DimensionProxy.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Extrusion class" Url="html/T_Grasshopper_Kernel_Types_GH_Extrusion.htm" />
+  <HelpKINode Title="Grasshopper.Kernel.Types.GH_Extrusion.GH_ExtrusionProxy class" Url="html/T_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Field class" Url="html/T_Grasshopper_Kernel_Types_GH_Field.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_FieldElement class" Url="html/T_Grasshopper_Kernel_Types_GH_FieldElement.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_GeometricGoo(Of T) class" Url="html/T_Grasshopper_Kernel_Types_GH_GeometricGoo_1.htm" />
@@ -12718,7 +12883,9 @@
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_GooProxy&lt;T&gt; class" Url="html/T_Grasshopper_Kernel_Types_GH_GooProxy_1.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Guid class" Url="html/T_Grasshopper_Kernel_Types_GH_Guid.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Hatch class" Url="html/T_Grasshopper_Kernel_Types_GH_Hatch.htm" />
+  <HelpKINode Title="Grasshopper.Kernel.Types.GH_Hatch.GH_HatchProxy class" Url="html/T_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_InstanceReference class" Url="html/T_Grasshopper_Kernel_Types_GH_InstanceReference.htm" />
+  <HelpKINode Title="Grasshopper.Kernel.Types.GH_InstanceReference.GH_InstanceReferenceProxy class" Url="html/T_Grasshopper_Kernel_Types_GH_InstanceReference_GH_InstanceReferenceProxy.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Integer class" Url="html/T_Grasshopper_Kernel_Types_GH_Integer.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Interval class" Url="html/T_Grasshopper_Kernel_Types_GH_Interval.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Interval2D class" Url="html/T_Grasshopper_Kernel_Types_GH_Interval2D.htm" />
@@ -12749,6 +12916,7 @@
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Point.GH_PointProxy class" Url="html/T_Grasshopper_Kernel_Types_GH_Point_GH_PointProxy.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_PointCharge class" Url="html/T_Grasshopper_Kernel_Types_GH_PointCharge.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_PointCloud class" Url="html/T_Grasshopper_Kernel_Types_GH_PointCloud.htm" />
+  <HelpKINode Title="Grasshopper.Kernel.Types.GH_PointCloud.PointCloudProxy class" Url="html/T_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_PointRefData class" Url="html/T_Grasshopper_Kernel_Types_GH_PointRefData.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_PointRefType enumeration" Url="html/T_Grasshopper_Kernel_Types_GH_PointRefType.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_PointUtil class" Url="html/T_Grasshopper_Kernel_Types_GH_PointUtil.htm" />
@@ -12760,9 +12928,11 @@
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_String class" Url="html/T_Grasshopper_Kernel_Types_GH_String.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_StructurePath class" Url="html/T_Grasshopper_Kernel_Types_GH_StructurePath.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_SubD class" Url="html/T_Grasshopper_Kernel_Types_GH_SubD.htm" />
+  <HelpKINode Title="Grasshopper.Kernel.Types.GH_SubD.GH_SubDProxy class" Url="html/T_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Surface class" Url="html/T_Grasshopper_Kernel_Types_GH_Surface.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Surface.GH_SurfaceProxy class" Url="html/T_Grasshopper_Kernel_Types_GH_Surface_GH_SurfaceProxy.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_TextDot class" Url="html/T_Grasshopper_Kernel_Types_GH_TextDot.htm" />
+  <HelpKINode Title="Grasshopper.Kernel.Types.GH_TextDot.GH_TextDotProxy class" Url="html/T_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_TextEntity class" Url="html/T_Grasshopper_Kernel_Types_GH_TextEntity.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Time class" Url="html/T_Grasshopper_Kernel_Types_GH_Time.htm" />
   <HelpKINode Title="Grasshopper.Kernel.Types.GH_Transform class" Url="html/T_Grasshopper_Kernel_Types_GH_Transform.htm" />
@@ -13023,11 +13193,11 @@
   <HelpKINode Title="GripWidth property" Url="html/P_Grasshopper_GUI_Base_GH_SliderBase_GripWidth.htm" />
   <HelpKINode Title="grip_in enumeration member" Url="html/T_Grasshopper_Kernel_GH_ObjectSpecies.htm" />
   <HelpKINode Title="grip_out enumeration member" Url="html/T_Grasshopper_Kernel_GH_ObjectSpecies.htm" />
-  <HelpKINode Title="group enumeration member" Url="html/T_Grasshopper_Kernel_GH_ObjectSpecies.htm" />
   <HelpKINode Title="Group enumeration member">
     <HelpKINode Title="GH_DragDropFileAction Enumeration" Url="html/T_Grasshopper_GUI_Canvas_GH_DragDropFileAction.htm" />
     <HelpKINode Title="GH_RuleKind Enumeration" Url="html/T_Grasshopper_Kernel_Data_GH_RuleKind.htm" />
   </HelpKINode>
+  <HelpKINode Title="group enumeration member" Url="html/T_Grasshopper_Kernel_GH_ObjectSpecies.htm" />
   <HelpKINode Title="Group property" Url="html/P_Grasshopper_Kernel_GH_RelevantObjectData_Group.htm" />
   <HelpKINode Title="GroupColour property" Url="html/P_Grasshopper_GUI_Theme_GH_ObjectSettings_GroupColour.htm" />
   <HelpKINode Title="GroupIcon_24x24 property" Url="html/P_Grasshopper_GUI_GH_StandardIcons_GroupIcon_24x24.htm" />
@@ -13150,6 +13320,7 @@
     <HelpKINode Title="ModelLayer.Attributes.HiddenOnNewDetail Property " Url="html/P_Grasshopper_Rhinoceros_Model_ModelLayer_Attributes_HiddenOnNewDetail.htm" />
     <HelpKINode Title="ModelLayer.HiddenOnNewDetail Property " Url="html/P_Grasshopper_Rhinoceros_Model_ModelLayer_HiddenOnNewDetail.htm" />
   </HelpKINode>
+  <HelpKINode Title="HiddenPointCount property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_HiddenPointCount.htm" />
   <HelpKINode Title="HiddenSelected property" Url="html/P_Grasshopper_GUI_Theme_GH_PaletteSettings_HiddenSelected.htm" />
   <HelpKINode Title="HiddenStandard property" Url="html/P_Grasshopper_GUI_Theme_GH_PaletteSettings_HiddenStandard.htm" />
   <HelpKINode Title="Hide method" Url="html/M_Grasshopper_GUI_GH_TooltipComponent_Hide.htm" />
@@ -13247,8 +13418,8 @@
     <HelpKINode Title="ModelContent.Id Property " Url="html/P_Grasshopper_Rhinoceros_ModelContent_Id.htm" />
   </HelpKINode>
   <HelpKINode Title="ID property">
-    <HelpKINode Title="IGH_TagArtist.ID Property " Url="html/P_Grasshopper_GUI_Canvas_TagArtists_IGH_TagArtist_ID.htm" />
     <HelpKINode Title="GH_TagArtist.ID Property " Url="html/P_Grasshopper_GUI_Canvas_TagArtists_GH_TagArtist_ID.htm" />
+    <HelpKINode Title="IGH_TagArtist.ID Property " Url="html/P_Grasshopper_GUI_Canvas_TagArtists_IGH_TagArtist_ID.htm" />
   </HelpKINode>
   <HelpKINode Title="ID structure">
     <HelpKINode Title="ID Structure" Url="html/T_GH_IO_Serialization_ID.htm" />
@@ -14744,8 +14915,8 @@
   </HelpKINode>
   <HelpKINode Title="Large property" Url="html/P_Grasshopper_Kernel_GH_FontServer_Large.htm" />
   <HelpKINode Title="LargeAdjusted property" Url="html/P_Grasshopper_Kernel_GH_FontServer_LargeAdjusted.htm" />
-  <HelpKINode Title="last enumeration member" Url="html/T_Grasshopper_Kernel_GH_Exposure.htm" />
   <HelpKINode Title="Last enumeration member" Url="html/T_Grasshopper_GUI_Canvas_GH_CanvasChannel.htm" />
+  <HelpKINode Title="last enumeration member" Url="html/T_Grasshopper_Kernel_GH_Exposure.htm" />
   <HelpKINode Title="LastFrameWithinDeviation method" Url="html/M_Grasshopper_GUI_GH_MouseTracker_LastFrameWithinDeviation.htm" />
   <HelpKINode Title="LastItem property" Url="html/P_Grasshopper_Kernel_Data_GH_Structure_1_LastItem.htm" />
   <HelpKINode Title="LastModified property" Url="html/P_Grasshopper_Kernel_GH_State_LastModified.htm" />
@@ -14940,8 +15111,8 @@
   <HelpKINode Title="LoadSkin method" Url="html/M_Grasshopper_GUI_Canvas_GH_Skin_LoadSkin.htm" />
   <HelpKINode Title="LoadState method" Url="html/M_Grasshopper_Kernel_IGH_StateAwareObject_LoadState.htm" />
   <HelpKINode Title="LoadTheme method" Url="html/M_Grasshopper_GUI_Theme_GH_Theme_LoadTheme.htm" />
-  <HelpKINode Title="Local enumeration member" Url="html/T_Grasshopper_Kernel_GH_ClipboardType.htm" />
   <HelpKINode Title="local enumeration member" Url="html/T_Grasshopper_Kernel_GH_ParamData.htm" />
+  <HelpKINode Title="Local enumeration member" Url="html/T_Grasshopper_Kernel_GH_ClipboardType.htm" />
   <HelpKINode Title="LocalClipboardContent property" Url="html/P_Grasshopper_Kernel_GH_DocumentIO_LocalClipboardContent.htm" />
   <HelpKINode Title="LocalIndex property" Url="html/P_Grasshopper_Kernel_Geometry_SpatialTrees_Index3d_1_LocalIndex.htm" />
   <HelpKINode Title="Location property">
@@ -15060,6 +15231,7 @@
   <HelpKINode Title="MaxValidBuildBranch property" Url="html/P_GH_IO_VersionNumber_MaxValidBuildBranch.htm" />
   <HelpKINode Title="MaxValidTime property" Url="html/P_GH_IO_VersionNumber_MaxValidTime.htm" />
   <HelpKINode Title="MaxValue property" Url="html/P_Grasshopper_Kernel_Data_GH_IndexRange_MaxValue.htm" />
+  <HelpKINode Title="Measure property" Url="html/P_Grasshopper_Kernel_Types_GH_Dimension_GH_DimensionProxy_Measure.htm" />
   <HelpKINode Title="MeasureString method" Url="html/Overload_Grasshopper_Kernel_GH_FontServer_MeasureString.htm" />
   <HelpKINode Title="Memory enumeration member" Url="html/T_Grasshopper_Kernel_GH_ProfilerMode.htm" />
   <HelpKINode Title="MemoryConsumption property" Url="html/P_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_MemoryConsumption.htm" />
@@ -15082,8 +15254,6 @@
     <HelpKINode Title="GH_PersistentParam(T).Menu_AppendManageCollection Method " Url="html/M_Grasshopper_Kernel_GH_PersistentParam_1_Menu_AppendManageCollection.htm" />
     <HelpKINode Title="Param_Centermark.Menu_AppendManageCollection Method " Url="html/M_Grasshopper_Kernel_Parameters_Param_Centermark_Menu_AppendManageCollection.htm" />
     <HelpKINode Title="Param_DisplayColorStop.Menu_AppendManageCollection Method " Url="html/M_Grasshopper_Rhinoceros_Display_Params_Param_DisplayColorStop_Menu_AppendManageCollection.htm" />
-    <HelpKINode Title="Param_Hatch.Menu_AppendManageCollection Method " Url="html/M_Grasshopper_Kernel_Parameters_Param_Hatch_Menu_AppendManageCollection.htm" />
-    <HelpKINode Title="Param_InstanceReference.Menu_AppendManageCollection Method " Url="html/M_Grasshopper_Kernel_Parameters_Param_InstanceReference_Menu_AppendManageCollection.htm" />
     <HelpKINode Title="Param_Leader.Menu_AppendManageCollection Method " Url="html/M_Grasshopper_Kernel_Parameters_Param_Leader_Menu_AppendManageCollection.htm" />
     <HelpKINode Title="Param_Light.Menu_AppendManageCollection Method " Url="html/M_Grasshopper_Kernel_Parameters_Param_Light_Menu_AppendManageCollection.htm" />
     <HelpKINode Title="Param_LinearDimension.Menu_AppendManageCollection Method " Url="html/M_Grasshopper_Kernel_Parameters_Param_LinearDimension_Menu_AppendManageCollection.htm" />
@@ -16265,11 +16435,11 @@
   <HelpKINode Title="m_IsStringProxy field" Url="html/F_Grasshopper_Kernel_GH_ValueProxy_1_m_IsStringProxy.htm" />
   <HelpKINode Title="m_items field" Url="html/F_GH_IO_Serialization_GH_Chunk_m_items.htm" />
   <HelpKINode Title="m_level field" Url="html/F_Grasshopper_Kernel_Expressions_GH_ParserSymbol_m_level.htm" />
+  <HelpKINode Title="m_Name field" Url="html/F_Grasshopper_Kernel_GH_ValueProxy_1_m_Name.htm" />
   <HelpKINode Title="m_name field">
     <HelpKINode Title="GH_Chunk.m_name Field" Url="html/F_GH_IO_Serialization_GH_Chunk_m_name.htm" />
     <HelpKINode Title="GH_ParserOperator.m_name Field" Url="html/F_Grasshopper_Kernel_Expressions_GH_ParserOperator_m_name.htm" />
   </HelpKINode>
-  <HelpKINode Title="m_Name field" Url="html/F_Grasshopper_Kernel_GH_ValueProxy_1_m_Name.htm" />
   <HelpKINode Title="m_precedence field" Url="html/F_Grasshopper_Kernel_Expressions_GH_ParserOperator_m_precedence.htm" />
   <HelpKINode Title="m_redraw field">
     <HelpKINode Title="GH_DisplayExpiredEventArgs.m_redraw Field" Url="html/F_Grasshopper_Kernel_GH_DisplayExpiredEventArgs_m_redraw.htm" />
@@ -16488,8 +16658,8 @@
   <HelpKINode Title="None enumeration member">
     <HelpKINode Title="GH_BorderTopology Enumeration" Url="html/T_Grasshopper_GUI_Canvas_GH_BorderTopology.htm" />
     <HelpKINode Title="GH_CanvasNavigation Enumeration" Url="html/T_Grasshopper_GUI_Canvas_GH_CanvasNavigation.htm" />
-    <HelpKINode Title="GH_ColourSpace Enumeration" Url="html/T_Grasshopper_GUI_Base_GH_ColourSpace.htm" />
     <HelpKINode Title="GH_Constraint Enumeration" Url="html/T_Grasshopper_GUI_GH_Constraint.htm" />
+    <HelpKINode Title="GH_ColourSpace Enumeration" Url="html/T_Grasshopper_GUI_Base_GH_ColourSpace.htm" />
     <HelpKINode Title="GH_DataMapping Enumeration" Url="html/T_Grasshopper_Kernel_GH_DataMapping.htm" />
     <HelpKINode Title="GH_DifferentialSolver Enumeration" Url="html/T_Grasshopper_Kernel_Types_GH_DifferentialSolver.htm" />
     <HelpKINode Title="GH_DigitScrollerBase.GH_MouseAction Enumeration" Url="html/T_Grasshopper_GUI_Base_GH_DigitScrollerBase_GH_MouseAction.htm" />
@@ -16509,11 +16679,11 @@
     <HelpKINode Title="GH_ProfilerMode Enumeration" Url="html/T_Grasshopper_Kernel_GH_ProfilerMode.htm" />
     <HelpKINode Title="GH_RelevantObjectFilter Enumeration" Url="html/T_Grasshopper_Kernel_GH_RelevantObjectFilter.htm" />
     <HelpKINode Title="GH_RuleKind Enumeration" Url="html/T_Grasshopper_Kernel_Data_GH_RuleKind.htm" />
-    <HelpKINode Title="GH_SimplificationMode Enumeration" Url="html/T_Grasshopper_Kernel_Data_GH_SimplificationMode.htm" />
-    <HelpKINode Title="GH_SliderInputMode Enumeration" Url="html/T_Grasshopper_GUI_GH_SliderInputMode.htm" />
     <HelpKINode Title="GH_SelectionTopology Enumeration" Url="html/T_Grasshopper_Kernel_GH_SelectionTopology.htm" />
     <HelpKINode Title="GH_SeparatorDisplay Enumeration" Url="html/T_Grasshopper_GUI_GH_SeparatorDisplay.htm" />
+    <HelpKINode Title="GH_SimplificationMode Enumeration" Url="html/T_Grasshopper_Kernel_Data_GH_SimplificationMode.htm" />
     <HelpKINode Title="GH_SliderGripDisplay Enumeration" Url="html/T_Grasshopper_GUI_Base_GH_SliderGripDisplay.htm" />
+    <HelpKINode Title="GH_SliderInputMode Enumeration" Url="html/T_Grasshopper_GUI_GH_SliderInputMode.htm" />
     <HelpKINode Title="GH_SliderRailDisplay Enumeration" Url="html/T_Grasshopper_GUI_Base_GH_SliderRailDisplay.htm" />
     <HelpKINode Title="GH_SliderTickDisplay Enumeration" Url="html/T_Grasshopper_GUI_Base_GH_SliderTickDisplay.htm" />
     <HelpKINode Title="GH_Style Enumeration" Url="html/T_Grasshopper_Documentation_GH_Style.htm" />
@@ -16764,11 +16934,18 @@
   <HelpKINode Title="ObjectDraftingLineWidth.Value.Width property" Url="html/P_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLineWidth_Value_Width.htm" />
   <HelpKINode Title="ObjectDraftingLineWidth.Width property" Url="html/P_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLineWidth_Width.htm" />
   <HelpKINode Title="ObjectID property">
+    <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy(T).ObjectID Property " Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1_ObjectID.htm" />
     <HelpKINode Title="GH_Box.GH_BoxProxy.ObjectID Property " Url="html/P_Grasshopper_Kernel_Types_GH_Box_GH_BoxProxy_ObjectID.htm" />
     <HelpKINode Title="GH_Brep.GH_BrepProxy.ObjectID Property " Url="html/P_Grasshopper_Kernel_Types_GH_Brep_GH_BrepProxy_ObjectID.htm" />
     <HelpKINode Title="GH_Curve.GH_CurveProxy.ObjectID Property " Url="html/P_Grasshopper_Kernel_Types_GH_Curve_GH_CurveProxy_ObjectID.htm" />
+    <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.ObjectID Property " Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_ObjectID.htm" />
+    <HelpKINode Title="GH_Hatch.GH_HatchProxy.ObjectID Property " Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy_ObjectID.htm" />
+    <HelpKINode Title="GH_InstanceReference.GH_InstanceReferenceProxy.ObjectID Property " Url="html/P_Grasshopper_Kernel_Types_GH_InstanceReference_GH_InstanceReferenceProxy_ObjectID.htm" />
     <HelpKINode Title="GH_Mesh.GH_MeshProxy.ObjectID Property " Url="html/P_Grasshopper_Kernel_Types_GH_Mesh_GH_MeshProxy_ObjectID.htm" />
+    <HelpKINode Title="GH_PointCloud.PointCloudProxy.ObjectID Property " Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_ObjectID.htm" />
+    <HelpKINode Title="GH_SubD.GH_SubDProxy.ObjectID Property " Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_ObjectID.htm" />
     <HelpKINode Title="GH_Surface.GH_SurfaceProxy.ObjectID Property " Url="html/P_Grasshopper_Kernel_Types_GH_Surface_GH_SurfaceProxy_ObjectID.htm" />
+    <HelpKINode Title="GH_TextDot.GH_TextDotProxy.ObjectID Property " Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy_ObjectID.htm" />
   </HelpKINode>
   <HelpKINode Title="ObjectProxies property" Url="html/P_Grasshopper_Kernel_GH_ComponentServer_ObjectProxies.htm" />
   <HelpKINode Title="ObjectProxyNames property" Url="html/P_Grasshopper_Kernel_GH_ComponentServer_ObjectProxyNames.htm" />
@@ -17025,8 +17202,8 @@
   <HelpKINode Title="OpenFileDialog method" Url="html/M_GH_IO_Serialization_GH_Archive_OpenFileDialog.htm" />
   <HelpKINode Title="opensource enumeration member" Url="html/T_Grasshopper_Kernel_GH_LibraryLicense.htm" />
   <HelpKINode Title="Operation property" Url="html/P_Grasshopper_Kernel_GH_DocUndoEventArgs_Operation.htm" />
-  <HelpKINode Title="operator enumeration member" Url="html/T_Grasshopper_Kernel_Expressions_GH_CharType.htm" />
   <HelpKINode Title="Operator enumeration member" Url="html/T_Grasshopper_Kernel_Expressions_GH_ParserTokenClass.htm" />
+  <HelpKINode Title="operator enumeration member" Url="html/T_Grasshopper_Kernel_Expressions_GH_CharType.htm" />
   <HelpKINode Title="OptimizeTree method" Url="html/M_Grasshopper_Kernel_Geometry_SpatialTrees_Node3d_1_OptimizeTree.htm" />
   <HelpKINode Title="Optional property">
     <HelpKINode Title="GH_Param(T).Optional Property " Url="html/P_Grasshopper_Kernel_GH_Param_1_Optional.htm" />
@@ -17400,7 +17577,6 @@
   <HelpKINode Title="Param_Hatch.InstantiateT method" Url="html/M_Grasshopper_Kernel_Parameters_Param_Hatch_InstantiateT.htm" />
   <HelpKINode Title="Param_Hatch.IsBakeCapable property" Url="html/P_Grasshopper_Kernel_Parameters_Param_Hatch_IsBakeCapable.htm" />
   <HelpKINode Title="Param_Hatch.IsPreviewCapable property" Url="html/P_Grasshopper_Kernel_Parameters_Param_Hatch_IsPreviewCapable.htm" />
-  <HelpKINode Title="Param_Hatch.Menu_AppendManageCollection method" Url="html/M_Grasshopper_Kernel_Parameters_Param_Hatch_Menu_AppendManageCollection.htm" />
   <HelpKINode Title="Param_Hatch.Param_Hatch constructor" Url="html/M_Grasshopper_Kernel_Parameters_Param_Hatch__ctor.htm" />
   <HelpKINode Title="Param_Hatch.PreferredCast method" Url="html/M_Grasshopper_Kernel_Parameters_Param_Hatch_PreferredCast.htm" />
   <HelpKINode Title="Param_Hatch.Prompt_Plural method" Url="html/M_Grasshopper_Kernel_Parameters_Param_Hatch_Prompt_Plural.htm" />
@@ -17426,7 +17602,6 @@
   <HelpKINode Title="Param_InstanceReference.InstantiateT method" Url="html/M_Grasshopper_Kernel_Parameters_Param_InstanceReference_InstantiateT.htm" />
   <HelpKINode Title="Param_InstanceReference.IsBakeCapable property" Url="html/P_Grasshopper_Kernel_Parameters_Param_InstanceReference_IsBakeCapable.htm" />
   <HelpKINode Title="Param_InstanceReference.IsPreviewCapable property" Url="html/P_Grasshopper_Kernel_Parameters_Param_InstanceReference_IsPreviewCapable.htm" />
-  <HelpKINode Title="Param_InstanceReference.Menu_AppendManageCollection method" Url="html/M_Grasshopper_Kernel_Parameters_Param_InstanceReference_Menu_AppendManageCollection.htm" />
   <HelpKINode Title="Param_InstanceReference.Param_InstanceReference constructor" Url="html/M_Grasshopper_Kernel_Parameters_Param_InstanceReference__ctor.htm" />
   <HelpKINode Title="Param_InstanceReference.PreferredCast method" Url="html/M_Grasshopper_Kernel_Parameters_Param_InstanceReference_PreferredCast.htm" />
   <HelpKINode Title="Param_InstanceReference.Prompt_Plural method" Url="html/M_Grasshopper_Kernel_Parameters_Param_InstanceReference_Prompt_Plural.htm" />
@@ -18102,7 +18277,12 @@
     <HelpKINode Title="GH_TreeRules.PathSeparator Field" Url="html/F_Grasshopper_Kernel_Data_GH_TreeRules_PathSeparator.htm" />
   </HelpKINode>
   <HelpKINode Title="PathWrap property" Url="html/P_Grasshopper_Kernel_Data_GH_PathOffset_PathWrap.htm" />
-  <HelpKINode Title="Pattern property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_Pattern.htm" />
+  <HelpKINode Title="Pattern property">
+    <HelpKINode Title="GH_Hatch.GH_HatchProxy.Pattern Property " Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy_Pattern.htm" />
+    <HelpKINode Title="GH_Hatch.Pattern Property " Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_Pattern.htm" />
+  </HelpKINode>
+  <HelpKINode Title="PatternRotation property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy_PatternRotation.htm" />
+  <HelpKINode Title="PatternScale property" Url="html/P_Grasshopper_Kernel_Types_GH_Hatch_GH_HatchProxy_PatternScale.htm" />
   <HelpKINode Title="Perform method">
     <HelpKINode Title="GH_ZuiAction.Perform Method " Url="html/M_Grasshopper_Kernel_GH_ZuiAction_Perform.htm" />
     <HelpKINode Title="IGH_ZuiAction.Perform Method " Url="html/M_Grasshopper_Kernel_IGH_ZuiAction_Perform.htm" />
@@ -18152,6 +18332,7 @@
     <HelpKINode Title="GH_RotationalTuningData(T).Pivot Property " Url="html/P_Grasshopper_GUI_GH_RotationalTuningData_1_Pivot.htm" />
     <HelpKINode Title="IGH_Attributes.Pivot Property " Url="html/P_Grasshopper_Kernel_IGH_Attributes_Pivot.htm" />
   </HelpKINode>
+  <HelpKINode Title="PlainText property" Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1_PlainText.htm" />
   <HelpKINode Title="Planar property">
     <HelpKINode Title="GH_Curve.GH_CurveProxy.Planar Property " Url="html/P_Grasshopper_Kernel_Types_GH_Curve_GH_CurveProxy_Planar.htm" />
     <HelpKINode Title="GH_Surface.GH_SurfaceProxy.Planar Property " Url="html/P_Grasshopper_Kernel_Types_GH_Surface_GH_SurfaceProxy_Planar.htm" />
@@ -18175,6 +18356,7 @@
     <HelpKINode Title="GH_RelevantObjectData.Point Property " Url="html/P_Grasshopper_Kernel_GH_RelevantObjectData_Point.htm" />
     <HelpKINode Title="GH_RotationalFrame.Point Property " Url="html/P_Grasshopper_GUI_GH_RotationalFrame_Point.htm" />
     <HelpKINode Title="GH_ScriptVariant.Point Property " Url="html/P_Grasshopper_Kernel_Expressions_GH_ScriptVariant_Point.htm" />
+    <HelpKINode Title="GH_TextDot.GH_TextDotProxy.Point Property " Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy_Point.htm" />
     <HelpKINode Title="GH_TooltipDisplayEventArgs.Point Property " Url="html/P_Grasshopper_GUI_GH_TooltipDisplayEventArgs_Point.htm" />
   </HelpKINode>
   <HelpKINode Title="Point2dCoordinates method" Url="html/M_Grasshopper_Kernel_Geometry_SpatialTrees_TreeDelegates_Point2dCoordinates.htm" />
@@ -18183,7 +18365,12 @@
   <HelpKINode Title="Point3fCoordinates method" Url="html/M_Grasshopper_Kernel_Geometry_SpatialTrees_TreeDelegates_Point3fCoordinates.htm" />
   <HelpKINode Title="PointAnimator method" Url="html/Overload_Grasshopper_GUI_GH_Animator_PointAnimator.htm" />
   <HelpKINode Title="PointAt method" Url="html/M_Grasshopper_GUI_GH_BezierSolver_PointAt.htm" />
+  <HelpKINode Title="PointCloudProxy class">
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy.htm" />
+  </HelpKINode>
   <HelpKINode Title="PointCoordinates method" Url="html/M_Grasshopper_Kernel_Geometry_SpatialTrees_TreeDelegates_PointCoordinates.htm" />
+  <HelpKINode Title="PointCount property" Url="html/P_Grasshopper_Kernel_Types_GH_PointCloud_PointCloudProxy_PointCount.htm" />
   <HelpKINode Title="PointFAnimator method" Url="html/Overload_Grasshopper_GUI_GH_Animator_PointFAnimator.htm" />
   <HelpKINode Title="Points property" Url="html/P_Grasshopper_Kernel_GH_PreviewBoundary_Points.htm" />
   <HelpKINode Title="Point_Drag property" Url="html/P_Grasshopper_GUI_GH_DragInfo_Point_Drag.htm" />
@@ -18279,6 +18466,7 @@
     <HelpKINode Title="GH_Param(T).ProcessorTime Property " Url="html/P_Grasshopper_Kernel_GH_Param_1_ProcessorTime.htm" />
     <HelpKINode Title="IGH_ActiveObject.ProcessorTime Property " Url="html/P_Grasshopper_Kernel_IGH_ActiveObject_ProcessorTime.htm" />
   </HelpKINode>
+  <HelpKINode Title="ProfileCount property" Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_ProfileCount.htm" />
   <HelpKINode Title="Profiler property" Url="html/P_Grasshopper_Kernel_GH_Document_Profiler.htm" />
   <HelpKINode Title="Project method" Url="html/M_Grasshopper_GUI_Canvas_GH_Viewport_Project.htm" />
   <HelpKINode Title="Projection class">
@@ -18966,9 +19154,9 @@
   <HelpKINode Title="RibbonVisible property" Url="html/P_Grasshopper_CentralSettings_RibbonVisible.htm" />
   <HelpKINode Title="RibbonVisibleChanged event" Url="html/E_Grasshopper_CentralSettings_RibbonVisibleChanged.htm" />
   <HelpKINode Title="Right enumeration member">
+    <HelpKINode Title="GH_DigitAlign Enumeration" Url="html/T_Grasshopper_GUI_Base_GH_DigitAlign.htm" />
     <HelpKINode Title="GH_StateTagLayoutDirection Enumeration" Url="html/T_Grasshopper_Kernel_GH_StateTagLayoutDirection.htm" />
     <HelpKINode Title="GH_BorderTopology Enumeration" Url="html/T_Grasshopper_GUI_Canvas_GH_BorderTopology.htm" />
-    <HelpKINode Title="GH_DigitAlign Enumeration" Url="html/T_Grasshopper_GUI_Base_GH_DigitAlign.htm" />
     <HelpKINode Title="GH_GripSide Enumeration" Url="html/T_Grasshopper_GUI_Gradient_GH_GripSide.htm" />
   </HelpKINode>
   <HelpKINode Title="right enumeration member" Url="html/T_Grasshopper_GUI_Canvas_GH_WireDirection.htm" />
@@ -19152,10 +19340,11 @@
   <HelpKINode Title="SDKDownloaderApplication property" Url="html/P_Grasshopper_Folders_SDKDownloaderApplication.htm" />
   <HelpKINode Title="SearchOption property" Url="html/P_Grasshopper_Kernel_GH_AssemblyFolderInfo_SearchOption.htm" />
   <HelpKINode Title="Secant method" Url="html/M_Grasshopper_Kernel_Types_Complex_Secant.htm" />
-  <HelpKINode Title="Secondary enumeration member" Url="html/T_Grasshopper_Kernel_GH_Conversion.htm" />
   <HelpKINode Title="secondary enumeration member" Url="html/T_Grasshopper_Kernel_GH_Exposure.htm" />
+  <HelpKINode Title="Secondary enumeration member" Url="html/T_Grasshopper_Kernel_GH_Conversion.htm" />
   <HelpKINode Title="SecondaryDigits property" Url="html/P_Grasshopper_GUI_Base_GH_DigitNumber_SecondaryDigits.htm" />
   <HelpKINode Title="SecondaryPositive property" Url="html/P_Grasshopper_GUI_Base_GH_DigitNumber_SecondaryPositive.htm" />
+  <HelpKINode Title="SecondaryText property" Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy_SecondaryText.htm" />
   <HelpKINode Title="Segment property" Url="html/P_Grasshopper_Kernel_Types_GH_LineCharge_Segment.htm" />
   <HelpKINode Title="Segments property">
     <HelpKINode Title="GH_CodeString.Segments Property " Url="html/P_Grasshopper_Kernel_Expressions_GH_CodeString_Segments.htm" />
@@ -19510,7 +19699,9 @@
   <HelpKINode Title="Solid enumeration member" Url="html/T_Grasshopper_GUI_Theme_GH_BackgroundStyle.htm" />
   <HelpKINode Title="Solid property">
     <HelpKINode Title="GH_Brep.GH_BrepProxy.Solid Property " Url="html/P_Grasshopper_Kernel_Types_GH_Brep_GH_BrepProxy_Solid.htm" />
+    <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.Solid Property " Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_Solid.htm" />
     <HelpKINode Title="GH_Mesh.GH_MeshProxy.Solid Property " Url="html/P_Grasshopper_Kernel_Types_GH_Mesh_GH_MeshProxy_Solid.htm" />
+    <HelpKINode Title="GH_SubD.GH_SubDProxy.Solid Property " Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_Solid.htm" />
     <HelpKINode Title="GH_Surface.GH_SurfaceProxy.Solid Property " Url="html/P_Grasshopper_Kernel_Types_GH_Surface_GH_SurfaceProxy_Solid.htm" />
   </HelpKINode>
   <HelpKINode Title="SolutionDepth property" Url="html/P_Grasshopper_Kernel_GH_Document_SolutionDepth.htm" />
@@ -19681,6 +19872,7 @@
     <HelpKINode Title="IGH_Structure.StructureProxy Property " Url="html/P_Grasshopper_Kernel_Data_IGH_Structure_StructureProxy.htm" />
   </HelpKINode>
   <HelpKINode Title="Style property">
+    <HelpKINode Title="GH_AnnotationBase.GH_AnnotationBaseProxy(T).Style Property " Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_GH_AnnotationBaseProxy_1_Style.htm" />
     <HelpKINode Title="GH_AnnotationBase.Style Property " Url="html/P_Grasshopper_Kernel_Types_GH_AnnotationBase_Style.htm" />
     <HelpKINode Title="GH_BackgroundSettings.Style Property " Url="html/P_Grasshopper_GUI_Theme_GH_BackgroundSettings_Style.htm" />
     <HelpKINode Title="GH_Format.Style Property " Url="html/P_Grasshopper_Documentation_GH_Format_Style.htm" />
@@ -19793,6 +19985,7 @@
     <HelpKINode Title="GH_MenuTextBox.Text Property " Url="html/P_Grasshopper_GUI_GH_MenuTextBox_Text.htm" />
     <HelpKINode Title="GH_PaletteStyle.Text Property " Url="html/P_Grasshopper_GUI_Canvas_GH_PaletteStyle_Text.htm" />
     <HelpKINode Title="GH_Text.Text Property " Url="html/P_Grasshopper_Documentation_GH_Text_Text.htm" />
+    <HelpKINode Title="GH_TextDot.GH_TextDotProxy.Text Property " Url="html/P_Grasshopper_Kernel_Types_GH_TextDot_GH_TextDotProxy_Text.htm" />
     <HelpKINode Title="GH_TooltipDisplayEventArgs.Text Property " Url="html/P_Grasshopper_GUI_GH_TooltipDisplayEventArgs_Text.htm" />
     <HelpKINode Title="IGH_Tooltip.Text Property " Url="html/P_Grasshopper_GUI_IGH_Tooltip_Text.htm" />
   </HelpKINode>
@@ -20315,8 +20508,8 @@
     <HelpKINode Title="GH_Item.ToString Method " Url="html/M_GH_IO_Types_GH_Item_ToString.htm" />
     <HelpKINode Title="GH_Leader.ToString Method " Url="html/M_Grasshopper_Kernel_Types_GH_Leader_ToString.htm" />
     <HelpKINode Title="GH_Light.ToString Method " Url="html/M_Grasshopper_Kernel_Types_GH_Light_ToString.htm" />
-    <HelpKINode Title="GH_Line.ToString Method " Url="html/M_Grasshopper_Kernel_Types_GH_Line_ToString.htm" />
     <HelpKINode Title="GH_Line.ToString Method " Url="html/M_GH_IO_Types_GH_Line_ToString.htm" />
+    <HelpKINode Title="GH_Line.ToString Method " Url="html/M_Grasshopper_Kernel_Types_GH_Line_ToString.htm" />
     <HelpKINode Title="GH_LinearDimension.ToString Method " Url="html/M_Grasshopper_Kernel_Types_GH_LinearDimension_ToString.htm" />
     <HelpKINode Title="GH_Link.ToString Method " Url="html/M_Grasshopper_Documentation_GH_Link_ToString.htm" />
     <HelpKINode Title="GH_List.ToString Method " Url="html/M_Grasshopper_Documentation_GH_List_ToString.htm" />
@@ -20953,8 +21146,8 @@
     <HelpKINode Title="GH_CharType Enumeration" Url="html/T_Grasshopper_Kernel_Expressions_GH_CharType.htm" />
   </HelpKINode>
   <HelpKINode Title="underbar field" Url="html/F_Grasshopper_Kernel_Expressions_GH_ExpressionString_underbar.htm" />
-  <HelpKINode Title="Undo enumeration member" Url="html/T_Grasshopper_Kernel_GH_UndoOperation.htm" />
   <HelpKINode Title="undo enumeration member" Url="html/T_Grasshopper_Kernel_Undo_GH_UndoState.htm" />
+  <HelpKINode Title="Undo enumeration member" Url="html/T_Grasshopper_Kernel_GH_UndoOperation.htm" />
   <HelpKINode Title="Undo method">
     <HelpKINode Title="GH_Document.Undo Method " Url="html/M_Grasshopper_Kernel_GH_Document_Undo.htm" />
     <HelpKINode Title="GH_UndoAction.Undo Method " Url="html/M_Grasshopper_Kernel_Undo_GH_UndoAction_Undo.htm" />
@@ -20973,15 +21166,15 @@
     <HelpKINode Title="ModelAnnotationStyle.Attributes.UnitsSettings Property " Url="html/P_Grasshopper_Rhinoceros_Annotations_ModelAnnotationStyle_Attributes_UnitsSettings.htm" />
     <HelpKINode Title="ModelAnnotationStyle.UnitsSettings Property " Url="html/P_Grasshopper_Rhinoceros_Annotations_ModelAnnotationStyle_UnitsSettings.htm" />
   </HelpKINode>
-  <HelpKINode Title="unknown enumeration member">
-    <HelpKINode Title="GH_ParamKind Enumeration" Url="html/T_Grasshopper_Kernel_GH_ParamKind.htm" />
-    <HelpKINode Title="GH_ParamData Enumeration" Url="html/T_Grasshopper_Kernel_GH_ParamData.htm" />
-    <HelpKINode Title="GH_VariantType Enumeration" Url="html/T_Grasshopper_Kernel_Expressions_GH_VariantType.htm" />
-  </HelpKINode>
   <HelpKINode Title="Unknown enumeration member">
+    <HelpKINode Title="GH_LoadingMechanism Enumeration" Url="html/T_Grasshopper_Kernel_GH_LoadingMechanism.htm" />
     <HelpKINode Title="GH_DocumentContext Enumeration" Url="html/T_Grasshopper_Kernel_GH_DocumentContext.htm" />
     <HelpKINode Title="GH_ExternalFileType Enumeration" Url="html/T_Grasshopper_Kernel_GH_ExternalFileType.htm" />
-    <HelpKINode Title="GH_LoadingMechanism Enumeration" Url="html/T_Grasshopper_Kernel_GH_LoadingMechanism.htm" />
+  </HelpKINode>
+  <HelpKINode Title="unknown enumeration member">
+    <HelpKINode Title="GH_ParamData Enumeration" Url="html/T_Grasshopper_Kernel_GH_ParamData.htm" />
+    <HelpKINode Title="GH_ParamKind Enumeration" Url="html/T_Grasshopper_Kernel_GH_ParamKind.htm" />
+    <HelpKINode Title="GH_VariantType Enumeration" Url="html/T_Grasshopper_Kernel_Expressions_GH_VariantType.htm" />
   </HelpKINode>
   <HelpKINode Title="UnknownObjectIcon_24x24 property" Url="html/P_Grasshopper_GUI_GH_StandardIcons_UnknownObjectIcon_24x24.htm" />
   <HelpKINode Title="UnloadAllObjects method" Url="html/M_Grasshopper_Instances_UnloadAllObjects.htm" />
@@ -21006,11 +21199,11 @@
   <HelpKINode Title="UnregisterParameter method" Url="html/Overload_Grasshopper_Kernel_GH_ComponentParamServer_UnregisterParameter.htm" />
   <HelpKINode Title="UnselectedObjects method" Url="html/M_Grasshopper_Kernel_GH_Document_UnselectedObjects.htm" />
   <HelpKINode Title="Unset enumeration member">
-    <HelpKINode Title="GH_DocumentRank Enumeration" Url="html/T_Grasshopper_Kernel_GH_DocumentRank.htm" />
     <HelpKINode Title="GH_ObjectEventType Enumeration" Url="html/T_Grasshopper_Kernel_GH_ObjectEventType.htm" />
+    <HelpKINode Title="GH_DocumentRank Enumeration" Url="html/T_Grasshopper_Kernel_GH_DocumentRank.htm" />
+    <HelpKINode Title="GH_GuidConflictSolution Enumeration" Url="html/T_Grasshopper_Kernel_GH_GuidConflictSolution.htm" />
     <HelpKINode Title="GH_TimeKind Enumeration" Url="html/T_Grasshopper_Kernel_GH_TimeKind.htm" />
     <HelpKINode Title="VersionNumber.Branch Enumeration" Url="html/T_GH_IO_VersionNumber_Branch.htm" />
-    <HelpKINode Title="GH_GuidConflictSolution Enumeration" Url="html/T_Grasshopper_Kernel_GH_GuidConflictSolution.htm" />
   </HelpKINode>
   <HelpKINode Title="unset enumeration member">
     <HelpKINode Title="GH_LibraryLicense Enumeration" Url="html/T_Grasshopper_Kernel_GH_LibraryLicense.htm" />
@@ -21175,24 +21368,24 @@
   </HelpKINode>
   <HelpKINode Title="Value structure">
     <HelpKINode Title="fields" Url="html/Fields_T_Grasshopper_Rhinoceros_ModelUnitSystem_Value.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_ModelUnitSystem_Value.htm" />
-    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Drafting_ObjectDraftingColor_Value.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLinetype_Value.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_ModelUnitSystem_Value.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLineWidth_Value.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Display_ObjectDisplayColor_Value.htm" />
+    <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Drafting_ObjectDraftingColor_Value.htm" />
     <HelpKINode Title="methods" Url="html/Methods_T_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value.htm" />
     <HelpKINode Title="operators" Url="html/Operators_T_Grasshopper_Rhinoceros_ModelUnitSystem_Value.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLinetype_Value.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ObjectDisplayColor_Value.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_ModelUnitSystem_Value.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value.htm" />
-    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Drafting_ObjectDraftingColor_Value.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Display_ObjectDisplayColor_Value.htm" />
     <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLineWidth_Value.htm" />
-    <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLineWidth_Value.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLinetype_Value.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Drafting_ObjectDraftingColor_Value.htm" />
+    <HelpKINode Title="properties" Url="html/Properties_T_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Drafting_ObjectDraftingColor_Value.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Display_ObjectDisplayColor_Value.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLinetype_Value.htm" />
     <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value.htm" />
+    <HelpKINode Title="type conversions" Url="html/Operators_T_Grasshopper_Rhinoceros_Drafting_ObjectDraftingLineWidth_Value.htm" />
   </HelpKINode>
   <HelpKINode Title="ValueA property" Url="html/P_Grasshopper_GUI_GH_Animator_1_ValueA.htm" />
   <HelpKINode Title="ValueB property" Url="html/P_Grasshopper_GUI_GH_Animator_1_ValueB.htm" />
@@ -21279,6 +21472,7 @@
   <HelpKINode Title="VertexCount property">
     <HelpKINode Title="GH_Brep.GH_BrepProxy.VertexCount Property " Url="html/P_Grasshopper_Kernel_Types_GH_Brep_GH_BrepProxy_VertexCount.htm" />
     <HelpKINode Title="GH_Mesh.GH_MeshProxy.VertexCount Property " Url="html/P_Grasshopper_Kernel_Types_GH_Mesh_GH_MeshProxy_VertexCount.htm" />
+    <HelpKINode Title="GH_SubD.GH_SubDProxy.VertexCount Property " Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_VertexCount.htm" />
     <HelpKINode Title="GH_Surface.GH_SurfaceProxy.VertexCount Property " Url="html/P_Grasshopper_Kernel_Types_GH_Surface_GH_SurfaceProxy_VertexCount.htm" />
   </HelpKINode>
   <HelpKINode Title="Vertical enumeration member" Url="html/T_Grasshopper_GUI_GH_Constraint.htm" />
@@ -21333,7 +21527,9 @@
   <HelpKINode Title="Volume property">
     <HelpKINode Title="GH_Box.GH_BoxProxy.Volume Property " Url="html/P_Grasshopper_Kernel_Types_GH_Box_GH_BoxProxy_Volume.htm" />
     <HelpKINode Title="GH_Brep.GH_BrepProxy.Volume Property " Url="html/P_Grasshopper_Kernel_Types_GH_Brep_GH_BrepProxy_Volume.htm" />
+    <HelpKINode Title="GH_Extrusion.GH_ExtrusionProxy.Volume Property " Url="html/P_Grasshopper_Kernel_Types_GH_Extrusion_GH_ExtrusionProxy_Volume.htm" />
     <HelpKINode Title="GH_Mesh.GH_MeshProxy.Volume Property " Url="html/P_Grasshopper_Kernel_Types_GH_Mesh_GH_MeshProxy_Volume.htm" />
+    <HelpKINode Title="GH_SubD.GH_SubDProxy.Volume Property " Url="html/P_Grasshopper_Kernel_Types_GH_SubD_GH_SubDProxy_Volume.htm" />
     <HelpKINode Title="GH_Surface.GH_SurfaceProxy.Volume Property " Url="html/P_Grasshopper_Kernel_Types_GH_Surface_GH_SurfaceProxy_Volume.htm" />
   </HelpKINode>
   <HelpKINode Title="w field" Url="html/F_GH_IO_Types_GH_Point4D_w.htm" />
@@ -21659,8 +21855,8 @@
   <HelpKINode Title="_single property" Url="html/P_GH_IO_Types_GH_Item__single.htm" />
   <HelpKINode Title="_size enumeration member" Url="html/T_Grasshopper_Kernel_GH_SettingsType.htm" />
   <HelpKINode Title="_string enumeration member" Url="html/T_Grasshopper_Kernel_GH_SettingsType.htm" />
-  <HelpKINode Title="_string property" Url="html/P_GH_IO_Types_GH_Item__string.htm" />
   <HelpKINode Title="_String property" Url="html/P_Grasshopper_Kernel_Expressions_GH_Variant__String.htm" />
+  <HelpKINode Title="_string property" Url="html/P_GH_IO_Types_GH_Item__string.htm" />
   <HelpKINode Title="_unknown enumeration member" Url="html/T_Grasshopper_Kernel_GH_SettingsType.htm" />
   <HelpKINode Title="_Vector property" Url="html/P_Grasshopper_Kernel_Expressions_GH_Variant__Vector.htm" />
   <HelpKINode Title="_version property" Url="html/P_GH_IO_Types_GH_Item__version.htm" />
