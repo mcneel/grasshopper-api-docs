@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.2.6.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\GrasshopperSDKHelp.shfbproj" started="8/4/2026 2:45:25 PM">
+<shfbBuild product="Sandcastle Help File Builder and Tools" version="2022.2.6.0" projectFile="D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\GrasshopperSDKHelp.shfbproj" started="8/11/2026 3:41:55 PM">
 <buildStep step="Initializing">
 Finding tools...
 The Sandcastle tools are located in &#39;C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder&#39;
@@ -41,11 +41,11 @@ Copying XML comments files
 <buildStep step="GenerateSharedContent">
 Generating shared content files (en-US, English (United States))...
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
-</plugIn>    Last step completed in 00:00:00.0352
+</plugIn>    Last step completed in 00:00:00.0374
 </buildStep>
 <buildStep step="GenerateApiFilter">
 Generating API filter for MRefBuilder...
-    Last step completed in 00:00:05.0804
+    Last step completed in 00:00:04.5672
 </buildStep>
 <buildStep step="GenerateReflectionInfo">
 Generating reflection information...
@@ -53,10 +53,10 @@ Generating reflection information...
 Adding ignored assembly names to assembly resolver configuration:
     Eto
     Yak
-</plugIn>[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-adf3a1b3-4198-4724-a8ec-f3cd7752a1cb.proj]
-Build started 8/4/2026 2:45:33 PM.
+</plugIn>[C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateRefInfo-e1955026-e2d4-4861-8c35-48250e633f72.proj]
+Build started 8/11/2026 3:42:02 PM.
 
-Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-adf3a1b3-4198-4724-a8ec-f3cd7752a1cb.proj&quot; on node 1 (default targets).
+Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-e1955026-e2d4-4861-8c35-48250e633f72.proj&quot; on node 1 (default targets).
 PrepareForBuild:
   Creating directory &quot;obj\Debug\&quot;.
 GenerateRefInfo:
@@ -64,17 +64,17 @@ GenerateRefInfo:
   c Microsoft Corporation. All rights reserved.
   No source code context base path specified.  Source context information is unavailable.
   Loaded 2 assemblies for reflection and 5 dependency assemblies.
-MRefBuilder : warning : Ignoring unresolved assembly reference: Eto (Eto, Version=2.12.0.0, Culture=neutral, PublicKeyToken=552281e97c755530) required by Grasshopper [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-adf3a1b3-4198-4724-a8ec-f3cd7752a1cb.proj]
-MRefBuilder : warning : Ignoring unresolved assembly reference: System.Reflection.Metadata (System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by Grasshopper [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-adf3a1b3-4198-4724-a8ec-f3cd7752a1cb.proj]
-  Wrote information on 36 namespaces, 862 types, and 9760 members
+MRefBuilder : warning : Ignoring unresolved assembly reference: Eto (Eto, Version=2.12.0.0, Culture=neutral, PublicKeyToken=552281e97c755530) required by Grasshopper [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-e1955026-e2d4-4861-8c35-48250e633f72.proj]
+MRefBuilder : warning : Ignoring unresolved assembly reference: System.Reflection.Metadata (System.Reflection.Metadata, Version=8.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a) required by Grasshopper [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-e1955026-e2d4-4861-8c35-48250e633f72.proj]
+  Wrote information on 36 namespaces, 865 types, and 9799 members
   Merging duplicate type and member information
   Merged 0 duplicate type(s) and 0 duplicate member(s)
-Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-adf3a1b3-4198-4724-a8ec-f3cd7752a1cb.proj&quot; (default targets).
-    Last step completed in 00:00:05.9714
+Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\GenerateRefInfo-e1955026-e2d4-4861-8c35-48250e633f72.proj&quot; (default targets).
+    Last step completed in 00:00:06.8394
 </buildStep>
 <buildStep step="ApplyDocumentModel">
 Applying document model to reflection output...
-    Last step completed in 00:00:01.5819
+    Last step completed in 00:00:01.5368
 </buildStep>
 <buildStep step="AddApiTopicFilenames">
 Adding topic filenames to API members...
@@ -1273,6 +1273,15 @@ Adding topic filenames to API members...
     Unique name M_Grasshopper_Rhinoceros_Display_DisplayColorGradient__ctor_2 generated for M:Grasshopper.Rhinoceros.Display.DisplayColorGradient.#ctor(Rhino.Display.ColorGradient)
     Unique name M_Grasshopper_Rhinoceros_Display_DisplayColorStop__ctor_1 generated for M:Grasshopper.Rhinoceros.Display.DisplayColorStop.#ctor(Grasshopper.Rhinoceros.Display.DisplayColorStop)
     Unique name M_Grasshopper_Rhinoceros_Display_DisplayColorStop__ctor_2 generated for M:Grasshopper.Rhinoceros.Display.DisplayColorStop.#ctor(Rhino.Display.ColorStop)
+    Unique name M_Grasshopper_Rhinoceros_Display_ItemDisplayColor__ctor_1 generated for M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.#ctor(Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value)
+    Unique name M_Grasshopper_Rhinoceros_Display_ItemDisplayColor_op_Implicit_1 generated for M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.op_Implicit(Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value)~Grasshopper.Rhinoceros.Display.ItemDisplayColor
+    Unique name M_Grasshopper_Rhinoceros_Display_ItemDisplayColor_Value__ctor_1 generated for M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.#ctor(Rhino.DocObjects.ItemColorSource)
+    Unique name M_Grasshopper_Rhinoceros_Display_ItemDisplayColor_Value__ctor_2 generated for M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.#ctor(Rhino.DocObjects.ItemColorSource,Grasshopper.Rhinoceros.ModelColor)
+    Unique name M_Grasshopper_Rhinoceros_Display_ItemDisplayColor_Value_CompareTo_1 generated for M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.CompareTo(System.Object)
+    Unique name M_Grasshopper_Rhinoceros_Display_ItemDisplayColor_Value_Equals_1 generated for M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.Equals(System.Object)
+    Unique name M_Grasshopper_Rhinoceros_Display_ItemDisplayColor_Value_op_Implicit_1 generated for M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.op_Implicit(Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value)~Grasshopper.Rhinoceros.ModelColor
+    Unique name M_Grasshopper_Rhinoceros_Display_ItemDisplayColor_Value_op_Implicit_2 generated for M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.op_Implicit(Grasshopper.Rhinoceros.ModelColor)~Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value
+    Unique name M_Grasshopper_Rhinoceros_Display_ItemDisplayColor_Value_op_Implicit_3 generated for M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.op_Implicit(Rhino.DocObjects.ItemColorSource)~Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value
     Unique name M_Grasshopper_Rhinoceros_Display_ModelConstructionPlane__ctor_1 generated for M:Grasshopper.Rhinoceros.Display.ModelConstructionPlane.#ctor(Grasshopper.Rhinoceros.Display.ModelConstructionPlane)
     Unique name M_Grasshopper_Rhinoceros_Display_ModelConstructionPlane__ctor_2 generated for M:Grasshopper.Rhinoceros.Display.ModelConstructionPlane.#ctor(Rhino.Display.RhinoView)
     Unique name M_Grasshopper_Rhinoceros_Display_ModelConstructionPlane__ctor_3 generated for M:Grasshopper.Rhinoceros.Display.ModelConstructionPlane.#ctor(Rhino.Display.RhinoViewport)
@@ -1461,21 +1470,21 @@ Adding topic filenames to API members...
     Unique name M_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value_op_Implicit_1 generated for M:Grasshopper.Rhinoceros.Render.ObjectRenderMaterial.Value.op_Implicit(Grasshopper.Rhinoceros.Render.ObjectRenderMaterial.Value)~Rhino.DocObjects.ObjectMaterialSource
     Unique name M_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value_op_Implicit_2 generated for M:Grasshopper.Rhinoceros.Render.ObjectRenderMaterial.Value.op_Implicit(Grasshopper.Rhinoceros.Render.ObjectRenderMaterial.Value)~Grasshopper.Rhinoceros.Render.ModelRenderMaterial
     Unique name M_Grasshopper_Rhinoceros_Render_ObjectRenderMaterial_Value_op_Implicit_3 generated for M:Grasshopper.Rhinoceros.Render.ObjectRenderMaterial.Value.op_Implicit(Rhino.DocObjects.ObjectMaterialSource)~Grasshopper.Rhinoceros.Render.ObjectRenderMaterial.Value
-    Last step completed in 00:00:05.5075
+    Last step completed in 00:00:05.4999
 </buildStep>
 <buildStep step="GenerateApiTopicManifest">
 Generating API topic manifest...
-    Last step completed in 00:00:00.3210
+    Last step completed in 00:00:00.3213
 </buildStep>
 <buildStep step="GenerateNamespaceSummaries">
 Generating namespace summary information...
-    Last step completed in 00:00:00.6906
+    Last step completed in 00:00:00.7036
 </buildStep>
 <buildStep step="GenerateInheritedDocumentation">
 Generating inherited documentation...
 [C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - GenerateInheritedDocs.proj]
 
-    Last step completed in 00:00:02.6177
+    Last step completed in 00:00:02.9794
 </buildStep>
 <buildStep step="CopyConceptualContent">
 Copying conceptual content...
@@ -1562,33 +1571,33 @@ Generating conceptual topic files
     D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_CustomAttributes.aml -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\ddueXml\8a7974ab-7b2b-4f48-84d0-6e81b184e6b0.xml
     Parsing topic file &#39;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_ComponentWithOption.aml&#39;
     D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Conceptual Content\CS_ComponentWithOption.aml -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\ddueXml\5f6a9f31-8838-40e6-ad37-a407be8f2c15.xml
-    Last step completed in 00:00:00.6144
+    Last step completed in 00:00:00.6261
 </buildStep>
 <buildStep step="CreateConceptualTopicConfigs">
 Creating conceptual topic configuration files...
     Companion files
     _ContentMetadata_.xml
     Merging topic IDs into manifest.xml
-    Last step completed in 00:00:00.0703
+    Last step completed in 00:00:00.0741
 </buildStep>
 <buildStep step="CopyAdditionalContent">
 Copying additional content files...
 No additional content to copy
-    Last step completed in 00:00:00.0039
+    Last step completed in 00:00:00.0049
 </buildStep>
 <buildStep step="MergeTablesOfContents">
 Merging conceptual and additional tables of contents...
-    Last step completed in 00:00:00.0092
+    Last step completed in 00:00:00.0089
 </buildStep>
 <buildStep step="GenerateIntermediateTableOfContents">
 Generating intermediate table of contents file for API content...
 Generating conceptual content intermediate TOC file...
-    Last step completed in 00:00:00.6992
+    Last step completed in 00:00:00.7377
 </buildStep>
 <buildStep step="CreateBuildAssemblerConfigs">
 Creating Sandcastle configuration files...
     sandcastle.config
-    Last step completed in 00:00:00.6952
+    Last step completed in 00:00:00.7861
 </buildStep>
 <buildStep step="MergeCustomConfigs">
 Merging custom build component configurations
@@ -1596,12 +1605,12 @@ D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK
   Updating reference topic configurations.
   Updating conceptual topic configurations.
     Removing unused ExampleComponent.
-    Last step completed in 00:00:00.0121
+    Last step completed in 00:00:00.0148
 </buildStep>
 <buildStep step="BuildTopics">
 Building help topics...
 [C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - BuildTopics.proj]
-Build started 8/4/2026 2:45:52 PM.
+Build started 8/11/2026 3:42:22 PM.
 
 Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj&quot; on node 1 (default targets).
 BuildTopics:
@@ -4733,10 +4742,20 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Hatch.#ctor(Rhino.Geometry.Hatch,Grasshopper.Rhinoceros.Drafting.ModelHatchPattern)] Unknown reference link target &#39;T:Rhino.Geometry.Hatch&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Hatch.#ctor(Rhino.Geometry.Hatch,Grasshopper.Rhinoceros.Drafting.ModelHatchPattern)] Unknown reference link target &#39;T:Rhino.Geometry.Hatch&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.BackgroundColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.BackgroundPlotColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Hatch.BakeGeometry(Rhino.RhinoDoc,Rhino.DocObjects.ObjectAttributes,System.Guid@)] Unknown reference link target &#39;T:Rhino.RhinoDoc&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Hatch.BakeGeometry(Rhino.RhinoDoc,Rhino.DocObjects.ObjectAttributes,System.Guid@)] Unknown reference link target &#39;T:Rhino.DocObjects.ObjectAttributes&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Hatch.BakeGeometry(Rhino.RhinoDoc,Rhino.DocObjects.ObjectAttributes,System.Guid@)] Unknown reference link target &#39;T:Rhino.RhinoDoc&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Kernel.Types.GH_Hatch.BakeGeometry(Rhino.RhinoDoc,Rhino.DocObjects.ObjectAttributes,System.Guid@)] Unknown reference link target &#39;T:Rhino.DocObjects.ObjectAttributes&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.BoundaryColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.BoundaryColorSource] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.BoundaryColorSource] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.BoundaryColorSource] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.BoundaryPlotColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.BoundaryPlotColorSource] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.BoundaryPlotColorSource] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.BoundaryPlotColorSource] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.BoundaryPlotWeightMillimeters] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.BoundaryVisible] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.Boundingbox] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Kernel.Types.GH_Hatch.Boundingbox] Unknown reference link target &#39;T:Rhino.Geometry.BoundingBox&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
@@ -6392,6 +6411,27 @@ BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Displ
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.DisplayColorStop.IsValidWhyNot] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.DisplayColorStop.TypeDescription] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.DisplayColorStop.TypeName] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Color] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Source] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Source] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Source] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.#ctor(Rhino.DocObjects.ItemColorSource)] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.#ctor(Rhino.DocObjects.ItemColorSource)] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.#ctor(Rhino.DocObjects.ItemColorSource,Grasshopper.Rhinoceros.ModelColor)] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.#ctor(Rhino.DocObjects.ItemColorSource,Grasshopper.Rhinoceros.ModelColor)] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.ByLayer] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.ByObject] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.ByParent] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.Color] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.Deconstruct(Rhino.DocObjects.ItemColorSource@,Grasshopper.Rhinoceros.ModelColor@)] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.Deconstruct(Rhino.DocObjects.ItemColorSource@,Grasshopper.Rhinoceros.ModelColor@)] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.op_Implicit(Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value)~Rhino.DocObjects.ItemColorSource] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.op_Implicit(Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value)~Rhino.DocObjects.ItemColorSource] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.op_Implicit(Rhino.DocObjects.ItemColorSource)~Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.op_Implicit(Rhino.DocObjects.ItemColorSource)~Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.Source] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.Source] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Display.ItemDisplayColor.Value.Source] Unknown reference link target &#39;T:Rhino.DocObjects.ItemColorSource&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Grasshopper.Rhinoceros.Display.ModelConstructionPlane] Unknown reference link target &#39;T:Rhino.DocObjects.ConstructionPlane&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Grasshopper.Rhinoceros.Display.ModelConstructionPlane] Unknown reference link target &#39;T:Rhino.Display.RhinoView&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [T:Grasshopper.Rhinoceros.Display.ModelConstructionPlane] Unknown reference link target &#39;T:Rhino.DocObjects.ConstructionPlane&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
@@ -6594,6 +6634,8 @@ BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Displ
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.Params.Param_DisplayColorStop.ComponentGuid] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.Params.Param_DisplayColorStop.Exposure] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.Params.Param_DisplayColorStop.Icon] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.Params.Param_ItemDisplayColor.ComponentGuid] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Display.Params.Param_ItemDisplayColor.Exposure] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Display.Params.Param_ModelConstructionPlane.BakeGeometry(Rhino.RhinoDoc,Rhino.DocObjects.ObjectAttributes,System.Collections.Generic.List{System.Guid})] Unknown reference link target &#39;T:Rhino.RhinoDoc&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Display.Params.Param_ModelConstructionPlane.BakeGeometry(Rhino.RhinoDoc,Rhino.DocObjects.ObjectAttributes,System.Collections.Generic.List{System.Guid})] Unknown reference link target &#39;T:Rhino.DocObjects.ObjectAttributes&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Display.Params.Param_ModelConstructionPlane.BakeGeometry(Rhino.RhinoDoc,Rhino.DocObjects.ObjectAttributes,System.Collections.Generic.List{System.Guid})] Unknown reference link target &#39;T:Rhino.RhinoDoc&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
@@ -6765,12 +6807,12 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoc
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.BackgroundFillMode] Unknown reference link target &#39;T:Rhino.DocObjects.SectionBackgroundFillMode&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.BackgroundFillPrintColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.BoundaryColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.BoundaryLineScale] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.BoundaryLinetype] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.BoundaryLineWeight] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.BoundaryPrintColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.HatchPattern] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.HatchPatternColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.HatchPatternLineWeight] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.HatchPatternPrintColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.HatchRotation] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.HatchScale] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
@@ -6787,12 +6829,12 @@ BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoc
 BuildAssembler : warning : ResolveReferenceLinksComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.Attributes.BackgroundFillMode] Unknown reference link target &#39;T:Rhino.DocObjects.SectionBackgroundFillMode&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.Attributes.BackgroundFillPrintColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.Attributes.BoundaryColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.Attributes.BoundaryLineScale] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.Attributes.BoundaryLinetype] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.Attributes.BoundaryLineWeight] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.Attributes.BoundaryPrintColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.Attributes.HatchPattern] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.Attributes.HatchPatternColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
+BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.Attributes.HatchPatternLineWeight] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.Attributes.HatchPatternPrintColor] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.Attributes.HatchRotation] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Drafting.ModelSectionStyle.Attributes.HatchScale] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
@@ -7393,25 +7435,25 @@ BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Rende
 BuildAssembler : warning : ShowMissingComponent: [P:Grasshopper.Rhinoceros.Render.Params.Param_ObjectRenderMaterial.Exposure] Missing &lt;value&gt; documentation [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Render.Params.Param_ObjectRenderMaterial.RegisterRemoteIDs(Grasshopper.Kernel.GH_GuidTable)] Unknown reference link target &#39;T:Grasshopper.Kernel.GH_GuidTable&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
 BuildAssembler : warning : ResolveReferenceLinksComponent: [M:Grasshopper.Rhinoceros.Render.Params.Param_ObjectRenderMaterial.RegisterRemoteIDs(Grasshopper.Kernel.GH_GuidTable)] Unknown reference link target &#39;T:Grasshopper.Kernel.GH_GuidTable&#39;. [D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj]
-  Processed 12481 topic(s)
-  5777 warning(s)
+  Processed 12540 topic(s)
+  5810 warning(s)
   CopyFromIndexComponent: &quot;metadata&quot; in-memory cache entries used: 1 of 15.
   ResolveArtLinksComponent: Copying media files...
   ResolveArtLinksComponent: Copying media files...
   CopyFromIndexComponent: &quot;reflection&quot; in-memory cache entries used: 15 of 15.
   CopyFromIndexComponent: &quot;comments&quot; in-memory cache entries used: 2 of 30.
 Done Building Project &quot;D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\BuildTopics.proj&quot; (default targets).
-    Last step completed in 00:02:05.8255
+    Last step completed in 00:02:06.5147
 </buildStep>
 <buildStep step="CombiningIntermediateTocFiles">
 Combining conceptual and API intermediate TOC files...
-    Last step completed in 00:00:00.0859
+    Last step completed in 00:00:00.0922
 </buildStep>
 <buildStep step="ExtractingHtmlInfo">
 Extracting HTML info for HTML Help 1 and/or website...
 [C:\Program Files (x86)\Microsoft Visual Studio\2022\BuildTools\MSBuild\Current\Bin\amd64\MSBuild.exe - ExtractHtmlInfo.proj]
 
-    Last step completed in 00:00:11.0718
+    Last step completed in 00:00:11.7983
 </buildStep>
 <buildStep step="CopyStandardHelpContent">
 Copying standard help content...
@@ -7555,11 +7597,11 @@ C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\branding-Website.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\scripts\branding-Website.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\clipboard.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\scripts\clipboard.min.js
 C:\Program Files (x86)\EWSoftware\Sandcastle Help File Builder\Components\VS2013\Web\scripts\jquery-3.5.1.min.js -&gt; D:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\Website\scripts\jquery-3.5.1.min.js
-    Last step completed in 00:00:01.1477
+    Last step completed in 00:00:01.1861
 </buildStep>
 <buildStep step="GenerateHelpProject">
 Generating HTML Help 1 project file...
-    Last step completed in 00:00:00.0874
+    Last step completed in 00:00:00.0825
 </buildStep>
 <buildStep step="CompilingHelpFile">
 Compiling HTML Help 1 file...
@@ -7575,11 +7617,11 @@ Compiling HTML Help 1 file...
   
   
   
-  Compile time: 21 minutes, 40 seconds
+  Compile time: 20 minutes, 26 seconds
   
-  12,483	Topics
+  12,542	Topics
   
-  183,622	Local links
+  184,698	Local links
   
   3	Internet links
   
@@ -7589,18 +7631,18 @@ Compiling HTML Help 1 file...
   
   
   
-  Created d:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\HtmlHelp1\Grasshopper.chm, 10,220,239 bytes
+  Created d:\BuildAgent\work\db0f3a602490518c\src4\rhino4\Plug-ins\Grasshopper\docs\en\SDK Help\Help\Working\Output\HtmlHelp1\Grasshopper.chm, 10,268,211 bytes
   
-  Compression decreased file by 96,082,597 bytes.
+  Compression decreased file by 96,597,837 bytes.
   
-    Last step completed in 00:21:42.0221
+    Last step completed in 00:20:28.8307
 </buildStep>
 <buildStep step="GenerateFullTextIndex">
 Generating full-text index for the website...
 
 <plugIn name="Lightweight Website Style" behavior="After" priority="1000">
 Adding lightweight search and TOC elements to each topic...
-</plugIn>    Last step completed in 00:00:12.1134
+</plugIn>    Last step completed in 00:00:12.5389
 </buildStep>
 <buildStep step="CopyingWebsiteFiles">
 Copying website files to output folder...
@@ -7635,16 +7677,16 @@ Copied 13500 files
 Copied 14000 files
 Copied 14500 files
 Copied 15000 files
-Copied 15383 files for the website content
-    Last step completed in 00:00:14.8150
+Copied 15460 files for the website content
+    Last step completed in 00:00:15.3621
 </buildStep>
 <buildStep step="CleanIntermediates">
 Removing intermediate files...
-    Last step completed in 00:00:06.3490
+    Last step completed in 00:00:06.9347
 </buildStep>
 <buildStep step="Completed">
 
-Build completed successfully at 8/4/2026 3:10:25 PM.  Total time: 00:25:00.1776
+Build completed successfully at 8/11/2026 4:05:46 PM.  Total time: 00:23:50.9440
 
 </buildStep>
 </shfbBuild>
